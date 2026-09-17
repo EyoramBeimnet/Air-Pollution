@@ -25,3 +25,6 @@ Vehicle Exhaust:
 - Air Pollution Solvers (Positive Factors)
 	- Trees / Urban heat island effect
 	- State environmental laws
+
+- Hourly Data: Ozone, SO2, CO, NO2 - (1980-2026)
+	https://aqs.epa.gov/aqsweb/airdata/download_files.html#Raw
