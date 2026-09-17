@@ -1,7 +1,6 @@
 This folder contains all the datasets that are considered by the model.
 
 
-
 Air Pollution Databases
 ----------------------------------
 Labels: Environmental Protection Agency (annual_aqi_by_county)
@@ -15,12 +14,19 @@ Vehicle Exhaust:
 		- https://www.kaggle.com/datasets/nilesh2042/airport-traffic-dataset
 	- Car traffic
 		- US Traffic Congestions (2016-2022) https://www.kaggle.com/datasets/sobhanmoosavi/us-traffic-congestions-2016-2022
+		- Percentage of cars that are electric https://www.kaggle.com/datasets/mustafakeser4/electric-vehicle-population-size-history-by-county 
+
 - Agriculture Sector
+	- Land Use and Cover Inventory Database (LUCID)
+
 - Climate patterns
-	- Droughts
-	- Overcast (clouds)
-	- Distance from the sea/ocean/body of water
-	- volcanic eruptions?
+	- https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping 
+		- Would be helpful to specify by country or county
+		- This website contains datasets for every county going back a given time frame for the following:
+			- Average Temperatures
+			- Precipitation (positive factor)
+			- Palmer Hydrological Drought Index
+			- Palmer Drought Severity Index
 
 - Air Pollution Solvers (Positive Factors)
 	- Trees / Urban heat island effect
