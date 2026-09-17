@@ -29,8 +29,40 @@ Vehicle Exhaust:
 			- Palmer Drought Severity Index
 
 - Air Pollution Solvers (Positive Factors)
-	- Trees / Urban heat island effect
-	- State environmental laws
+	- Trees / Vegetation
+		- USDA Forest Service NLCD Tree Canopy Cover
+		- https://www.mrlc.gov/data
+        - Features:
+            - tree_canopy_pct
+            - tree_canopy_change_pct
+
+    - Low-Emission Transportation
+        - U.S. Census ACS B08301
+        - Features:
+            - public_transit_pct
+            - walk_pct
+            - bike_pct
+            - carpool_pct
+            - drive_alone_pct
+
+    - Walkability / Transit Accessibility
+        - EPA Smart Location Database
+        - EPA National Walkability Index
+        - Features:
+            - walkability_index
+            - transit_proximity
+            - intersection_density
+            - land_use_mix
+
+    - Environmental Regulations
+        - EPA Green Book
+        - EPA State Implementation Plans
+        - DSIRE
+        - Features:
+            - prior_nonattainment_status
+            - years_since_regulatory_action
+            - renewable_policy_present
+            - clean_energy_policy_count
 
 - Hourly Data: Ozone, SO2, CO, NO2 - (1980-2026)
 	https://aqs.epa.gov/aqsweb/airdata/download_files.html#Raw
