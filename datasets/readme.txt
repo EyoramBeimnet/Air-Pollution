@@ -17,7 +17,7 @@ Vehicle Exhaust:
 		- Percentage of cars that are electric https://www.kaggle.com/datasets/mustafakeser4/electric-vehicle-population-size-history-by-county 
 
 - Agriculture Sector
-	- Land Use and Cover Inventory Database (LUCID)
+	- Land Use and Cover Inventory Database (LUCID) https://www.nrisurvey.org/lucid/
 
 - Climate patterns
 	- https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping 
