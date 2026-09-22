@@ -6,8 +6,20 @@ Air Pollution Databases
 Labels: Environmental Protection Agency (annual_aqi_by_county)
 
 Industrial Energy Sector:
-	Emissions by Power Plant and Region: https://www.eia.gov/electricity/data/emissions/
+	Emissions by Power Plant and Region: https://www.eia.gov/electricity/data/emissions/  --> NOT IDEAL (SEE NOTE)
 		- Targets CO2, SO2, and NOx, which are used to measure Air Quality Index (AQI)
+	NOTE:
+	The original EIA emissions-by-region file (State/NERC/BA level, 2024 only)
+	isn't granular enough for this project: it has no county field, so it can't
+	join to our county-level AQI target without broadcasting a whole state's
+	average onto every county in it, and it's a single-year snapshot, so it
+	can't feed a time-series predictor.
+	
+	Switched to EPA's CAMPD (Clean Air Markets Program Data, https://campd.epa.gov/data/custom-data-download)
+	instead. Same pollutants (CO2, SO2, NOx), but reported per facility with a
+	native county field (no join needed) and continuous hourly/annual data from
+	1995-present. This gives us real county-year aggregates and year-over-year
+	trend features instead of a one-year state-wide average.
 
 Vehicle Exhaust:
 	- Airport traffic
