@@ -26,13 +26,21 @@ Vehicle Exhaust:
 		- https://www.kaggle.com/datasets/nilesh2042/airport-traffic-dataset
 	- Car traffic
 		- US Traffic Congestions (2016-2022) https://www.kaggle.com/datasets/sobhanmoosavi/us-traffic-congestions-2016-2022
-		- Electric Vehicle Adoption and Charging Infrastructure
-			- Primary source: Battery-electric vehicle registrations
-			- Dataset: https://zenodo.org/records/12773413
-			- CSV: https://zenodo.org/records/12773413/files/EV_data.csv?download=1
-			- Coverage: 2018–2023 across 20 U.S. states.
-			- Original fields: county, year, and n (battery-electric vehicle count).
-			- Proposed feature: bev_count.
+		- Dataset: https://www.kaggle.com/datasets/sobhanmoosavi/us-traffic-congestions-2016-2022
+		- Coverage: U.S. congestion event records from 2016–2022.
+		- Fields used for grouping and joining: StartTime, County, and State. County and state names will be mapped to five-digit county FIPS codes before joining to the EV and AQI datasets.
+		- Proposed county-year features:
+			- congestion_event_count: number of recorded congestion events.
+			- mean_congestion_duration_min: average time between StartTime and EndTime, for records with valid timestamps.
+			- mean_delay_from_typical_min: average DelayFromTypicalTraffic(mins) for records with a valid value.
+		- Additional fields available for investigation: Severity, Distance(mi), DelayFromFreeFlowSpeed(mins), and 						Congestion_Speed. These will only become model features if their meanings and missing-value rates support their use.
+		- Limitations: Event counts measure recorded congestion events, not the number of cars on the road. The 2-million-row 			sample can be used to develop the processing code, but nationwide event counts must be calculated from the full dataset.
+	- Electric Vehicle Adoption and Charging Infrastructure
+		- Primary source: Battery-electric vehicle registrations
+		- Dataset: https://zenodo.org/records/12773413
+		- CSV: https://zenodo.org/records/12773413/files/EV_data.csv?download=1
+		- Proposed feature: bev_count.
+		- Limitation: This dataset does not include the total number of registered vehicles, so it cannot be used by itself to calculate the percentage of cars that are electric.
 
 - Agriculture Sector
 	- Land Use and Cover Inventory Database (LUCID) https://www.nrisurvey.org/lucid/
