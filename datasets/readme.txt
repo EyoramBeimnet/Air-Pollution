@@ -33,12 +33,6 @@ Vehicle Exhaust:
 			- Coverage: 2018–2023 across 20 U.S. states.
 			- Original fields: county, year, and n (battery-electric vehicle count).
 			- Proposed feature: bev_count.
-		- Supporting source: Public EV charging infrastructure
-			- Source: U.S. Department of Energy, Alternative Fuels Data Center.
-			- Download: https://afdc.energy.gov/data_download
-			- Documentation: https://afdc.energy.gov/data_download/historical_stations_format
-			- Planned selection: U.S. public electric charging stations with Open status, using December 31 snapshots for 2018–	2023.
-			- Proposed features: public_ev_station_count, level2_port_count, and dc_fast_port_count.
 
 - Agriculture Sector
 	- Land Use and Cover Inventory Database (LUCID) https://www.nrisurvey.org/lucid/
