@@ -26,7 +26,19 @@ Vehicle Exhaust:
 		- https://www.kaggle.com/datasets/nilesh2042/airport-traffic-dataset
 	- Car traffic
 		- US Traffic Congestions (2016-2022) https://www.kaggle.com/datasets/sobhanmoosavi/us-traffic-congestions-2016-2022
-		- Percentage of cars that are electric https://www.kaggle.com/datasets/mustafakeser4/electric-vehicle-population-size-history-by-county 
+		- Electric Vehicle Adoption and Charging Infrastructure
+			- Primary source: Battery-electric vehicle registrations
+			- Dataset: https://zenodo.org/records/12773413
+			- CSV: https://zenodo.org/records/12773413/files/EV_data.csv?download=1
+			- Coverage: 2018–2023 across 20 U.S. states.
+			- Original fields: county, year, and n (battery-electric vehicle count).
+			- Proposed feature: bev_count.
+		- Supporting source: Public EV charging infrastructure
+			- Source: U.S. Department of Energy, Alternative Fuels Data Center.
+			- Download: https://afdc.energy.gov/data_download
+			- Documentation: https://afdc.energy.gov/data_download/historical_stations_format
+			- Planned selection: U.S. public electric charging stations with Open status, using December 31 snapshots for 2018–	2023.
+			- Proposed features: public_ev_station_count, level2_port_count, and dc_fast_port_count.
 
 - Agriculture Sector
 	- Land Use and Cover Inventory Database (LUCID) https://www.nrisurvey.org/lucid/
