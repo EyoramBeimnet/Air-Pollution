@@ -25,16 +25,24 @@ Vehicle Exhaust:
 	- Airport traffic
 		- https://www.kaggle.com/datasets/nilesh2042/airport-traffic-dataset
 	- Car traffic
-		- US Traffic Congestions (2016-2022) https://www.kaggle.com/datasets/sobhanmoosavi/us-traffic-congestions-2016-2022
-		- Dataset: https://www.kaggle.com/datasets/sobhanmoosavi/us-traffic-congestions-2016-2022
-		- Coverage: U.S. congestion event records from 2016–2022.
-		- Fields used for grouping and joining: StartTime, County, and State. County and state names will be mapped to five-digit county FIPS codes before joining to the EV and AQI datasets.
-		- Proposed county-year features:
-			- congestion_event_count: number of recorded congestion events.
-			- mean_congestion_duration_min: average time between StartTime and EndTime, for records with valid timestamps.
-			- mean_delay_from_typical_min: average DelayFromTypicalTraffic(mins) for records with a valid value.
-		- Additional fields available for investigation: Severity, Distance(mi), DelayFromFreeFlowSpeed(mins), and 						Congestion_Speed. These will only become model features if their meanings and missing-value rates support their use.
-		- Limitations: Event counts measure recorded congestion events, not the number of cars on the road. The 2-million-row 			sample can be used to develop the processing code, but nationwide event counts must be calculated from the full dataset.
+		- US Traffic Congestions (2016-2022)
+    		- Dataset: https://www.kaggle.com/datasets/sobhanmoosavi/us-traffic-congestions-2016-2022
+    		- Coverage: U.S. congestion event records from 2016–2022.
+    		- A 2-million-row sample was processed and aggregated by state, county, and year.
+    		- Processed dataset: Traffic/traffic_county_year.csv
+    		- Processing script: Traffic/process_congestion.py
+    		- County-year features:
+        		- congestion_events: number of recorded congestion events.
+        		- avg_severity: average congestion severity.
+        		- avg_delay_typical: average delay compared with typical traffic.
+		        - avg_delay_freeflow: average delay compared with free-flow traffic.
+		        - slow_events: number of events classified as Slow.
+		        - moderate_events: number of events classified as Moderate.
+		        - fast_events: number of events classified as Fast.
+		        - slow_event_percentage: percentage of congestion events classified as Slow.
+    		- County and state names can be mapped to five-digit county FIPS codes for joining with the EV and AQI datasets.
+    		- Limitation: Event counts represent recorded congestion events, not the number of vehicles on the road. The current processed dataset was generated from the 2-million-row sample rather than the full nationwide dataset.
+
 	- Electric Vehicle Adoption and Charging Infrastructure
 		- Primary source: Battery-electric vehicle registrations
 		- Dataset: https://zenodo.org/records/12773413
