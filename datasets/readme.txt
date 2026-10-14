@@ -62,41 +62,52 @@ Vehicle Exhaust:
 			- Palmer Hydrological Drought Index
 			- Palmer Drought Severity Index
 
-- Air Pollution Solvers (Positive Factors)
-	- Trees / Vegetation
-		- USDA Forest Service NLCD Tree Canopy Cover
-		- https://www.mrlc.gov/data
-        - Features:
-            - tree_canopy_pct
-            - tree_canopy_change_pct
 
-    - Low-Emission Transportation
-        - U.S. Census ACS B08301
-        - Features:
-            - public_transit_pct
-            - walk_pct
-            - bike_pct
-            - carpool_pct
-            - drive_alone_pct
+Air Pollution Solvers (Positive Factors)
 
-    - Walkability / Transit Accessibility
-        - EPA Smart Location Database
-        - EPA National Walkability Index
-        - Features:
-            - walkability_index
-            - transit_proximity
-            - intersection_density
-            - land_use_mix
+- Trees / Vegetation
+  - USDA Forest Service NLCD Tree Canopy Cover
+    - https://www.mrlc.gov/data
+    - Features: tree_canopy_pct, tree_canopy_change_pct
+  - NYC Forestry Tree Points
+    - https://data.cityofnewyork.us/Environment/Forestry-Tree-Points/hn5i-inap
+    - Features: total_trees, healthy_tree_percentage, average_tree_diameter
+  - NYC Greenstreets
+    - https://data.cityofnewyork.us/dataset/Greenstreets/vzj6-pcjy
+    - Features: greenstreet_count, greenstreet_density
+  - NYC 2015 Street Tree Census
+    - https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh
+    - Features: street_tree_count, tree_health, tree_diameter
+    - Historical data (2015)
 
-    - Environmental Regulations
-        - EPA Green Book
-        - EPA State Implementation Plans
-        - DSIRE
-        - Features:
-            - prior_nonattainment_status
-            - years_since_regulatory_action
-            - renewable_policy_present
-            - clean_energy_policy_count
+- Low-Emission Transportation
+  - U.S. Census ACS B08301
+    - Features: public_transit_pct, walk_pct, bike_pct, carpool_pct, drive_alone_pct
+  - NYC Bicycle Routes
+    - https://data.cityofnewyork.us/dataset/New-York-City-Bike-Routes/mzxg-pwib
+    - Features: bike_lane_miles, protected_bike_lane_miles
+  - NYC Open Streets Locations
+    - https://data.cityofnewyork.us/Health/Open-Streets-Locations/uiay-nctu
+    - Features: open_streets_count
+  - MTA Subway Hourly Ridership
+    - 2020-2024: https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-2020-2024/wujg-7c2s
+    - 2025-present: https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-Beginning-2025/5wq4-mkjj
+    - Features: annual_subway_ridership, average_daily_ridership
+
+- Walkability / Transit Accessibility
+  - EPA Smart Location Database
+  - EPA National Walkability Index
+    - Features: walkability_index, transit_proximity, intersection_density, land_use_mix
+
+- Environmental Regulations
+  - EPA Green Book
+  - EPA State Implementation Plans
+  - DSIRE
+    - Features: prior_nonattainment_status, years_since_regulatory_action, renewable_policy_present, clean_energy_policy_count
+  - NYC Clean Heat Dataset (Historical)
+    - https://data.cityofnewyork.us/City-Government/NYC-Clean-Heat-Dataset-Historical-/8isn-pgv3
+    - Features: clean_heat_participating_buildings, heating_fuel_conversion_count
+
 
 - Hourly Data: Ozone, SO2, CO, NO2 - (1980-2026)
 	https://aqs.epa.gov/aqsweb/airdata/download_files.html#Raw
