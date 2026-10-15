@@ -1,0 +1,11 @@
+﻿county_fips,borough,route_status,bike_segment_records
+36005,Bronx,Current,4486
+36005,Bronx,Retired,913
+36047,Brooklyn,Current,6426
+36047,Brooklyn,Retired,1116
+36061,Manhattan,Current,6278
+36061,Manhattan,Retired,1573
+36081,Queens,Current,5915
+36081,Queens,Retired,1099
+36085,Staten Island,Current,1296
+36085,Staten Island,Retired,210
