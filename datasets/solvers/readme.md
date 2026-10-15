@@ -43,8 +43,6 @@ Python was used to:
 
 ## File Structure
 
-## File Structure
-
 All processed datasets are stored directly in this folder.
 
 - `combined_solver_features_by_borough_year.csv` - Combined annual features for model integration.
