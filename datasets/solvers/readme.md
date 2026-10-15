@@ -43,12 +43,22 @@ Python was used to:
 
 ## File Structure
 
-- `annual/` - Datasets organized by borough and year.
-- `snapshots/` - Historical or current datasets without complete annual coverage.
-- `diagnostics/` - Data coverage and validation information.
-- `combined_solver_features_by_borough_year.csv` - Combined annual features.
-- `source_status_report.csv` - Dataset sources and processing status.
-- `RUN_REPORT.txt` - Data collection results.
+## File Structure
+
+All processed datasets are stored directly in this folder.
+
+- `combined_solver_features_by_borough_year.csv` - Combined annual features for model integration.
+- `nyc_recorded_tree_plantings_by_borough_year.csv` - Annual recorded tree plantings.
+- `nyc_completed_tree_removal_orders_by_borough_year.csv` - Annual tree removal work orders.
+- `nyc_mta_station_entries_by_borough_year.csv` - Annual subway ridership estimates.
+- `nyc_acs_commuting_by_borough_year.csv` - Census transportation estimates.
+- `nyc_bike_routes_by_status_snapshot.csv` - Bicycle route records.
+- `nyc_greenstreets_current_snapshot.csv` - Green infrastructure locations.
+- `nyc_open_streets_current_snapshot.csv` - Open Streets locations.
+- `nyc_clean_heat_historical_snapshot.csv` - Historical Clean Heat program records.
+- `nyc_street_tree_census_2015_snapshot.csv` - Historical street tree census.
+- `nyc_tree_removal_coverage_check.csv` - Tree removal data coverage report.
+- `source_status_report.csv` - Dataset collection and processing status.
 
 ## Model Integration
 
