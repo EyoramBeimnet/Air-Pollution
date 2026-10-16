@@ -1,0 +1,37 @@
+{
+  "source_url": "https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt",
+  "retrieved_utc": "2026-10-16T18:46:59.281303+00:00",
+  "method": "NYC DOT ATR sampled traffic volumes; server-side aggregate by borough and sampling year",
+  "year_range_requested": [
+    2019,
+    2025
+  ],
+  "data_use_status": "CANDIDATE_ONLY_NOT_YET_MODEL_READY",
+  "limitations": [
+    "Roadway samples are not collected daily or uniformly across locations/years.",
+    "Mean is per available 15-minute sample record, not annual average daily traffic.",
+    "Sample sizes and locations may vary by borough-year and induce misleading trends.",
+    "Do not use summed counts as total NYC vehicles or extrapolate missing years.",
+    "Do not merge until coverage and location comparability are inspected.",
+    "NULL or missing source years are NOT zeros."
+  ],
+  "other_source_years": [
+    2000,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2026
+  ],
+  "unrecognized_boroughs": [],
+  "available_borough_years": 35
+}

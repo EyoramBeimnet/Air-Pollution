@@ -1,0 +1,36 @@
+﻿county_fips,borough,year,has_traffic_sample,observed_15min_intervals,distinct_segments,distinct_requests
+36005,Bronx,2019,Yes,7680,11,6
+36047,Brooklyn,2019,Yes,35157,68,22
+36061,Manhattan,2019,Yes,13714,31,14
+36081,Queens,2019,Yes,49781,63,17
+36085,Staten Island,2019,Yes,9398,16,6
+36005,Bronx,2020,Yes,3552,5,2
+36047,Brooklyn,2020,Yes,8832,10,6
+36061,Manhattan,2020,Yes,11040,18,5
+36081,Queens,2020,Yes,9600,11,5
+36085,Staten Island,2020,Yes,7200,7,4
+36005,Bronx,2021,Yes,11449,24,10
+36047,Brooklyn,2021,Yes,23042,51,11
+36061,Manhattan,2021,Yes,14839,20,9
+36081,Queens,2021,Yes,34452,56,15
+36085,Staten Island,2021,Yes,2028,3,2
+36005,Bronx,2022,Yes,15675,17,7
+36047,Brooklyn,2022,Yes,26481,34,17
+36061,Manhattan,2022,Yes,10272,17,6
+36081,Queens,2022,Yes,24008,25,10
+36085,Staten Island,2022,Yes,2216,6,4
+36005,Bronx,2023,Yes,14297,24,3
+36047,Brooklyn,2023,Yes,33486,43,12
+36061,Manhattan,2023,Yes,16374,27,7
+36081,Queens,2023,Yes,17681,27,8
+36085,Staten Island,2023,Yes,3268,6,4
+36005,Bronx,2024,Yes,11919,12,7
+36047,Brooklyn,2024,Yes,33663,40,15
+36061,Manhattan,2024,Yes,21772,24,10
+36081,Queens,2024,Yes,27465,26,14
+36085,Staten Island,2024,Yes,384,2,2
+36005,Bronx,2025,Yes,13728,16,9
+36047,Brooklyn,2025,Yes,31296,37,22
+36061,Manhattan,2025,Yes,18048,28,9
+36081,Queens,2025,Yes,15264,17,9
+36085,Staten Island,2025,Yes,4032,3,2
