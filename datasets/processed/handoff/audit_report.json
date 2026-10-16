@@ -1,0 +1,58 @@
+{
+  "generated_utc": "2026-10-16T19:08:01.732447+00:00",
+  "audit": "PASS - keys, borough mapping, numeric bounds, missingness, year shift, and AQI source/target alignment",
+  "note": "Structural QA only. Neither a deployment-ready time-series model nor proof of forecasting skill.",
+  "rows": 25,
+  "rows_by_split": {
+    "train": 15,
+    "validation": 5,
+    "test": 5
+  },
+  "feature_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "forecast_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "split_rule": "Train feature years 2020-2022 / validation 2023 / test 2024 (entire borough-year groups)",
+  "aqi_target": "target_next_year_median_aqi",
+  "research_features": [
+    "last_observed_median_aqi",
+    "recorded_tree_plantings",
+    "drive_alone_pct",
+    "campd_total_nox_mass_tons",
+    "weather_temp_mean_c",
+    "weather_precip_total_mm"
+  ],
+  "reduced_features": [
+    "last_observed_median_aqi",
+    "recorded_tree_plantings",
+    "weather_temp_mean_c",
+    "weather_precip_total_mm"
+  ],
+  "warnings": [
+    "ACS five-year estimates include their end year but may not be published until the next calendar year or later; the drive_alone_pct column must be removed or lagged for a real-time next-year forecast.",
+    "CAMPD industrial annual totals, annual tree inventories, annual weather/reanalysis, and annual AQI may also have reporting/revision lags; their real-world point-in-time availability has NOT been audited.",
+    "Even the reduced candidate is not certified leakage-free or deployment-ready.",
+    "No scalers, imputers, feature selection, or target-based transformations have been fitted.",
+    "Only 25 correlated NYC borough-year cases; 15 train, 5 validation, and 5 test. Metrics will have high uncertainty; compare against a no-change AQI baseline and avoid claims of robust forecast accuracy.",
+    "Do not treat 2024-2025 missing EV registrations as zero or backfill historical data from current snapshots.",
+    "Traffic observations are nonrepresentative samples with year-varying road segments, so excluded pending comparability review.",
+    "Do not commit API keys, cached private credentials, or very large raw downloads to GitHub."
+  ],
+  "created_files": [
+    "annual_next_year_REDUCED_CANDIDATE.csv",
+    "annual_next_year_RESEARCH_CANDIDATE.csv",
+    "research_test_CANDIDATE.csv",
+    "research_train_CANDIDATE.csv",
+    "research_validation_CANDIDATE.csv"
+  ]
+}

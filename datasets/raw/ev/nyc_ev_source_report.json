@@ -1,0 +1,26 @@
+{
+  "source_url": "https://zenodo.org/records/12773413",
+  "download_url": "https://zenodo.org/records/12773413/files/EV_data.csv?download=1",
+  "generated_utc": "2026-10-16T18:53:11.256467+00:00",
+  "status": "CANDIDATE_ONLY_NOT_YET_MODEL_READY",
+  "all_nyc_years_in_original": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "excluded_nyc_source_rows_by_year": {
+    "2018": 5
+  },
+  "non_nyc_source_rows": 8022,
+  "usable_nyc_county_year_rows": 25,
+  "limitations": [
+    "Source compiled from state EV registration records; confirm meaning and consistency of counts in study documentation.",
+    "n is a reported count, not the share of all registered vehicles. No denominator is supplied.",
+    "No missing county-year record should be interpreted as zero registrations.",
+    "Do not forward-fill unavailable years or extrapolate from county data to other boroughs.",
+    "Do not automatically merge this candidate into the master until source year and definition are audited."
+  ]
+}

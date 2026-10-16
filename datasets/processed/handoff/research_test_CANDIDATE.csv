@@ -1,0 +1,6 @@
+﻿county_fips,borough,feature_year,forecast_year,target_next_year_median_aqi,last_observed_median_aqi,recorded_tree_plantings,drive_alone_pct,campd_total_nox_mass_tons,weather_temp_mean_c,weather_precip_total_mm,split
+36005,Bronx,2024,2025,45.0,42,5018,23.5322,38.024,13.5068,1121.3,test
+36047,Brooklyn,2024,2025,39.0,39,5390,17.6015,225.078,13.5623,1110.1,test
+36061,Manhattan,2024,2025,50.0,43,1802,5.6366,1043.542,13.4306,1110.1,test
+36081,Queens,2024,2025,44.0,45,6775,31.4057,897.653,13.4694,1121.3,test
+36085,Staten Island,2024,2025,41.0,38,1166,51.6054,567.562,13.6762,1092.7,test

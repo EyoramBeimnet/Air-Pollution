@@ -1,0 +1,123 @@
+{
+  "modeling_unit": "NYC county (borough) x calendar year",
+  "years": [
+    2019,
+    2025
+  ],
+  "master_rows": 35,
+  "master_feature_count": 28,
+  "aqi_label_rows": 35,
+  "next_year_supervised_rows": 30,
+  "source_status": [
+    {
+      "source": "solvers",
+      "status": "OK",
+      "rows": 35,
+      "columns": [
+        "county_fips",
+        "year",
+        "recorded_tree_plantings",
+        "completed_tree_removal_work_orders",
+        "mta_annual_station_entries_est"
+      ]
+    },
+    {
+      "source": "lucid",
+      "status": "OK",
+      "rows": 20,
+      "columns": [
+        "county_fips",
+        "year",
+        "landuse_forestland_pct",
+        "landuse_urban_builtup_pct",
+        "landuse_pastureland_pct"
+      ]
+    },
+    {
+      "source": "campd",
+      "status": "OK",
+      "rows": 30,
+      "columns": [
+        "county_fips",
+        "year",
+        "campd_num_active_units",
+        "campd_total_co2_mass_tons",
+        "campd_total_so2_mass_tons",
+        "campd_total_nox_mass_tons",
+        "campd_total_gross_load_mwh",
+        "campd_total_heat_input_mmbtu",
+        "campd_co2_rate_tons_per_mwh",
+        "campd_so2_rate_tons_per_mwh",
+        "campd_nox_rate_tons_per_mwh"
+      ]
+    },
+    {
+      "source": "weather",
+      "status": "OK",
+      "rows": 35,
+      "columns": [
+        "county_fips",
+        "year",
+        "weather_days_complete",
+        "weather_temp_mean_c",
+        "weather_mean_daily_max_temp_c",
+        "weather_precip_total_mm",
+        "weather_wind_mean_kmh",
+        "weather_humidity_mean_pct"
+      ]
+    },
+    {
+      "source": "acs_transport",
+      "status": "OK",
+      "rows": 30,
+      "columns": [
+        "county_fips",
+        "year",
+        "acs_commuters_est",
+        "drive_alone_pct",
+        "carpool_pct",
+        "public_transit_pct",
+        "bicycle_commute_pct",
+        "walk_commute_pct",
+        "work_from_home_pct"
+      ]
+    },
+    {
+      "source": "residential_combustion",
+      "status": "SNAPSHOT_ONLY",
+      "rows": 1010
+    },
+    {
+      "source": "epa_aqi",
+      "status": "OK",
+      "rows": 35
+    }
+  ],
+  "issues_and_limitations": [
+    "ACS: historical 2019-2024 five-year vintages loaded; 2025 remains unavailable",
+    "CAMPD: excluded 5 partial-year NYC records",
+    "Weather ERA5 historical reanalysis sampled at a representative point for each borough; NOT borough-average measured weather",
+    "Residential snapshot has no source year: excluded from annual training merge",
+    "NYC_Residential_Combustion.csv: no year in supplied CSV, so do not join to 2019-2025",
+    "PowerPlantEmissions2024 by Region.xlsx: regional 2024 only; not a borough-year feature",
+    "annual_aqi_by_county_2026.csv: partial-year 2026 labels; deliberately excluded",
+    "LUCID: 2019-2022 only; no forward fill or invented 2023-2025",
+    "CAMPD: 2020-2025 complete-year rows only; 2019 unobserved",
+    "No complete traffic, EV adoption, or airport fact table found in the current datasets folder",
+    "AQI label columns are outcomes, not predictors for same-year explanatory models",
+    "Annual data (at most 35 NYC borough-year rows) is too sparse for reliable daily/weekly forecasts"
+  ],
+  "outputs": [
+    "aqi_year_coverage_report.csv",
+    "clean_acs_transport_borough_year.csv",
+    "clean_campd_borough_year.csv",
+    "clean_epa_annual_aqi_2019_2025.csv",
+    "clean_lucid_borough_year.csv",
+    "clean_solvers_borough_year.csv",
+    "clean_weather_borough_year.csv",
+    "feature_missingness_report.csv",
+    "master_borough_year_2019_2025.csv",
+    "next_year_aqi_model_STAGING.csv",
+    "residential_emissions_snapshot_NOT_ANNUAL.csv"
+  ]
+}

@@ -1,0 +1,1011 @@
+﻿county_fips,borough,sector,pollutant,emissions_short_tons
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Acetaldehyde,0.000168935
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Ammonia,246.6204
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Benzene,0.0272516
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Carbon Monoxide,493.2408
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Elemental Carbon portion of PM2.5-PRI,0.355257
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Fluoranthene,3.69931e-05
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Fluorene,3.4526899999999996e-05
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Formaldehyde,0.924826
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Naphthalene,0.00752192
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Nitrate portion of PM2.5-PRI,0.18081
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Nitrogen Oxides,1159.116
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Organic Carbon portion of PM2.5-PRI,2.59709
+36005,Bronx,Fuel Comb - Residential - Natural Gas,PM Condensible,3.945926
+36005,Bronx,Fuel Comb - Residential - Natural Gas,PM10 Filterable,2.466204
+36005,Bronx,Fuel Comb - Residential - Natural Gas,PM10 Primary (Filt + Cond),6.412131
+36005,Bronx,Fuel Comb - Residential - Natural Gas,PM2.5 Filterable,1.356412
+36005,Bronx,Fuel Comb - Residential - Natural Gas,PM2.5 Primary (Filt + Cond),5.302339
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Phenanthrene,0.00020962700000000002
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Pyrene,6.16551e-05
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Remaining PMFINE portion of PM2.5-PRI,1.50125
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Sulfate Portion of PM2.5-PRI,0.668095
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Sulfur Dioxide,7.398612
+36005,Bronx,Fuel Comb - Residential - Natural Gas,Volatile Organic Compounds,67.82061
+36005,Bronx,Fuel Comb - Residential - Oil,Acenaphthene,0.0007841578999999999
+36005,Bronx,Fuel Comb - Residential - Oil,Acenaphthylene,9.401503000000001e-06
+36005,Bronx,Fuel Comb - Residential - Oil,Acetaldehyde,0.1828494
+36005,Bronx,Fuel Comb - Residential - Oil,Ammonia,37.166392
+36005,Bronx,Fuel Comb - Residential - Oil,Anthracene,4.534611e-05
+36005,Bronx,Fuel Comb - Residential - Oil,Arsenic,0.0208888541
+36005,Bronx,Fuel Comb - Residential - Oil,Benz[a]Anthracene,0.00014912668999999998
+36005,Bronx,Fuel Comb - Residential - Oil,Benzene,0.007948898999999999
+36005,Bronx,Fuel Comb - Residential - Oil,"Benzo[g,h,i,]Perylene",8.397782e-05
+36005,Bronx,Fuel Comb - Residential - Oil,Beryllium,0.0156596257
+36005,Bronx,Fuel Comb - Residential - Oil,Cadmium,0.0156596257
+36005,Bronx,Fuel Comb - Residential - Oil,Carbon Monoxide,185.831908
+36005,Bronx,Fuel Comb - Residential - Oil,Chromium (VI),0.0028191478000000004
+36005,Bronx,Fuel Comb - Residential - Oil,Chromium III,0.012859124100000001
+36005,Bronx,Fuel Comb - Residential - Oil,Chrysene,8.846665e-05
+36005,Bronx,Fuel Comb - Residential - Oil,"Dibenzo(a,h)Anthracene",6.209073000000001e-05
+36005,Bronx,Fuel Comb - Residential - Oil,Elemental Carbon portion of PM2.5-PRI,9.90765
+36005,Bronx,Fuel Comb - Residential - Oil,Fluoranthene,0.0001799874
+36005,Bronx,Fuel Comb - Residential - Oil,Fluorene,0.00016616704
+36005,Bronx,Fuel Comb - Residential - Oil,Formaldehyde,1.2274703
+36005,Bronx,Fuel Comb - Residential - Oil,"Indeno[1,2,3-c,d]Pyrene",7.948899e-05
+36005,Bronx,Fuel Comb - Residential - Oil,Lead,0.046971716999999996
+36005,Bronx,Fuel Comb - Residential - Oil,Manganese,0.031319241
+36005,Bronx,Fuel Comb - Residential - Oil,Mercury,0.0156596257
+36005,Bronx,Fuel Comb - Residential - Oil,Naphthalene,0.0420061
+36005,Bronx,Fuel Comb - Residential - Oil,Nickel,0.0156596257
+36005,Bronx,Fuel Comb - Residential - Oil,Nitrate portion of PM2.5-PRI,0.00338474
+36005,Bronx,Fuel Comb - Residential - Oil,Nitrogen Oxides,668.99495
+36005,Bronx,Fuel Comb - Residential - Oil,Organic Carbon portion of PM2.5-PRI,19.570711000000003
+36005,Bronx,Fuel Comb - Residential - Oil,PM Condensible,48.318023000000004
+36005,Bronx,Fuel Comb - Residential - Oil,PM10 Filterable,40.138318000000005
+36005,Bronx,Fuel Comb - Residential - Oil,PM10 Primary (Filt + Cond),88.45634100000001
+36005,Bronx,Fuel Comb - Residential - Oil,PM2.5 Filterable,30.847582000000003
+36005,Bronx,Fuel Comb - Residential - Oil,PM2.5 Primary (Filt + Cond),79.165605
+36005,Bronx,Fuel Comb - Residential - Oil,Phenanthrene,0.0003903066
+36005,Bronx,Fuel Comb - Residential - Oil,Pyrene,0.00015791893
+36005,Bronx,Fuel Comb - Residential - Oil,Remaining PMFINE portion of PM2.5-PRI,35.197203
+36005,Bronx,Fuel Comb - Residential - Oil,Selenium,0.07829810799999999
+36005,Bronx,Fuel Comb - Residential - Oil,Sulfate Portion of PM2.5-PRI,14.48655107
+36005,Bronx,Fuel Comb - Residential - Oil,Sulfur Dioxide,7.8552547
+36005,Bronx,Fuel Comb - Residential - Oil,Volatile Organic Compounds,26.4832578
+36005,Bronx,Fuel Comb - Residential - Other,"2,4-Dinitrotoluene",0.0
+36005,Bronx,Fuel Comb - Residential - Other,2-Chloroacetophenone,0.0
+36005,Bronx,Fuel Comb - Residential - Other,5-Methylchrysene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Acenaphthene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Acenaphthylene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Acetaldehyde,6.10969e-06
+36005,Bronx,Fuel Comb - Residential - Other,Acetophenone,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Acrolein,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Ammonia,0.2190054
+36005,Bronx,Fuel Comb - Residential - Other,Anthracene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Antimony,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Arsenic,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Benz[a]Anthracene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Benzene,0.000986086
+36005,Bronx,Fuel Comb - Residential - Other,Benzo[a]Pyrene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,"Benzo[g,h,i,]Perylene",0.0
+36005,Bronx,Fuel Comb - Residential - Other,Benzofluoranthenes,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Benzyl Chloride,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Beryllium,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Biphenyl,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Bis(2-Ethylhexyl)Phthalate,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Bromoform,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Cadmium,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Carbon Disulfide,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Carbon Monoxide,17.92475
+36005,Bronx,Fuel Comb - Residential - Other,Chlorobenzene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Chloroform,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Chrysene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Cobalt,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Cumene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Cyanide,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Dimethyl Sulfate,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Elemental Carbon portion of PM2.5-PRI,0.0128674
+36005,Bronx,Fuel Comb - Residential - Other,Ethyl Benzene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Ethyl Chloride,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Ethylene Dibromide,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Ethylene Dichloride,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Fluoranthene,1.41511e-06
+36005,Bronx,Fuel Comb - Residential - Other,Fluorene,1.31403e-06
+36005,Bronx,Fuel Comb - Residential - Other,Formaldehyde,0.034816200000000005
+36005,Bronx,Fuel Comb - Residential - Other,Hexane,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Hydrochloric Acid,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Hydrogen Fluoride,0.0
+36005,Bronx,Fuel Comb - Residential - Other,"Indeno[1,2,3-c,d]Pyrene",0.0
+36005,Bronx,Fuel Comb - Residential - Other,Isophorone,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Lead,0.00020881
+36005,Bronx,Fuel Comb - Residential - Other,Manganese,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Mercury,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Methyl Bromide,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Methyl Chloride,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Methyl Methacrylate,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Methyl Tert-Butyl Ether,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Methylene Chloride,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Naphthalene,0.000286392
+36005,Bronx,Fuel Comb - Residential - Other,Nickel,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Nitrate portion of PM2.5-PRI,0.00654894
+36005,Bronx,Fuel Comb - Residential - Other,Nitrogen Oxides,63.20833
+36005,Bronx,Fuel Comb - Residential - Other,Organic Carbon portion of PM2.5-PRI,0.0940665
+36005,Bronx,Fuel Comb - Residential - Other,PM Condensible,0.1426343
+36005,Bronx,Fuel Comb - Residential - Other,PM10 Filterable,0.08984838
+36005,Bronx,Fuel Comb - Residential - Other,PM10 Primary (Filt + Cond),0.2324827
+36005,Bronx,Fuel Comb - Residential - Other,PM2.5 Filterable,0.04941661
+36005,Bronx,Fuel Comb - Residential - Other,PM2.5 Primary (Filt + Cond),0.1920509
+36005,Bronx,Fuel Comb - Residential - Other,Phenanthrene,7.98527e-06
+36005,Bronx,Fuel Comb - Residential - Other,Phenol,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Propionaldehyde,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Pyrene,2.34729e-06
+36005,Bronx,Fuel Comb - Residential - Other,Remaining PMFINE portion of PM2.5-PRI,0.0543754
+36005,Bronx,Fuel Comb - Residential - Other,Selenium,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Styrene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Sulfate Portion of PM2.5-PRI,0.0241984
+36005,Bronx,Fuel Comb - Residential - Other,Sulfur Dioxide,0.268422
+36005,Bronx,Fuel Comb - Residential - Other,Tetrachloroethylene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Toluene,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Vinyl Acetate,0.0
+36005,Bronx,Fuel Comb - Residential - Other,Volatile Organic Compounds,2.460722
+36005,Bronx,Fuel Comb - Residential - Other,Xylenes (Mixed Isomers),0.0
+36005,Bronx,Fuel Comb - Residential - Wood,"1,3-Butadiene",0.032374128
+36005,Bronx,Fuel Comb - Residential - Wood,1-Methylnaphthalene,0.00293304264
+36005,Bronx,Fuel Comb - Residential - Wood,1-Methylphenanthrene,0.000614277397
+36005,Bronx,Fuel Comb - Residential - Wood,2-Methylnaphthalene,0.00415052225
+36005,Bronx,Fuel Comb - Residential - Wood,2-Methylphenanthrene,0.000514664811
+36005,Bronx,Fuel Comb - Residential - Wood,Acenaphthene,0.00065887726
+36005,Bronx,Fuel Comb - Residential - Wood,Acenaphthylene,0.00559162111
+36005,Bronx,Fuel Comb - Residential - Wood,Acetaldehyde,0.471500181
+36005,Bronx,Fuel Comb - Residential - Wood,Acetophenone,0.0010791369650000001
+36005,Bronx,Fuel Comb - Residential - Wood,Acrolein,0.01743218506
+36005,Bronx,Fuel Comb - Residential - Wood,Ammonia,0.0872051083
+36005,Bronx,Fuel Comb - Residential - Wood,Anthracene,0.001089867211
+36005,Bronx,Fuel Comb - Residential - Wood,Arsenic,1.7917501945e-07
+36005,Bronx,Fuel Comb - Residential - Wood,Benz[a]Anthracene,0.0002102068
+36005,Bronx,Fuel Comb - Residential - Wood,Benzene,0.1695102838
+36005,Bronx,Fuel Comb - Residential - Wood,Benzo(a)Fluoranthene,7.707633e-05
+36005,Bronx,Fuel Comb - Residential - Wood,"Benzo(g,h,i)Fluoranthene",2.2689554e-05
+36005,Bronx,Fuel Comb - Residential - Wood,Benzo[a]Pyrene,0.00030718402100000003
+36005,Bronx,Fuel Comb - Residential - Wood,Benzo[b]Fluoranthene,0.0002090238
+36005,Bronx,Fuel Comb - Residential - Wood,Benzo[e]Pyrene,0.000141741
+36005,Bronx,Fuel Comb - Residential - Wood,"Benzo[g,h,i,]Perylene",8.888458e-05
+36005,Bronx,Fuel Comb - Residential - Wood,Benzo[k]Fluoranthene,0.0001225361
+36005,Bronx,Fuel Comb - Residential - Wood,Cadmium,1.2100714879999999e-05
+36005,Bronx,Fuel Comb - Residential - Wood,Carbon Monoxide,17.97389647
+36005,Bronx,Fuel Comb - Residential - Wood,Catechol,0.08633087119999999
+36005,Bronx,Fuel Comb - Residential - Wood,Chrysene,0.00022529457000000001
+36005,Bronx,Fuel Comb - Residential - Wood,Cresol/Cresylic Acid (Mixed Isomers),0.1299390393
+36005,Bronx,Fuel Comb - Residential - Wood,"Dibenzo(a,h)Anthracene",9.428263e-06
+36005,Bronx,Fuel Comb - Residential - Wood,Elemental Carbon portion of PM2.5-PRI,0.198721207
+36005,Bronx,Fuel Comb - Residential - Wood,Ethyl Benzene,0.006336464250000001
+36005,Bronx,Fuel Comb - Residential - Wood,Fluoranthene,0.001098550585
+36005,Bronx,Fuel Comb - Residential - Wood,Fluorene,0.001554551794
+36005,Bronx,Fuel Comb - Residential - Wood,Formaldehyde,0.322357406
+36005,Bronx,Fuel Comb - Residential - Wood,Hydroquinone,0.00475926556
+36005,Bronx,Fuel Comb - Residential - Wood,"Indeno[1,2,3-c,d]Pyrene",0.00013862891
+36005,Bronx,Fuel Comb - Residential - Wood,Lead,5.7358388570000004e-05
+36005,Bronx,Fuel Comb - Residential - Wood,Manganese,1.2464805549999999e-05
+36005,Bronx,Fuel Comb - Residential - Wood,Mercury,4.18687885e-07
+36005,Bronx,Fuel Comb - Residential - Wood,Methylchrysene,1.404506e-05
+36005,Bronx,Fuel Comb - Residential - Wood,Naphthalene,0.06861491310000001
+36005,Bronx,Fuel Comb - Residential - Wood,Nickel,2.252336991e-06
+36005,Bronx,Fuel Comb - Residential - Wood,Nitrate portion of PM2.5-PRI,0.006766496449999999
+36005,Bronx,Fuel Comb - Residential - Wood,Nitrogen Oxides,0.6029638253
+36005,Bronx,Fuel Comb - Residential - Wood,Organic Carbon portion of PM2.5-PRI,1.88108434
+36005,Bronx,Fuel Comb - Residential - Wood,PM Condensible,0.08797665360000001
+36005,Bronx,Fuel Comb - Residential - Wood,PM10 Filterable,3.528062893
+36005,Bronx,Fuel Comb - Residential - Wood,PM10 Primary (Filt + Cond),3.616040302
+36005,Bronx,Fuel Comb - Residential - Wood,PM2.5 Filterable,3.473333893
+36005,Bronx,Fuel Comb - Residential - Wood,PM2.5 Primary (Filt + Cond),3.561311302
+36005,Bronx,Fuel Comb - Residential - Wood,Perylene,3.7385020000000003e-05
+36005,Bronx,Fuel Comb - Residential - Wood,Phenanthrene,0.00536979353
+36005,Bronx,Fuel Comb - Residential - Wood,Phenol,0.1452684088
+36005,Bronx,Fuel Comb - Residential - Wood,Propionaldehyde,0.0705588843
+36005,Bronx,Fuel Comb - Residential - Wood,Pyrene,0.000769661858
+36005,Bronx,Fuel Comb - Residential - Wood,Remaining PMFINE portion of PM2.5-PRI,1.46023703
+36005,Bronx,Fuel Comb - Residential - Wood,Sulfate Portion of PM2.5-PRI,0.0146013766
+36005,Bronx,Fuel Comb - Residential - Wood,Sulfur Dioxide,0.041868788500000004
+36005,Bronx,Fuel Comb - Residential - Wood,Toluene,0.04371894
+36005,Bronx,Fuel Comb - Residential - Wood,Volatile Organic Compounds,6.157565552
+36005,Bronx,Fuel Comb - Residential - Wood,m-Xylene,0.016602141
+36005,Bronx,Fuel Comb - Residential - Wood,o-Xylene,0.00500829677
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Acetaldehyde,0.000462333
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Ammonia,674.9386
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Benzene,0.0745807
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Carbon Monoxide,1349.877
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Elemental Carbon portion of PM2.5-PRI,0.972249
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Fluoranthene,0.000101241
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Fluorene,9.44914e-05
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Formaldehyde,2.53102
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Naphthalene,0.0205856
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Nitrate portion of PM2.5-PRI,0.494831
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Nitrogen Oxides,3172.211
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Organic Carbon portion of PM2.5-PRI,7.10758
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,PM Condensible,10.79902
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,PM10 Filterable,6.749386
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,PM10 Primary (Filt + Cond),17.5484
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,PM2.5 Filterable,3.712162
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,PM2.5 Primary (Filt + Cond),14.51118
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Phenanthrene,0.0005736980000000001
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Pyrene,0.000168735
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Remaining PMFINE portion of PM2.5-PRI,4.10855
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Sulfate Portion of PM2.5-PRI,1.82841
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Sulfur Dioxide,20.24816
+36047,Brooklyn,Fuel Comb - Residential - Natural Gas,Volatile Organic Compounds,185.6081
+36047,Brooklyn,Fuel Comb - Residential - Oil,Acenaphthene,0.0004418837
+36047,Brooklyn,Fuel Comb - Residential - Oil,Acenaphthylene,5.297865000000001e-06
+36047,Brooklyn,Fuel Comb - Residential - Oil,Acetaldehyde,0.10303815
+36047,Brooklyn,Fuel Comb - Residential - Oil,Ammonia,20.94375
+36047,Brooklyn,Fuel Comb - Residential - Oil,Anthracene,2.5553121e-05
+36047,Brooklyn,Fuel Comb - Residential - Oil,Arsenic,0.011771138799999999
+36047,Brooklyn,Fuel Comb - Residential - Oil,Benz[a]Anthracene,8.403467000000001e-05
+36047,Brooklyn,Fuel Comb - Residential - Oil,Benzene,0.004479307
+36047,Brooklyn,Fuel Comb - Residential - Oil,"Benzo[g,h,i,]Perylene",4.732258e-05
+36047,Brooklyn,Fuel Comb - Residential - Oil,Beryllium,0.0088244031
+36047,Brooklyn,Fuel Comb - Residential - Oil,Cadmium,0.0088244031
+36047,Brooklyn,Fuel Comb - Residential - Oil,Carbon Monoxide,104.71875
+36047,Brooklyn,Fuel Comb - Residential - Oil,Chromium (VI),0.00158862628
+36047,Brooklyn,Fuel Comb - Residential - Oil,Chromium III,0.0072462847
+36047,Brooklyn,Fuel Comb - Residential - Oil,Chrysene,4.985209e-05
+36047,Brooklyn,Fuel Comb - Residential - Oil,"Dibenzo(a,h)Anthracene",3.498898e-05
+36047,Brooklyn,Fuel Comb - Residential - Oil,Elemental Carbon portion of PM2.5-PRI,5.58309
+36047,Brooklyn,Fuel Comb - Residential - Oil,Fluoranthene,0.00010142545
+36047,Brooklyn,Fuel Comb - Residential - Oil,Fluorene,9.363726e-05
+36047,Brooklyn,Fuel Comb - Residential - Oil,Formaldehyde,0.6916952000000001
+36047,Brooklyn,Fuel Comb - Residential - Oil,"Indeno[1,2,3-c,d]Pyrene",4.479307e-05
+36047,Brooklyn,Fuel Comb - Residential - Oil,Lead,0.0264691763
+36047,Brooklyn,Fuel Comb - Residential - Oil,Manganese,0.0176488042
+36047,Brooklyn,Fuel Comb - Residential - Oil,Mercury,0.0088244031
+36047,Brooklyn,Fuel Comb - Residential - Oil,Naphthalene,0.023671026
+36047,Brooklyn,Fuel Comb - Residential - Oil,Nickel,0.0088244031
+36047,Brooklyn,Fuel Comb - Residential - Oil,Nitrate portion of PM2.5-PRI,0.00190734
+36047,Brooklyn,Fuel Comb - Residential - Oil,Nitrogen Oxides,376.98742
+36047,Brooklyn,Fuel Comb - Residential - Oil,Organic Carbon portion of PM2.5-PRI,11.02834
+36047,Brooklyn,Fuel Comb - Residential - Oil,PM Condensible,27.227836
+36047,Brooklyn,Fuel Comb - Residential - Oil,PM10 Filterable,22.618474399999997
+36047,Brooklyn,Fuel Comb - Residential - Oil,PM10 Primary (Filt + Cond),49.84631
+36047,Brooklyn,Fuel Comb - Residential - Oil,PM2.5 Filterable,17.3830162
+36047,Brooklyn,Fuel Comb - Residential - Oil,PM2.5 Primary (Filt + Cond),44.610862
+36047,Brooklyn,Fuel Comb - Residential - Oil,Phenanthrene,0.00021994303999999998
+36047,Brooklyn,Fuel Comb - Residential - Oil,Pyrene,8.898909e-05
+36047,Brooklyn,Fuel Comb - Residential - Oil,Remaining PMFINE portion of PM2.5-PRI,19.8340492
+36047,Brooklyn,Fuel Comb - Residential - Oil,Selenium,0.044122021000000004
+36047,Brooklyn,Fuel Comb - Residential - Oil,Sulfate Portion of PM2.5-PRI,8.16338134
+36047,Brooklyn,Fuel Comb - Residential - Oil,Sulfur Dioxide,4.4265396
+36047,Brooklyn,Fuel Comb - Residential - Oil,Volatile Organic Compounds,14.9236615
+36047,Brooklyn,Fuel Comb - Residential - Other,"2,4-Dinitrotoluene",0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,2-Chloroacetophenone,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,5-Methylchrysene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Acenaphthene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Acenaphthylene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Acetaldehyde,1.28428e-05
+36047,Brooklyn,Fuel Comb - Residential - Other,Acetophenone,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Acrolein,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Ammonia,0.4603567
+36047,Brooklyn,Fuel Comb - Residential - Other,Anthracene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Antimony,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Arsenic,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Benz[a]Anthracene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Benzene,0.0020727899999999997
+36047,Brooklyn,Fuel Comb - Residential - Other,Benzo[a]Pyrene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,"Benzo[g,h,i,]Perylene",0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Benzofluoranthenes,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Benzyl Chloride,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Beryllium,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Biphenyl,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Bis(2-Ethylhexyl)Phthalate,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Bromoform,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Cadmium,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Carbon Disulfide,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Carbon Monoxide,37.67843
+36047,Brooklyn,Fuel Comb - Residential - Other,Chlorobenzene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Chloroform,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Chrysene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Cobalt,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Cumene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Cyanide,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Dimethyl Sulfate,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Elemental Carbon portion of PM2.5-PRI,0.0270477
+36047,Brooklyn,Fuel Comb - Residential - Other,Ethyl Benzene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Ethyl Chloride,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Ethylene Dibromide,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Ethylene Dichloride,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Fluoranthene,2.97461e-06
+36047,Brooklyn,Fuel Comb - Residential - Other,Fluorene,2.76214e-06
+36047,Brooklyn,Fuel Comb - Residential - Other,Formaldehyde,0.0731849
+36047,Brooklyn,Fuel Comb - Residential - Other,Hexane,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Hydrochloric Acid,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Hydrogen Fluoride,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,"Indeno[1,2,3-c,d]Pyrene",0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Isophorone,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Lead,0.000438925
+36047,Brooklyn,Fuel Comb - Residential - Other,Manganese,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Mercury,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Methyl Bromide,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Methyl Chloride,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Methyl Methacrylate,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Methyl Tert-Butyl Ether,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Methylene Chloride,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Naphthalene,0.000602005
+36047,Brooklyn,Fuel Comb - Residential - Other,Nickel,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Nitrate portion of PM2.5-PRI,0.0137661
+36047,Brooklyn,Fuel Comb - Residential - Other,Nitrogen Oxides,132.866
+36047,Brooklyn,Fuel Comb - Residential - Other,Organic Carbon portion of PM2.5-PRI,0.197731
+36047,Brooklyn,Fuel Comb - Residential - Other,PM Condensible,0.2998221
+36047,Brooklyn,Fuel Comb - Residential - Other,PM10 Filterable,0.1888643
+36047,Brooklyn,Fuel Comb - Residential - Other,PM10 Primary (Filt + Cond),0.4886864
+36047,Brooklyn,Fuel Comb - Residential - Other,PM2.5 Filterable,0.1038754
+36047,Brooklyn,Fuel Comb - Residential - Other,PM2.5 Primary (Filt + Cond),0.4036974
+36047,Brooklyn,Fuel Comb - Residential - Other,Phenanthrene,1.67853e-05
+36047,Brooklyn,Fuel Comb - Residential - Other,Phenol,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Propionaldehyde,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Pyrene,4.93408e-06
+36047,Brooklyn,Fuel Comb - Residential - Other,Remaining PMFINE portion of PM2.5-PRI,0.114299
+36047,Brooklyn,Fuel Comb - Residential - Other,Selenium,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Styrene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Sulfate Portion of PM2.5-PRI,0.0508659
+36047,Brooklyn,Fuel Comb - Residential - Other,Sulfur Dioxide,0.5642321
+36047,Brooklyn,Fuel Comb - Residential - Other,Tetrachloroethylene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Toluene,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Vinyl Acetate,0.0
+36047,Brooklyn,Fuel Comb - Residential - Other,Volatile Organic Compounds,5.172521
+36047,Brooklyn,Fuel Comb - Residential - Other,Xylenes (Mixed Isomers),0.0
+36047,Brooklyn,Fuel Comb - Residential - Wood,"1,3-Butadiene",0.0315302659
+36047,Brooklyn,Fuel Comb - Residential - Wood,1-Methylnaphthalene,0.00285658839
+36047,Brooklyn,Fuel Comb - Residential - Wood,1-Methylphenanthrene,0.0005982676600000001
+36047,Brooklyn,Fuel Comb - Residential - Wood,2-Methylnaphthalene,0.00404234216
+36047,Brooklyn,Fuel Comb - Residential - Wood,2-Methylphenanthrene,0.000501250888
+36047,Brooklyn,Fuel Comb - Residential - Wood,Acenaphthene,0.000734720798
+36047,Brooklyn,Fuel Comb - Residential - Wood,Acenaphthylene,0.00586002888
+36047,Brooklyn,Fuel Comb - Residential - Wood,Acetaldehyde,0.45921091299999994
+36047,Brooklyn,Fuel Comb - Residential - Wood,Acetophenone,0.0010510101619999998
+36047,Brooklyn,Fuel Comb - Residential - Wood,Acrolein,0.01697784007
+36047,Brooklyn,Fuel Comb - Residential - Wood,Ammonia,0.08491545810000001
+36047,Brooklyn,Fuel Comb - Residential - Wood,Anthracene,0.001189912109
+36047,Brooklyn,Fuel Comb - Residential - Wood,Arsenic,1.7449890105e-07
+36047,Brooklyn,Fuel Comb - Residential - Wood,Benz[a]Anthracene,0.00027117670000000006
+36047,Brooklyn,Fuel Comb - Residential - Wood,Benzene,0.2242235495
+36047,Brooklyn,Fuel Comb - Residential - Wood,Benzo(a)Fluoranthene,7.507211e-05
+36047,Brooklyn,Fuel Comb - Residential - Wood,"Benzo(g,h,i)Fluoranthene",2.20981225e-05
+36047,Brooklyn,Fuel Comb - Residential - Wood,Benzo[a]Pyrene,0.0003656207379
+36047,Brooklyn,Fuel Comb - Residential - Wood,Benzo[b]Fluoranthene,0.0002655951
+36047,Brooklyn,Fuel Comb - Residential - Wood,Benzo[e]Pyrene,0.0001380552
+36047,Brooklyn,Fuel Comb - Residential - Wood,"Benzo[g,h,i,]Perylene",0.00012422034000000002
+36047,Brooklyn,Fuel Comb - Residential - Wood,Benzo[k]Fluoranthene,0.0001193501
+36047,Brooklyn,Fuel Comb - Residential - Wood,Cadmium,1.178398693e-05
+36047,Brooklyn,Fuel Comb - Residential - Wood,Carbon Monoxide,24.429545440000002
+36047,Brooklyn,Fuel Comb - Residential - Wood,Catechol,0.0840808389
+36047,Brooklyn,Fuel Comb - Residential - Wood,Chrysene,0.00032351931000000004
+36047,Brooklyn,Fuel Comb - Residential - Wood,Cresol/Cresylic Acid (Mixed Isomers),0.1265523375
+36047,Brooklyn,Fuel Comb - Residential - Wood,"Dibenzo(a,h)Anthracene",9.1831e-06
+36047,Brooklyn,Fuel Comb - Residential - Wood,Elemental Carbon portion of PM2.5-PRI,0.281272712
+36047,Brooklyn,Fuel Comb - Residential - Wood,Ethyl Benzene,0.00617131327
+36047,Brooklyn,Fuel Comb - Residential - Wood,Fluoranthene,0.0013068877230000002
+36047,Brooklyn,Fuel Comb - Residential - Wood,Fluorene,0.001817445119
+36047,Brooklyn,Fuel Comb - Residential - Wood,Formaldehyde,0.31395548900000003
+36047,Brooklyn,Fuel Comb - Residential - Wood,Hydroquinone,0.004635225539999999
+36047,Brooklyn,Fuel Comb - Residential - Wood,"Indeno[1,2,3-c,d]Pyrene",0.00017267120000000001
+36047,Brooklyn,Fuel Comb - Residential - Wood,Lead,5.585767965000001e-05
+36047,Brooklyn,Fuel Comb - Residential - Wood,Manganese,1.213901654e-05
+36047,Brooklyn,Fuel Comb - Residential - Wood,Mercury,4.0775175129999994e-07
+36047,Brooklyn,Fuel Comb - Residential - Wood,Methylchrysene,1.3679780000000001e-05
+36047,Brooklyn,Fuel Comb - Residential - Wood,Naphthalene,0.072228185
+36047,Brooklyn,Fuel Comb - Residential - Wood,Nickel,2.1936353785e-06
+36047,Brooklyn,Fuel Comb - Residential - Wood,Nitrate portion of PM2.5-PRI,0.00957739363
+36047,Brooklyn,Fuel Comb - Residential - Wood,Nitrogen Oxides,1.0126652684
+36047,Brooklyn,Fuel Comb - Residential - Wood,Organic Carbon portion of PM2.5-PRI,2.66251507
+36047,Brooklyn,Fuel Comb - Residential - Wood,PM Condensible,0.0856754081
+36047,Brooklyn,Fuel Comb - Residential - Wood,PM10 Filterable,5.059301306
+36047,Brooklyn,Fuel Comb - Residential - Wood,PM10 Primary (Filt + Cond),5.1449766729999995
+36047,Brooklyn,Fuel Comb - Residential - Wood,PM2.5 Filterable,4.955060306
+36047,Brooklyn,Fuel Comb - Residential - Wood,PM2.5 Primary (Filt + Cond),5.040735673
+36047,Brooklyn,Fuel Comb - Residential - Wood,Perylene,3.641293e-05
+36047,Brooklyn,Fuel Comb - Residential - Wood,Phenanthrene,0.00618436883
+36047,Brooklyn,Fuel Comb - Residential - Wood,Phenol,0.14148205060000002
+36047,Brooklyn,Fuel Comb - Residential - Wood,Propionaldehyde,0.0687198617
+36047,Brooklyn,Fuel Comb - Residential - Wood,Pyrene,0.0009843571259999999
+36047,Brooklyn,Fuel Comb - Residential - Wood,Remaining PMFINE portion of PM2.5-PRI,2.066842005
+36047,Brooklyn,Fuel Comb - Residential - Wood,Sulfate Portion of PM2.5-PRI,0.020667017410000002
+36047,Brooklyn,Fuel Comb - Residential - Wood,Sulfur Dioxide,0.040775171129999996
+36047,Brooklyn,Fuel Comb - Residential - Wood,Toluene,0.0425794121
+36047,Brooklyn,Fuel Comb - Residential - Wood,Volatile Organic Compounds,8.187392885
+36047,Brooklyn,Fuel Comb - Residential - Wood,m-Xylene,0.01616933864
+36047,Brooklyn,Fuel Comb - Residential - Wood,o-Xylene,0.00487776697
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Acetaldehyde,0.000235748
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Ammonia,344.1571
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Benzene,0.038029400000000005
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Carbon Monoxide,688.3142
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Elemental Carbon portion of PM2.5-PRI,0.495758
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Fluoranthene,5.16236e-05
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Fluorene,4.8182e-05
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Formaldehyde,1.29059
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Naphthalene,0.0104968
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Nitrate portion of PM2.5-PRI,0.252319
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Nitrogen Oxides,1617.538
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Organic Carbon portion of PM2.5-PRI,3.62421
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,PM Condensible,5.506513
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,PM10 Filterable,3.441571
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,PM10 Primary (Filt + Cond),8.948084
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,PM2.5 Filterable,1.892864
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,PM2.5 Primary (Filt + Cond),7.399377
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Phenanthrene,0.000292534
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Pyrene,8.60393e-05
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Remaining PMFINE portion of PM2.5-PRI,2.09499
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Sulfate Portion of PM2.5-PRI,0.932322
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Sulfur Dioxide,10.32471
+36061,Manhattan,Fuel Comb - Residential - Natural Gas,Volatile Organic Compounds,94.6432
+36061,Manhattan,Fuel Comb - Residential - Oil,Acenaphthene,0.0007296819
+36061,Manhattan,Fuel Comb - Residential - Oil,Acenaphthylene,8.748356e-06
+36061,Manhattan,Fuel Comb - Residential - Oil,Acetaldehyde,0.17014719
+36061,Manhattan,Fuel Comb - Residential - Oil,Ammonia,34.584377
+36061,Manhattan,Fuel Comb - Residential - Oil,Anthracene,4.219580000000001e-05
+36061,Manhattan,Fuel Comb - Residential - Oil,Arsenic,0.019437667600000003
+36061,Manhattan,Fuel Comb - Residential - Oil,Benz[a]Anthracene,0.00013876667
+36061,Manhattan,Fuel Comb - Residential - Oil,Benzene,0.007396669
+36061,Manhattan,Fuel Comb - Residential - Oil,"Benzo[g,h,i,]Perylene",7.814370999999998e-05
+36061,Manhattan,Fuel Comb - Residential - Oil,Beryllium,0.014571719600000001
+36061,Manhattan,Fuel Comb - Residential - Oil,Cadmium,0.014571719600000001
+36061,Manhattan,Fuel Comb - Residential - Oil,Carbon Monoxide,172.92193699999999
+36061,Manhattan,Fuel Comb - Residential - Oil,Chromium (VI),0.00262329659
+36061,Manhattan,Fuel Comb - Residential - Oil,Chromium III,0.011965782
+36061,Manhattan,Fuel Comb - Residential - Oil,Chrysene,8.232073e-05
+36061,Manhattan,Fuel Comb - Residential - Oil,"Dibenzo(a,h)Anthracene",5.777713e-05
+36061,Manhattan,Fuel Comb - Residential - Oil,Elemental Carbon portion of PM2.5-PRI,9.21936
+36061,Manhattan,Fuel Comb - Residential - Oil,Fluoranthene,0.00016748419000000002
+36061,Manhattan,Fuel Comb - Residential - Oil,Fluorene,0.00015462343
+36061,Manhattan,Fuel Comb - Residential - Oil,Formaldehyde,1.1422007
+36061,Manhattan,Fuel Comb - Residential - Oil,"Indeno[1,2,3-c,d]Pyrene",7.396669000000001e-05
+36061,Manhattan,Fuel Comb - Residential - Oil,Lead,0.043708519
+36061,Manhattan,Fuel Comb - Residential - Oil,Manganese,0.029143449
+36061,Manhattan,Fuel Comb - Residential - Oil,Mercury,0.014571719600000001
+36061,Manhattan,Fuel Comb - Residential - Oil,Naphthalene,0.03908785000000001
+36061,Manhattan,Fuel Comb - Residential - Oil,Nickel,0.014571719600000001
+36061,Manhattan,Fuel Comb - Residential - Oil,Nitrate portion of PM2.5-PRI,0.00314959
+36061,Manhattan,Fuel Comb - Residential - Oil,Nitrogen Oxides,622.5188899999999
+36061,Manhattan,Fuel Comb - Residential - Oil,Organic Carbon portion of PM2.5-PRI,18.211123
+36061,Manhattan,Fuel Comb - Residential - Oil,PM Condensible,44.961295
+36061,Manhattan,Fuel Comb - Residential - Oil,PM10 Filterable,37.349852
+36061,Manhattan,Fuel Comb - Residential - Oil,PM10 Primary (Filt + Cond),82.311147
+36061,Manhattan,Fuel Comb - Residential - Oil,PM2.5 Filterable,28.704555
+36061,Manhattan,Fuel Comb - Residential - Oil,PM2.5 Primary (Filt + Cond),73.66584999999999
+36061,Manhattan,Fuel Comb - Residential - Oil,Phenanthrene,0.00036319200000000003
+36061,Manhattan,Fuel Comb - Residential - Oil,Pyrene,0.00014694758000000001
+36061,Manhattan,Fuel Comb - Residential - Oil,Remaining PMFINE portion of PM2.5-PRI,32.751988000000004
+36061,Manhattan,Fuel Comb - Residential - Oil,Selenium,0.072858618
+36061,Manhattan,Fuel Comb - Residential - Oil,Sulfate Portion of PM2.5-PRI,13.48014312
+36061,Manhattan,Fuel Comb - Residential - Oil,Sulfur Dioxide,7.3095381999999995
+36061,Manhattan,Fuel Comb - Residential - Oil,Volatile Organic Compounds,24.643418399999998
+36061,Manhattan,Fuel Comb - Residential - Other,"2,4-Dinitrotoluene",0.0
+36061,Manhattan,Fuel Comb - Residential - Other,2-Chloroacetophenone,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,5-Methylchrysene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Acenaphthene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Acenaphthylene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Acetaldehyde,6.66021e-06
+36061,Manhattan,Fuel Comb - Residential - Other,Acetophenone,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Acrolein,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Ammonia,0.238739
+36061,Manhattan,Fuel Comb - Residential - Other,Anthracene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Antimony,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Arsenic,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Benz[a]Anthracene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Benzene,0.00107494
+36061,Manhattan,Fuel Comb - Residential - Other,Benzo[a]Pyrene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,"Benzo[g,h,i,]Perylene",0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Benzofluoranthenes,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Benzyl Chloride,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Beryllium,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Biphenyl,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Bis(2-Ethylhexyl)Phthalate,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Bromoform,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Cadmium,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Carbon Disulfide,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Carbon Monoxide,19.53987
+36061,Manhattan,Fuel Comb - Residential - Other,Chlorobenzene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Chloroform,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Chrysene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Cobalt,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Cumene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Cyanide,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Dimethyl Sulfate,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Elemental Carbon portion of PM2.5-PRI,0.0140268
+36061,Manhattan,Fuel Comb - Residential - Other,Ethyl Benzene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Ethyl Chloride,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Ethylene Dibromide,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Ethylene Dichloride,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Fluoranthene,1.54262e-06
+36061,Manhattan,Fuel Comb - Residential - Other,Fluorene,1.43243e-06
+36061,Manhattan,Fuel Comb - Residential - Other,Formaldehyde,0.037953400000000005
+36061,Manhattan,Fuel Comb - Residential - Other,Hexane,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Hydrochloric Acid,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Hydrogen Fluoride,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,"Indeno[1,2,3-c,d]Pyrene",0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Isophorone,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Lead,0.000227625
+36061,Manhattan,Fuel Comb - Residential - Other,Manganese,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Mercury,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Methyl Bromide,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Methyl Chloride,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Methyl Methacrylate,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Methyl Tert-Butyl Ether,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Methylene Chloride,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Naphthalene,0.000312197
+36061,Manhattan,Fuel Comb - Residential - Other,Nickel,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Nitrate portion of PM2.5-PRI,0.00713903
+36061,Manhattan,Fuel Comb - Residential - Other,Nitrogen Oxides,68.90376
+36061,Manhattan,Fuel Comb - Residential - Other,Organic Carbon portion of PM2.5-PRI,0.102542
+36061,Manhattan,Fuel Comb - Residential - Other,PM Condensible,0.1554865
+36061,Manhattan,Fuel Comb - Residential - Other,PM10 Filterable,0.09794422
+36061,Manhattan,Fuel Comb - Residential - Other,PM10 Primary (Filt + Cond),0.2534307
+36061,Manhattan,Fuel Comb - Residential - Other,PM2.5 Filterable,0.05386932
+36061,Manhattan,Fuel Comb - Residential - Other,PM2.5 Primary (Filt + Cond),0.2093558
+36061,Manhattan,Fuel Comb - Residential - Other,Phenanthrene,8.704790000000001e-06
+36061,Manhattan,Fuel Comb - Residential - Other,Phenol,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Propionaldehyde,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Pyrene,2.55879e-06
+36061,Manhattan,Fuel Comb - Residential - Other,Remaining PMFINE portion of PM2.5-PRI,0.0592749
+36061,Manhattan,Fuel Comb - Residential - Other,Selenium,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Styrene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Sulfate Portion of PM2.5-PRI,0.0263788
+36061,Manhattan,Fuel Comb - Residential - Other,Sulfur Dioxide,0.2926084
+36061,Manhattan,Fuel Comb - Residential - Other,Tetrachloroethylene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Toluene,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Vinyl Acetate,0.0
+36061,Manhattan,Fuel Comb - Residential - Other,Volatile Organic Compounds,2.682447
+36061,Manhattan,Fuel Comb - Residential - Other,Xylenes (Mixed Isomers),0.0
+36061,Manhattan,Fuel Comb - Residential - Wood,"1,3-Butadiene",0.0016775050285229999
+36061,Manhattan,Fuel Comb - Residential - Wood,1-Methylnaphthalene,0.00015197950258413
+36061,Manhattan,Fuel Comb - Residential - Wood,1-Methylphenanthrene,3.1829730541206e-05
+36061,Manhattan,Fuel Comb - Residential - Wood,2-Methylnaphthalene,0.00021506550365679
+36061,Manhattan,Fuel Comb - Residential - Wood,2-Methylphenanthrene,2.6668080453441997e-05
+36061,Manhattan,Fuel Comb - Residential - Wood,Acenaphthene,2.8962160492448e-05
+36061,Manhattan,Fuel Comb - Residential - Wood,Acenaphthylene,0.00026668080453442
+36061,Manhattan,Fuel Comb - Residential - Wood,Acetaldehyde,0.024431450415412
+36061,Manhattan,Fuel Comb - Residential - Wood,Acetophenone,5.5917040950767e-05
+36061,Manhattan,Fuel Comb - Residential - Wood,Acrolein,0.0009032747153585
+36061,Manhattan,Fuel Comb - Residential - Wood,Ammonia,0.0045106833192071
+36061,Manhattan,Fuel Comb - Residential - Wood,Anthracene,4.9321630838625e-05
+36061,Manhattan,Fuel Comb - Residential - Wood,Arsenic,9.281278746945001e-09
+36061,Manhattan,Fuel Comb - Residential - Wood,Benz[a]Anthracene,7.197222e-06
+36061,Manhattan,Fuel Comb - Residential - Wood,Benzene,0.0054913410933701
+36061,Manhattan,Fuel Comb - Residential - Wood,Benzo(a)Fluoranthene,3.9960529999999995e-06
+36061,Manhattan,Fuel Comb - Residential - Wood,"Benzo(g,h,i)Fluoranthene",1.1756900199905e-06
+36061,Manhattan,Fuel Comb - Residential - Wood,Benzo[a]Pyrene,1.2219230177337e-05
+36061,Manhattan,Fuel Comb - Residential - Wood,Benzo[b]Fluoranthene,7.382646e-06
+36061,Manhattan,Fuel Comb - Residential - Wood,Benzo[e]Pyrene,7.348635e-06
+36061,Manhattan,Fuel Comb - Residential - Wood,"Benzo[g,h,i,]Perylene",2.510998e-06
+36061,Manhattan,Fuel Comb - Residential - Wood,Benzo[k]Fluoranthene,6.352945e-06
+36061,Manhattan,Fuel Comb - Residential - Wood,Cadmium,6.2638127994602e-07
+36061,Manhattan,Fuel Comb - Residential - Wood,Carbon Monoxide,0.54522388642325
+36061,Manhattan,Fuel Comb - Residential - Wood,Catechol,0.0044733570760613
+36061,Manhattan,Fuel Comb - Residential - Wood,Chrysene,5.882202e-06
+36061,Manhattan,Fuel Comb - Residential - Wood,Cresol/Cresylic Acid (Mixed Isomers),0.006732974114482
+36061,Manhattan,Fuel Comb - Residential - Wood,"Dibenzo(a,h)Anthracene",4.88812e-07
+36061,Manhattan,Fuel Comb - Residential - Wood,Elemental Carbon portion of PM2.5-PRI,0.005407509233532
+36061,Manhattan,Fuel Comb - Residential - Wood,Ethyl Benzene,0.00032833260558271004
+36061,Manhattan,Fuel Comb - Residential - Wood,Fluoranthene,4.3729940743548004e-05
+36061,Manhattan,Fuel Comb - Residential - Wood,Fluorene,6.365936108241e-05
+36061,Manhattan,Fuel Comb - Residential - Wood,Formaldehyde,0.016703380284011003
+36061,Manhattan,Fuel Comb - Residential - Wood,Hydroquinone,0.00024660810419312
+36061,Manhattan,Fuel Comb - Residential - Wood,"Indeno[1,2,3-c,d]Pyrene",5.090016e-06
+36061,Manhattan,Fuel Comb - Residential - Wood,Lead,2.9693791334625997e-06
+36061,Manhattan,Fuel Comb - Residential - Wood,Manganese,6.454502740952701e-07
+36061,Manhattan,Fuel Comb - Residential - Wood,Mercury,2.1683707209345e-08
+36061,Manhattan,Fuel Comb - Residential - Wood,Methylchrysene,7.281706e-07
+36061,Manhattan,Fuel Comb - Residential - Wood,Naphthalene,0.0032546570553395
+36061,Manhattan,Fuel Comb - Residential - Wood,Nickel,1.16709291947725e-07
+36061,Manhattan,Fuel Comb - Residential - Wood,Nitrate portion of PM2.5-PRI,0.0001841267079518
+36061,Manhattan,Fuel Comb - Residential - Wood,Nitrogen Oxides,0.007546798561076901
+36061,Manhattan,Fuel Comb - Residential - Wood,Organic Carbon portion of PM2.5-PRI,0.0511872322106
+36061,Manhattan,Fuel Comb - Residential - Wood,PM Condensible,0.0045547147967025005
+36061,Manhattan,Fuel Comb - Residential - Wood,PM10 Filterable,0.092354119988457
+36061,Manhattan,Fuel Comb - Residential - Wood,PM10 Primary (Filt + Cond),0.09690883218516
+36061,Manhattan,Fuel Comb - Residential - Wood,PM2.5 Filterable,0.092354119988457
+36061,Manhattan,Fuel Comb - Residential - Wood,PM2.5 Primary (Filt + Cond),0.09690883218516
+36061,Manhattan,Fuel Comb - Residential - Wood,Perylene,1.938239e-06
+36061,Manhattan,Fuel Comb - Residential - Wood,Phenanthrene,0.00022510180382744003
+36061,Manhattan,Fuel Comb - Residential - Wood,Phenol,0.007527289127988
+36061,Manhattan,Fuel Comb - Residential - Wood,Propionaldehyde,0.0036561080621655005
+36061,Manhattan,Fuel Comb - Residential - Wood,Pyrene,2.681143045588e-05
+36061,Manhattan,Fuel Comb - Residential - Wood,Remaining PMFINE portion of PM2.5-PRI,0.03973531171603
+36061,Manhattan,Fuel Comb - Residential - Wood,Sulfate Portion of PM2.5-PRI,0.00039732641715919996
+36061,Manhattan,Fuel Comb - Residential - Wood,Sulfur Dioxide,0.00216837067093491
+36061,Manhattan,Fuel Comb - Residential - Wood,Toluene,0.0022653530385182
+36061,Manhattan,Fuel Comb - Residential - Wood,Volatile Organic Compounds,0.19712052335167501
+36061,Manhattan,Fuel Comb - Residential - Wood,m-Xylene,0.0008602609146271999
+36061,Manhattan,Fuel Comb - Residential - Wood,o-Xylene,0.00025951250441253
+36081,Queens,Fuel Comb - Residential - Natural Gas,Acetaldehyde,0.000382942
+36081,Queens,Fuel Comb - Residential - Natural Gas,Ammonia,559.0398
+36081,Queens,Fuel Comb - Residential - Natural Gas,Benzene,0.0617739
+36081,Queens,Fuel Comb - Residential - Natural Gas,Carbon Monoxide,1118.08
+36081,Queens,Fuel Comb - Residential - Natural Gas,Elemental Carbon portion of PM2.5-PRI,0.805297
+36081,Queens,Fuel Comb - Residential - Natural Gas,Fluoranthene,8.38559e-05
+36081,Queens,Fuel Comb - Residential - Natural Gas,Fluorene,7.82655e-05
+36081,Queens,Fuel Comb - Residential - Natural Gas,Formaldehyde,2.0964
+36081,Queens,Fuel Comb - Residential - Natural Gas,Naphthalene,0.0170507
+36081,Queens,Fuel Comb - Residential - Natural Gas,Nitrate portion of PM2.5-PRI,0.40986
+36081,Queens,Fuel Comb - Residential - Natural Gas,Nitrogen Oxides,2627.487
+36081,Queens,Fuel Comb - Residential - Natural Gas,Organic Carbon portion of PM2.5-PRI,5.88708
+36081,Queens,Fuel Comb - Residential - Natural Gas,PM Condensible,8.944637
+36081,Queens,Fuel Comb - Residential - Natural Gas,PM10 Filterable,5.590398
+36081,Queens,Fuel Comb - Residential - Natural Gas,PM10 Primary (Filt + Cond),14.53504
+36081,Queens,Fuel Comb - Residential - Natural Gas,PM2.5 Filterable,3.074719
+36081,Queens,Fuel Comb - Residential - Natural Gas,PM2.5 Primary (Filt + Cond),12.01936
+36081,Queens,Fuel Comb - Residential - Natural Gas,Phenanthrene,0.00047518399999999997
+36081,Queens,Fuel Comb - Residential - Natural Gas,Pyrene,0.00013976
+36081,Queens,Fuel Comb - Residential - Natural Gas,Remaining PMFINE portion of PM2.5-PRI,3.40304
+36081,Queens,Fuel Comb - Residential - Natural Gas,Sulfate Portion of PM2.5-PRI,1.51444
+36081,Queens,Fuel Comb - Residential - Natural Gas,Sulfur Dioxide,16.77119
+36081,Queens,Fuel Comb - Residential - Natural Gas,Volatile Organic Compounds,153.7359
+36081,Queens,Fuel Comb - Residential - Oil,Acenaphthene,0.0005473409
+36081,Queens,Fuel Comb - Residential - Oil,Acenaphthylene,6.562228e-06
+36081,Queens,Fuel Comb - Residential - Oil,Acetaldehyde,0.12762859000000001
+36081,Queens,Fuel Comb - Residential - Oil,Ammonia,25.9420723
+36081,Queens,Fuel Comb - Residential - Oil,Anthracene,3.165145e-05
+36081,Queens,Fuel Comb - Residential - Oil,Arsenic,0.014580378
+36081,Queens,Fuel Comb - Residential - Oil,Benz[a]Anthracene,0.00010408982999999999
+36081,Queens,Fuel Comb - Residential - Oil,Benzene,0.005548319
+36081,Queens,Fuel Comb - Residential - Oil,"Benzo[g,h,i,]Perylene",5.861635e-05
+36081,Queens,Fuel Comb - Residential - Oil,Beryllium,0.010930389200000001
+36081,Queens,Fuel Comb - Residential - Oil,Cadmium,0.010930389200000001
+36081,Queens,Fuel Comb - Residential - Oil,Carbon Monoxide,129.710361
+36081,Queens,Fuel Comb - Residential - Oil,Chromium (VI),0.00196776019
+36081,Queens,Fuel Comb - Residential - Oil,Chromium III,0.0089756445
+36081,Queens,Fuel Comb - Residential - Oil,Chrysene,6.174961000000001e-05
+36081,Queens,Fuel Comb - Residential - Oil,"Dibenzo(a,h)Anthracene",4.333921e-05
+36081,Queens,Fuel Comb - Residential - Oil,Elemental Carbon portion of PM2.5-PRI,6.91553
+36081,Queens,Fuel Comb - Residential - Oil,Fluoranthene,0.00012563159000000002
+36081,Queens,Fuel Comb - Residential - Oil,Fluorene,0.00011598471
+36081,Queens,Fuel Comb - Residential - Oil,Formaldehyde,0.8567723
+36081,Queens,Fuel Comb - Residential - Oil,"Indeno[1,2,3-c,d]Pyrene",5.5483190000000004e-05
+36081,Queens,Fuel Comb - Residential - Oil,Lead,0.032786168
+36081,Queens,Fuel Comb - Residential - Oil,Manganese,0.021860778400000003
+36081,Queens,Fuel Comb - Residential - Oil,Mercury,0.010930389200000001
+36081,Queens,Fuel Comb - Residential - Oil,Naphthalene,0.02932017
+36081,Queens,Fuel Comb - Residential - Oil,Nickel,0.010930389200000001
+36081,Queens,Fuel Comb - Residential - Oil,Nitrate portion of PM2.5-PRI,0.00236254
+36081,Queens,Fuel Comb - Residential - Oil,Nitrogen Oxides,466.95732
+36081,Queens,Fuel Comb - Residential - Oil,Organic Carbon portion of PM2.5-PRI,13.660295
+36081,Queens,Fuel Comb - Residential - Oil,PM Condensible,33.725896
+36081,Queens,Fuel Comb - Residential - Oil,PM10 Filterable,28.01648
+36081,Queens,Fuel Comb - Residential - Oil,PM10 Primary (Filt + Cond),61.742365
+36081,Queens,Fuel Comb - Residential - Oil,PM2.5 Filterable,21.5315613
+36081,Queens,Fuel Comb - Residential - Oil,PM2.5 Primary (Filt + Cond),55.257447000000006
+36081,Queens,Fuel Comb - Residential - Oil,Phenanthrene,0.000272434
+36081,Queens,Fuel Comb - Residential - Oil,Pyrene,0.00011022678
+36081,Queens,Fuel Comb - Residential - Oil,Remaining PMFINE portion of PM2.5-PRI,24.567631000000002
+36081,Queens,Fuel Comb - Residential - Oil,Selenium,0.054651946
+36081,Queens,Fuel Comb - Residential - Oil,Sulfate Portion of PM2.5-PRI,10.11160823
+36081,Queens,Fuel Comb - Residential - Oil,Sulfur Dioxide,5.4829533999999995
+36081,Queens,Fuel Comb - Residential - Oil,Volatile Organic Compounds,18.4852682
+36081,Queens,Fuel Comb - Residential - Other,"2,4-Dinitrotoluene",0.0
+36081,Queens,Fuel Comb - Residential - Other,2-Chloroacetophenone,0.0
+36081,Queens,Fuel Comb - Residential - Other,5-Methylchrysene,0.0
+36081,Queens,Fuel Comb - Residential - Other,Acenaphthene,0.0
+36081,Queens,Fuel Comb - Residential - Other,Acenaphthylene,0.0
+36081,Queens,Fuel Comb - Residential - Other,Acetaldehyde,1.10349e-05
+36081,Queens,Fuel Comb - Residential - Other,Acetophenone,0.0
+36081,Queens,Fuel Comb - Residential - Other,Acrolein,0.0
+36081,Queens,Fuel Comb - Residential - Other,Ammonia,0.3955537
+36081,Queens,Fuel Comb - Residential - Other,Anthracene,0.0
+36081,Queens,Fuel Comb - Residential - Other,Antimony,0.0
+36081,Queens,Fuel Comb - Residential - Other,Arsenic,0.0
+36081,Queens,Fuel Comb - Residential - Other,Benz[a]Anthracene,0.0
+36081,Queens,Fuel Comb - Residential - Other,Benzene,0.00178101
+36081,Queens,Fuel Comb - Residential - Other,Benzo[a]Pyrene,0.0
+36081,Queens,Fuel Comb - Residential - Other,"Benzo[g,h,i,]Perylene",0.0
+36081,Queens,Fuel Comb - Residential - Other,Benzofluoranthenes,0.0
+36081,Queens,Fuel Comb - Residential - Other,Benzyl Chloride,0.0
+36081,Queens,Fuel Comb - Residential - Other,Beryllium,0.0
+36081,Queens,Fuel Comb - Residential - Other,Biphenyl,0.0
+36081,Queens,Fuel Comb - Residential - Other,Bis(2-Ethylhexyl)Phthalate,0.0
+36081,Queens,Fuel Comb - Residential - Other,Bromoform,0.0
+36081,Queens,Fuel Comb - Residential - Other,Cadmium,0.0
+36081,Queens,Fuel Comb - Residential - Other,Carbon Disulfide,0.0
+36081,Queens,Fuel Comb - Residential - Other,Carbon Monoxide,32.37455
+36081,Queens,Fuel Comb - Residential - Other,Chlorobenzene,0.0
+36081,Queens,Fuel Comb - Residential - Other,Chloroform,0.0
+36081,Queens,Fuel Comb - Residential - Other,Chrysene,0.0
+36081,Queens,Fuel Comb - Residential - Other,Cobalt,0.0
+36081,Queens,Fuel Comb - Residential - Other,Cumene,0.0
+36081,Queens,Fuel Comb - Residential - Other,Cyanide,0.0
+36081,Queens,Fuel Comb - Residential - Other,Dimethyl Sulfate,0.0
+36081,Queens,Fuel Comb - Residential - Other,Elemental Carbon portion of PM2.5-PRI,0.0232403
+36081,Queens,Fuel Comb - Residential - Other,Ethyl Benzene,0.0
+36081,Queens,Fuel Comb - Residential - Other,Ethyl Chloride,0.0
+36081,Queens,Fuel Comb - Residential - Other,Ethylene Dibromide,0.0
+36081,Queens,Fuel Comb - Residential - Other,Ethylene Dichloride,0.0
+36081,Queens,Fuel Comb - Residential - Other,Fluoranthene,2.55589e-06
+36081,Queens,Fuel Comb - Residential - Other,Fluorene,2.37332e-06
+36081,Queens,Fuel Comb - Residential - Other,Formaldehyde,0.0628829
+36081,Queens,Fuel Comb - Residential - Other,Hexane,0.0
+36081,Queens,Fuel Comb - Residential - Other,Hydrochloric Acid,0.0
+36081,Queens,Fuel Comb - Residential - Other,Hydrogen Fluoride,0.0
+36081,Queens,Fuel Comb - Residential - Other,"Indeno[1,2,3-c,d]Pyrene",0.0
+36081,Queens,Fuel Comb - Residential - Other,Isophorone,0.0
+36081,Queens,Fuel Comb - Residential - Other,Lead,0.000377139
+36081,Queens,Fuel Comb - Residential - Other,Manganese,0.0
+36081,Queens,Fuel Comb - Residential - Other,Mercury,0.0
+36081,Queens,Fuel Comb - Residential - Other,Methyl Bromide,0.0
+36081,Queens,Fuel Comb - Residential - Other,Methyl Chloride,0.0
+36081,Queens,Fuel Comb - Residential - Other,Methyl Methacrylate,0.0
+36081,Queens,Fuel Comb - Residential - Other,Methyl Tert-Butyl Ether,0.0
+36081,Queens,Fuel Comb - Residential - Other,Methylene Chloride,0.0
+36081,Queens,Fuel Comb - Residential - Other,Naphthalene,0.000517262
+36081,Queens,Fuel Comb - Residential - Other,Nickel,0.0
+36081,Queens,Fuel Comb - Residential - Other,Nitrate portion of PM2.5-PRI,0.0118283
+36081,Queens,Fuel Comb - Residential - Other,Nitrogen Oxides,114.1629
+36081,Queens,Fuel Comb - Residential - Other,Organic Carbon portion of PM2.5-PRI,0.169897
+36081,Queens,Fuel Comb - Residential - Other,PM Condensible,0.257617
+36081,Queens,Fuel Comb - Residential - Other,PM10 Filterable,0.1622784
+36081,Queens,Fuel Comb - Residential - Other,PM10 Primary (Filt + Cond),0.4198954
+36081,Queens,Fuel Comb - Residential - Other,PM2.5 Filterable,0.08925313
+36081,Queens,Fuel Comb - Residential - Other,PM2.5 Primary (Filt + Cond),0.3468701
+36081,Queens,Fuel Comb - Residential - Other,Phenanthrene,1.44225e-05
+36081,Queens,Fuel Comb - Residential - Other,Phenol,0.0
+36081,Queens,Fuel Comb - Residential - Other,Propionaldehyde,0.0
+36081,Queens,Fuel Comb - Residential - Other,Pyrene,4.23952e-06
+36081,Queens,Fuel Comb - Residential - Other,Remaining PMFINE portion of PM2.5-PRI,0.0982093
+36081,Queens,Fuel Comb - Residential - Other,Selenium,0.0
+36081,Queens,Fuel Comb - Residential - Other,Styrene,0.0
+36081,Queens,Fuel Comb - Residential - Other,Sulfate Portion of PM2.5-PRI,0.0437056
+36081,Queens,Fuel Comb - Residential - Other,Sulfur Dioxide,0.4848068
+36081,Queens,Fuel Comb - Residential - Other,Tetrachloroethylene,0.0
+36081,Queens,Fuel Comb - Residential - Other,Toluene,0.0
+36081,Queens,Fuel Comb - Residential - Other,Vinyl Acetate,0.0
+36081,Queens,Fuel Comb - Residential - Other,Volatile Organic Compounds,4.4444
+36081,Queens,Fuel Comb - Residential - Other,Xylenes (Mixed Isomers),0.0
+36081,Queens,Fuel Comb - Residential - Wood,"1,3-Butadiene",0.19777542
+36081,Queens,Fuel Comb - Residential - Wood,1-Methylnaphthalene,0.017918105
+36081,Queens,Fuel Comb - Residential - Wood,1-Methylphenanthrene,0.0037526516000000003
+36081,Queens,Fuel Comb - Residential - Wood,2-Methylnaphthalene,0.025355742
+36081,Queens,Fuel Comb - Residential - Wood,2-Methylphenanthrene,0.0031441194
+36081,Queens,Fuel Comb - Residential - Wood,Acenaphthene,0.0035707353999999995
+36081,Queens,Fuel Comb - Residential - Wood,Acenaphthylene,0.032136464
+36081,Queens,Fuel Comb - Residential - Wood,Acetaldehyde,2.8804176
+36081,Queens,Fuel Comb - Residential - Wood,Acetophenone,0.0065924959
+36081,Queens,Fuel Comb - Residential - Wood,Acrolein,0.1064943
+36081,Queens,Fuel Comb - Residential - Wood,Ammonia,0.5500111
+36081,Queens,Fuel Comb - Residential - Wood,Anthracene,0.0060305721
+36081,Queens,Fuel Comb - Residential - Wood,Arsenic,1.10093813e-06
+36081,Queens,Fuel Comb - Residential - Wood,Benz[a]Anthracene,0.0009508906
+36081,Queens,Fuel Comb - Residential - Wood,Benzene,0.74668805
+36081,Queens,Fuel Comb - Residential - Wood,Benzo(a)Fluoranthene,0.0004660249
+36081,Queens,Fuel Comb - Residential - Wood,"Benzo(g,h,i)Fluoranthene",0.0001386115
+36081,Queens,Fuel Comb - Residential - Wood,Benzo[a]Pyrene,0.0015498804000000001
+36081,Queens,Fuel Comb - Residential - Wood,Benzo[b]Fluoranthene,0.0009650772
+36081,Queens,Fuel Comb - Residential - Wood,Benzo[e]Pyrene,0.0008570072
+36081,Queens,Fuel Comb - Residential - Wood,"Benzo[g,h,i,]Perylene",0.0003560423
+36081,Queens,Fuel Comb - Residential - Wood,Benzo[k]Fluoranthene,0.0007408881999999999
+36081,Queens,Fuel Comb - Residential - Wood,Cadmium,7.5298043e-05
+36081,Queens,Fuel Comb - Residential - Wood,Carbon Monoxide,77.195078
+36081,Queens,Fuel Comb - Residential - Wood,Catechol,0.5274001100000001
+36081,Queens,Fuel Comb - Residential - Wood,Chrysene,0.0008607364000000001
+36081,Queens,Fuel Comb - Residential - Wood,Cresol/Cresylic Acid (Mixed Isomers),0.7938046599999999
+36081,Queens,Fuel Comb - Residential - Wood,"Dibenzo(a,h)Anthracene",5.7005909999999996e-05
+36081,Queens,Fuel Comb - Residential - Wood,Elemental Carbon portion of PM2.5-PRI,0.7954669
+36081,Queens,Fuel Comb - Residential - Wood,Ethyl Benzene,0.03870978
+36081,Queens,Fuel Comb - Residential - Wood,Fluoranthene,0.0055535017
+36081,Queens,Fuel Comb - Residential - Wood,Fluorene,0.0080146712
+36081,Queens,Fuel Comb - Residential - Wood,Formaldehyde,1.9693025999999998
+36081,Queens,Fuel Comb - Residential - Wood,Hydroquinone,0.029074615
+36081,Queens,Fuel Comb - Residential - Wood,"Indeno[1,2,3-c,d]Pyrene",0.0006568099
+36081,Queens,Fuel Comb - Residential - Wood,Lead,0.00035631453
+36081,Queens,Fuel Comb - Residential - Wood,Manganese,7.7082565e-05
+36081,Queens,Fuel Comb - Residential - Wood,Mercury,2.5820469e-06
+36081,Queens,Fuel Comb - Residential - Wood,Methylchrysene,8.492014e-05
+36081,Queens,Fuel Comb - Residential - Wood,Naphthalene,0.39278613
+36081,Queens,Fuel Comb - Residential - Wood,Nickel,1.3757038500000001e-05
+36081,Queens,Fuel Comb - Residential - Wood,Nitrate portion of PM2.5-PRI,0.027085838
+36081,Queens,Fuel Comb - Residential - Wood,Nitrogen Oxides,1.6289709700000001
+36081,Queens,Fuel Comb - Residential - Wood,Organic Carbon portion of PM2.5-PRI,7.529859
+36081,Queens,Fuel Comb - Residential - Wood,PM Condensible,0.54594713
+36081,Queens,Fuel Comb - Residential - Wood,PM10 Filterable,13.7952567
+36081,Queens,Fuel Comb - Residential - Wood,PM10 Primary (Filt + Cond),14.3412039
+36081,Queens,Fuel Comb - Residential - Wood,PM2.5 Filterable,13.7097427
+36081,Queens,Fuel Comb - Residential - Wood,PM2.5 Primary (Filt + Cond),14.2556899
+36081,Queens,Fuel Comb - Residential - Wood,Perylene,0.0002260397
+36081,Queens,Fuel Comb - Residential - Wood,Phenanthrene,0.028141496
+36081,Queens,Fuel Comb - Residential - Wood,Phenol,0.8874526199999999
+36081,Queens,Fuel Comb - Residential - Wood,Propionaldehyde,0.43104866000000003
+36081,Queens,Fuel Comb - Residential - Wood,Pyrene,0.0035551305
+36081,Queens,Fuel Comb - Residential - Wood,Remaining PMFINE portion of PM2.5-PRI,5.845236
+36081,Queens,Fuel Comb - Residential - Wood,Sulfate Portion of PM2.5-PRI,0.058448379999999994
+36081,Queens,Fuel Comb - Residential - Wood,Sulfur Dioxide,0.258204695
+36081,Queens,Fuel Comb - Residential - Wood,Toluene,0.26708047
+36081,Queens,Fuel Comb - Residential - Wood,Volatile Organic Compounds,26.9172382
+36081,Queens,Fuel Comb - Residential - Wood,m-Xylene,0.10142313
+36081,Queens,Fuel Comb - Residential - Wood,o-Xylene,0.030595921
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Acetaldehyde,9.03864e-05
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Ammonia,131.9509
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Benzene,0.0145806
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Carbon Monoxide,263.9019
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Elemental Carbon portion of PM2.5-PRI,0.190075
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Fluoranthene,1.97926e-05
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Fluorene,1.8473099999999998e-05
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Formaldehyde,0.494816
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Naphthalene,0.004024499999999999
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Nitrate portion of PM2.5-PRI,0.0967398
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Nitrogen Oxides,620.1694
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Organic Carbon portion of PM2.5-PRI,1.38954
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,PM Condensible,2.111215
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,PM10 Filterable,1.319509
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,PM10 Primary (Filt + Cond),3.430724
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,PM2.5 Filterable,0.7257301
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,PM2.5 Primary (Filt + Cond),2.836945
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Phenanthrene,0.00011215799999999999
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Pyrene,3.29877e-05
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Remaining PMFINE portion of PM2.5-PRI,0.803224
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Sulfate Portion of PM2.5-PRI,0.357455
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Sulfur Dioxide,3.958528
+36085,Staten Island,Fuel Comb - Residential - Natural Gas,Volatile Organic Compounds,36.2865
+36085,Staten Island,Fuel Comb - Residential - Oil,Acenaphthene,4.4443930000000005e-05
+36085,Staten Island,Fuel Comb - Residential - Oil,Acenaphthylene,5.328508e-07
+36085,Staten Island,Fuel Comb - Residential - Oil,Acetaldehyde,0.010363415
+36085,Staten Island,Fuel Comb - Residential - Oil,Ammonia,2.10648874
+36085,Staten Island,Fuel Comb - Residential - Oil,Anthracene,2.5700967e-06
+36085,Staten Island,Fuel Comb - Residential - Oil,Arsenic,0.0011839223199999998
+36085,Staten Island,Fuel Comb - Residential - Oil,Benz[a]Anthracene,8.452076e-06
+36085,Staten Island,Fuel Comb - Residential - Oil,Benzene,0.00045052129999999994
+36085,Staten Island,Fuel Comb - Residential - Oil,"Benzo[g,h,i,]Perylene",4.759627999999999e-06
+36085,Staten Island,Fuel Comb - Residential - Oil,Beryllium,0.00088754427
+36085,Staten Island,Fuel Comb - Residential - Oil,Cadmium,0.00088754427
+36085,Staten Island,Fuel Comb - Residential - Oil,Carbon Monoxide,10.5324437
+36085,Staten Island,Fuel Comb - Residential - Oil,Chromium (VI),0.000159781523
+36085,Staten Island,Fuel Comb - Residential - Oil,Chromium III,0.00072881962
+36085,Staten Island,Fuel Comb - Residential - Oil,Chrysene,5.014052e-06
+36085,Staten Island,Fuel Comb - Residential - Oil,"Dibenzo(a,h)Anthracene",3.519133e-06
+36085,Staten Island,Fuel Comb - Residential - Oil,Elemental Carbon portion of PM2.5-PRI,0.561539
+36085,Staten Island,Fuel Comb - Residential - Oil,Fluoranthene,1.0201215e-05
+36085,Staten Island,Fuel Comb - Residential - Oil,Fluorene,9.417884999999999e-06
+36085,Staten Island,Fuel Comb - Residential - Oil,Formaldehyde,0.06956961
+36085,Staten Island,Fuel Comb - Residential - Oil,"Indeno[1,2,3-c,d]Pyrene",4.505213e-06
+36085,Staten Island,Fuel Comb - Residential - Oil,Lead,0.0026622270099999996
+36085,Staten Island,Fuel Comb - Residential - Oil,Manganese,0.0017750883400000001
+36085,Staten Island,Fuel Comb - Residential - Oil,Mercury,0.00088754427
+36085,Staten Island,Fuel Comb - Residential - Oil,Naphthalene,0.0023807879000000004
+36085,Staten Island,Fuel Comb - Residential - Oil,Nickel,0.00088754427
+36085,Staten Island,Fuel Comb - Residential - Oil,Nitrate portion of PM2.5-PRI,0.000191837
+36085,Staten Island,Fuel Comb - Residential - Oil,Nitrogen Oxides,37.916789
+36085,Staten Island,Fuel Comb - Residential - Oil,Organic Carbon portion of PM2.5-PRI,1.1092138
+36085,Staten Island,Fuel Comb - Residential - Oil,PM Condensible,2.7385319999999997
+36085,Staten Island,Fuel Comb - Residential - Oil,PM10 Filterable,2.27492903
+36085,Staten Island,Fuel Comb - Residential - Oil,PM10 Primary (Filt + Cond),5.0134620000000005
+36085,Staten Island,Fuel Comb - Residential - Oil,PM2.5 Filterable,1.74835605
+36085,Staten Island,Fuel Comb - Residential - Oil,PM2.5 Primary (Filt + Cond),4.4868879999999995
+36085,Staten Island,Fuel Comb - Residential - Oil,Phenanthrene,2.2121488e-05
+36085,Staten Island,Fuel Comb - Residential - Oil,Pyrene,8.950385e-06
+36085,Staten Island,Fuel Comb - Residential - Oil,Remaining PMFINE portion of PM2.5-PRI,1.9948823699999998
+36085,Staten Island,Fuel Comb - Residential - Oil,Selenium,0.0044377214000000005
+36085,Staten Island,Fuel Comb - Residential - Oil,Sulfate Portion of PM2.5-PRI,0.821059986
+36085,Staten Island,Fuel Comb - Residential - Oil,Sulfur Dioxide,0.44521415999999997
+36085,Staten Island,Fuel Comb - Residential - Oil,Volatile Organic Compounds,1.50099833
+36085,Staten Island,Fuel Comb - Residential - Other,"2,4-Dinitrotoluene",0.0
+36085,Staten Island,Fuel Comb - Residential - Other,2-Chloroacetophenone,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,5-Methylchrysene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Acenaphthene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Acenaphthylene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Acetaldehyde,1.83418e-06
+36085,Staten Island,Fuel Comb - Residential - Other,Acetophenone,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Acrolein,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Ammonia,0.06574726
+36085,Staten Island,Fuel Comb - Residential - Other,Anthracene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Antimony,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Arsenic,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Benz[a]Anthracene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Benzene,0.000296031
+36085,Staten Island,Fuel Comb - Residential - Other,Benzo[a]Pyrene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,"Benzo[g,h,i,]Perylene",0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Benzofluoranthenes,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Benzyl Chloride,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Beryllium,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Biphenyl,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Bis(2-Ethylhexyl)Phthalate,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Bromoform,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Cadmium,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Carbon Disulfide,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Carbon Monoxide,5.38116
+36085,Staten Island,Fuel Comb - Residential - Other,Chlorobenzene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Chloroform,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Chrysene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Cobalt,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Cumene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Cyanide,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Dimethyl Sulfate,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Elemental Carbon portion of PM2.5-PRI,0.0038629
+36085,Staten Island,Fuel Comb - Residential - Other,Ethyl Benzene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Ethyl Chloride,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Ethylene Dibromide,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Ethylene Dichloride,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Fluoranthene,4.2482799999999997e-07
+36085,Staten Island,Fuel Comb - Residential - Other,Fluorene,3.9448400000000003e-07
+36085,Staten Island,Fuel Comb - Residential - Other,Formaldehyde,0.010452099999999999
+36085,Staten Island,Fuel Comb - Residential - Other,Hexane,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Hydrochloric Acid,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Hydrogen Fluoride,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,"Indeno[1,2,3-c,d]Pyrene",0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Isophorone,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Lead,6.26864e-05
+36085,Staten Island,Fuel Comb - Residential - Other,Manganese,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Mercury,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Methyl Bromide,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Methyl Chloride,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Methyl Methacrylate,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Methyl Tert-Butyl Ether,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Methylene Chloride,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Naphthalene,8.597720000000001e-05
+36085,Staten Island,Fuel Comb - Residential - Other,Nickel,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Nitrate portion of PM2.5-PRI,0.00196605
+36085,Staten Island,Fuel Comb - Residential - Other,Nitrogen Oxides,18.97567
+36085,Staten Island,Fuel Comb - Residential - Other,Organic Carbon portion of PM2.5-PRI,0.0282396
+36085,Staten Island,Fuel Comb - Residential - Other,PM Condensible,0.04282001
+36085,Staten Island,Fuel Comb - Residential - Other,PM10 Filterable,0.02697324
+36085,Staten Island,Fuel Comb - Residential - Other,PM10 Primary (Filt + Cond),0.06979325
+36085,Staten Island,Fuel Comb - Residential - Other,PM2.5 Filterable,0.01483528
+36085,Staten Island,Fuel Comb - Residential - Other,PM2.5 Primary (Filt + Cond),0.05765529
+36085,Staten Island,Fuel Comb - Residential - Other,Phenanthrene,2.3972500000000002e-06
+36085,Staten Island,Fuel Comb - Residential - Other,Phenol,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Propionaldehyde,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Pyrene,7.04676e-07
+36085,Staten Island,Fuel Comb - Residential - Other,Remaining PMFINE portion of PM2.5-PRI,0.0163239
+36085,Staten Island,Fuel Comb - Residential - Other,Selenium,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Styrene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Sulfate Portion of PM2.5-PRI,0.00726457
+36085,Staten Island,Fuel Comb - Residential - Other,Sulfur Dioxide,0.08058254
+36085,Staten Island,Fuel Comb - Residential - Other,Tetrachloroethylene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Toluene,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Vinyl Acetate,0.0
+36085,Staten Island,Fuel Comb - Residential - Other,Volatile Organic Compounds,0.7387295
+36085,Staten Island,Fuel Comb - Residential - Other,Xylenes (Mixed Isomers),0.0
+36085,Staten Island,Fuel Comb - Residential - Wood,"1,3-Butadiene",0.2724224000685118
+36085,Staten Island,Fuel Comb - Residential - Wood,1-Methylnaphthalene,0.02468105000620705
+36085,Staten Island,Fuel Comb - Residential - Wood,1-Methylphenanthrene,0.005169046001299965
+36085,Staten Island,Fuel Comb - Residential - Wood,2-Methylnaphthalene,0.03492601000878356
+36085,Staten Island,Fuel Comb - Residential - Wood,2-Methylphenanthrene,0.004330823001089161
+36085,Staten Island,Fuel Comb - Residential - Wood,Acenaphthene,0.005052133001182852
+36085,Staten Island,Fuel Comb - Residential - Wood,Acenaphthylene,0.044861100010891615
+36085,Staten Island,Fuel Comb - Residential - Wood,Acetaldehyde,3.967594000997812
+36085,Staten Island,Fuel Comb - Residential - Wood,Acetophenone,0.009080742002283723
+36085,Staten Island,Fuel Comb - Residential - Wood,Acrolein,0.14668910003689087
+36085,Staten Island,Fuel Comb - Residential - Wood,Ammonia,1.0621460005367422
+36085,Staten Island,Fuel Comb - Residential - Wood,Anthracene,0.00849132700201436
+36085,Staten Island,Fuel Comb - Residential - Wood,Arsenic,1.62840735052208e-06
+36085,Staten Island,Fuel Comb - Residential - Wood,Benz[a]Anthracene,0.0012515975
+36085,Staten Island,Fuel Comb - Residential - Wood,Benzene,1.1134970002242732
+36085,Staten Island,Fuel Comb - Residential - Wood,Benzo(a)Fluoranthene,0.0005565946
+36085,Staten Island,Fuel Comb - Residential - Wood,"Benzo(g,h,i)Fluoranthene",0.00019092900004801682
+36085,Staten Island,Fuel Comb - Residential - Wood,Benzo[a]Pyrene,0.002192135000512681
+36085,Staten Island,Fuel Comb - Residential - Wood,Benzo[b]Fluoranthene,0.0012608144
+36085,Staten Island,Fuel Comb - Residential - Wood,Benzo[e]Pyrene,0.0010235626
+36085,Staten Island,Fuel Comb - Residential - Wood,"Benzo[g,h,i,]Perylene",0.0004909176
+36085,Staten Island,Fuel Comb - Residential - Wood,Benzo[k]Fluoranthene,0.0008848763999999999
+36085,Staten Island,Fuel Comb - Residential - Wood,Cadmium,0.00012794924005067728
+36085,Staten Island,Fuel Comb - Residential - Wood,Carbon Monoxide,137.82395105731908
+36085,Staten Island,Fuel Comb - Residential - Wood,Catechol,0.7264606001826979
+36085,Staten Island,Fuel Comb - Residential - Wood,Chrysene,0.0012096032000006491
+36085,Staten Island,Fuel Comb - Residential - Wood,Cresol/Cresylic Acid (Mixed Isomers),1.0934166002749839
+36085,Staten Island,Fuel Comb - Residential - Wood,"Dibenzo(a,h)Anthracene",6.808472e-05
+36085,Staten Island,Fuel Comb - Residential - Wood,Elemental Carbon portion of PM2.5-PRI,1.3996038005231406
+36085,Staten Island,Fuel Comb - Residential - Wood,Ethyl Benzene,0.05332033001340955
+36085,Staten Island,Fuel Comb - Residential - Wood,Fluoranthene,0.00799016500178599
+36085,Staten Island,Fuel Comb - Residential - Wood,Fluorene,0.011475763002599927
+36085,Staten Island,Fuel Comb - Residential - Wood,Formaldehyde,2.7125830006821894
+36085,Staten Island,Fuel Comb - Residential - Wood,Hydroquinone,0.04004849001007181
+36085,Staten Island,Fuel Comb - Residential - Wood,"Indeno[1,2,3-c,d]Pyrene",0.0008501375999999999
+36085,Staten Island,Fuel Comb - Residential - Wood,Lead,0.0005949972702280175
+36085,Staten Island,Fuel Comb - Residential - Wood,Manganese,0.00012265285004410786
+36085,Staten Island,Fuel Comb - Residential - Wood,Mercury,3.9843956512223e-06
+36085,Staten Island,Fuel Comb - Residential - Wood,Methylchrysene,0.00010142406
+36085,Staten Island,Fuel Comb - Residential - Wood,Naphthalene,0.5487997001329246
+36085,Staten Island,Fuel Comb - Residential - Wood,Nickel,1.8903354003509105e-05
+36085,Staten Island,Fuel Comb - Residential - Wood,Nitrate portion of PM2.5-PRI,0.04765677001781303
+36085,Staten Island,Fuel Comb - Residential - Wood,Nitrogen Oxides,3.273089800663304
+36085,Staten Island,Fuel Comb - Residential - Wood,Organic Carbon portion of PM2.5-PRI,13.248585004952028
+36085,Staten Island,Fuel Comb - Residential - Wood,PM Condensible,0.9017690904406385
+36085,Staten Island,Fuel Comb - Residential - Wood,PM10 Filterable,24.371736308934647
+36085,Staten Island,Fuel Comb - Residential - Wood,PM10 Primary (Filt + Cond),25.273505109375286
+36085,Staten Island,Fuel Comb - Residential - Wood,PM2.5 Filterable,24.18074130893465
+36085,Staten Island,Fuel Comb - Residential - Wood,PM2.5 Primary (Filt + Cond),25.08251010937529
+36085,Staten Island,Fuel Comb - Residential - Wood,Perylene,0.0002699698
+36085,Staten Island,Fuel Comb - Residential - Wood,Phenanthrene,0.04013493000919345
+36085,Staten Island,Fuel Comb - Residential - Wood,Phenol,1.2224089003074239
+36085,Staten Island,Fuel Comb - Residential - Wood,Propionaldehyde,0.5937408001493205
+36085,Staten Island,Fuel Comb - Residential - Wood,Pyrene,0.005234338001095016
+36085,Staten Island,Fuel Comb - Residential - Wood,Remaining PMFINE portion of PM2.5-PRI,10.28453200384413
+36085,Staten Island,Fuel Comb - Residential - Wood,Sulfate Portion of PM2.5-PRI,0.10283828003843869
+36085,Staten Island,Fuel Comb - Residential - Wood,Sulfur Dioxide,0.3984395202698229
+36085,Staten Island,Fuel Comb - Residential - Wood,Toluene,0.3678869000925201
+36085,Staten Island,Fuel Comb - Residential - Wood,Volatile Organic Compounds,40.22456800805066
+36085,Staten Island,Fuel Comb - Residential - Wood,m-Xylene,0.1397039000351342
+36085,Staten Island,Fuel Comb - Residential - Wood,o-Xylene,0.04214399001059882
