@@ -1,0 +1,79 @@
+{
+  "generated_utc": "2026-10-16T19:00:47.061941+00:00",
+  "master_rows_unchanged": 35,
+  "ev_source_present_rows": 25,
+  "ev_source_missing_rows": 10,
+  "ev_coverage_by_year": [
+    {
+      "year": 2019,
+      "boroughs_observed": 5,
+      "boroughs_missing": 0
+    },
+    {
+      "year": 2020,
+      "boroughs_observed": 5,
+      "boroughs_missing": 0
+    },
+    {
+      "year": 2021,
+      "boroughs_observed": 5,
+      "boroughs_missing": 0
+    },
+    {
+      "year": 2022,
+      "boroughs_observed": 5,
+      "boroughs_missing": 0
+    },
+    {
+      "year": 2023,
+      "boroughs_observed": 5,
+      "boroughs_missing": 0
+    },
+    {
+      "year": 2024,
+      "boroughs_observed": 0,
+      "boroughs_missing": 5
+    },
+    {
+      "year": 2025,
+      "boroughs_observed": 0,
+      "boroughs_missing": 5
+    }
+  ],
+  "annual_next_year_baseline_rows": 25,
+  "baseline_missing_by_feature_before_dropping_rows": {
+    "target_next_year_median_aqi": 0,
+    "last_observed_median_aqi": 0,
+    "recorded_tree_plantings": 0,
+    "drive_alone_pct": 0,
+    "campd_total_nox_mass_tons": 0,
+    "weather_temp_mean_c": 0,
+    "weather_precip_total_mm": 0
+  },
+  "baseline_features": [
+    "last_observed_median_aqi",
+    "recorded_tree_plantings",
+    "drive_alone_pct",
+    "campd_total_nox_mass_tons",
+    "weather_temp_mean_c",
+    "weather_precip_total_mm"
+  ],
+  "important_notes": [
+    "These outputs are for REVIEW, not an automatically approved final training set.",
+    "The original master CSV and next_year_aqi_model_STAGING.csv were not overwritten.",
+    "EV data are compiled research registration counts; verify definitions before model use.",
+    "EV does not provide a total-vehicle denominator; these counts are NOT an EV adoption percentage.",
+    "Unavailable EV years are blank, never zero, and are never forward-filled.",
+    "Avoid adding current-only official NY DMV counts as if they were historical 2024 or 2025 counts.",
+    "Annual next-year demonstration uses feature year t to predict AQI median at t+1.",
+    "Train/validation/test splits must be chronological; fit imputers and scalers only on train.",
+    "Only 5 boroughs with a few years of labels; predictive metrics will be unstable.",
+    "Census ACS five-year features and some environmental datasets have release lags: audit point-in-time availability for operational forecasting."
+  ],
+  "outputs": [
+    "review/ev_source_coverage_review.csv",
+    "review/master_with_ev_CANDIDATE.csv",
+    "review/next_year_with_ev_CANDIDATE.csv",
+    "review/annual_next_year_baseline_COMPLETE_CASES_REVIEW_ONLY.csv"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "source": "https://archive-api.open-meteo.com/v1/archive",
+  "documentation": "https://open-meteo.com/en/docs/historical-weather-api",
+  "source_type": "ERA5 weather reanalysis / grid-cell estimates, NOT measured at 5 stations",
+  "spatial_method": "one representative location (sample point) per borough, NOT borough-area mean",
+  "model": "era5",
+  "start_date": "2019-01-01",
+  "end_date": "2025-12-31",
+  "timezone": "America/New_York",
+  "units": {
+    "temp": "deg_C",
+    "precipitation": "millimeters",
+    "wind": "km/h",
+    "relative_humidity": "percent"
+  },
+  "locations_requested": [
+    {
+      "county_fips": "36005",
+      "borough": "Bronx",
+      "latitude": 40.8448,
+      "longitude": -73.8648
+    },
+    {
+      "county_fips": "36047",
+      "borough": "Brooklyn",
+      "latitude": 40.6782,
+      "longitude": -73.9442
+    },
+    {
+      "county_fips": "36061",
+      "borough": "Manhattan",
+      "latitude": 40.7831,
+      "longitude": -73.9712
+    },
+    {
+      "county_fips": "36081",
+      "borough": "Queens",
+      "latitude": 40.7282,
+      "longitude": -73.7949
+    },
+    {
+      "county_fips": "36085",
+      "borough": "Staten Island",
+      "latitude": 40.5795,
+      "longitude": -74.1502
+    }
+  ],
+  "api_grid_coordinates_may_not_match_requested_coordinates": true,
+  "output_daily_rows": 12785,
+  "output_annual_rows": 35,
+  "missing_daily_values_suppress_affected_yearly_aggregate": true,
+  "retrieved_utc": "2026-10-16T18:39:40.924862+00:00",
+  "notice": "A fixed ERA5 grid may represent more than one nearby borough; weather is a regional proxy."
+}
