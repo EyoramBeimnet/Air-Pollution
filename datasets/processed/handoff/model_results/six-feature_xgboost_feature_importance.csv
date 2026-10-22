@@ -1,0 +1,7 @@
+feature,importance
+last_observed_median_aqi,0.37517655
+weather_temp_mean_c,0.26376933
+weather_precip_total_mm,0.11645124
+recorded_tree_plantings,0.093304604
+campd_total_nox_mass_tons,0.07593116
+drive_alone_pct,0.07536714

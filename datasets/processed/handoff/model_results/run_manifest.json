@@ -1,0 +1,37 @@
+{
+  "purpose": "Exploratory annual next-year AQI prediction",
+  "random_state": 42,
+  "features": {
+    "six_feature": [
+      "last_observed_median_aqi",
+      "recorded_tree_plantings",
+      "drive_alone_pct",
+      "campd_total_nox_mass_tons",
+      "weather_temp_mean_c",
+      "weather_precip_total_mm"
+    ],
+    "reduced_four_feature": [
+      "last_observed_median_aqi",
+      "recorded_tree_plantings",
+      "weather_temp_mean_c",
+      "weather_precip_total_mm"
+    ]
+  },
+  "split_sizes": {
+    "train": 15,
+    "validation": 5,
+    "test": 5
+  },
+  "metrics": [
+    "MAE",
+    "RMSE",
+    "R2"
+  ],
+  "preprocessing": "Median imputation fitted on training rows only.",
+  "limitations": [
+    "Small, correlated borough-year sample.",
+    "Point-in-time feature availability has not been certified.",
+    "Results do not establish operational forecasting skill.",
+    "Hyperparameters are exploratory, not tuned on the test set."
+  ]
+}

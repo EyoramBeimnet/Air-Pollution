@@ -1,0 +1,121 @@
+experiment,model,split,feature_year,target_year,actual_aqi,predicted_aqi
+Six-feature,No-change baseline,validation,2023,2024,42.0,47.0
+Six-feature,No-change baseline,validation,2023,2024,39.0,46.0
+Six-feature,No-change baseline,validation,2023,2024,43.0,48.0
+Six-feature,No-change baseline,validation,2023,2024,45.0,50.0
+Six-feature,No-change baseline,validation,2023,2024,38.0,42.0
+Six-feature,No-change baseline,test,2024,2025,45.0,42.0
+Six-feature,No-change baseline,test,2024,2025,39.0,39.0
+Six-feature,No-change baseline,test,2024,2025,50.0,43.0
+Six-feature,No-change baseline,test,2024,2025,44.0,45.0
+Six-feature,No-change baseline,test,2024,2025,41.0,38.0
+Six-feature,Random Forest,train,2020,2021,47.0,46.13107936507937
+Six-feature,Random Forest,train,2020,2021,42.0,42.573667989418006
+Six-feature,Random Forest,train,2020,2021,43.0,42.85260052910055
+Six-feature,Random Forest,train,2020,2021,47.0,46.290980158730164
+Six-feature,Random Forest,train,2020,2021,42.0,41.82360052910056
+Six-feature,Random Forest,train,2021,2022,44.0,45.32431349206351
+Six-feature,Random Forest,train,2021,2022,43.0,43.10019973544974
+Six-feature,Random Forest,train,2021,2022,43.0,44.78321428571428
+Six-feature,Random Forest,train,2021,2022,47.0,46.05278571428573
+Six-feature,Random Forest,train,2021,2022,40.0,41.99120370370373
+Six-feature,Random Forest,train,2022,2023,47.0,46.86281746031746
+Six-feature,Random Forest,train,2022,2023,46.0,46.28559523809523
+Six-feature,Random Forest,train,2022,2023,48.0,47.14788492063491
+Six-feature,Random Forest,train,2022,2023,50.0,48.159345238095234
+Six-feature,Random Forest,train,2022,2023,42.0,42.36615608465612
+Six-feature,Random Forest,validation,2023,2024,42.0,45.44482142857144
+Six-feature,Random Forest,validation,2023,2024,39.0,45.27844841269841
+Six-feature,Random Forest,validation,2023,2024,43.0,45.54836507936509
+Six-feature,Random Forest,validation,2023,2024,45.0,46.17601587301589
+Six-feature,Random Forest,validation,2023,2024,38.0,42.667671957671985
+Six-feature,Random Forest,test,2024,2025,45.0,43.027493386243414
+Six-feature,Random Forest,test,2024,2025,39.0,42.97124735449738
+Six-feature,Random Forest,test,2024,2025,50.0,45.85446428571428
+Six-feature,Random Forest,test,2024,2025,44.0,46.70236904761905
+Six-feature,Random Forest,test,2024,2025,41.0,42.09671164021168
+Six-feature,XGBoost,train,2020,2021,47.0,46.16545486450195
+Six-feature,XGBoost,train,2020,2021,42.0,42.768646240234375
+Six-feature,XGBoost,train,2020,2021,43.0,43.09778594970703
+Six-feature,XGBoost,train,2020,2021,47.0,46.11543273925781
+Six-feature,XGBoost,train,2020,2021,42.0,42.59363555908203
+Six-feature,XGBoost,train,2021,2022,44.0,45.21659851074219
+Six-feature,XGBoost,train,2021,2022,43.0,43.04673767089844
+Six-feature,XGBoost,train,2021,2022,43.0,44.39592742919922
+Six-feature,XGBoost,train,2021,2022,47.0,45.8751335144043
+Six-feature,XGBoost,train,2021,2022,40.0,42.70325469970703
+Six-feature,XGBoost,train,2022,2023,47.0,46.661346435546875
+Six-feature,XGBoost,train,2022,2023,46.0,45.92562484741211
+Six-feature,XGBoost,train,2022,2023,48.0,46.144466400146484
+Six-feature,XGBoost,train,2022,2023,50.0,47.23007583618164
+Six-feature,XGBoost,train,2022,2023,42.0,42.771915435791016
+Six-feature,XGBoost,validation,2023,2024,42.0,45.04777908325195
+Six-feature,XGBoost,validation,2023,2024,39.0,44.939788818359375
+Six-feature,XGBoost,validation,2023,2024,43.0,45.0235595703125
+Six-feature,XGBoost,validation,2023,2024,45.0,45.58244323730469
+Six-feature,XGBoost,validation,2023,2024,38.0,43.32862091064453
+Six-feature,XGBoost,test,2024,2025,45.0,43.05488204956055
+Six-feature,XGBoost,test,2024,2025,39.0,42.940696716308594
+Six-feature,XGBoost,test,2024,2025,50.0,45.28274154663086
+Six-feature,XGBoost,test,2024,2025,44.0,46.252159118652344
+Six-feature,XGBoost,test,2024,2025,41.0,42.69828796386719
+Reduced four-feature,No-change baseline,validation,2023,2024,42.0,47.0
+Reduced four-feature,No-change baseline,validation,2023,2024,39.0,46.0
+Reduced four-feature,No-change baseline,validation,2023,2024,43.0,48.0
+Reduced four-feature,No-change baseline,validation,2023,2024,45.0,50.0
+Reduced four-feature,No-change baseline,validation,2023,2024,38.0,42.0
+Reduced four-feature,No-change baseline,test,2024,2025,45.0,42.0
+Reduced four-feature,No-change baseline,test,2024,2025,39.0,39.0
+Reduced four-feature,No-change baseline,test,2024,2025,50.0,43.0
+Reduced four-feature,No-change baseline,test,2024,2025,44.0,45.0
+Reduced four-feature,No-change baseline,test,2024,2025,41.0,38.0
+Reduced four-feature,Random Forest,train,2020,2021,47.0,46.01940476190477
+Reduced four-feature,Random Forest,train,2020,2021,42.0,42.61979100529102
+Reduced four-feature,Random Forest,train,2020,2021,43.0,42.75444179894181
+Reduced four-feature,Random Forest,train,2020,2021,47.0,45.99207142857141
+Reduced four-feature,Random Forest,train,2020,2021,42.0,41.73252910052911
+Reduced four-feature,Random Forest,train,2021,2022,44.0,45.415242063492066
+Reduced four-feature,Random Forest,train,2021,2022,43.0,43.12656878306879
+Reduced four-feature,Random Forest,train,2021,2022,43.0,44.53034523809523
+Reduced four-feature,Random Forest,train,2021,2022,47.0,45.846488095238094
+Reduced four-feature,Random Forest,train,2021,2022,40.0,41.913021164021174
+Reduced four-feature,Random Forest,train,2022,2023,47.0,47.225662698412684
+Reduced four-feature,Random Forest,train,2022,2023,46.0,46.66942857142855
+Reduced four-feature,Random Forest,train,2022,2023,48.0,47.15991666666667
+Reduced four-feature,Random Forest,train,2022,2023,50.0,48.10953571428571
+Reduced four-feature,Random Forest,train,2022,2023,42.0,42.59487037037039
+Reduced four-feature,Random Forest,validation,2023,2024,42.0,45.70087698412699
+Reduced four-feature,Random Forest,validation,2023,2024,39.0,45.75915476190476
+Reduced four-feature,Random Forest,validation,2023,2024,43.0,45.742154761904764
+Reduced four-feature,Random Forest,validation,2023,2024,45.0,45.75782142857143
+Reduced four-feature,Random Forest,validation,2023,2024,38.0,42.623727513227514
+Reduced four-feature,Random Forest,test,2024,2025,45.0,42.95891005291007
+Reduced four-feature,Random Forest,test,2024,2025,39.0,42.652846560846584
+Reduced four-feature,Random Forest,test,2024,2025,50.0,45.574666666666644
+Reduced four-feature,Random Forest,test,2024,2025,44.0,46.415809523809514
+Reduced four-feature,Random Forest,test,2024,2025,41.0,41.986140211640254
+Reduced four-feature,XGBoost,train,2020,2021,47.0,46.12751770019531
+Reduced four-feature,XGBoost,train,2020,2021,42.0,42.870208740234375
+Reduced four-feature,XGBoost,train,2020,2021,43.0,43.15986251831055
+Reduced four-feature,XGBoost,train,2020,2021,47.0,45.88043212890625
+Reduced four-feature,XGBoost,train,2020,2021,42.0,42.50107192993164
+Reduced four-feature,XGBoost,train,2021,2022,44.0,45.41627883911133
+Reduced four-feature,XGBoost,train,2021,2022,43.0,43.15082550048828
+Reduced four-feature,XGBoost,train,2021,2022,43.0,44.4459342956543
+Reduced four-feature,XGBoost,train,2021,2022,47.0,45.612220764160156
+Reduced four-feature,XGBoost,train,2021,2022,40.0,42.5729866027832
+Reduced four-feature,XGBoost,train,2022,2023,47.0,47.03435134887695
+Reduced four-feature,XGBoost,train,2022,2023,46.0,46.213165283203125
+Reduced four-feature,XGBoost,train,2022,2023,48.0,46.267765045166016
+Reduced four-feature,XGBoost,train,2022,2023,50.0,47.075111389160156
+Reduced four-feature,XGBoost,train,2022,2023,42.0,42.765079498291016
+Reduced four-feature,XGBoost,validation,2023,2024,42.0,45.30750274658203
+Reduced four-feature,XGBoost,validation,2023,2024,39.0,45.29740524291992
+Reduced four-feature,XGBoost,validation,2023,2024,43.0,45.30750274658203
+Reduced four-feature,XGBoost,validation,2023,2024,45.0,45.29740524291992
+Reduced four-feature,XGBoost,validation,2023,2024,38.0,43.1436767578125
+Reduced four-feature,XGBoost,test,2024,2025,45.0,43.08949279785156
+Reduced four-feature,XGBoost,test,2024,2025,39.0,42.870208740234375
+Reduced four-feature,XGBoost,test,2024,2025,50.0,45.60386657714844
+Reduced four-feature,XGBoost,test,2024,2025,44.0,46.00725173950195
+Reduced four-feature,XGBoost,test,2024,2025,41.0,42.50107192993164
