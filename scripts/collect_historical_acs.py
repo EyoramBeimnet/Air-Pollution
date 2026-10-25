@@ -31,7 +31,7 @@ FIELDS = {
     "B08301_021E": "work_from_home_pct",
 }
 COLUMNS = ["county_fips", "borough", "year", "acs_commuters_est", *FIELDS.values()]
-YEARS = range(2019, 2025)
+YEARS = range(2014, 2025)
 ATTEMPTS = 5
 RETRYABLE_HTTP = {429, 500, 502, 503, 504}
 
@@ -161,7 +161,7 @@ def collect(api_key: str, root: Path, session: requests.Session | None = None) -
         })
         print(f"  Saved ACS {year}: 5 verified NYC counties.", flush=True)
         all_rows.extend(year_rows)
-    if len(all_rows) != 30 or len({(x["county_fips"], x["year"]) for x in all_rows}) != 30:
+    if len(all_rows) != 55 or len({(x["county_fips"], x["year"]) for x in all_rows}) != 30:
         raise ValueError("Historical ACS output failed 30-record uniqueness check")
     return sorted(all_rows, key=lambda x: (x["county_fips"], x["year"]))
 
@@ -171,7 +171,7 @@ def main() -> None:
     if not api_key:
         raise SystemExit("CENSUS_API_KEY is missing from this terminal session. Set it locally and retry.")
     root = Path(__file__).resolve().parents[1]
-    destination = root / "datasets" / "raw" / "acs" / "nyc_acs_commuting_2019_2024.csv"
+    destination = root / "datasets" / "raw" / "acs" / "nyc_acs_commuting_2014_2024.csv"
     try:
         rows = collect(api_key, root)
     except (RuntimeError, ValueError) as exc:

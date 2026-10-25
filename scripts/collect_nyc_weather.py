@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download and prepare historical NYC borough-point weather, 2019-2025.
+"""Download and prepare historical NYC borough-point weather, 2014-2025.
 
 Source: Open-Meteo historical archive, ERA5 fixed reanalysis (not station measurements).
 The coordinates are a single representative sample point per borough, NOT an area average.
@@ -8,10 +8,10 @@ Place at scripts/collect_nyc_weather.py in the Air-Pollution repo and run:
     python scripts/collect_nyc_weather.py
 
 Writes under datasets/raw/weather/:
-  - nyc_weather_daily_2019_2025.csv
-  - nyc_weather_borough_year_2019_2025.csv
+  - nyc_weather_daily_2014_2025.csv
+  - nyc_weather_borough_year_2014_2025.csv
   - weather_source_metadata.json
-  - _api_cache/weather_<fips>_era5_2019_2025.json
+  - _api_cache/weather_<fips>_era5_2014_2025.json
 
 Does not alter existing datasets/processed files. Run prepare_model_data.py next.
 """
@@ -31,7 +31,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 API_URL = "https://archive-api.open-meteo.com/v1/archive"
-START, END = "2019-01-01", "2025-12-31"
+START, END = "2014-01-01", "2025-12-31"
 TIMEZONE = "America/New_York"
 MODEL = "era5"
 # Central/representative coordinates for each county; not an areal average.
@@ -184,13 +184,13 @@ def annual_aggregate(daily: pd.DataFrame) -> pd.DataFrame:
             "weather_humidity_mean_pct": statistic("relative_humidity_mean_pct", "mean"),
         })
     result = pd.DataFrame(rows)
-    if len(result) != 35 or result.duplicated(["county_fips", "year"]).any():
+    if len(result) != 60 or result.duplicated(["county_fips", "year"]).any():
         raise ValueError("Expected precisely 35 unique NYC borough-year weather rows")
     return result.sort_values(["county_fips", "year"]).reset_index(drop=True)
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Collect NYC historical reanalysis weather 2019-2025")
+    parser = argparse.ArgumentParser(description="Collect NYC historical reanalysis weather 2014-2025")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     args = parser.parse_args()
     root = args.root.resolve()
@@ -201,7 +201,7 @@ def main() -> int:
     session = session_with_retries()
     for fips, borough, lat, lon in LOCATIONS:
         print(f"Collecting {borough} ({fips}), {START} through {END}...", flush=True)
-        doc = get_data(session, cache / f"weather_{fips}_{MODEL}_2019_2025.json", fips, lat, lon)
+        doc = get_data(session, cache / f"weather_{fips}_{MODEL}_2014_2025.json", fips, lat, lon)
         all_days.append(make_daily(doc, fips, borough, lat, lon))
         print(f"  Verified {len(all_days[-1])} daily dates.", flush=True)
         time.sleep(.5)
@@ -227,12 +227,12 @@ def main() -> int:
         "notice": "A fixed ERA5 grid may represent more than one nearby borough; weather is a regional proxy."
     }
     dest.mkdir(parents=True, exist_ok=True)
-    daily_path = dest / "nyc_weather_daily_2019_2025.csv"
-    annual_path = dest / "nyc_weather_borough_year_2019_2025.csv"
+    daily_path = dest / "nyc_weather_daily_2014_2025.csv"
+    annual_path = dest / "nyc_weather_borough_year_2014_2025.csv"
     daily.to_csv(daily_path, index=False, encoding="utf-8-sig")
     annual.to_csv(annual_path, index=False, encoding="utf-8-sig")
     (dest / "weather_source_metadata.json").write_text(json.dumps(metadata, indent=2), encoding="utf-8")
-    print("\nSUCCESS: downloaded 5 borough-location samples for 2019-2025.")
+    print("\nSUCCESS: downloaded 5 borough-location samples for 2014-2025.")
     print(f"Daily rows: {len(daily):,}; annual borough-year rows: {len(annual)}")
     print(f"Annual output: {annual_path}")
     print("NEXT: python scripts/prepare_model_data.py")

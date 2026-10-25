@@ -1,4 +1,29 @@
 ﻿county_fips,borough,year,has_traffic_sample,observed_15min_intervals,distinct_segments,distinct_requests
+36005,Bronx,2014,Yes,29961,40,16
+36047,Brooklyn,2014,Yes,21864,52,30
+36061,Manhattan,2014,Yes,29169,75,28
+36081,Queens,2014,Yes,45556,95,42
+36085,Staten Island,2014,Yes,4204,10,7
+36005,Bronx,2015,Yes,29123,61,22
+36047,Brooklyn,2015,Yes,20845,87,27
+36061,Manhattan,2015,Yes,13218,39,23
+36081,Queens,2015,Yes,55071,108,40
+36085,Staten Island,2015,Yes,6171,19,12
+36005,Bronx,2016,Yes,22368,53,21
+36047,Brooklyn,2016,Yes,46113,119,52
+36061,Manhattan,2016,Yes,11569,36,19
+36081,Queens,2016,Yes,35307,84,37
+36085,Staten Island,2016,Yes,14260,40,13
+36005,Bronx,2017,Yes,33315,58,17
+36047,Brooklyn,2017,Yes,31462,89,31
+36061,Manhattan,2017,Yes,29460,56,23
+36081,Queens,2017,Yes,23928,67,21
+36085,Staten Island,2017,Yes,5736,10,7
+36005,Bronx,2018,Yes,13136,28,12
+36047,Brooklyn,2018,Yes,19542,64,15
+36061,Manhattan,2018,Yes,23705,31,12
+36081,Queens,2018,Yes,38894,71,16
+36085,Staten Island,2018,Yes,3684,9,3
 36005,Bronx,2019,Yes,7680,11,6
 36047,Brooklyn,2019,Yes,35157,68,22
 36061,Manhattan,2019,Yes,13714,31,14

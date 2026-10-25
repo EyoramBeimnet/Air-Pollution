@@ -6,10 +6,11 @@ Run from the GitHub repository root (place this file at scripts/prepare_model_da
     python scripts/prepare_model_data.py
 
 Inputs remain unchanged. Writes datasets/processed/ only. Downloads official EPA
-2019-2025 annual AQI ZIP files to datasets/raw/epa_aqi/ for reproducibility.
+annual AQI ZIP files (FIRST_YEAR-LAST_YEAR) to datasets/raw/epa_aqi/ for reproducibility.
 No missing values are invented or set to zero, and no static snapshot is
-backfilled across years. When available, a verified 2019-2024 ACS CSV from
+backfilled across years. When available, a verified ACS CSV from
 collect_historical_acs.py replaces the original sparse 2024-only solver ACS values.
+Years a source does not cover (e.g. solver features before 2019) stay blank.
 """
 from __future__ import annotations
 
@@ -30,7 +31,15 @@ COUNTIES = {
     "Richmond": ("36085", "Staten Island"),
 }
 FIPS_TO_BOROUGH = {fips: borough for fips, borough in COUNTIES.values()}
-FIRST_YEAR, LAST_YEAR = 2019, 2025
+FIRST_YEAR, LAST_YEAR = 2014, 2025
+ACS_LAST_YEAR = 2024  # newest ACS 5-year vintage available
+TREE_FIRST_YEAR = 2016  # the tree inventory has almost no planting records before 2015 (2015 looks partial)
+SPAN = f"{FIRST_YEAR}_{LAST_YEAR}"  # used in output filenames
+
+
+def earliest_file(folder: Path, pattern: str) -> Path | None:
+    """Of the files matching pattern, pick the one whose name starts at the earliest year."""
+    return min(folder.glob(pattern), default=None) if folder.exists() else None
 
 
 def fips_str(col: pd.Series) -> pd.Series:
@@ -97,15 +106,17 @@ def load_historical_acs(path: Path, issues: list[str]) -> pd.DataFrame:
         raise ValueError(f"ACS file missing columns {sorted(required - set(df.columns))}")
     df["county_fips"] = fips_str(df["county_fips"])
     df["year"] = pd.to_numeric(df["year"], errors="raise").astype(int)
-    if not df["year"].between(2019, 2024).all():
-        raise ValueError("ACS should contain 2019-2024 vintages only")
+    if not df["year"].between(FIRST_YEAR, ACS_LAST_YEAR).all():
+        raise ValueError(f"ACS should contain {FIRST_YEAR}-{ACS_LAST_YEAR} vintages only")
     data = df[["county_fips", "year", *ACS_COLUMNS]].copy()
     clean_numeric(data, ACS_COLUMNS, issues, "acs_transport")
     validate_key(data, "acs_transport")
-    keys = {(fips, year) for fips in FIPS_TO_BOROUGH for year in range(2019, 2025)}
+    # The file must be a complete grid from its own first year through ACS_LAST_YEAR.
+    first = int(data["year"].min())
+    keys = {(fips, year) for fips in FIPS_TO_BOROUGH for year in range(first, ACS_LAST_YEAR + 1)}
     actual = set(zip(data["county_fips"], data["year"]))
     if actual != keys:
-        raise ValueError(f"ACS file is incomplete: expected 30 borough-years, got {len(actual & keys)}")
+        raise ValueError(f"ACS file is incomplete: expected {len(keys)} borough-years, got {len(actual & keys)}")
     if data[ACS_COLUMNS].isna().any().any():
         raise ValueError("ACS source has missing feature values; investigate rather than silently impute")
     pct_columns = [x for x in ACS_COLUMNS if x.endswith("_pct")]
@@ -129,9 +140,11 @@ def load_weather(path: Path, issues: list[str]) -> pd.DataFrame:
     data = data[["county_fips", "year", *WEATHER_FEATURES]].copy()
     clean_numeric(data, WEATHER_FEATURES, issues, "weather")
     validate_key(data, "weather")
-    expected = {(f, y) for f in FIPS_TO_BOROUGH for y in range(FIRST_YEAR, LAST_YEAR + 1)}
+    # Must be a complete grid from the file's own first year through LAST_YEAR.
+    first = int(data["year"].min())
+    expected = {(f, y) for f in FIPS_TO_BOROUGH for y in range(first, LAST_YEAR + 1)}
     if set(zip(data["county_fips"], data["year"])) != expected:
-        raise ValueError("Weather CSV does not cover all 35 NYC borough-year keys")
+        raise ValueError(f"Weather CSV does not cover all {len(expected)} expected NYC borough-year keys")
     if data["weather_days_complete"].isna().any() or not data["weather_days_complete"].between(0, 366).all():
         raise ValueError("Weather days_complete column contains invalid counts")
     if data["weather_humidity_mean_pct"].dropna().lt(0).any() or data["weather_humidity_mean_pct"].dropna().gt(100).any():
@@ -139,6 +152,72 @@ def load_weather(path: Path, issues: list[str]) -> pd.DataFrame:
     if data["weather_wind_mean_kmh"].dropna().lt(0).any() or data["weather_precip_total_mm"].dropna().lt(0).any():
         raise ValueError("Weather contains negative wind speed or precipitation")
     issues.append("Weather ERA5 historical reanalysis sampled at a representative point for each borough; NOT borough-average measured weather")
+    return data
+
+
+MTA_COLUMNS = ["mta_annual_station_entries_est", "mta_months_observed"]
+
+
+def load_mta(path: Path, issues: list[str]) -> pd.DataFrame:
+    """Read annual subway station entries by borough from collect_nyc_mta.py."""
+    df = pd.read_csv(path, dtype={"county_fips": "string"}, low_memory=False)
+    required = {"county_fips", "year", *MTA_COLUMNS}
+    if not required.issubset(df.columns):
+        raise ValueError(f"MTA file missing columns {sorted(required - set(df.columns))}")
+    df["county_fips"] = fips_str(df["county_fips"])
+    df["year"] = pd.to_numeric(df["year"], errors="raise").astype(int)
+    data = df.loc[df["year"].between(FIRST_YEAR, LAST_YEAR), ["county_fips", "year", *MTA_COLUMNS]].copy()
+    clean_numeric(data, MTA_COLUMNS, issues, "mta")
+    validate_key(data, "mta")
+    if data["mta_annual_station_entries_est"].lt(0).any():
+        raise ValueError("MTA entries must not be negative")
+    partial = sorted(int(y) for y in data.loc[data["mta_months_observed"] < 12, "year"].unique())
+    if partial:
+        issues.append(f"MTA: fewer than 12 months of data in {partial}; those totals are understated")
+    issues.append("MTA: hourly-ridership datasets only start in 2017; earlier years stay blank")
+    return data
+
+
+TRAFFIC_COLUMNS = ["traffic_sample_mean_15min_vehicle_count", "traffic_sample_observed_15min_intervals",
+                   "traffic_sample_distinct_segments", "traffic_sample_distinct_requests"]
+
+
+def load_traffic(path: Path, issues: list[str]) -> pd.DataFrame:
+    """Read NYC DOT sampled traffic counts from collect_nyc_traffic.py (gaps allowed)."""
+    df = pd.read_csv(path, dtype={"county_fips": "string"}, low_memory=False)
+    required = {"county_fips", "year", *TRAFFIC_COLUMNS}
+    if not required.issubset(df.columns):
+        raise ValueError(f"Traffic file missing columns {sorted(required - set(df.columns))}")
+    df["county_fips"] = fips_str(df["county_fips"])
+    df["year"] = pd.to_numeric(df["year"], errors="raise").astype(int)
+    data = df.loc[df["year"].between(FIRST_YEAR, LAST_YEAR), ["county_fips", "year", *TRAFFIC_COLUMNS]].copy()
+    clean_numeric(data, TRAFFIC_COLUMNS, issues, "traffic")
+    validate_key(data, "traffic")
+    issues.append("Traffic: sampled 15-minute counts at a changing set of road segments, NOT annual traffic "
+                  "volume; check the sample-size columns before trusting year-to-year trends")
+    return data
+
+
+def load_trees(path: Path, issues: list[str]) -> pd.DataFrame:
+    """Read recorded tree plantings by borough-year from collect_nyc_trees.py (gaps allowed)."""
+    df = pd.read_csv(path, dtype={"county_fips": "string"}, low_memory=False)
+    required = {"county_fips", "year", "recorded_tree_plantings"}
+    if not required.issubset(df.columns):
+        raise ValueError(f"Tree file missing columns {sorted(required - set(df.columns))}")
+    df["county_fips"] = fips_str(df["county_fips"])
+    df["year"] = pd.to_numeric(df["year"], errors="raise").astype(int)
+    data = df.loc[df["year"].between(FIRST_YEAR, LAST_YEAR), ["county_fips", "year", "recorded_tree_plantings"]].copy()
+    clean_numeric(data, ["recorded_tree_plantings"], issues, "trees")
+    early = data["year"] < TREE_FIRST_YEAR
+    if early.any():
+        issues.append(f"Tree plantings: {int(early.sum())} borough-year values before {TREE_FIRST_YEAR} left blank; "
+                      "the inventory has almost no planting records before 2015, and 2015 looks partial")
+        data = data[~early].copy()
+    validate_key(data, "trees")
+    if data["recorded_tree_plantings"].lt(0).any():
+        raise ValueError("Tree plantings must not be negative")
+    issues.append("Tree plantings: trees in the current Forestry inventory with a planted date; trees removed "
+                  "before records were migrated may be missing, so older years are probably undercounted")
     return data
 
 
@@ -286,7 +365,7 @@ def load_epa_targets(raw_dir: Path, download: bool, issues: list[str]) -> pd.Dat
         # Valid feature-only staging table is still useful; never invent labels.
         return pd.DataFrame(columns=["county_fips", "year", "aqi_days_covered", "aqi_median", "aqi_max", "aqi_p90"])
     out = pd.concat(frames, ignore_index=True)
-    validate_key(out, "EPA 2019-2025")
+    validate_key(out, f"EPA {FIRST_YEAR}-{LAST_YEAR}")
     return out
 
 
@@ -301,19 +380,37 @@ def run(root: Path, download: bool) -> None:
     master = baseline.copy()
 
     # Preserve the original GitHub solver CSV. If historical ACS was collected,
-    # use its dedicated 2019-2024 source instead of the older 2024-only columns.
-    historical_acs_file = datasets / "raw" / "acs" / "nyc_acs_commuting_2019_2024.csv"
-    use_historical_acs = historical_acs_file.exists()
+    # use its dedicated source instead of the older 2024-only columns. If several
+    # ACS / CAMPD files exist, the one starting in the earliest year is used.
+    historical_acs_file = earliest_file(datasets / "raw" / "acs", f"nyc_acs_commuting_*_{ACS_LAST_YEAR}.csv")
+    use_historical_acs = historical_acs_file is not None
+    campd_file = (earliest_file(datasets, "campd_industrial_emissions_county_year_*.csv")
+                  or datasets / "campd_industrial_emissions_county_year_2020_2026.csv")
     sources = [
         ("solvers", lambda: load_solvers(datasets / "solvers" / "combined_solver_features_by_borough_year.csv", issues)),
         ("lucid", lambda: load_lucid(datasets / "LUCID", issues)),
-        ("campd", lambda: load_campd(datasets / "campd_industrial_emissions_county_year_2020_2026.csv", issues)),
+        ("campd", lambda: load_campd(campd_file, issues)),
     ]
-    weather_path = datasets / "raw" / "weather" / "nyc_weather_borough_year_2019_2025.csv"
-    if weather_path.exists():
+    weather_path = earliest_file(datasets / "raw" / "weather", f"nyc_weather_borough_year_*_{LAST_YEAR}.csv")
+    if weather_path is not None:
         sources.append(("weather", lambda: load_weather(weather_path, issues)))
     else:
         issues.append("Weather: no cleaned borough-year file yet; run python scripts/collect_nyc_weather.py")
+    mta_path = earliest_file(datasets / "raw" / "mta", f"nyc_mta_station_entries_borough_year_*_{LAST_YEAR}.csv")
+    if mta_path is not None:
+        sources.append(("mta", lambda: load_mta(mta_path, issues)))
+    else:
+        issues.append("MTA: no collected file; using the solver 2020-2025 values. Run python scripts/collect_nyc_mta.py")
+    traffic_path = earliest_file(datasets / "raw" / "traffic", f"nyc_dot_traffic_SAMPLE_borough_year_*_{LAST_YEAR}.csv")
+    if traffic_path is not None:
+        sources.append(("traffic", lambda: load_traffic(traffic_path, issues)))
+    else:
+        issues.append("Traffic: no collected file yet; run python scripts/collect_nyc_traffic.py")
+    trees_path = earliest_file(datasets / "raw" / "trees", f"nyc_tree_plantings_borough_year_*_{LAST_YEAR}.csv")
+    if trees_path is not None:
+        sources.append(("trees", lambda: load_trees(trees_path, issues)))
+    else:
+        issues.append("Tree plantings: no collected file; using the solver 2019-2025 values. Run python scripts/collect_nyc_trees.py")
     if use_historical_acs:
         # Validate ACS *before* dropping the existing values; never lose data
         # because of a partial or invalid newly downloaded source.
@@ -321,14 +418,19 @@ def run(root: Path, download: bool) -> None:
             historical_acs = load_historical_acs(historical_acs_file, issues)
         except Exception as exc:
             raise RuntimeError(f"The historical ACS file is invalid; fix or remove it before rerunning: {exc}") from exc
-        issues.append("ACS: historical 2019-2024 five-year vintages loaded; 2025 remains unavailable")
+        issues.append(f"ACS: historical five-year vintages loaded from {historical_acs_file.name}; {ACS_LAST_YEAR + 1} remains unavailable")
         sources.append(("acs_transport", lambda: historical_acs))
     for name, fn in sources:
         try:
             data = fn()
-            if name == "solvers" and use_historical_acs:
-                # ACS is independently sourced and appears only once after the join.
-                data = data.drop(columns=ACS_COLUMNS, errors="ignore")
+            if name == "solvers":
+                # ACS, MTA and tree plantings have their own collectors; each should appear only once after the join.
+                if use_historical_acs:
+                    data = data.drop(columns=ACS_COLUMNS, errors="ignore")
+                if mta_path is not None:
+                    data = data.drop(columns=["mta_annual_station_entries_est"], errors="ignore")
+                if trees_path is not None:
+                    data = data.drop(columns=["recorded_tree_plantings"], errors="ignore")
             save_csv(data.sort_values(["county_fips", "year"]), processed / f"clean_{name}_borough_year.csv")
             overlaps = (set(master.columns) & set(data.columns)) - {"county_fips", "year"}
             if overlaps:
@@ -351,14 +453,15 @@ def run(root: Path, download: bool) -> None:
         source_stats.append({"source": "residential_combustion", "status": "FAILED", "error": str(exc)})
 
     labels = load_epa_targets(datasets / "raw" / "epa_aqi", download, issues)
-    save_csv(labels.sort_values(["county_fips", "year"]), processed / "clean_epa_annual_aqi_2019_2025.csv")
+    save_csv(labels.sort_values(["county_fips", "year"]), processed / f"clean_epa_annual_aqi_{SPAN}.csv")
     source_stats.append({"source": "epa_aqi", "status": "OK" if not labels.empty else "FAILED", "rows": len(labels)})
     master = master.merge(labels, on=["county_fips", "year"], how="left", validate="one_to_one")
     master = master.sort_values(["county_fips", "year"]).reset_index(drop=True)
     validate_key(master, "master")
     if len(master) != 5 * (LAST_YEAR - FIRST_YEAR + 1):
-        raise ValueError("Unexpected merged row count; expected 35 borough-year rows")
-    save_csv(master, processed / "master_borough_year_2019_2025.csv")
+        raise ValueError(f"Unexpected merged row count; expected {len(baseline)} borough-year rows")
+    master_path = processed / f"master_borough_year_{SPAN}.csv"
+    save_csv(master, master_path)
 
     # The following represents a ONE-YEAR-AHEAD task, not same-year feature leakage.
     # Features in year t are used to predict the AQI measured in year t+1.
@@ -386,14 +489,14 @@ def run(root: Path, download: bool) -> None:
     save_csv(coverage, processed / "aqi_year_coverage_report.csv")
 
     issues += [
-        "NYC_Residential_Combustion.csv: no year in supplied CSV, so do not join to 2019-2025",
+        f"NYC_Residential_Combustion.csv: no year in supplied CSV, so do not join to {FIRST_YEAR}-{LAST_YEAR}",
         "PowerPlantEmissions2024 by Region.xlsx: regional 2024 only; not a borough-year feature",
         "annual_aqi_by_county_2026.csv: partial-year 2026 labels; deliberately excluded",
-        "LUCID: 2019-2022 only; no forward fill or invented 2023-2025",
-        "CAMPD: 2020-2025 complete-year rows only; 2019 unobserved",
-        "No complete traffic, EV adoption, or airport fact table found in the current datasets folder",
+        "LUCID: 2019-2022 only; no backfill before 2019 or forward fill after 2022",
+        "CAMPD: only complete-year rows in the supplied file are used; years it lacks stay blank",
+        "No complete EV adoption or airport fact table found in the current datasets folder",
         "AQI label columns are outcomes, not predictors for same-year explanatory models",
-        "Annual data (at most 35 NYC borough-year rows) is too sparse for reliable daily/weekly forecasts",
+        f"Annual data (at most {len(master)} NYC borough-year rows) is too sparse for reliable daily/weekly forecasts",
     ]
     report = {"modeling_unit": "NYC county (borough) x calendar year",
               "years": [FIRST_YEAR, LAST_YEAR], "master_rows": len(master),
@@ -404,7 +507,7 @@ def run(root: Path, download: bool) -> None:
               "outputs": sorted(p.name for p in processed.glob("*.csv"))}
     (processed / "processing_report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     print("\nData preparation complete.")
-    print(f"Master: {processed / 'master_borough_year_2019_2025.csv'}")
+    print(f"Master: {master_path}")
     print(f"Rows: {len(master)}; observed AQI labels: {report['aqi_label_rows']}")
     print(f"Next-year training examples with labels: {report['next_year_supervised_rows']}")
     print(f"Quality report: {processed / 'processing_report.json'}")

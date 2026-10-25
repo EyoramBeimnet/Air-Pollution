@@ -32,7 +32,7 @@ RECORD_URL = "https://zenodo.org/records/12773413"
 RAW_NAME = "EV_data_zenodo_12773413_original.csv"
 NYC = {"36005": "Bronx", "36047": "Brooklyn", "36061": "Manhattan",
        "36081": "Queens", "36085": "Staten Island"}
-YEARS = range(2019, 2026)
+YEARS = range(2014, 2026)
 
 
 def save_csv(path: Path, records: list[dict], fieldnames: list[str]) -> None:

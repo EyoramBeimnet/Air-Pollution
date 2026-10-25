@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect NYC DOT sampled traffic counts, 2019-2025, for COVERAGE REVIEW.
+"""Collect NYC DOT sampled traffic counts, 2014-2025, for COVERAGE REVIEW.
 
 Source: NYC Open Data Automated Traffic Volume Counts (7ym2-wayt).
 
@@ -9,8 +9,8 @@ Run from your Air-Pollution repository root:
 
 IMPORTANT: This dataset contains sampled 15-minute intervals at selected roads,
 not all vehicles or all roads. It is NOT an annual traffic-volume census.
-The output is intentionally NOT merged into model data until coverage and
-sampling comparability have been reviewed.
+prepare_model_data.py merges the output as sample-based features. Read the
+coverage report first: sampled roads and sample sizes change a lot by borough-year.
 """
 from __future__ import annotations
 
@@ -35,7 +35,8 @@ COUNTIES = {
     "queens": ("36081", "Queens"),
     "staten island": ("36085", "Staten Island"),
 }
-YEAR_FIRST, YEAR_LAST = 2019, 2025
+YEAR_FIRST, YEAR_LAST = 2014, 2025
+SPAN = f"{YEAR_FIRST}_{YEAR_LAST}"
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "datasets" / "raw" / "traffic"
 
@@ -188,7 +189,7 @@ def main() -> int:
     records = fetch_grouped_counts(session)
     rows, coverage, diagnostics = compile_rows(records)
     OUT.mkdir(parents=True, exist_ok=True)
-    feature_file = OUT / "nyc_dot_traffic_SAMPLE_borough_year_2019_2025.csv"
+    feature_file = OUT / f"nyc_dot_traffic_SAMPLE_borough_year_{SPAN}.csv"
     coverage_file = OUT / "nyc_dot_traffic_sample_coverage_report.csv"
     write_csv(feature_file, rows, ["county_fips", "borough", "year",
         "traffic_sample_mean_15min_vehicle_count", "traffic_sample_observed_15min_intervals",
@@ -200,13 +201,13 @@ def main() -> int:
         "retrieved_utc": datetime.now(timezone.utc).isoformat(),
         "method": "NYC DOT ATR sampled traffic volumes; server-side aggregate by borough and sampling year",
         "year_range_requested": [YEAR_FIRST, YEAR_LAST],
-        "data_use_status": "CANDIDATE_ONLY_NOT_YET_MODEL_READY",
+        "data_use_status": "SAMPLE_BASED_FEATURES_REVIEW_COVERAGE_FIRST",
         "limitations": [
             "Roadway samples are not collected daily or uniformly across locations/years.",
             "Mean is per available 15-minute sample record, not annual average daily traffic.",
             "Sample sizes and locations may vary by borough-year and induce misleading trends.",
             "Do not use summed counts as total NYC vehicles or extrapolate missing years.",
-            "Do not merge until coverage and location comparability are inspected.",
+            "Inspect coverage and location comparability before trusting trends.",
             "NULL or missing source years are NOT zeros.",
         ],
         **diagnostics,
@@ -214,7 +215,7 @@ def main() -> int:
     (OUT / "nyc_dot_traffic_source_report.json").write_text(json.dumps(info, indent=2), encoding="utf-8")
     print("\nTRAFFIC SOURCE CHECK COMPLETE")
     print(f"NYC DOT grouped source observations: {len(records)}")
-    print(f"NYC borough-year observations for 2019–2025: {len(rows)} / 35")
+    print(f"NYC borough-year observations for {YEAR_FIRST}–{YEAR_LAST}: {len(rows)} / {5 * (YEAR_LAST - YEAR_FIRST + 1)}")
     print(f"Feature candidate CSV: {feature_file}")
     print(f"Coverage CSV: {coverage_file}")
     print("By year (boroughs sampled / 5):")
@@ -224,7 +225,7 @@ def main() -> int:
     if diagnostics["unrecognized_boroughs"]:
         print("Unknown borough codes: " + ", ".join(diagnostics["unrecognized_boroughs"]))
     print("NOTE: Source contains intermittent road sampling, not comparable complete annual totals.")
-    print("IMPORTANT: Do not merge into master CSV until coverage is reviewed.")
+    print("IMPORTANT: Review the coverage CSV (distinct segments per borough-year) before trusting the merged features.")
     return 0
 
 
