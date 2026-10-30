@@ -1,0 +1,95 @@
+{
+  "purpose": "Exploratory one-year-ahead NYC borough median AQI prediction",
+  "source_file": "datasets\\processed\\next_year_aqi_model_STAGING.csv",
+  "source_years": {
+    "feature_years": [
+      2014,
+      2024
+    ],
+    "target_years": [
+      2015,
+      2025
+    ]
+  },
+  "modeling_unit": "NYC borough (county FIPS) x feature year",
+  "target": "target_next_year_median_aqi",
+  "random_state": 42,
+  "experiments": {
+    "historical_core": {
+      "features": [
+        "last_observed_median_aqi",
+        "campd_total_nox_mass_tons",
+        "traffic_sample_mean_15min_vehicle_count"
+      ],
+      "splits": {
+        "train": [
+          2014,
+          2020
+        ],
+        "validation": [
+          2021,
+          2022
+        ],
+        "test": [
+          2023,
+          2024
+        ]
+      },
+      "rows": {
+        "train": 35,
+        "validation": 10,
+        "test": 10
+      }
+    },
+    "extended_features": {
+      "features": [
+        "last_observed_median_aqi",
+        "recorded_tree_plantings",
+        "drive_alone_pct",
+        "campd_total_nox_mass_tons",
+        "weather_temp_mean_c",
+        "weather_precip_total_mm"
+      ],
+      "splits": {
+        "train": [
+          2019,
+          2021
+        ],
+        "validation": [
+          2022,
+          2022
+        ],
+        "test": [
+          2023,
+          2024
+        ]
+      },
+      "rows": {
+        "train": 15,
+        "validation": 5,
+        "test": 10
+      }
+    }
+  },
+  "preprocessing": "Median imputation fitted on each fixed-split training set only; rolling backtests refit the imputer using only rows earlier than the prediction feature year.",
+  "rolling_backtest_minimum_training_years": {
+    "Historical core": 5,
+    "Extended features": 3
+  },
+  "additional_diagnostics": [
+    "Borough-level validation/test metrics.",
+    "Feature missingness by experiment, split, and feature before imputation.",
+    "Expanding-window rolling-origin predictions and metrics.",
+    "MAE improvement percentage relative to the no-change baseline."
+  ],
+  "limitations": [
+    "Small borough-year sample; observations are correlated across years and boroughs.",
+    "Rolling-origin backtests provide more temporal checks but are not independent observations.",
+    "Some expanded-source features begin later than 2014; the extended-feature experiment is restricted to 2019-2024 to reduce structural missingness.",
+    "NYC DOT traffic values are sampled 15-minute counts, not annual traffic volume.",
+    "Weather values are historical reanalysis point samples, not borough-area measured averages.",
+    "Point-in-time availability of every predictor has not been independently certified.",
+    "Hyperparameters are exploratory and have not been tuned on the test set.",
+    "Results do not establish operational forecasting skill."
+  ]
+}

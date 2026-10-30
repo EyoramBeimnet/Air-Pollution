@@ -1,0 +1,61 @@
+experiment,model,split,borough,n_rows,MAE,RMSE,R2
+Extended features,No-change baseline,test,Bronx,2,4.0,4.123105625617661,-6.555555555555555
+Extended features,No-change baseline,test,Brooklyn,2,3.5,4.949747468305833,0.0
+Extended features,No-change baseline,test,Manhattan,2,6.0,6.082762530298219,-2.020408163265306
+Extended features,No-change baseline,test,Queens,2,3.0,3.605551275463989,-51.0
+Extended features,No-change baseline,test,Staten Island,2,3.5,3.5355339059327378,-4.555555555555555
+Extended features,No-change baseline,validation,Bronx,1,3.0,3.0,
+Extended features,No-change baseline,validation,Brooklyn,1,3.0,3.0,
+Extended features,No-change baseline,validation,Manhattan,1,5.0,5.0,
+Extended features,No-change baseline,validation,Queens,1,3.0,3.0,
+Extended features,No-change baseline,validation,Staten Island,1,2.0,2.0,
+Extended features,Random Forest,test,Bronx,2,2.254492724867738,2.3393711917846094,-1.432292254645219
+Extended features,Random Forest,test,Brooklyn,2,3.954003306878324,4.122499826132687,0.0
+Extended features,Random Forest,test,Manhattan,2,3.7551309523809486,4.667703575320552,-0.7785678911885927
+Extended features,Random Forest,test,Queens,2,0.8136309523809615,1.1155242984902605,-3.977577842088751
+Extended features,Random Forest,test,Staten Island,2,2.931263888888896,3.5913925454035787,-4.732489073413508
+Extended features,Random Forest,validation,Bronx,1,3.075833333333321,3.075833333333321,
+Extended features,Random Forest,validation,Brooklyn,1,2.915111111111095,2.915111111111095,
+Extended features,Random Forest,validation,Manhattan,1,6.699376984126978,6.699376984126978,
+Extended features,Random Forest,validation,Queens,1,5.545678571428553,5.545678571428553,
+Extended features,Random Forest,validation,Staten Island,1,0.8995013227513198,0.8995013227513198,
+Extended features,XGBoost,test,Bronx,2,2.109273910522461,2.1165145400786587,-0.9909483548286113
+Extended features,XGBoost,test,Brooklyn,2,3.532381057739258,3.657124829199342,0.0
+Extended features,XGBoost,test,Manhattan,2,3.209169387817383,4.48224335633021,-0.6400412657441885
+Extended features,XGBoost,test,Queens,2,0.7608623504638672,0.7888490195347828,-1.4891311024839524
+Extended features,XGBoost,test,Staten Island,2,2.6938114166259766,3.23141786059985,-3.6409161732460937
+Extended features,XGBoost,validation,Bronx,1,3.5685043334960938,3.5685043334960938,
+Extended features,XGBoost,validation,Brooklyn,1,3.53839111328125,3.53839111328125,
+Extended features,XGBoost,validation,Manhattan,1,6.561515808105469,6.561515808105469,
+Extended features,XGBoost,validation,Queens,1,6.949333190917969,6.949333190917969,
+Extended features,XGBoost,validation,Staten Island,1,0.37802886962890625,0.37802886962890625,
+Historical core,No-change baseline,test,Bronx,2,4.0,4.123105625617661,-6.555555555555555
+Historical core,No-change baseline,test,Brooklyn,2,3.5,4.949747468305833,0.0
+Historical core,No-change baseline,test,Manhattan,2,6.0,6.082762530298219,-2.020408163265306
+Historical core,No-change baseline,test,Queens,2,3.0,3.605551275463989,-51.0
+Historical core,No-change baseline,test,Staten Island,2,3.5,3.5355339059327378,-4.555555555555555
+Historical core,No-change baseline,validation,Bronx,2,3.0,3.0,-3.0
+Historical core,No-change baseline,validation,Brooklyn,2,2.0,2.23606797749979,-1.2222222222222223
+Historical core,No-change baseline,validation,Manhattan,2,2.5,3.5355339059327378,-1.0
+Historical core,No-change baseline,validation,Queens,2,1.5,2.1213203435596424,-1.0
+Historical core,No-change baseline,validation,Staten Island,2,2.0,2.0,-3.0
+Historical core,Random Forest,test,Bronx,2,4.734081129518632,4.759687128080781,-9.068720692096832
+Historical core,Random Forest,test,Brooklyn,2,3.5600520568183036,4.166471042727845,0.0
+Historical core,Random Forest,test,Manhattan,2,5.328022653272651,5.468538032978609,-1.4412169973986577
+Historical core,Random Forest,test,Queens,2,1.97859295780329,2.5536032145236245,-25.08355750890155
+Historical core,Random Forest,test,Staten Island,2,2.5951982577607673,2.6858416236078573,-2.2061089898242185
+Historical core,Random Forest,validation,Bronx,2,2.385482371386786,2.4349398413665,-1.6350809026995186
+Historical core,Random Forest,validation,Brooklyn,2,3.0250232802900996,3.0293965518396155,-3.0787748747990005
+Historical core,Random Forest,validation,Manhattan,2,2.517119924386744,3.1940547248250337,-0.6323176936283395
+Historical core,Random Forest,validation,Queens,2,2.569582918228427,2.854130576064955,-2.62047170899061
+Historical core,Random Forest,validation,Staten Island,2,0.6711664395545824,0.8064638692097453,0.3496160276592467
+Historical core,XGBoost,test,Bronx,2,3.894620895385742,4.134072846666868,-6.595803689577021
+Historical core,XGBoost,test,Brooklyn,2,3.3750133514404297,3.892795701885211,0.0
+Historical core,XGBoost,test,Manhattan,2,4.933845520019531,4.936267033904981,-0.989120998368741
+Historical core,XGBoost,test,Queens,2,1.8237838745117188,2.1672055447830805,-17.787119493354112
+Historical core,XGBoost,test,Staten Island,2,1.6085262298583984,1.9632697961321868,-0.7130792410688527
+Historical core,XGBoost,validation,Bronx,2,2.6169776916503906,2.6718123087559245,-2.172702672542073
+Historical core,XGBoost,validation,Brooklyn,2,2.8871078491210938,2.8945853029648503,-2.7238329227289393
+Historical core,XGBoost,validation,Manhattan,2,2.3726043701171875,2.52978082306857,-0.02396656204247849
+Historical core,XGBoost,validation,Queens,2,1.3598518371582031,1.7511610208904136,-0.3629177427048691
+Historical core,XGBoost,validation,Staten Island,2,0.7761783599853516,0.8122348456128619,0.3402745555722504
