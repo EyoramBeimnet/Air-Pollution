@@ -14,3 +14,9 @@ venv/
 # Download caches
 _api_cache/
 _year_cache/
+
+# Frontend raw sources (too large for git; see frontend/README.md)
+frontend/raw/
+*.tif
+export.csv
+roads.csv
