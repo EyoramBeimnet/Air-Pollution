@@ -173,7 +173,7 @@ def main() -> None:
     if not api_key:
         raise SystemExit("CENSUS_API_KEY is missing from this terminal session. Set it locally and retry.")
     root = Path(__file__).resolve().parents[1]
-    filename = "nyc_acs_commuting_" + str(FIRST_YEAR) + "_" + str(LAST_YEAR) + ".csv"
+    filename = "nyc_acs_commuting_" + str(FIRST_YEAR) + "_" + str(LAST_YEAR - 1) + ".csv"
     destination = root / "datasets" / "raw" / "acs" / filename
     try:
         rows = collect(api_key, root)
