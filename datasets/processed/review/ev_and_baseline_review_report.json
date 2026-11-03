@@ -1,9 +1,34 @@
 {
-  "generated_utc": "2026-10-16T19:00:47.061941+00:00",
-  "master_rows_unchanged": 35,
-  "ev_source_present_rows": 25,
-  "ev_source_missing_rows": 10,
+  "generated_utc": "2026-11-03T02:34:16.079995+00:00",
+  "master_rows_unchanged": 60,
+  "ev_source_present_rows": 30,
+  "ev_source_missing_rows": 30,
   "ev_coverage_by_year": [
+    {
+      "year": 2014,
+      "boroughs_observed": 0,
+      "boroughs_missing": 5
+    },
+    {
+      "year": 2015,
+      "boroughs_observed": 0,
+      "boroughs_missing": 5
+    },
+    {
+      "year": 2016,
+      "boroughs_observed": 0,
+      "boroughs_missing": 5
+    },
+    {
+      "year": 2017,
+      "boroughs_observed": 0,
+      "boroughs_missing": 5
+    },
+    {
+      "year": 2018,
+      "boroughs_observed": 5,
+      "boroughs_missing": 0
+    },
     {
       "year": 2019,
       "boroughs_observed": 5,
@@ -40,11 +65,10 @@
       "boroughs_missing": 5
     }
   ],
-  "annual_next_year_baseline_rows": 25,
+  "annual_next_year_baseline_rows": 55,
   "baseline_missing_by_feature_before_dropping_rows": {
     "target_next_year_median_aqi": 0,
     "last_observed_median_aqi": 0,
-    "recorded_tree_plantings": 0,
     "drive_alone_pct": 0,
     "campd_total_nox_mass_tons": 0,
     "weather_temp_mean_c": 0,
@@ -52,7 +76,6 @@
   },
   "baseline_features": [
     "last_observed_median_aqi",
-    "recorded_tree_plantings",
     "drive_alone_pct",
     "campd_total_nox_mass_tons",
     "weather_temp_mean_c",

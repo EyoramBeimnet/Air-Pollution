@@ -48,7 +48,6 @@ HISTORICAL_FEATURES = [
 # meaningful historical coverage, instead of filling years before collection.
 EXTENDED_FEATURES = [
     "last_observed_median_aqi",
-    "recorded_tree_plantings",
     "drive_alone_pct",
     "campd_total_nox_mass_tons",
     "weather_temp_mean_c",
@@ -63,8 +62,8 @@ HISTORICAL_SPLITS = {
 }
 
 EXTENDED_SPLITS = {
-    "train": (2019, 2021),
-    "validation": (2022, 2022),
+    "train": (2014, 2020),
+    "validation": (2021, 2022),
     "test": (2023, 2024),
 }
 

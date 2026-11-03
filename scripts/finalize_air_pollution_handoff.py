@@ -24,10 +24,11 @@ NYC = {
     "36081": "Queens",
     "36085": "Staten Island",
 }
-YEARS = range(2020, 2025)
+FIRST_YEAR, LAST_YEAR = 2014, 2025
+YEARS = range(FIRST_YEAR, LAST_YEAR)
 TARGET = "target_next_year_median_aqi"
 FEATURES = [
-    "last_observed_median_aqi", "recorded_tree_plantings", "drive_alone_pct",
+    "last_observed_median_aqi", "drive_alone_pct",
     "campd_total_nox_mass_tons", "weather_temp_mean_c",
     "weather_precip_total_mm",
 ]
@@ -106,7 +107,7 @@ def run(root: Path) -> dict:
         raise ValueError("AQI values outside expected AQI bounds 0..500")
     if not candidate["drive_alone_pct"].between(0, 100).all():
         raise ValueError("Drive-alone percentage outside 0..100")
-    for col in ["recorded_tree_plantings", "campd_total_nox_mass_tons", "weather_precip_total_mm"]:
+    for col in ["campd_total_nox_mass_tons", "weather_precip_total_mm"]:
         if not candidate[col].ge(0).all():
             raise ValueError(f"Negative values in {col}")
     if not candidate["weather_temp_mean_c"].between(-90, 65).all():
@@ -148,8 +149,7 @@ def run(root: Path) -> dict:
 
     # A smaller comparison candidate without the historical ACS/CAMPD variables
     # whose exact point-in-time release availability has not been audited.
-    limited_features = ["last_observed_median_aqi", "recorded_tree_plantings",
-                        "weather_temp_mean_c", "weather_precip_total_mm"]
+    limited_features = ["last_observed_median_aqi", "weather_temp_mean_c", "weather_precip_total_mm"]
     reduced = handoff[KEYS + [TARGET] + limited_features + ["split"]].copy()
 
     dest = data_root / "handoff"
