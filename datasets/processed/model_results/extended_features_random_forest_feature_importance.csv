@@ -1,7 +1,6 @@
 feature,importance
-last_observed_median_aqi,0.3814024138188255
-weather_temp_mean_c,0.16801597539928034
-recorded_tree_plantings,0.16170538102467355
-drive_alone_pct,0.1545182557138735
-campd_total_nox_mass_tons,0.08701372873898526
-weather_precip_total_mm,0.047344245304361855
+last_observed_median_aqi,0.7009566859538129
+weather_temp_mean_c,0.144661292739448
+drive_alone_pct,0.0867921243945408
+campd_total_nox_mass_tons,0.038329573488371606
+weather_precip_total_mm,0.02926032342382672

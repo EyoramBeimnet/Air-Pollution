@@ -44,7 +44,6 @@
     "extended_features": {
       "features": [
         "last_observed_median_aqi",
-        "recorded_tree_plantings",
         "drive_alone_pct",
         "campd_total_nox_mass_tons",
         "weather_temp_mean_c",
@@ -52,11 +51,11 @@
       ],
       "splits": {
         "train": [
-          2019,
-          2021
+          2014,
+          2020
         ],
         "validation": [
-          2022,
+          2021,
           2022
         ],
         "test": [
@@ -65,8 +64,8 @@
         ]
       },
       "rows": {
-        "train": 15,
-        "validation": 5,
+        "train": 35,
+        "validation": 10,
         "test": 10
       }
     }

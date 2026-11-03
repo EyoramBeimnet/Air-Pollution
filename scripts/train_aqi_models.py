@@ -42,10 +42,8 @@ HISTORICAL_FEATURES = [
     "traffic_sample_mean_15min_vehicle_count",
 ]
 
-# These are the original six project predictors. Some sources begin later:
-# tree plantings from 2016 and weather/ACS commuting data from 2019.
-# This experiment therefore uses 2019-2024, when these predictors have
-# meaningful historical coverage, instead of filling years before collection.
+# The original project predictors, now with weather and ACS commuting data
+# covering the full 2014-2024 feature-year range.
 EXTENDED_FEATURES = [
     "last_observed_median_aqi",
     "drive_alone_pct",
@@ -497,7 +495,7 @@ def main():
         df[YEAR_COLUMN].between(2014, 2024)
     ].copy()
     extended_df = df[
-        df[YEAR_COLUMN].between(2019, 2024)
+        df[YEAR_COLUMN].between(2014, 2024)
     ].copy()
 
     historical_splits = make_splits(
@@ -508,7 +506,7 @@ def main():
     )
 
     print_split_summary("Historical core (2014-2024)", historical_splits)
-    print_split_summary("Extended features (2019-2024)", extended_splits)
+    print_split_summary("Extended features (2014-2014)", extended_splits)
 
     all_results = []
     all_predictions = []
