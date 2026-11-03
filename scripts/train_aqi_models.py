@@ -71,7 +71,7 @@ RANDOM_STATE = 42
 # evaluation begins. This keeps the first training window reasonably sized.
 ROLLING_MIN_TRAIN_YEARS = {
     "Historical core": 5,
-    "Extended features": 3,
+    "Extended features": 5,
 }
 
 
