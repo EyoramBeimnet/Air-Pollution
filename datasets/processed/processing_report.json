@@ -45,7 +45,7 @@
     {
       "source": "weather",
       "status": "OK",
-      "rows": 35,
+      "rows": 60,
       "columns": [
         "county_fips",
         "year",
