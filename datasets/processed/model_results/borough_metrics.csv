@@ -1,4 +1,94 @@
 experiment,model,split,borough,n_rows,MAE,RMSE,R2
+Ablation base,No-change baseline,test,Bronx,2,4.0,4.123105625617661,-6.555555555555555
+Ablation base,No-change baseline,test,Brooklyn,2,3.5,4.949747468305833,0.0
+Ablation base,No-change baseline,test,Manhattan,2,6.0,6.082762530298219,-2.020408163265306
+Ablation base,No-change baseline,test,Queens,2,3.0,3.605551275463989,-51.0
+Ablation base,No-change baseline,test,Staten Island,2,3.5,3.5355339059327378,-4.555555555555555
+Ablation base,No-change baseline,validation,Bronx,2,3.0,3.0,-3.0
+Ablation base,No-change baseline,validation,Brooklyn,2,2.0,2.23606797749979,-1.2222222222222223
+Ablation base,No-change baseline,validation,Manhattan,2,2.5,3.5355339059327378,-1.0
+Ablation base,No-change baseline,validation,Queens,2,1.5,2.1213203435596424,-1.0
+Ablation base,No-change baseline,validation,Staten Island,2,2.0,2.0,-3.0
+Ablation base,Random Forest,test,Bronx,2,5.189750041625029,5.2064935827779255,-11.047811301114542
+Ablation base,Random Forest,test,Brooklyn,2,3.072885366131697,3.68600203188983,0.0
+Ablation base,Random Forest,test,Manhattan,2,5.51829925480293,5.718646871064021,-1.6696262886473727
+Ablation base,Random Forest,test,Queens,2,2.05391074706883,2.7538668810252593,-29.335131193631163
+Ablation base,Random Forest,test,Staten Island,2,2.675237944925449,2.7012811257326503,-2.2430754312175356
+Ablation base,Random Forest,validation,Bronx,2,2.1304161644455775,2.207564740352773,-1.1659298145994694
+Ablation base,Random Forest,validation,Brooklyn,2,2.991695368357121,2.9918214429435204,-2.978220242869622
+Ablation base,Random Forest,validation,Manhattan,2,2.583691300257481,3.617652436221495,-1.0939854638878908
+Ablation base,Random Forest,validation,Queens,2,2.0724149238561154,2.6896473936963647,-2.2152013788522877
+Ablation base,Random Forest,validation,Staten Island,2,0.3284269728093072,0.4215842036768363,0.8222667592101678
+Ablation base,XGBoost,test,Bronx,2,3.0388565063476562,3.7165346807780635,-5.138946681522713
+Ablation base,XGBoost,test,Brooklyn,2,2.487333297729492,3.0103829493588745,0.0
+Ablation base,XGBoost,test,Manhattan,2,4.6632537841796875,4.666070384337822,-0.7773234964566951
+Ablation base,XGBoost,test,Queens,2,1.6562843322753906,1.7248926766806796,-10.901018984266557
+Ablation base,XGBoost,test,Staten Island,2,2.3938465118408203,2.4184124863756167,-1.5994306463366632
+Ablation base,XGBoost,validation,Bronx,2,2.4622631072998047,2.5643135001912922,-1.9225349898948076
+Ablation base,XGBoost,validation,Brooklyn,2,4.112630844116211,4.215022207611487,-6.8961832047368965
+Ablation base,XGBoost,validation,Manhattan,2,2.6082839965820312,2.614830214098847,-0.09397392777027558
+Ablation base,XGBoost,validation,Queens,2,1.190725326538086,1.6153384596200389,-0.15969703961228432
+Ablation base,XGBoost,validation,Staten Island,2,0.18366432189941406,0.19834522942829472,0.9606591699630371
+Ablation drive-alone,No-change baseline,test,Bronx,2,4.0,4.123105625617661,-6.555555555555555
+Ablation drive-alone,No-change baseline,test,Brooklyn,2,3.5,4.949747468305833,0.0
+Ablation drive-alone,No-change baseline,test,Manhattan,2,6.0,6.082762530298219,-2.020408163265306
+Ablation drive-alone,No-change baseline,test,Queens,2,3.0,3.605551275463989,-51.0
+Ablation drive-alone,No-change baseline,test,Staten Island,2,3.5,3.5355339059327378,-4.555555555555555
+Ablation drive-alone,No-change baseline,validation,Bronx,2,3.0,3.0,-3.0
+Ablation drive-alone,No-change baseline,validation,Brooklyn,2,2.0,2.23606797749979,-1.2222222222222223
+Ablation drive-alone,No-change baseline,validation,Manhattan,2,2.5,3.5355339059327378,-1.0
+Ablation drive-alone,No-change baseline,validation,Queens,2,1.5,2.1213203435596424,-1.0
+Ablation drive-alone,No-change baseline,validation,Staten Island,2,2.0,2.0,-3.0
+Ablation drive-alone,Random Forest,test,Bronx,2,4.88262687652762,4.882638973123096,-9.595628151938028
+Ablation drive-alone,Random Forest,test,Brooklyn,2,2.3716835796284386,2.930216545914637,0.0
+Ablation drive-alone,Random Forest,test,Manhattan,2,5.8529666267828055,6.070266677583831,-2.00801122750895
+Ablation drive-alone,Random Forest,test,Queens,2,1.782118325574217,2.1357172483974876,-17.245152660410145
+Ablation drive-alone,Random Forest,test,Staten Island,2,2.407344239094243,2.4247989485350945,-1.6131777514741774
+Ablation drive-alone,Random Forest,validation,Bronx,2,2.2065887233681423,2.300114570102674,-1.3513453491549376
+Ablation drive-alone,Random Forest,validation,Brooklyn,2,3.4922328631335944,3.502816399948644,-4.453210102999636
+Ablation drive-alone,Random Forest,validation,Manhattan,2,2.9973816238228075,3.9190329756109175,-1.4574111142281216
+Ablation drive-alone,Random Forest,validation,Queens,2,1.9713426464602968,2.5355360499631234,-1.8573080269611553
+Ablation drive-alone,Random Forest,validation,Staten Island,2,0.604685846560848,0.6049304084394279,0.634059200945307
+Ablation drive-alone,XGBoost,test,Bronx,2,3.7570114135742188,3.9558583567654293,-5.955029039462614
+Ablation drive-alone,XGBoost,test,Brooklyn,2,3.119813919067383,3.617696180615673,0.0
+Ablation drive-alone,XGBoost,test,Manhattan,2,5.020595550537109,5.066598045835882,-1.095544143515753
+Ablation drive-alone,XGBoost,test,Queens,2,1.8006954193115234,2.0763788740951057,-16.245396915153833
+Ablation drive-alone,XGBoost,test,Staten Island,2,1.7027034759521484,2.269309508467125,-1.2887847312085796
+Ablation drive-alone,XGBoost,validation,Bronx,2,2.5564651489257812,2.593878214512119,-1.990312974098035
+Ablation drive-alone,XGBoost,validation,Brooklyn,2,2.9352645874023438,2.9437652775756793,-2.8514462264267624
+Ablation drive-alone,XGBoost,validation,Manhattan,2,2.604562759399414,2.9138160986438595,-0.35845188107457937
+Ablation drive-alone,XGBoost,validation,Queens,2,1.4792957305908203,1.765560836809744,-0.38542447487836595
+Ablation drive-alone,XGBoost,validation,Staten Island,2,0.7923717498779297,0.8625466795081593,0.25601322566944873
+Ablation weather,No-change baseline,test,Bronx,2,4.0,4.123105625617661,-6.555555555555555
+Ablation weather,No-change baseline,test,Brooklyn,2,3.5,4.949747468305833,0.0
+Ablation weather,No-change baseline,test,Manhattan,2,6.0,6.082762530298219,-2.020408163265306
+Ablation weather,No-change baseline,test,Queens,2,3.0,3.605551275463989,-51.0
+Ablation weather,No-change baseline,test,Staten Island,2,3.5,3.5355339059327378,-4.555555555555555
+Ablation weather,No-change baseline,validation,Bronx,2,3.0,3.0,-3.0
+Ablation weather,No-change baseline,validation,Brooklyn,2,2.0,2.23606797749979,-1.2222222222222223
+Ablation weather,No-change baseline,validation,Manhattan,2,2.5,3.5355339059327378,-1.0
+Ablation weather,No-change baseline,validation,Queens,2,1.5,2.1213203435596424,-1.0
+Ablation weather,No-change baseline,validation,Staten Island,2,2.0,2.0,-3.0
+Ablation weather,Random Forest,test,Bronx,2,4.522977084598402,4.52807381816479,-8.112645556777538
+Ablation weather,Random Forest,test,Brooklyn,2,3.8979709534746405,4.45335649527303,0.0
+Ablation weather,Random Forest,test,Manhattan,2,4.790845251970261,4.9435533856306755,-0.9949975572718786
+Ablation weather,Random Forest,test,Queens,2,1.9779554524995717,2.26944291356831,-19.60148455178168
+Ablation weather,Random Forest,test,Staten Island,2,2.326738478569375,2.336341069067538,-1.4259953737829543
+Ablation weather,Random Forest,validation,Bronx,2,2.276334005226225,2.2765533393661435,-1.3034200475462838
+Ablation weather,Random Forest,validation,Brooklyn,2,2.8165081297128474,2.8233572690781394,-2.5428205639361647
+Ablation weather,Random Forest,validation,Manhattan,2,2.658444462944466,3.3757887789820487,-0.823351980848178
+Ablation weather,Random Forest,validation,Queens,2,2.696837266033473,3.114342963741664,-3.3107253759143163
+Ablation weather,Random Forest,validation,Staten Island,2,0.512479908979909,0.5154549804283031,0.7343061631516578
+Ablation weather,XGBoost,test,Bronx,2,3.1524410247802734,3.280351455699566,-3.782535854626783
+Ablation weather,XGBoost,test,Brooklyn,2,3.799976348876953,4.051245223893602,0.0
+Ablation weather,XGBoost,test,Manhattan,2,3.977447509765625,4.036097636607195,-0.32980278630417836
+Ablation weather,XGBoost,test,Queens,2,1.6344966888427734,1.6522423709459628,-9.919619409396546
+Ablation weather,XGBoost,test,Staten Island,2,2.0019378662109375,2.524997327172069,-1.8336051121004857
+Ablation weather,XGBoost,validation,Bronx,2,2.2295589447021484,2.2534335872196323,-1.2568724142264625
+Ablation weather,XGBoost,validation,Brooklyn,2,2.156728744506836,2.22464766529248,-1.199580993196125
+Ablation weather,XGBoost,validation,Manhattan,2,2.2034034729003906,2.428941759721475,0.05603870846098291
+Ablation weather,XGBoost,validation,Queens,2,2.2454090118408203,2.4985459994974497,-1.7745476051576485
+Ablation weather,XGBoost,validation,Staten Island,2,0.8557186126708984,1.0584205275511598,-0.12025401314167539
 Extended features,No-change baseline,test,Bronx,2,4.0,4.123105625617661,-6.555555555555555
 Extended features,No-change baseline,test,Brooklyn,2,3.5,4.949747468305833,0.0
 Extended features,No-change baseline,test,Manhattan,2,6.0,6.082762530298219,-2.020408163265306
@@ -9,16 +99,16 @@ Extended features,No-change baseline,validation,Brooklyn,2,2.0,2.23606797749979,
 Extended features,No-change baseline,validation,Manhattan,2,2.5,3.5355339059327378,-1.0
 Extended features,No-change baseline,validation,Queens,2,1.5,2.1213203435596424,-1.0
 Extended features,No-change baseline,validation,Staten Island,2,2.0,2.0,-3.0
-Extended features,Random Forest,test,Bronx,2,4.267810647685636,4.267824479034098,-7.095255903930074
-Extended features,Random Forest,test,Brooklyn,2,3.2718723626591206,3.7940102913465443,0.0
-Extended features,Random Forest,test,Manhattan,2,5.062641275391279,5.1574140782718585,-1.1713404061025932
-Extended features,Random Forest,test,Queens,2,1.5079806987674509,1.6019096748321826,-9.264458425283797
-Extended features,Random Forest,test,Staten Island,2,2.1534173280423374,2.2154834180650265,-1.18149634476493
-Extended features,Random Forest,validation,Bronx,2,2.17116890874863,2.1712588047885553,-1.0952732432763672
-Extended features,Random Forest,validation,Brooklyn,2,3.1339317034158363,3.140736975614989,-3.384101666664529
-Extended features,Random Forest,validation,Manhattan,2,2.6631381673881585,3.330193595551073,-0.7744303014159011
-Extended features,Random Forest,validation,Queens,2,2.975445749597853,3.3838637418297774,-4.089126143675654
-Extended features,Random Forest,validation,Staten Island,2,0.5715337301587162,0.5724446463508163,0.6723071268642888
+Extended features,Random Forest,test,Bronx,2,4.267810647685643,4.267824479034105,-7.095255903930102
+Extended features,Random Forest,test,Brooklyn,2,3.2718723626591206,3.794010291346548,0.0
+Extended features,Random Forest,test,Manhattan,2,5.062641275391282,5.15741407827186,-1.1713404061025945
+Extended features,Random Forest,test,Queens,2,1.5079806987674544,1.6019096748321824,-9.264458425283793
+Extended features,Random Forest,test,Staten Island,2,2.1534173280423197,2.2154834180650083,-1.1814963447648945
+Extended features,Random Forest,validation,Bronx,2,2.1711689087486334,2.171258804788559,-1.0952732432763739
+Extended features,Random Forest,validation,Brooklyn,2,3.1339317034158434,3.1407369756149963,-3.3841016666645487
+Extended features,Random Forest,validation,Manhattan,2,2.663138167388155,3.3301935955510764,-0.7744303014159051
+Extended features,Random Forest,validation,Queens,2,2.975445749597867,3.38386374182979,-4.089126143675692
+Extended features,Random Forest,validation,Staten Island,2,0.5715337301587233,0.5724446463508226,0.6723071268642816
 Extended features,XGBoost,test,Bronx,2,3.1119842529296875,3.34377438966516,-3.9692565195469394
 Extended features,XGBoost,test,Brooklyn,2,3.329275131225586,3.470466728446895,0.0
 Extended features,XGBoost,test,Manhattan,2,4.290081024169922,4.388884150676244,-0.5724329867801743
@@ -39,16 +129,16 @@ Historical core,No-change baseline,validation,Brooklyn,2,2.0,2.23606797749979,-1
 Historical core,No-change baseline,validation,Manhattan,2,2.5,3.5355339059327378,-1.0
 Historical core,No-change baseline,validation,Queens,2,1.5,2.1213203435596424,-1.0
 Historical core,No-change baseline,validation,Staten Island,2,2.0,2.0,-3.0
-Historical core,Random Forest,test,Bronx,2,4.734081129518614,4.759687128080763,-9.068720692096758
-Historical core,Random Forest,test,Brooklyn,2,3.5600520568183107,4.1664710427278475,0.0
-Historical core,Random Forest,test,Manhattan,2,5.328022653272647,5.4685380329786035,-1.4412169973986524
-Historical core,Random Forest,test,Queens,2,1.9785929578032793,2.5536032145236094,-25.083557508901244
-Historical core,Random Forest,test,Staten Island,2,2.5951982577607744,2.6858416236078644,-2.206108989824235
+Historical core,Random Forest,test,Bronx,2,4.734081129518621,4.75968712808077,-9.068720692096788
+Historical core,Random Forest,test,Brooklyn,2,3.5600520568182965,4.166471042727835,0.0
+Historical core,Random Forest,test,Manhattan,2,5.3280226532726545,5.468538032978613,-1.4412169973986613
+Historical core,Random Forest,test,Queens,2,1.9785929578032828,2.5536032145236143,-25.083557508901343
+Historical core,Random Forest,test,Staten Island,2,2.5951982577607673,2.6858416236078555,-2.206108989824214
 Historical core,Random Forest,validation,Bronx,2,2.3854823713867788,2.4349398413664947,-1.6350809026995066
-Historical core,Random Forest,validation,Brooklyn,2,3.025023280290103,3.029396551839619,-3.078774874799011
-Historical core,Random Forest,validation,Manhattan,2,2.5171199243867477,3.1940547248250386,-0.6323176936283446
+Historical core,Random Forest,validation,Brooklyn,2,3.0250232802900996,3.0293965518396155,-3.0787748747990005
+Historical core,Random Forest,validation,Manhattan,2,2.5171199243867513,3.194054724825039,-0.6323176936283452
 Historical core,Random Forest,validation,Queens,2,2.56958291822842,2.8541305760649456,-2.6204717089905856
-Historical core,Random Forest,validation,Staten Island,2,0.6711664395545753,0.8064638692097394,0.34961602765925626
+Historical core,Random Forest,validation,Staten Island,2,0.6711664395545753,0.8064638692097434,0.3496160276592498
 Historical core,XGBoost,test,Bronx,2,3.894620895385742,4.134072846666868,-6.595803689577021
 Historical core,XGBoost,test,Brooklyn,2,3.3750133514404297,3.892795701885211,0.0
 Historical core,XGBoost,test,Manhattan,2,4.933845520019531,4.936267033904981,-0.989120998368741

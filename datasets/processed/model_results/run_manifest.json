@@ -73,7 +73,10 @@
   "preprocessing": "Median imputation fitted on each fixed-split training set only; rolling backtests refit the imputer using only rows earlier than the prediction feature year.",
   "rolling_backtest_minimum_training_years": {
     "Historical core": 5,
-    "Extended features": 5
+    "Extended features": 5,
+    "Ablation base": 5,
+    "Ablation weather": 5,
+    "Ablation drive-alone": 5
   },
   "additional_diagnostics": [
     "Borough-level validation/test metrics.",

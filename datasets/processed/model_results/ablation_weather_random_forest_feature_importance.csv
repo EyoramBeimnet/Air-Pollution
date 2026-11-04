@@ -1,0 +1,5 @@
+feature,importance
+last_observed_median_aqi,0.7537838944164486
+weather_temp_mean_c,0.16475386393958258
+campd_total_nox_mass_tons,0.04856245104135543
+weather_precip_total_mm,0.032899790602613305

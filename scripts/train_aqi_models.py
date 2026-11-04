@@ -52,6 +52,15 @@ EXTENDED_FEATURES = [
     "weather_precip_total_mm",
 ]
 
+# Ablation: a shared base plus one feature group at a time, to see which
+# group adds signal. Names avoid ":" because they are used in file names.
+BASE_FEATURES = ["last_observed_median_aqi", "campd_total_nox_mass_tons"]
+ABLATION_FEATURES = {
+    "Ablation base": BASE_FEATURES,
+    "Ablation weather": BASE_FEATURES + ["weather_temp_mean_c", "weather_precip_total_mm"],
+    "Ablation drive-alone": BASE_FEATURES + ["drive_alone_pct"],
+}
+
 # Chronological splits use feature year t to predict AQI in year t+1.
 HISTORICAL_SPLITS = {
     "train": (2014, 2020),
@@ -72,6 +81,7 @@ RANDOM_STATE = 42
 ROLLING_MIN_TRAIN_YEARS = {
     "Historical core": 5,
     "Extended features": 5,
+    **{name: 5 for name in ABLATION_FEATURES}
 }
 
 
@@ -505,8 +515,9 @@ def main():
         extended_df, EXTENDED_SPLITS, "Extended features"
     )
 
+
     print_split_summary("Historical core (2014-2024)", historical_splits)
-    print_split_summary("Extended features (2014-2014)", extended_splits)
+    print_split_summary("Extended features (2014-2024)", extended_splits)
 
     all_results = []
     all_predictions = []
@@ -515,6 +526,11 @@ def main():
     experiments = [
         ("Historical core", historical_df, historical_splits, HISTORICAL_FEATURES),
         ("Extended features", extended_df, extended_splits, EXTENDED_FEATURES),
+    ]
+
+    experiments += [
+        (name, extended_df, extended_splits, features)
+        for name, features in ABLATION_FEATURES.items()
     ]
 
     for experiment_name, experiment_df, split_frames, feature_names in experiments:
