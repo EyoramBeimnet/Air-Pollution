@@ -19,61 +19,61 @@ Historical core,No-change baseline,test,36081,Queens,2023,2024,45.0,50.0,35,2014
 Historical core,No-change baseline,test,36081,Queens,2024,2025,44.0,45.0,35,2014,2020
 Historical core,No-change baseline,test,36085,Staten Island,2023,2024,38.0,42.0,35,2014,2020
 Historical core,No-change baseline,test,36085,Staten Island,2024,2025,41.0,38.0,35,2014,2020
-Historical core,Random Forest,train,36005,Bronx,2014,2015,51.0,47.79628475228475,35,2014,2020
-Historical core,Random Forest,train,36005,Bronx,2015,2016,45.0,47.222575017575025,35,2014,2020
+Historical core,Random Forest,train,36005,Bronx,2014,2015,51.0,47.79628475228474,35,2014,2020
+Historical core,Random Forest,train,36005,Bronx,2015,2016,45.0,47.22257501757501,35,2014,2020
 Historical core,Random Forest,train,36005,Bronx,2016,2017,44.0,44.38907629489249,35,2014,2020
-Historical core,Random Forest,train,36005,Bronx,2017,2018,44.0,44.33953990584295,35,2014,2020
-Historical core,Random Forest,train,36005,Bronx,2018,2019,46.0,45.39810189429306,35,2014,2020
-Historical core,Random Forest,train,36005,Bronx,2019,2020,45.0,45.07096974403594,35,2014,2020
-Historical core,Random Forest,train,36005,Bronx,2020,2021,47.0,45.324047786364,35,2014,2020
-Historical core,Random Forest,train,36047,Brooklyn,2014,2015,42.0,40.32190913601363,35,2014,2020
-Historical core,Random Forest,train,36047,Brooklyn,2015,2016,38.0,39.718724468828974,35,2014,2020
-Historical core,Random Forest,train,36047,Brooklyn,2016,2017,38.0,38.03905783453733,35,2014,2020
+Historical core,Random Forest,train,36005,Bronx,2017,2018,44.0,44.33953990584294,35,2014,2020
+Historical core,Random Forest,train,36005,Bronx,2018,2019,46.0,45.398101894293056,35,2014,2020
+Historical core,Random Forest,train,36005,Bronx,2019,2020,45.0,45.07096974403593,35,2014,2020
+Historical core,Random Forest,train,36005,Bronx,2020,2021,47.0,45.32404778636398,35,2014,2020
+Historical core,Random Forest,train,36047,Brooklyn,2014,2015,42.0,40.321909136013645,35,2014,2020
+Historical core,Random Forest,train,36047,Brooklyn,2015,2016,38.0,39.71872446882899,35,2014,2020
+Historical core,Random Forest,train,36047,Brooklyn,2016,2017,38.0,38.039057834537324,35,2014,2020
 Historical core,Random Forest,train,36047,Brooklyn,2017,2018,34.0,35.80074404761907,35,2014,2020
-Historical core,Random Forest,train,36047,Brooklyn,2018,2019,36.0,37.37079761904762,35,2014,2020
-Historical core,Random Forest,train,36047,Brooklyn,2019,2020,30.0,35.6115530492899,35,2014,2020
-Historical core,Random Forest,train,36047,Brooklyn,2020,2021,42.0,38.300849501203984,35,2014,2020
-Historical core,Random Forest,train,36061,Manhattan,2014,2015,54.0,50.50010846560849,35,2014,2020
-Historical core,Random Forest,train,36061,Manhattan,2015,2016,52.0,50.72927513227516,35,2014,2020
+Historical core,Random Forest,train,36047,Brooklyn,2018,2019,36.0,37.37079761904763,35,2014,2020
+Historical core,Random Forest,train,36047,Brooklyn,2019,2020,30.0,35.61155304928991,35,2014,2020
+Historical core,Random Forest,train,36047,Brooklyn,2020,2021,42.0,38.30084950120398,35,2014,2020
+Historical core,Random Forest,train,36061,Manhattan,2014,2015,54.0,50.5001084656085,35,2014,2020
+Historical core,Random Forest,train,36061,Manhattan,2015,2016,52.0,50.72927513227517,35,2014,2020
 Historical core,Random Forest,train,36061,Manhattan,2016,2017,50.0,50.66873448773451,35,2014,2020
-Historical core,Random Forest,train,36061,Manhattan,2017,2018,51.0,48.774147408147414,35,2014,2020
+Historical core,Random Forest,train,36061,Manhattan,2017,2018,51.0,48.77414740814741,35,2014,2020
 Historical core,Random Forest,train,36061,Manhattan,2018,2019,46.0,47.989359066859066,35,2014,2020
-Historical core,Random Forest,train,36061,Manhattan,2019,2020,40.0,43.14915408632476,35,2014,2020
-Historical core,Random Forest,train,36061,Manhattan,2020,2021,43.0,41.025768119622605,35,2014,2020
+Historical core,Random Forest,train,36061,Manhattan,2019,2020,40.0,43.149154086324764,35,2014,2020
+Historical core,Random Forest,train,36061,Manhattan,2020,2021,43.0,41.02576811962262,35,2014,2020
 Historical core,Random Forest,train,36081,Queens,2014,2015,48.0,46.42962898512165,35,2014,2020
-Historical core,Random Forest,train,36081,Queens,2015,2016,44.0,46.29401799426067,35,2014,2020
-Historical core,Random Forest,train,36081,Queens,2016,2017,44.0,44.604150234841384,35,2014,2020
-Historical core,Random Forest,train,36081,Queens,2017,2018,45.0,44.014212601396444,35,2014,2020
+Historical core,Random Forest,train,36081,Queens,2015,2016,44.0,46.29401799426066,35,2014,2020
+Historical core,Random Forest,train,36081,Queens,2016,2017,44.0,44.6041502348414,35,2014,2020
+Historical core,Random Forest,train,36081,Queens,2017,2018,45.0,44.01421260139643,35,2014,2020
 Historical core,Random Forest,train,36081,Queens,2018,2019,45.0,44.384270646836846,35,2014,2020
-Historical core,Random Forest,train,36081,Queens,2019,2020,43.0,43.71237879679948,35,2014,2020
-Historical core,Random Forest,train,36081,Queens,2020,2021,47.0,43.861032236769056,35,2014,2020
-Historical core,Random Forest,train,36085,Staten Island,2014,2015,51.0,48.09327455414959,35,2014,2020
-Historical core,Random Forest,train,36085,Staten Island,2015,2016,45.0,47.4543033910534,35,2014,2020
-Historical core,Random Forest,train,36085,Staten Island,2016,2017,44.0,44.19204698971767,35,2014,2020
-Historical core,Random Forest,train,36085,Staten Island,2017,2018,42.0,43.60022800314869,35,2014,2020
-Historical core,Random Forest,train,36085,Staten Island,2018,2019,41.0,39.9783937456306,35,2014,2020
+Historical core,Random Forest,train,36081,Queens,2019,2020,43.0,43.712378796799484,35,2014,2020
+Historical core,Random Forest,train,36081,Queens,2020,2021,47.0,43.86103223676907,35,2014,2020
+Historical core,Random Forest,train,36085,Staten Island,2014,2015,51.0,48.093274554149595,35,2014,2020
+Historical core,Random Forest,train,36085,Staten Island,2015,2016,45.0,47.454303391053394,35,2014,2020
+Historical core,Random Forest,train,36085,Staten Island,2016,2017,44.0,44.192046989717674,35,2014,2020
+Historical core,Random Forest,train,36085,Staten Island,2017,2018,42.0,43.600228003148686,35,2014,2020
+Historical core,Random Forest,train,36085,Staten Island,2018,2019,41.0,39.97839374563062,35,2014,2020
 Historical core,Random Forest,train,36085,Staten Island,2019,2020,39.0,40.342829687684194,35,2014,2020
 Historical core,Random Forest,train,36085,Staten Island,2020,2021,42.0,40.48722843708293,35,2014,2020
-Historical core,Random Forest,validation,36005,Bronx,2021,2022,44.0,46.873750624375646,35,2014,2020
+Historical core,Random Forest,validation,36005,Bronx,2021,2022,44.0,46.87375062437564,35,2014,2020
 Historical core,Random Forest,validation,36005,Bronx,2022,2023,47.0,45.10278588160209,35,2014,2020
-Historical core,Random Forest,validation,36047,Brooklyn,2021,2022,43.0,39.81225726174412,35,2014,2020
-Historical core,Random Forest,validation,36047,Brooklyn,2022,2023,46.0,43.13769617767568,35,2014,2020
-Historical core,Random Forest,validation,36061,Manhattan,2021,2022,43.0,42.449118329597844,35,2014,2020
+Historical core,Random Forest,validation,36047,Brooklyn,2021,2022,43.0,39.812257261744115,35,2014,2020
+Historical core,Random Forest,validation,36047,Brooklyn,2022,2023,46.0,43.13769617767567,35,2014,2020
+Historical core,Random Forest,validation,36061,Manhattan,2021,2022,43.0,42.44911832959784,35,2014,2020
 Historical core,Random Forest,validation,36061,Manhattan,2022,2023,48.0,43.51664182162865,35,2014,2020
-Historical core,Random Forest,validation,36081,Queens,2021,2022,47.0,45.67271534369483,35,2014,2020
-Historical core,Random Forest,validation,36081,Queens,2022,2023,50.0,46.18811881984833,35,2014,2020
-Historical core,Random Forest,validation,36085,Staten Island,2021,2022,40.0,39.77595723769411,35,2014,2020
-Historical core,Random Forest,validation,36085,Staten Island,2022,2023,42.0,40.88170988319674,35,2014,2020
+Historical core,Random Forest,validation,36081,Queens,2021,2022,47.0,45.672715343694826,35,2014,2020
+Historical core,Random Forest,validation,36081,Queens,2022,2023,50.0,46.18811881984831,35,2014,2020
+Historical core,Random Forest,validation,36085,Staten Island,2021,2022,40.0,39.77595723769409,35,2014,2020
+Historical core,Random Forest,validation,36085,Staten Island,2022,2023,42.0,40.88170988319672,35,2014,2020
 Historical core,Random Forest,test,36005,Bronx,2023,2024,42.0,46.241032028157036,35,2014,2020
 Historical core,Random Forest,test,36005,Bronx,2024,2025,45.0,39.772869769119794,35,2014,2020
-Historical core,Random Forest,test,36047,Brooklyn,2023,2024,39.0,44.72465601658401,35,2014,2020
-Historical core,Random Forest,test,36047,Brooklyn,2024,2025,39.0,40.395448097052586,35,2014,2020
+Historical core,Random Forest,test,36047,Brooklyn,2023,2024,39.0,44.72465601658402,35,2014,2020
+Historical core,Random Forest,test,36047,Brooklyn,2024,2025,39.0,40.39544809705259,35,2014,2020
 Historical core,Random Forest,test,36061,Manhattan,2023,2024,43.0,47.09632349181032,35,2014,2020
 Historical core,Random Forest,test,36061,Manhattan,2024,2025,50.0,43.44027818526501,35,2014,2020
 Historical core,Random Forest,test,36081,Queens,2023,2024,45.0,48.592922318422296,35,2014,2020
 Historical core,Random Forest,test,36081,Queens,2024,2025,44.0,44.36426359718427,35,2014,2020
-Historical core,Random Forest,test,36085,Staten Island,2023,2024,38.0,39.903323102823144,35,2014,2020
-Historical core,Random Forest,test,36085,Staten Island,2024,2025,41.0,37.71292658730161,35,2014,2020
+Historical core,Random Forest,test,36085,Staten Island,2023,2024,38.0,39.90332310282313,35,2014,2020
+Historical core,Random Forest,test,36085,Staten Island,2024,2025,41.0,37.7129265873016,35,2014,2020
 Historical core,XGBoost,train,36005,Bronx,2014,2015,51.0,47.34566879272461,35,2014,2020
 Historical core,XGBoost,train,36005,Bronx,2015,2016,45.0,47.09111785888672,35,2014,2020
 Historical core,XGBoost,train,36005,Bronx,2016,2017,44.0,43.30834197998047,35,2014,2020
@@ -134,10 +134,10 @@ Historical core,No-change baseline,rolling_backtest,36047,Brooklyn,2019,2020,30.
 Historical core,No-change baseline,rolling_backtest,36061,Manhattan,2019,2020,40.0,46.0,25,2014,2018
 Historical core,No-change baseline,rolling_backtest,36081,Queens,2019,2020,43.0,45.0,25,2014,2018
 Historical core,No-change baseline,rolling_backtest,36085,Staten Island,2019,2020,39.0,41.0,25,2014,2018
-Historical core,Random Forest,rolling_backtest,36005,Bronx,2019,2020,45.0,44.49875352425352,25,2014,2018
-Historical core,Random Forest,rolling_backtest,36047,Brooklyn,2019,2020,30.0,37.76042857142857,25,2014,2018
-Historical core,Random Forest,rolling_backtest,36061,Manhattan,2019,2020,40.0,44.83245831020826,25,2014,2018
-Historical core,Random Forest,rolling_backtest,36081,Queens,2019,2020,43.0,44.6530773578273,25,2014,2018
+Historical core,Random Forest,rolling_backtest,36005,Bronx,2019,2020,45.0,44.49875352425353,25,2014,2018
+Historical core,Random Forest,rolling_backtest,36047,Brooklyn,2019,2020,30.0,37.76042857142856,25,2014,2018
+Historical core,Random Forest,rolling_backtest,36061,Manhattan,2019,2020,40.0,44.83245831020829,25,2014,2018
+Historical core,Random Forest,rolling_backtest,36081,Queens,2019,2020,43.0,44.65307735782733,25,2014,2018
 Historical core,Random Forest,rolling_backtest,36085,Staten Island,2019,2020,39.0,39.43961904761904,25,2014,2018
 Historical core,XGBoost,rolling_backtest,36005,Bronx,2019,2020,45.0,44.974979400634766,25,2014,2018
 Historical core,XGBoost,rolling_backtest,36047,Brooklyn,2019,2020,30.0,39.932342529296875,25,2014,2018
@@ -149,11 +149,11 @@ Historical core,No-change baseline,rolling_backtest,36047,Brooklyn,2020,2021,42.
 Historical core,No-change baseline,rolling_backtest,36061,Manhattan,2020,2021,43.0,40.0,30,2014,2019
 Historical core,No-change baseline,rolling_backtest,36081,Queens,2020,2021,47.0,43.0,30,2014,2019
 Historical core,No-change baseline,rolling_backtest,36085,Staten Island,2020,2021,42.0,39.0,30,2014,2019
-Historical core,Random Forest,rolling_backtest,36005,Bronx,2020,2021,47.0,44.44468795093795,30,2014,2019
+Historical core,Random Forest,rolling_backtest,36005,Bronx,2020,2021,47.0,44.44468795093794,30,2014,2019
 Historical core,Random Forest,rolling_backtest,36047,Brooklyn,2020,2021,42.0,35.634070105820086,30,2014,2019
 Historical core,Random Forest,rolling_backtest,36061,Manhattan,2020,2021,43.0,39.264175625300616,30,2014,2019
 Historical core,Random Forest,rolling_backtest,36081,Queens,2020,2021,47.0,40.14814616402116,30,2014,2019
-Historical core,Random Forest,rolling_backtest,36085,Staten Island,2020,2021,42.0,36.65657804232803,30,2014,2019
+Historical core,Random Forest,rolling_backtest,36085,Staten Island,2020,2021,42.0,36.656578042328036,30,2014,2019
 Historical core,XGBoost,rolling_backtest,36005,Bronx,2020,2021,47.0,44.246238708496094,30,2014,2019
 Historical core,XGBoost,rolling_backtest,36047,Brooklyn,2020,2021,42.0,37.768943786621094,30,2014,2019
 Historical core,XGBoost,rolling_backtest,36061,Manhattan,2020,2021,43.0,41.456085205078125,30,2014,2019
@@ -164,10 +164,10 @@ Historical core,No-change baseline,rolling_backtest,36047,Brooklyn,2021,2022,43.
 Historical core,No-change baseline,rolling_backtest,36061,Manhattan,2021,2022,43.0,43.0,35,2014,2020
 Historical core,No-change baseline,rolling_backtest,36081,Queens,2021,2022,47.0,47.0,35,2014,2020
 Historical core,No-change baseline,rolling_backtest,36085,Staten Island,2021,2022,40.0,42.0,35,2014,2020
-Historical core,Random Forest,rolling_backtest,36005,Bronx,2021,2022,44.0,46.90051447818319,35,2014,2020
+Historical core,Random Forest,rolling_backtest,36005,Bronx,2021,2022,44.0,46.9005144781832,35,2014,2020
 Historical core,Random Forest,rolling_backtest,36047,Brooklyn,2021,2022,43.0,39.805614598364606,35,2014,2020
-Historical core,Random Forest,rolling_backtest,36061,Manhattan,2021,2022,43.0,42.12273444311679,35,2014,2020
-Historical core,Random Forest,rolling_backtest,36081,Queens,2021,2022,47.0,45.89901777281885,35,2014,2020
+Historical core,Random Forest,rolling_backtest,36061,Manhattan,2021,2022,43.0,42.1227344431168,35,2014,2020
+Historical core,Random Forest,rolling_backtest,36081,Queens,2021,2022,47.0,45.899017772818844,35,2014,2020
 Historical core,Random Forest,rolling_backtest,36085,Staten Island,2021,2022,40.0,39.90960341510342,35,2014,2020
 Historical core,XGBoost,rolling_backtest,36005,Bronx,2021,2022,44.0,47.314491271972656,35,2014,2020
 Historical core,XGBoost,rolling_backtest,36047,Brooklyn,2021,2022,43.0,40.54450607299805,35,2014,2020
@@ -179,10 +179,10 @@ Historical core,No-change baseline,rolling_backtest,36047,Brooklyn,2022,2023,46.
 Historical core,No-change baseline,rolling_backtest,36061,Manhattan,2022,2023,48.0,43.0,40,2014,2021
 Historical core,No-change baseline,rolling_backtest,36081,Queens,2022,2023,50.0,47.0,40,2014,2021
 Historical core,No-change baseline,rolling_backtest,36085,Staten Island,2022,2023,42.0,40.0,40,2014,2021
-Historical core,Random Forest,rolling_backtest,36005,Bronx,2022,2023,47.0,44.84656206704658,40,2014,2021
+Historical core,Random Forest,rolling_backtest,36005,Bronx,2022,2023,47.0,44.846562067046584,40,2014,2021
 Historical core,Random Forest,rolling_backtest,36047,Brooklyn,2022,2023,46.0,43.74086640867446,40,2014,2021
-Historical core,Random Forest,rolling_backtest,36061,Manhattan,2022,2023,48.0,43.48132617382616,40,2014,2021
-Historical core,Random Forest,rolling_backtest,36081,Queens,2022,2023,50.0,45.93377498648006,40,2014,2021
+Historical core,Random Forest,rolling_backtest,36061,Manhattan,2022,2023,48.0,43.48132617382617,40,2014,2021
+Historical core,Random Forest,rolling_backtest,36081,Queens,2022,2023,50.0,45.933774986480074,40,2014,2021
 Historical core,Random Forest,rolling_backtest,36085,Staten Island,2022,2023,42.0,40.70858312983312,40,2014,2021
 Historical core,XGBoost,rolling_backtest,36005,Bronx,2022,2023,47.0,44.69960021972656,40,2014,2021
 Historical core,XGBoost,rolling_backtest,36047,Brooklyn,2022,2023,46.0,42.87285232543945,40,2014,2021
@@ -194,11 +194,11 @@ Historical core,No-change baseline,rolling_backtest,36047,Brooklyn,2023,2024,39.
 Historical core,No-change baseline,rolling_backtest,36061,Manhattan,2023,2024,43.0,48.0,45,2014,2022
 Historical core,No-change baseline,rolling_backtest,36081,Queens,2023,2024,45.0,50.0,45,2014,2022
 Historical core,No-change baseline,rolling_backtest,36085,Staten Island,2023,2024,38.0,42.0,45,2014,2022
-Historical core,Random Forest,rolling_backtest,36005,Bronx,2023,2024,42.0,46.31578068086308,45,2014,2022
+Historical core,Random Forest,rolling_backtest,36005,Bronx,2023,2024,42.0,46.31578068086309,45,2014,2022
 Historical core,Random Forest,rolling_backtest,36047,Brooklyn,2023,2024,39.0,45.15436904484116,45,2014,2022
-Historical core,Random Forest,rolling_backtest,36061,Manhattan,2023,2024,43.0,47.37685453435453,45,2014,2022
+Historical core,Random Forest,rolling_backtest,36061,Manhattan,2023,2024,43.0,47.37685453435454,45,2014,2022
 Historical core,Random Forest,rolling_backtest,36081,Queens,2023,2024,45.0,48.80403539053538,45,2014,2022
-Historical core,Random Forest,rolling_backtest,36085,Staten Island,2023,2024,38.0,39.695223674473674,45,2014,2022
+Historical core,Random Forest,rolling_backtest,36085,Staten Island,2023,2024,38.0,39.69522367447368,45,2014,2022
 Historical core,XGBoost,rolling_backtest,36005,Bronx,2023,2024,42.0,46.84844207763672,45,2014,2022
 Historical core,XGBoost,rolling_backtest,36047,Brooklyn,2023,2024,39.0,44.375118255615234,45,2014,2022
 Historical core,XGBoost,rolling_backtest,36061,Manhattan,2023,2024,43.0,47.88426208496094,45,2014,2022
@@ -209,11 +209,11 @@ Historical core,No-change baseline,rolling_backtest,36047,Brooklyn,2024,2025,39.
 Historical core,No-change baseline,rolling_backtest,36061,Manhattan,2024,2025,50.0,43.0,50,2014,2023
 Historical core,No-change baseline,rolling_backtest,36081,Queens,2024,2025,44.0,45.0,50,2014,2023
 Historical core,No-change baseline,rolling_backtest,36085,Staten Island,2024,2025,41.0,38.0,50,2014,2023
-Historical core,Random Forest,rolling_backtest,36005,Bronx,2024,2025,45.0,39.32711130013305,50,2014,2023
-Historical core,Random Forest,rolling_backtest,36047,Brooklyn,2024,2025,39.0,40.64615185711548,50,2014,2023
+Historical core,Random Forest,rolling_backtest,36005,Bronx,2024,2025,45.0,39.32711130013304,50,2014,2023
+Historical core,Random Forest,rolling_backtest,36047,Brooklyn,2024,2025,39.0,40.64615185711547,50,2014,2023
 Historical core,Random Forest,rolling_backtest,36061,Manhattan,2024,2025,50.0,44.936027298464914,50,2014,2023
-Historical core,Random Forest,rolling_backtest,36081,Queens,2024,2025,44.0,45.64454517464918,50,2014,2023
-Historical core,Random Forest,rolling_backtest,36085,Staten Island,2024,2025,41.0,37.70524776149775,50,2014,2023
+Historical core,Random Forest,rolling_backtest,36081,Queens,2024,2025,44.0,45.64454517464919,50,2014,2023
+Historical core,Random Forest,rolling_backtest,36085,Staten Island,2024,2025,41.0,37.70524776149776,50,2014,2023
 Historical core,XGBoost,rolling_backtest,36005,Bronx,2024,2025,45.0,42.34327697753906,50,2014,2023
 Historical core,XGBoost,rolling_backtest,36047,Brooklyn,2024,2025,39.0,40.82497024536133,50,2014,2023
 Historical core,XGBoost,rolling_backtest,36061,Manhattan,2024,2025,50.0,44.80835723876953,50,2014,2023
@@ -239,60 +239,60 @@ Extended features,No-change baseline,test,36081,Queens,2023,2024,45.0,50.0,35,20
 Extended features,No-change baseline,test,36081,Queens,2024,2025,44.0,45.0,35,2014,2020
 Extended features,No-change baseline,test,36085,Staten Island,2023,2024,38.0,42.0,35,2014,2020
 Extended features,No-change baseline,test,36085,Staten Island,2024,2025,41.0,38.0,35,2014,2020
-Extended features,Random Forest,train,36005,Bronx,2014,2015,51.0,49.87478880914408,35,2014,2020
+Extended features,Random Forest,train,36005,Bronx,2014,2015,51.0,49.87478880914409,35,2014,2020
 Extended features,Random Forest,train,36005,Bronx,2015,2016,45.0,46.057851861560074,35,2014,2020
-Extended features,Random Forest,train,36005,Bronx,2016,2017,44.0,44.32844715352299,35,2014,2020
+Extended features,Random Forest,train,36005,Bronx,2016,2017,44.0,44.328447153523,35,2014,2020
 Extended features,Random Forest,train,36005,Bronx,2017,2018,44.0,44.569322209023056,35,2014,2020
-Extended features,Random Forest,train,36005,Bronx,2018,2019,46.0,45.11176482767889,35,2014,2020
-Extended features,Random Forest,train,36005,Bronx,2019,2020,45.0,45.049445813359874,35,2014,2020
-Extended features,Random Forest,train,36005,Bronx,2020,2021,47.0,45.65487301913769,35,2014,2020
-Extended features,Random Forest,train,36047,Brooklyn,2014,2015,42.0,40.576387566137555,35,2014,2020
-Extended features,Random Forest,train,36047,Brooklyn,2015,2016,38.0,39.078141300964845,35,2014,2020
+Extended features,Random Forest,train,36005,Bronx,2018,2019,46.0,45.1117648276789,35,2014,2020
+Extended features,Random Forest,train,36005,Bronx,2019,2020,45.0,45.04944581335989,35,2014,2020
+Extended features,Random Forest,train,36005,Bronx,2020,2021,47.0,45.6548730191377,35,2014,2020
+Extended features,Random Forest,train,36047,Brooklyn,2014,2015,42.0,40.57638756613757,35,2014,2020
+Extended features,Random Forest,train,36047,Brooklyn,2015,2016,38.0,39.07814130096485,35,2014,2020
 Extended features,Random Forest,train,36047,Brooklyn,2016,2017,38.0,37.89975529100529,35,2014,2020
-Extended features,Random Forest,train,36047,Brooklyn,2017,2018,34.0,35.897321428571445,35,2014,2020
+Extended features,Random Forest,train,36047,Brooklyn,2017,2018,34.0,35.89732142857145,35,2014,2020
 Extended features,Random Forest,train,36047,Brooklyn,2018,2019,36.0,36.279644179894206,35,2014,2020
 Extended features,Random Forest,train,36047,Brooklyn,2019,2020,30.0,34.87882936507939,35,2014,2020
-Extended features,Random Forest,train,36047,Brooklyn,2020,2021,42.0,38.54245634920634,35,2014,2020
-Extended features,Random Forest,train,36061,Manhattan,2014,2015,54.0,51.4171388888889,35,2014,2020
+Extended features,Random Forest,train,36047,Brooklyn,2020,2021,42.0,38.54245634920633,35,2014,2020
+Extended features,Random Forest,train,36061,Manhattan,2014,2015,54.0,51.417138888888914,35,2014,2020
 Extended features,Random Forest,train,36061,Manhattan,2015,2016,52.0,50.03523290598292,35,2014,2020
 Extended features,Random Forest,train,36061,Manhattan,2016,2017,50.0,48.808678826075905,35,2014,2020
 Extended features,Random Forest,train,36061,Manhattan,2017,2018,51.0,48.29420988752104,35,2014,2020
-Extended features,Random Forest,train,36061,Manhattan,2018,2019,46.0,47.44701404251639,35,2014,2020
-Extended features,Random Forest,train,36061,Manhattan,2019,2020,40.0,43.592256463222014,35,2014,2020
-Extended features,Random Forest,train,36061,Manhattan,2020,2021,43.0,41.28486099086099,35,2014,2020
-Extended features,Random Forest,train,36081,Queens,2014,2015,48.0,48.168648706055436,35,2014,2020
-Extended features,Random Forest,train,36081,Queens,2015,2016,44.0,44.94193368632571,35,2014,2020
-Extended features,Random Forest,train,36081,Queens,2016,2017,44.0,44.38479020507928,35,2014,2020
-Extended features,Random Forest,train,36081,Queens,2017,2018,45.0,44.474743548032635,35,2014,2020
+Extended features,Random Forest,train,36061,Manhattan,2018,2019,46.0,47.447014042516386,35,2014,2020
+Extended features,Random Forest,train,36061,Manhattan,2019,2020,40.0,43.59225646322202,35,2014,2020
+Extended features,Random Forest,train,36061,Manhattan,2020,2021,43.0,41.284860990861,35,2014,2020
+Extended features,Random Forest,train,36081,Queens,2014,2015,48.0,48.16864870605545,35,2014,2020
+Extended features,Random Forest,train,36081,Queens,2015,2016,44.0,44.941933686325704,35,2014,2020
+Extended features,Random Forest,train,36081,Queens,2016,2017,44.0,44.384790205079284,35,2014,2020
+Extended features,Random Forest,train,36081,Queens,2017,2018,45.0,44.47474354803264,35,2014,2020
 Extended features,Random Forest,train,36081,Queens,2018,2019,45.0,44.4003262061153,35,2014,2020
-Extended features,Random Forest,train,36081,Queens,2019,2020,43.0,43.887476921140994,35,2014,2020
-Extended features,Random Forest,train,36081,Queens,2020,2021,47.0,44.36498615518466,35,2014,2020
+Extended features,Random Forest,train,36081,Queens,2019,2020,43.0,43.887476921141,35,2014,2020
+Extended features,Random Forest,train,36081,Queens,2020,2021,47.0,44.36498615518467,35,2014,2020
 Extended features,Random Forest,train,36085,Staten Island,2014,2015,51.0,49.22617160907835,35,2014,2020
 Extended features,Random Forest,train,36085,Staten Island,2015,2016,45.0,46.06611483633039,35,2014,2020
-Extended features,Random Forest,train,36085,Staten Island,2016,2017,44.0,44.45987358093976,35,2014,2020
-Extended features,Random Forest,train,36085,Staten Island,2017,2018,42.0,43.92960586382143,35,2014,2020
-Extended features,Random Forest,train,36085,Staten Island,2018,2019,41.0,40.14786111111114,35,2014,2020
-Extended features,Random Forest,train,36085,Staten Island,2019,2020,39.0,40.36455026455029,35,2014,2020
-Extended features,Random Forest,train,36085,Staten Island,2020,2021,42.0,41.0049351851852,35,2014,2020
-Extended features,Random Forest,validation,36005,Bronx,2021,2022,44.0,46.19092661750013,35,2014,2020
-Extended features,Random Forest,validation,36005,Bronx,2022,2023,47.0,44.848588800002865,35,2014,2020
-Extended features,Random Forest,validation,36047,Brooklyn,2021,2022,43.0,40.07271008403361,35,2014,2020
-Extended features,Random Forest,validation,36047,Brooklyn,2022,2023,46.0,42.659426509134704,35,2014,2020
-Extended features,Random Forest,validation,36061,Manhattan,2021,2022,43.0,43.66366711602235,35,2014,2020
-Extended features,Random Forest,validation,36061,Manhattan,2022,2023,48.0,43.33739078124604,35,2014,2020
-Extended features,Random Forest,validation,36081,Queens,2021,2022,47.0,45.636154825752705,35,2014,2020
-Extended features,Random Forest,validation,36081,Queens,2022,2023,50.0,45.41295367505156,35,2014,2020
-Extended features,Random Forest,validation,36085,Staten Island,2021,2022,40.0,40.60381481481482,35,2014,2020
-Extended features,Random Forest,validation,36085,Staten Island,2022,2023,42.0,41.46074735449737,35,2014,2020
-Extended features,Random Forest,test,36005,Bronx,2023,2024,42.0,46.25694513601866,35,2014,2020
-Extended features,Random Forest,test,36005,Bronx,2024,2025,45.0,40.72132384064737,35,2014,2020
-Extended features,Random Forest,test,36047,Brooklyn,2023,2024,39.0,44.19264442964441,35,2014,2020
+Extended features,Random Forest,train,36085,Staten Island,2016,2017,44.0,44.459873580939764,35,2014,2020
+Extended features,Random Forest,train,36085,Staten Island,2017,2018,42.0,43.92960586382142,35,2014,2020
+Extended features,Random Forest,train,36085,Staten Island,2018,2019,41.0,40.147861111111155,35,2014,2020
+Extended features,Random Forest,train,36085,Staten Island,2019,2020,39.0,40.36455026455031,35,2014,2020
+Extended features,Random Forest,train,36085,Staten Island,2020,2021,42.0,41.004935185185204,35,2014,2020
+Extended features,Random Forest,validation,36005,Bronx,2021,2022,44.0,46.19092661750014,35,2014,2020
+Extended features,Random Forest,validation,36005,Bronx,2022,2023,47.0,44.84858880000288,35,2014,2020
+Extended features,Random Forest,validation,36047,Brooklyn,2021,2022,43.0,40.07271008403362,35,2014,2020
+Extended features,Random Forest,validation,36047,Brooklyn,2022,2023,46.0,42.65942650913472,35,2014,2020
+Extended features,Random Forest,validation,36061,Manhattan,2021,2022,43.0,43.66366711602237,35,2014,2020
+Extended features,Random Forest,validation,36061,Manhattan,2022,2023,48.0,43.33739078124605,35,2014,2020
+Extended features,Random Forest,validation,36081,Queens,2021,2022,47.0,45.63615482575272,35,2014,2020
+Extended features,Random Forest,validation,36081,Queens,2022,2023,50.0,45.41295367505158,35,2014,2020
+Extended features,Random Forest,validation,36085,Staten Island,2021,2022,40.0,40.60381481481483,35,2014,2020
+Extended features,Random Forest,validation,36085,Staten Island,2022,2023,42.0,41.46074735449738,35,2014,2020
+Extended features,Random Forest,test,36005,Bronx,2023,2024,42.0,46.25694513601864,35,2014,2020
+Extended features,Random Forest,test,36005,Bronx,2024,2025,45.0,40.72132384064738,35,2014,2020
+Extended features,Random Forest,test,36047,Brooklyn,2023,2024,39.0,44.1926444296444,35,2014,2020
 Extended features,Random Forest,test,36047,Brooklyn,2024,2025,39.0,40.35110029567383,35,2014,2020
-Extended features,Random Forest,test,36061,Manhattan,2023,2024,43.0,47.07847498280587,35,2014,2020
-Extended features,Random Forest,test,36061,Manhattan,2024,2025,50.0,43.95319243202331,35,2014,2020
-Extended features,Random Forest,test,36081,Queens,2023,2024,45.0,47.04845162163544,35,2014,2020
+Extended features,Random Forest,test,36061,Manhattan,2023,2024,43.0,47.078474982805865,35,2014,2020
+Extended features,Random Forest,test,36061,Manhattan,2024,2025,50.0,43.9531924320233,35,2014,2020
+Extended features,Random Forest,test,36081,Queens,2023,2024,45.0,47.048451621635444,35,2014,2020
 Extended features,Random Forest,test,36081,Queens,2024,2025,44.0,44.96750977589947,35,2014,2020
-Extended features,Random Forest,test,36085,Staten Island,2023,2024,38.0,40.67414814814815,35,2014,2020
+Extended features,Random Forest,test,36085,Staten Island,2023,2024,38.0,40.67414814814817,35,2014,2020
 Extended features,Random Forest,test,36085,Staten Island,2024,2025,41.0,39.36731349206351,35,2014,2020
 Extended features,XGBoost,train,36005,Bronx,2014,2015,51.0,48.605045318603516,35,2014,2020
 Extended features,XGBoost,train,36005,Bronx,2015,2016,45.0,46.2157096862793,35,2014,2020
@@ -354,10 +354,10 @@ Extended features,No-change baseline,rolling_backtest,36047,Brooklyn,2019,2020,3
 Extended features,No-change baseline,rolling_backtest,36061,Manhattan,2019,2020,40.0,46.0,25,2014,2018
 Extended features,No-change baseline,rolling_backtest,36081,Queens,2019,2020,43.0,45.0,25,2014,2018
 Extended features,No-change baseline,rolling_backtest,36085,Staten Island,2019,2020,39.0,41.0,25,2014,2018
-Extended features,Random Forest,rolling_backtest,36005,Bronx,2019,2020,45.0,44.96370177970178,25,2014,2018
-Extended features,Random Forest,rolling_backtest,36047,Brooklyn,2019,2020,30.0,36.89726190476189,25,2014,2018
-Extended features,Random Forest,rolling_backtest,36061,Manhattan,2019,2020,40.0,45.46173544973544,25,2014,2018
-Extended features,Random Forest,rolling_backtest,36081,Queens,2019,2020,43.0,44.91977656602657,25,2014,2018
+Extended features,Random Forest,rolling_backtest,36005,Bronx,2019,2020,45.0,44.96370177970177,25,2014,2018
+Extended features,Random Forest,rolling_backtest,36047,Brooklyn,2019,2020,30.0,36.897261904761905,25,2014,2018
+Extended features,Random Forest,rolling_backtest,36061,Manhattan,2019,2020,40.0,45.46173544973545,25,2014,2018
+Extended features,Random Forest,rolling_backtest,36081,Queens,2019,2020,43.0,44.91977656602656,25,2014,2018
 Extended features,Random Forest,rolling_backtest,36085,Staten Island,2019,2020,39.0,39.98257876382875,25,2014,2018
 Extended features,XGBoost,rolling_backtest,36005,Bronx,2019,2020,45.0,44.68690872192383,25,2014,2018
 Extended features,XGBoost,rolling_backtest,36047,Brooklyn,2019,2020,30.0,39.40637969970703,25,2014,2018
@@ -369,11 +369,11 @@ Extended features,No-change baseline,rolling_backtest,36047,Brooklyn,2020,2021,4
 Extended features,No-change baseline,rolling_backtest,36061,Manhattan,2020,2021,43.0,40.0,30,2014,2019
 Extended features,No-change baseline,rolling_backtest,36081,Queens,2020,2021,47.0,43.0,30,2014,2019
 Extended features,No-change baseline,rolling_backtest,36085,Staten Island,2020,2021,42.0,39.0,30,2014,2019
-Extended features,Random Forest,rolling_backtest,36005,Bronx,2020,2021,47.0,43.93830575307049,30,2014,2019
-Extended features,Random Forest,rolling_backtest,36047,Brooklyn,2020,2021,42.0,34.72463492063493,30,2014,2019
-Extended features,Random Forest,rolling_backtest,36061,Manhattan,2020,2021,43.0,37.31465512265511,30,2014,2019
+Extended features,Random Forest,rolling_backtest,36005,Bronx,2020,2021,47.0,43.93830575307048,30,2014,2019
+Extended features,Random Forest,rolling_backtest,36047,Brooklyn,2020,2021,42.0,34.72463492063491,30,2014,2019
+Extended features,Random Forest,rolling_backtest,36061,Manhattan,2020,2021,43.0,37.314655122655104,30,2014,2019
 Extended features,Random Forest,rolling_backtest,36081,Queens,2020,2021,47.0,40.750095820845814,30,2014,2019
-Extended features,Random Forest,rolling_backtest,36085,Staten Island,2020,2021,42.0,38.18270899470899,30,2014,2019
+Extended features,Random Forest,rolling_backtest,36085,Staten Island,2020,2021,42.0,38.18270899470898,30,2014,2019
 Extended features,XGBoost,rolling_backtest,36005,Bronx,2020,2021,47.0,43.87294006347656,30,2014,2019
 Extended features,XGBoost,rolling_backtest,36047,Brooklyn,2020,2021,42.0,37.678741455078125,30,2014,2019
 Extended features,XGBoost,rolling_backtest,36061,Manhattan,2020,2021,43.0,39.220359802246094,30,2014,2019
@@ -384,9 +384,9 @@ Extended features,No-change baseline,rolling_backtest,36047,Brooklyn,2021,2022,4
 Extended features,No-change baseline,rolling_backtest,36061,Manhattan,2021,2022,43.0,43.0,35,2014,2020
 Extended features,No-change baseline,rolling_backtest,36081,Queens,2021,2022,47.0,47.0,35,2014,2020
 Extended features,No-change baseline,rolling_backtest,36085,Staten Island,2021,2022,40.0,42.0,35,2014,2020
-Extended features,Random Forest,rolling_backtest,36005,Bronx,2021,2022,44.0,46.25504229130004,35,2014,2020
-Extended features,Random Forest,rolling_backtest,36047,Brooklyn,2021,2022,43.0,39.72193973618975,35,2014,2020
-Extended features,Random Forest,rolling_backtest,36061,Manhattan,2021,2022,43.0,43.114318884818886,35,2014,2020
+Extended features,Random Forest,rolling_backtest,36005,Bronx,2021,2022,44.0,46.25504229130005,35,2014,2020
+Extended features,Random Forest,rolling_backtest,36047,Brooklyn,2021,2022,43.0,39.72193973618974,35,2014,2020
+Extended features,Random Forest,rolling_backtest,36061,Manhattan,2021,2022,43.0,43.11431888481888,35,2014,2020
 Extended features,Random Forest,rolling_backtest,36081,Queens,2021,2022,47.0,45.764038813568604,35,2014,2020
 Extended features,Random Forest,rolling_backtest,36085,Staten Island,2021,2022,40.0,40.274431351328424,35,2014,2020
 Extended features,XGBoost,rolling_backtest,36005,Bronx,2021,2022,44.0,46.321929931640625,35,2014,2020
@@ -399,11 +399,11 @@ Extended features,No-change baseline,rolling_backtest,36047,Brooklyn,2022,2023,4
 Extended features,No-change baseline,rolling_backtest,36061,Manhattan,2022,2023,48.0,43.0,40,2014,2021
 Extended features,No-change baseline,rolling_backtest,36081,Queens,2022,2023,50.0,47.0,40,2014,2021
 Extended features,No-change baseline,rolling_backtest,36085,Staten Island,2022,2023,42.0,40.0,40,2014,2021
-Extended features,Random Forest,rolling_backtest,36005,Bronx,2022,2023,47.0,44.54668388187891,40,2014,2021
+Extended features,Random Forest,rolling_backtest,36005,Bronx,2022,2023,47.0,44.5466838818789,40,2014,2021
 Extended features,Random Forest,rolling_backtest,36047,Brooklyn,2022,2023,46.0,43.39460274460662,40,2014,2021
-Extended features,Random Forest,rolling_backtest,36061,Manhattan,2022,2023,48.0,43.13490272541355,40,2014,2021
-Extended features,Random Forest,rolling_backtest,36081,Queens,2022,2023,50.0,45.54127388991011,40,2014,2021
-Extended features,Random Forest,rolling_backtest,36085,Staten Island,2022,2023,42.0,40.614955334153855,40,2014,2021
+Extended features,Random Forest,rolling_backtest,36061,Manhattan,2022,2023,48.0,43.13490272541356,40,2014,2021
+Extended features,Random Forest,rolling_backtest,36081,Queens,2022,2023,50.0,45.5412738899101,40,2014,2021
+Extended features,Random Forest,rolling_backtest,36085,Staten Island,2022,2023,42.0,40.61495533415385,40,2014,2021
 Extended features,XGBoost,rolling_backtest,36005,Bronx,2022,2023,47.0,44.203495025634766,40,2014,2021
 Extended features,XGBoost,rolling_backtest,36047,Brooklyn,2022,2023,46.0,42.76799011230469,40,2014,2021
 Extended features,XGBoost,rolling_backtest,36061,Manhattan,2022,2023,48.0,44.19423294067383,40,2014,2021
@@ -416,8 +416,8 @@ Extended features,No-change baseline,rolling_backtest,36081,Queens,2023,2024,45.
 Extended features,No-change baseline,rolling_backtest,36085,Staten Island,2023,2024,38.0,42.0,45,2014,2022
 Extended features,Random Forest,rolling_backtest,36005,Bronx,2023,2024,42.0,45.8206884587534,45,2014,2022
 Extended features,Random Forest,rolling_backtest,36047,Brooklyn,2023,2024,39.0,44.92534399998669,45,2014,2022
-Extended features,Random Forest,rolling_backtest,36061,Manhattan,2023,2024,43.0,46.79968792857559,45,2014,2022
-Extended features,Random Forest,rolling_backtest,36081,Queens,2023,2024,45.0,46.77105178032662,45,2014,2022
+Extended features,Random Forest,rolling_backtest,36061,Manhattan,2023,2024,43.0,46.79968792857557,45,2014,2022
+Extended features,Random Forest,rolling_backtest,36081,Queens,2023,2024,45.0,46.77105178032661,45,2014,2022
 Extended features,Random Forest,rolling_backtest,36085,Staten Island,2023,2024,38.0,41.096451588716306,45,2014,2022
 Extended features,XGBoost,rolling_backtest,36005,Bronx,2023,2024,42.0,45.54592514038086,45,2014,2022
 Extended features,XGBoost,rolling_backtest,36047,Brooklyn,2023,2024,39.0,43.7725944519043,45,2014,2022
@@ -429,8 +429,8 @@ Extended features,No-change baseline,rolling_backtest,36047,Brooklyn,2024,2025,3
 Extended features,No-change baseline,rolling_backtest,36061,Manhattan,2024,2025,50.0,43.0,50,2014,2023
 Extended features,No-change baseline,rolling_backtest,36081,Queens,2024,2025,44.0,45.0,50,2014,2023
 Extended features,No-change baseline,rolling_backtest,36085,Staten Island,2024,2025,41.0,38.0,50,2014,2023
-Extended features,Random Forest,rolling_backtest,36005,Bronx,2024,2025,45.0,39.754710366118694,50,2014,2023
-Extended features,Random Forest,rolling_backtest,36047,Brooklyn,2024,2025,39.0,40.99863595634957,50,2014,2023
+Extended features,Random Forest,rolling_backtest,36005,Bronx,2024,2025,45.0,39.7547103661187,50,2014,2023
+Extended features,Random Forest,rolling_backtest,36047,Brooklyn,2024,2025,39.0,40.998635956349574,50,2014,2023
 Extended features,Random Forest,rolling_backtest,36061,Manhattan,2024,2025,50.0,45.69880114154602,50,2014,2023
 Extended features,Random Forest,rolling_backtest,36081,Queens,2024,2025,44.0,45.49861712213329,50,2014,2023
 Extended features,Random Forest,rolling_backtest,36085,Staten Island,2024,2025,41.0,38.9386851851852,50,2014,2023
@@ -459,61 +459,61 @@ Ablation base,No-change baseline,test,36081,Queens,2023,2024,45.0,50.0,35,2014,2
 Ablation base,No-change baseline,test,36081,Queens,2024,2025,44.0,45.0,35,2014,2020
 Ablation base,No-change baseline,test,36085,Staten Island,2023,2024,38.0,42.0,35,2014,2020
 Ablation base,No-change baseline,test,36085,Staten Island,2024,2025,41.0,38.0,35,2014,2020
-Ablation base,Random Forest,train,36005,Bronx,2014,2015,51.0,47.69789285714287,35,2014,2020
-Ablation base,Random Forest,train,36005,Bronx,2015,2016,45.0,47.63317063492065,35,2014,2020
-Ablation base,Random Forest,train,36005,Bronx,2016,2017,44.0,44.26832842620342,35,2014,2020
-Ablation base,Random Forest,train,36005,Bronx,2017,2018,44.0,44.821712857404016,35,2014,2020
-Ablation base,Random Forest,train,36005,Bronx,2018,2019,46.0,45.28000962545079,35,2014,2020
-Ablation base,Random Forest,train,36005,Bronx,2019,2020,45.0,45.170155729346895,35,2014,2020
-Ablation base,Random Forest,train,36005,Bronx,2020,2021,47.0,45.409346325787496,35,2014,2020
+Ablation base,Random Forest,train,36005,Bronx,2014,2015,51.0,47.69789285714286,35,2014,2020
+Ablation base,Random Forest,train,36005,Bronx,2015,2016,45.0,47.633170634920646,35,2014,2020
+Ablation base,Random Forest,train,36005,Bronx,2016,2017,44.0,44.26832842620344,35,2014,2020
+Ablation base,Random Forest,train,36005,Bronx,2017,2018,44.0,44.821712857404044,35,2014,2020
+Ablation base,Random Forest,train,36005,Bronx,2018,2019,46.0,45.28000962545081,35,2014,2020
+Ablation base,Random Forest,train,36005,Bronx,2019,2020,45.0,45.17015572934691,35,2014,2020
+Ablation base,Random Forest,train,36005,Bronx,2020,2021,47.0,45.4093463257875,35,2014,2020
 Ablation base,Random Forest,train,36047,Brooklyn,2014,2015,42.0,40.09966062940329,35,2014,2020
 Ablation base,Random Forest,train,36047,Brooklyn,2015,2016,38.0,39.93590040814308,35,2014,2020
-Ablation base,Random Forest,train,36047,Brooklyn,2016,2017,38.0,37.5261467405144,35,2014,2020
-Ablation base,Random Forest,train,36047,Brooklyn,2017,2018,34.0,35.54682422969189,35,2014,2020
+Ablation base,Random Forest,train,36047,Brooklyn,2016,2017,38.0,37.52614674051439,35,2014,2020
+Ablation base,Random Forest,train,36047,Brooklyn,2017,2018,34.0,35.5468242296919,35,2014,2020
 Ablation base,Random Forest,train,36047,Brooklyn,2018,2019,36.0,37.50300280112046,35,2014,2020
-Ablation base,Random Forest,train,36047,Brooklyn,2019,2020,30.0,35.37099486461253,35,2014,2020
+Ablation base,Random Forest,train,36047,Brooklyn,2019,2020,30.0,35.37099486461254,35,2014,2020
 Ablation base,Random Forest,train,36047,Brooklyn,2020,2021,42.0,37.682701213818866,35,2014,2020
 Ablation base,Random Forest,train,36061,Manhattan,2014,2015,54.0,50.89167460317464,35,2014,2020
 Ablation base,Random Forest,train,36061,Manhattan,2015,2016,52.0,50.878341269841314,35,2014,2020
-Ablation base,Random Forest,train,36061,Manhattan,2016,2017,50.0,50.86965776815781,35,2014,2020
-Ablation base,Random Forest,train,36061,Manhattan,2017,2018,51.0,48.88261800780917,35,2014,2020
-Ablation base,Random Forest,train,36061,Manhattan,2018,2019,46.0,47.92571348640465,35,2014,2020
-Ablation base,Random Forest,train,36061,Manhattan,2019,2020,40.0,43.32643765031263,35,2014,2020
-Ablation base,Random Forest,train,36061,Manhattan,2020,2021,43.0,41.44119826769092,35,2014,2020
+Ablation base,Random Forest,train,36061,Manhattan,2016,2017,50.0,50.869657768157815,35,2014,2020
+Ablation base,Random Forest,train,36061,Manhattan,2017,2018,51.0,48.88261800780918,35,2014,2020
+Ablation base,Random Forest,train,36061,Manhattan,2018,2019,46.0,47.92571348640467,35,2014,2020
+Ablation base,Random Forest,train,36061,Manhattan,2019,2020,40.0,43.326437650312634,35,2014,2020
+Ablation base,Random Forest,train,36061,Manhattan,2020,2021,43.0,41.44119826769093,35,2014,2020
 Ablation base,Random Forest,train,36081,Queens,2014,2015,48.0,45.87060333729449,35,2014,2020
-Ablation base,Random Forest,train,36081,Queens,2015,2016,44.0,46.872369210310374,35,2014,2020
-Ablation base,Random Forest,train,36081,Queens,2016,2017,44.0,44.35291140966875,35,2014,2020
-Ablation base,Random Forest,train,36081,Queens,2017,2018,45.0,44.270476224483566,35,2014,2020
-Ablation base,Random Forest,train,36081,Queens,2018,2019,45.0,44.03491537792271,35,2014,2020
-Ablation base,Random Forest,train,36081,Queens,2019,2020,43.0,43.76056904669403,35,2014,2020
+Ablation base,Random Forest,train,36081,Queens,2015,2016,44.0,46.87236921031038,35,2014,2020
+Ablation base,Random Forest,train,36081,Queens,2016,2017,44.0,44.35291140966876,35,2014,2020
+Ablation base,Random Forest,train,36081,Queens,2017,2018,45.0,44.27047622448357,35,2014,2020
+Ablation base,Random Forest,train,36081,Queens,2018,2019,45.0,44.034915377922715,35,2014,2020
+Ablation base,Random Forest,train,36081,Queens,2019,2020,43.0,43.76056904669404,35,2014,2020
 Ablation base,Random Forest,train,36081,Queens,2020,2021,47.0,43.56870272238656,35,2014,2020
-Ablation base,Random Forest,train,36085,Staten Island,2014,2015,51.0,47.95500168894285,35,2014,2020
+Ablation base,Random Forest,train,36085,Staten Island,2014,2015,51.0,47.95500168894286,35,2014,2020
 Ablation base,Random Forest,train,36085,Staten Island,2015,2016,45.0,47.48378563647683,35,2014,2020
-Ablation base,Random Forest,train,36085,Staten Island,2016,2017,44.0,43.97362111499609,35,2014,2020
-Ablation base,Random Forest,train,36085,Staten Island,2017,2018,42.0,43.99531844544344,35,2014,2020
-Ablation base,Random Forest,train,36085,Staten Island,2018,2019,41.0,40.30104326528594,35,2014,2020
-Ablation base,Random Forest,train,36085,Staten Island,2019,2020,39.0,40.15703027827296,35,2014,2020
-Ablation base,Random Forest,train,36085,Staten Island,2020,2021,42.0,40.27170493232259,35,2014,2020
+Ablation base,Random Forest,train,36085,Staten Island,2016,2017,44.0,43.973621114996114,35,2014,2020
+Ablation base,Random Forest,train,36085,Staten Island,2017,2018,42.0,43.995318445443466,35,2014,2020
+Ablation base,Random Forest,train,36085,Staten Island,2018,2019,41.0,40.301043265285934,35,2014,2020
+Ablation base,Random Forest,train,36085,Staten Island,2019,2020,39.0,40.157030278272956,35,2014,2020
+Ablation base,Random Forest,train,36085,Staten Island,2020,2021,42.0,40.27170493232258,35,2014,2020
 Ablation base,Random Forest,validation,36005,Bronx,2021,2022,44.0,46.70892204092204,35,2014,2020
-Ablation base,Random Forest,validation,36005,Bronx,2022,2023,47.0,45.448089712030885,35,2014,2020
-Ablation base,Random Forest,validation,36047,Brooklyn,2021,2022,43.0,40.03577041776308,35,2014,2020
+Ablation base,Random Forest,validation,36005,Bronx,2022,2023,47.0,45.44808971203088,35,2014,2020
+Ablation base,Random Forest,validation,36047,Brooklyn,2021,2022,43.0,40.035770417763075,35,2014,2020
 Ablation base,Random Forest,validation,36047,Brooklyn,2022,2023,46.0,42.980838845522676,35,2014,2020
-Ablation base,Random Forest,validation,36061,Manhattan,2021,2022,43.0,42.94849123942506,35,2014,2020
-Ablation base,Random Forest,validation,36061,Manhattan,2022,2023,48.0,42.88412616005998,35,2014,2020
-Ablation base,Random Forest,validation,36081,Queens,2021,2022,47.0,46.64202360983242,35,2014,2020
+Ablation base,Random Forest,validation,36061,Manhattan,2021,2022,43.0,42.948491239425046,35,2014,2020
+Ablation base,Random Forest,validation,36061,Manhattan,2022,2023,48.0,42.88412616005997,35,2014,2020
+Ablation base,Random Forest,validation,36081,Queens,2021,2022,47.0,46.64202360983243,35,2014,2020
 Ablation base,Random Forest,validation,36081,Queens,2022,2023,50.0,46.21314654245535,35,2014,2020
-Ablation base,Random Forest,validation,36085,Staten Island,2021,2022,40.0,39.93590040814308,35,2014,2020
+Ablation base,Random Forest,validation,36085,Staten Island,2021,2022,40.0,39.93590040814307,35,2014,2020
 Ablation base,Random Forest,validation,36085,Staten Island,2022,2023,42.0,41.40724564623831,35,2014,2020
-Ablation base,Random Forest,test,36005,Bronx,2023,2024,42.0,46.77253315203314,35,2014,2020
+Ablation base,Random Forest,test,36005,Bronx,2023,2024,42.0,46.772533152033155,35,2014,2020
 Ablation base,Random Forest,test,36005,Bronx,2024,2025,45.0,39.39303306878308,35,2014,2020
-Ablation base,Random Forest,test,36047,Brooklyn,2023,2024,39.0,44.108563755688756,35,2014,2020
+Ablation base,Random Forest,test,36047,Brooklyn,2023,2024,39.0,44.10856375568876,35,2014,2020
 Ablation base,Random Forest,test,36047,Brooklyn,2024,2025,39.0,40.03720697657464,35,2014,2020
-Ablation base,Random Forest,test,36061,Manhattan,2023,2024,43.0,47.0178675268087,35,2014,2020
+Ablation base,Random Forest,test,36061,Manhattan,2023,2024,43.0,47.017867526808686,35,2014,2020
 Ablation base,Random Forest,test,36061,Manhattan,2024,2025,50.0,42.98126901720284,35,2014,2020
-Ablation base,Random Forest,test,36081,Queens,2023,2024,45.0,48.88836800780917,35,2014,2020
+Ablation base,Random Forest,test,36081,Queens,2023,2024,45.0,48.888368007809184,35,2014,2020
 Ablation base,Random Forest,test,36081,Queens,2024,2025,44.0,44.21945348632849,35,2014,2020
 Ablation base,Random Forest,test,36085,Staten Island,2023,2024,38.0,40.30104326528594,35,2014,2020
-Ablation base,Random Forest,test,36085,Staten Island,2024,2025,41.0,37.95056737543504,35,2014,2020
+Ablation base,Random Forest,test,36085,Staten Island,2024,2025,41.0,37.950567375435035,35,2014,2020
 Ablation base,XGBoost,train,36005,Bronx,2014,2015,51.0,47.21723175048828,35,2014,2020
 Ablation base,XGBoost,train,36005,Bronx,2015,2016,45.0,47.21723175048828,35,2014,2020
 Ablation base,XGBoost,train,36005,Bronx,2016,2017,44.0,41.528926849365234,35,2014,2020
@@ -574,10 +574,10 @@ Ablation base,No-change baseline,rolling_backtest,36047,Brooklyn,2019,2020,30.0,
 Ablation base,No-change baseline,rolling_backtest,36061,Manhattan,2019,2020,40.0,46.0,25,2014,2018
 Ablation base,No-change baseline,rolling_backtest,36081,Queens,2019,2020,43.0,45.0,25,2014,2018
 Ablation base,No-change baseline,rolling_backtest,36085,Staten Island,2019,2020,39.0,41.0,25,2014,2018
-Ablation base,Random Forest,rolling_backtest,36005,Bronx,2019,2020,45.0,44.611781598031605,25,2014,2018
-Ablation base,Random Forest,rolling_backtest,36047,Brooklyn,2019,2020,30.0,37.022859788359774,25,2014,2018
+Ablation base,Random Forest,rolling_backtest,36005,Bronx,2019,2020,45.0,44.6117815980316,25,2014,2018
+Ablation base,Random Forest,rolling_backtest,36047,Brooklyn,2019,2020,30.0,37.02285978835978,25,2014,2018
 Ablation base,Random Forest,rolling_backtest,36061,Manhattan,2019,2020,40.0,44.826514282014294,25,2014,2018
-Ablation base,Random Forest,rolling_backtest,36081,Queens,2019,2020,43.0,44.63960952010953,25,2014,2018
+Ablation base,Random Forest,rolling_backtest,36081,Queens,2019,2020,43.0,44.639609520109545,25,2014,2018
 Ablation base,Random Forest,rolling_backtest,36085,Staten Island,2019,2020,39.0,39.34489947089946,25,2014,2018
 Ablation base,XGBoost,rolling_backtest,36005,Bronx,2019,2020,45.0,45.86665344238281,25,2014,2018
 Ablation base,XGBoost,rolling_backtest,36047,Brooklyn,2019,2020,30.0,40.101932525634766,25,2014,2018
@@ -590,10 +590,10 @@ Ablation base,No-change baseline,rolling_backtest,36061,Manhattan,2020,2021,43.0
 Ablation base,No-change baseline,rolling_backtest,36081,Queens,2020,2021,47.0,43.0,30,2014,2019
 Ablation base,No-change baseline,rolling_backtest,36085,Staten Island,2020,2021,42.0,39.0,30,2014,2019
 Ablation base,Random Forest,rolling_backtest,36005,Bronx,2020,2021,47.0,44.449399350649365,30,2014,2019
-Ablation base,Random Forest,rolling_backtest,36047,Brooklyn,2020,2021,42.0,35.43851058201057,30,2014,2019
-Ablation base,Random Forest,rolling_backtest,36061,Manhattan,2020,2021,43.0,39.404132635882625,30,2014,2019
-Ablation base,Random Forest,rolling_backtest,36081,Queens,2020,2021,47.0,40.239789923039915,30,2014,2019
-Ablation base,Random Forest,rolling_backtest,36085,Staten Island,2020,2021,42.0,36.505999999999986,30,2014,2019
+Ablation base,Random Forest,rolling_backtest,36047,Brooklyn,2020,2021,42.0,35.43851058201056,30,2014,2019
+Ablation base,Random Forest,rolling_backtest,36061,Manhattan,2020,2021,43.0,39.40413263588262,30,2014,2019
+Ablation base,Random Forest,rolling_backtest,36081,Queens,2020,2021,47.0,40.23978992303992,30,2014,2019
+Ablation base,Random Forest,rolling_backtest,36085,Staten Island,2020,2021,42.0,36.50599999999998,30,2014,2019
 Ablation base,XGBoost,rolling_backtest,36005,Bronx,2020,2021,47.0,44.92597198486328,30,2014,2019
 Ablation base,XGBoost,rolling_backtest,36047,Brooklyn,2020,2021,42.0,38.08380889892578,30,2014,2019
 Ablation base,XGBoost,rolling_backtest,36061,Manhattan,2020,2021,43.0,44.08612060546875,30,2014,2019
@@ -605,10 +605,10 @@ Ablation base,No-change baseline,rolling_backtest,36061,Manhattan,2021,2022,43.0
 Ablation base,No-change baseline,rolling_backtest,36081,Queens,2021,2022,47.0,47.0,35,2014,2020
 Ablation base,No-change baseline,rolling_backtest,36085,Staten Island,2021,2022,40.0,42.0,35,2014,2020
 Ablation base,Random Forest,rolling_backtest,36005,Bronx,2021,2022,44.0,46.757597067162855,35,2014,2020
-Ablation base,Random Forest,rolling_backtest,36047,Brooklyn,2021,2022,43.0,39.89531734006736,35,2014,2020
+Ablation base,Random Forest,rolling_backtest,36047,Brooklyn,2021,2022,43.0,39.89531734006735,35,2014,2020
 Ablation base,Random Forest,rolling_backtest,36061,Manhattan,2021,2022,43.0,42.65390252754069,35,2014,2020
 Ablation base,Random Forest,rolling_backtest,36081,Queens,2021,2022,47.0,46.63717768975661,35,2014,2020
-Ablation base,Random Forest,rolling_backtest,36085,Staten Island,2021,2022,40.0,39.970363876863885,35,2014,2020
+Ablation base,Random Forest,rolling_backtest,36085,Staten Island,2021,2022,40.0,39.97036387686389,35,2014,2020
 Ablation base,XGBoost,rolling_backtest,36005,Bronx,2021,2022,44.0,46.99728775024414,35,2014,2020
 Ablation base,XGBoost,rolling_backtest,36047,Brooklyn,2021,2022,43.0,39.892974853515625,35,2014,2020
 Ablation base,XGBoost,rolling_backtest,36061,Manhattan,2021,2022,43.0,45.79800796508789,35,2014,2020
@@ -620,9 +620,9 @@ Ablation base,No-change baseline,rolling_backtest,36061,Manhattan,2022,2023,48.0
 Ablation base,No-change baseline,rolling_backtest,36081,Queens,2022,2023,50.0,47.0,40,2014,2021
 Ablation base,No-change baseline,rolling_backtest,36085,Staten Island,2022,2023,42.0,40.0,40,2014,2021
 Ablation base,Random Forest,rolling_backtest,36005,Bronx,2022,2023,47.0,45.08126877508459,40,2014,2021
-Ablation base,Random Forest,rolling_backtest,36047,Brooklyn,2022,2023,46.0,43.60666175247754,40,2014,2021
-Ablation base,Random Forest,rolling_backtest,36061,Manhattan,2022,2023,48.0,43.025610747926535,40,2014,2021
-Ablation base,Random Forest,rolling_backtest,36081,Queens,2022,2023,50.0,45.822093607659376,40,2014,2021
+Ablation base,Random Forest,rolling_backtest,36047,Brooklyn,2022,2023,46.0,43.60666175247756,40,2014,2021
+Ablation base,Random Forest,rolling_backtest,36061,Manhattan,2022,2023,48.0,43.02561074792653,40,2014,2021
+Ablation base,Random Forest,rolling_backtest,36081,Queens,2022,2023,50.0,45.82209360765938,40,2014,2021
 Ablation base,Random Forest,rolling_backtest,36085,Staten Island,2022,2023,42.0,41.13959860509859,40,2014,2021
 Ablation base,XGBoost,rolling_backtest,36005,Bronx,2022,2023,47.0,45.09329605102539,40,2014,2021
 Ablation base,XGBoost,rolling_backtest,36047,Brooklyn,2022,2023,46.0,41.22494888305664,40,2014,2021
@@ -634,11 +634,11 @@ Ablation base,No-change baseline,rolling_backtest,36047,Brooklyn,2023,2024,39.0,
 Ablation base,No-change baseline,rolling_backtest,36061,Manhattan,2023,2024,43.0,48.0,45,2014,2022
 Ablation base,No-change baseline,rolling_backtest,36081,Queens,2023,2024,45.0,50.0,45,2014,2022
 Ablation base,No-change baseline,rolling_backtest,36085,Staten Island,2023,2024,38.0,42.0,45,2014,2022
-Ablation base,Random Forest,rolling_backtest,36005,Bronx,2023,2024,42.0,46.79335611630718,45,2014,2022
-Ablation base,Random Forest,rolling_backtest,36047,Brooklyn,2023,2024,39.0,44.28668999239842,45,2014,2022
-Ablation base,Random Forest,rolling_backtest,36061,Manhattan,2023,2024,43.0,47.24381921774825,45,2014,2022
-Ablation base,Random Forest,rolling_backtest,36081,Queens,2023,2024,45.0,49.06065676634154,45,2014,2022
-Ablation base,Random Forest,rolling_backtest,36085,Staten Island,2023,2024,38.0,40.539215488215476,45,2014,2022
+Ablation base,Random Forest,rolling_backtest,36005,Bronx,2023,2024,42.0,46.79335611630719,45,2014,2022
+Ablation base,Random Forest,rolling_backtest,36047,Brooklyn,2023,2024,39.0,44.286689992398415,45,2014,2022
+Ablation base,Random Forest,rolling_backtest,36061,Manhattan,2023,2024,43.0,47.243819217748275,45,2014,2022
+Ablation base,Random Forest,rolling_backtest,36081,Queens,2023,2024,45.0,49.06065676634155,45,2014,2022
+Ablation base,Random Forest,rolling_backtest,36085,Staten Island,2023,2024,38.0,40.53921548821548,45,2014,2022
 Ablation base,XGBoost,rolling_backtest,36005,Bronx,2023,2024,42.0,46.63447189331055,45,2014,2022
 Ablation base,XGBoost,rolling_backtest,36047,Brooklyn,2023,2024,39.0,43.02400207519531,45,2014,2022
 Ablation base,XGBoost,rolling_backtest,36061,Manhattan,2023,2024,43.0,48.29245376586914,45,2014,2022
@@ -649,11 +649,11 @@ Ablation base,No-change baseline,rolling_backtest,36047,Brooklyn,2024,2025,39.0,
 Ablation base,No-change baseline,rolling_backtest,36061,Manhattan,2024,2025,50.0,43.0,50,2014,2023
 Ablation base,No-change baseline,rolling_backtest,36081,Queens,2024,2025,44.0,45.0,50,2014,2023
 Ablation base,No-change baseline,rolling_backtest,36085,Staten Island,2024,2025,41.0,38.0,50,2014,2023
-Ablation base,Random Forest,rolling_backtest,36005,Bronx,2024,2025,45.0,39.55607015890712,50,2014,2023
+Ablation base,Random Forest,rolling_backtest,36005,Bronx,2024,2025,45.0,39.55607015890713,50,2014,2023
 Ablation base,Random Forest,rolling_backtest,36047,Brooklyn,2024,2025,39.0,40.43862612115553,50,2014,2023
 Ablation base,Random Forest,rolling_backtest,36061,Manhattan,2024,2025,50.0,45.20845610285937,50,2014,2023
 Ablation base,Random Forest,rolling_backtest,36081,Queens,2024,2025,44.0,44.73638767402585,50,2014,2023
-Ablation base,Random Forest,rolling_backtest,36085,Staten Island,2024,2025,41.0,38.35941505473085,50,2014,2023
+Ablation base,Random Forest,rolling_backtest,36085,Staten Island,2024,2025,41.0,38.35941505473084,50,2014,2023
 Ablation base,XGBoost,rolling_backtest,36005,Bronx,2024,2025,45.0,43.76768493652344,50,2014,2023
 Ablation base,XGBoost,rolling_backtest,36047,Brooklyn,2024,2025,39.0,40.50436782836914,50,2014,2023
 Ablation base,XGBoost,rolling_backtest,36061,Manhattan,2024,2025,50.0,45.411460876464844,50,2014,2023
@@ -679,61 +679,61 @@ Ablation weather,No-change baseline,test,36081,Queens,2023,2024,45.0,50.0,35,201
 Ablation weather,No-change baseline,test,36081,Queens,2024,2025,44.0,45.0,35,2014,2020
 Ablation weather,No-change baseline,test,36085,Staten Island,2023,2024,38.0,42.0,35,2014,2020
 Ablation weather,No-change baseline,test,36085,Staten Island,2024,2025,41.0,38.0,35,2014,2020
-Ablation weather,Random Forest,train,36005,Bronx,2014,2015,51.0,49.93047243107772,35,2014,2020
-Ablation weather,Random Forest,train,36005,Bronx,2015,2016,45.0,46.06530293853321,35,2014,2020
-Ablation weather,Random Forest,train,36005,Bronx,2016,2017,44.0,44.21947492259487,35,2014,2020
+Ablation weather,Random Forest,train,36005,Bronx,2014,2015,51.0,49.930472431077725,35,2014,2020
+Ablation weather,Random Forest,train,36005,Bronx,2015,2016,45.0,46.065302938533215,35,2014,2020
+Ablation weather,Random Forest,train,36005,Bronx,2016,2017,44.0,44.219474922594884,35,2014,2020
 Ablation weather,Random Forest,train,36005,Bronx,2017,2018,44.0,44.42655757142752,35,2014,2020
-Ablation weather,Random Forest,train,36005,Bronx,2018,2019,46.0,44.999933029303,35,2014,2020
+Ablation weather,Random Forest,train,36005,Bronx,2018,2019,46.0,44.999933029302994,35,2014,2020
 Ablation weather,Random Forest,train,36005,Bronx,2019,2020,45.0,44.97722006634003,35,2014,2020
-Ablation weather,Random Forest,train,36005,Bronx,2020,2021,47.0,45.62513628773186,35,2014,2020
-Ablation weather,Random Forest,train,36047,Brooklyn,2014,2015,42.0,40.275466931216954,35,2014,2020
-Ablation weather,Random Forest,train,36047,Brooklyn,2015,2016,38.0,39.503460076960096,35,2014,2020
+Ablation weather,Random Forest,train,36005,Bronx,2020,2021,47.0,45.625136287731856,35,2014,2020
+Ablation weather,Random Forest,train,36047,Brooklyn,2014,2015,42.0,40.27546693121696,35,2014,2020
+Ablation weather,Random Forest,train,36047,Brooklyn,2015,2016,38.0,39.50346007696011,35,2014,2020
 Ablation weather,Random Forest,train,36047,Brooklyn,2016,2017,38.0,38.14115716690716,35,2014,2020
 Ablation weather,Random Forest,train,36047,Brooklyn,2017,2018,34.0,36.05697883597885,35,2014,2020
 Ablation weather,Random Forest,train,36047,Brooklyn,2018,2019,36.0,36.31513095238098,35,2014,2020
 Ablation weather,Random Forest,train,36047,Brooklyn,2019,2020,30.0,34.87857539682543,35,2014,2020
 Ablation weather,Random Forest,train,36047,Brooklyn,2020,2021,42.0,38.667966931216924,35,2014,2020
-Ablation weather,Random Forest,train,36061,Manhattan,2014,2015,54.0,51.379222222222225,35,2014,2020
-Ablation weather,Random Forest,train,36061,Manhattan,2015,2016,52.0,49.95824603174603,35,2014,2020
-Ablation weather,Random Forest,train,36061,Manhattan,2016,2017,50.0,48.59784833630423,35,2014,2020
-Ablation weather,Random Forest,train,36061,Manhattan,2017,2018,51.0,48.08750888373179,35,2014,2020
-Ablation weather,Random Forest,train,36061,Manhattan,2018,2019,46.0,47.03606291303584,35,2014,2020
-Ablation weather,Random Forest,train,36061,Manhattan,2019,2020,40.0,42.99145701158432,35,2014,2020
-Ablation weather,Random Forest,train,36061,Manhattan,2020,2021,43.0,41.76873647539824,35,2014,2020
+Ablation weather,Random Forest,train,36061,Manhattan,2014,2015,54.0,51.37922222222226,35,2014,2020
+Ablation weather,Random Forest,train,36061,Manhattan,2015,2016,52.0,49.958246031746036,35,2014,2020
+Ablation weather,Random Forest,train,36061,Manhattan,2016,2017,50.0,48.597848336304246,35,2014,2020
+Ablation weather,Random Forest,train,36061,Manhattan,2017,2018,51.0,48.0875088837318,35,2014,2020
+Ablation weather,Random Forest,train,36061,Manhattan,2018,2019,46.0,47.03606291303585,35,2014,2020
+Ablation weather,Random Forest,train,36061,Manhattan,2019,2020,40.0,42.99145701158433,35,2014,2020
+Ablation weather,Random Forest,train,36061,Manhattan,2020,2021,43.0,41.76873647539825,35,2014,2020
 Ablation weather,Random Forest,train,36081,Queens,2014,2015,48.0,48.18735812871338,35,2014,2020
-Ablation weather,Random Forest,train,36081,Queens,2015,2016,44.0,45.00821811540426,35,2014,2020
-Ablation weather,Random Forest,train,36081,Queens,2016,2017,44.0,44.245229048099,35,2014,2020
-Ablation weather,Random Forest,train,36081,Queens,2017,2018,45.0,44.3400964399664,35,2014,2020
-Ablation weather,Random Forest,train,36081,Queens,2018,2019,45.0,44.319838513796725,35,2014,2020
-Ablation weather,Random Forest,train,36081,Queens,2019,2020,43.0,43.672725201183404,35,2014,2020
+Ablation weather,Random Forest,train,36081,Queens,2015,2016,44.0,45.008218115404254,35,2014,2020
+Ablation weather,Random Forest,train,36081,Queens,2016,2017,44.0,44.245229048099006,35,2014,2020
+Ablation weather,Random Forest,train,36081,Queens,2017,2018,45.0,44.34009643996641,35,2014,2020
+Ablation weather,Random Forest,train,36081,Queens,2018,2019,45.0,44.31983851379673,35,2014,2020
+Ablation weather,Random Forest,train,36081,Queens,2019,2020,43.0,43.67272520118342,35,2014,2020
 Ablation weather,Random Forest,train,36081,Queens,2020,2021,47.0,44.32307151372592,35,2014,2020
-Ablation weather,Random Forest,train,36085,Staten Island,2014,2015,51.0,49.395146211001475,35,2014,2020
-Ablation weather,Random Forest,train,36085,Staten Island,2015,2016,45.0,46.59351895699188,35,2014,2020
-Ablation weather,Random Forest,train,36085,Staten Island,2016,2017,44.0,44.588179873775445,35,2014,2020
-Ablation weather,Random Forest,train,36085,Staten Island,2017,2018,42.0,44.03232572919568,35,2014,2020
+Ablation weather,Random Forest,train,36085,Staten Island,2014,2015,51.0,49.39514621100148,35,2014,2020
+Ablation weather,Random Forest,train,36085,Staten Island,2015,2016,45.0,46.593518956991886,35,2014,2020
+Ablation weather,Random Forest,train,36085,Staten Island,2016,2017,44.0,44.58817987377545,35,2014,2020
+Ablation weather,Random Forest,train,36085,Staten Island,2017,2018,42.0,44.03232572919569,35,2014,2020
 Ablation weather,Random Forest,train,36085,Staten Island,2018,2019,41.0,40.06434311875491,35,2014,2020
-Ablation weather,Random Forest,train,36085,Staten Island,2019,2020,39.0,40.25626389242569,35,2014,2020
-Ablation weather,Random Forest,train,36085,Staten Island,2020,2021,42.0,40.963851795263565,35,2014,2020
+Ablation weather,Random Forest,train,36085,Staten Island,2019,2020,39.0,40.2562638924257,35,2014,2020
+Ablation weather,Random Forest,train,36085,Staten Island,2020,2021,42.0,40.96385179526357,35,2014,2020
 Ablation weather,Random Forest,validation,36005,Bronx,2021,2022,44.0,46.24473331488772,35,2014,2020
-Ablation weather,Random Forest,validation,36005,Bronx,2022,2023,47.0,44.69206530443527,35,2014,2020
+Ablation weather,Random Forest,validation,36005,Bronx,2022,2023,47.0,44.69206530443526,35,2014,2020
 Ablation weather,Random Forest,validation,36047,Brooklyn,2021,2022,43.0,40.380032512694285,35,2014,2020
 Ablation weather,Random Forest,validation,36047,Brooklyn,2022,2023,46.0,42.98695122788002,35,2014,2020
-Ablation weather,Random Forest,validation,36061,Manhattan,2021,2022,43.0,43.577910176338975,35,2014,2020
+Ablation weather,Random Forest,validation,36061,Manhattan,2021,2022,43.0,43.57791017633897,35,2014,2020
 Ablation weather,Random Forest,validation,36061,Manhattan,2022,2023,48.0,43.26102125045004,35,2014,2020
 Ablation weather,Random Forest,validation,36081,Queens,2021,2022,47.0,45.860789408218196,35,2014,2020
-Ablation weather,Random Forest,validation,36081,Queens,2022,2023,50.0,45.74553605971486,35,2014,2020
+Ablation weather,Random Forest,validation,36081,Queens,2022,2023,50.0,45.745536059714865,35,2014,2020
 Ablation weather,Random Forest,validation,36085,Staten Island,2021,2022,40.0,40.45717909759087,35,2014,2020
 Ablation weather,Random Forest,validation,36085,Staten Island,2022,2023,42.0,41.43221927963105,35,2014,2020
-Ablation weather,Random Forest,test,36005,Bronx,2023,2024,42.0,46.30819627785068,35,2014,2020
+Ablation weather,Random Forest,test,36005,Bronx,2023,2024,42.0,46.30819627785067,35,2014,2020
 Ablation weather,Random Forest,test,36005,Bronx,2024,2025,45.0,40.26224210865388,35,2014,2020
 Ablation weather,Random Forest,test,36047,Brooklyn,2023,2024,39.0,45.05162053496613,35,2014,2020
 Ablation weather,Random Forest,test,36047,Brooklyn,2024,2025,39.0,40.74432137198315,35,2014,2020
-Ablation weather,Random Forest,test,36061,Manhattan,2023,2024,43.0,46.57161522926965,35,2014,2020
-Ablation weather,Random Forest,test,36061,Manhattan,2024,2025,50.0,43.98992472532913,35,2014,2020
-Ablation weather,Random Forest,test,36081,Queens,2023,2024,45.0,48.090638410881084,35,2014,2020
-Ablation weather,Random Forest,test,36081,Queens,2024,2025,44.0,44.86527249411806,35,2014,2020
-Ablation weather,Random Forest,test,36085,Staten Island,2023,2024,38.0,40.53834576425755,35,2014,2020
-Ablation weather,Random Forest,test,36085,Staten Island,2024,2025,41.0,38.8848688071188,35,2014,2020
+Ablation weather,Random Forest,test,36061,Manhattan,2023,2024,43.0,46.571615229269646,35,2014,2020
+Ablation weather,Random Forest,test,36061,Manhattan,2024,2025,50.0,43.989924725329125,35,2014,2020
+Ablation weather,Random Forest,test,36081,Queens,2023,2024,45.0,48.09063841088108,35,2014,2020
+Ablation weather,Random Forest,test,36081,Queens,2024,2025,44.0,44.86527249411807,35,2014,2020
+Ablation weather,Random Forest,test,36085,Staten Island,2023,2024,38.0,40.538345764257535,35,2014,2020
+Ablation weather,Random Forest,test,36085,Staten Island,2024,2025,41.0,38.884868807118806,35,2014,2020
 Ablation weather,XGBoost,train,36005,Bronx,2014,2015,51.0,48.6571044921875,35,2014,2020
 Ablation weather,XGBoost,train,36005,Bronx,2015,2016,45.0,46.10546875,35,2014,2020
 Ablation weather,XGBoost,train,36005,Bronx,2016,2017,44.0,43.578514099121094,35,2014,2020
@@ -794,10 +794,10 @@ Ablation weather,No-change baseline,rolling_backtest,36047,Brooklyn,2019,2020,30
 Ablation weather,No-change baseline,rolling_backtest,36061,Manhattan,2019,2020,40.0,46.0,25,2014,2018
 Ablation weather,No-change baseline,rolling_backtest,36081,Queens,2019,2020,43.0,45.0,25,2014,2018
 Ablation weather,No-change baseline,rolling_backtest,36085,Staten Island,2019,2020,39.0,41.0,25,2014,2018
-Ablation weather,Random Forest,rolling_backtest,36005,Bronx,2019,2020,45.0,45.00437006512009,25,2014,2018
-Ablation weather,Random Forest,rolling_backtest,36047,Brooklyn,2019,2020,30.0,37.272003968253955,25,2014,2018
+Ablation weather,Random Forest,rolling_backtest,36005,Bronx,2019,2020,45.0,45.004370065120106,25,2014,2018
+Ablation weather,Random Forest,rolling_backtest,36047,Brooklyn,2019,2020,30.0,37.27200396825397,25,2014,2018
 Ablation weather,Random Forest,rolling_backtest,36061,Manhattan,2019,2020,40.0,45.269647842897875,25,2014,2018
-Ablation weather,Random Forest,rolling_backtest,36081,Queens,2019,2020,43.0,45.19659228734232,25,2014,2018
+Ablation weather,Random Forest,rolling_backtest,36081,Queens,2019,2020,43.0,45.196592287342334,25,2014,2018
 Ablation weather,Random Forest,rolling_backtest,36085,Staten Island,2019,2020,39.0,39.31640343915344,25,2014,2018
 Ablation weather,XGBoost,rolling_backtest,36005,Bronx,2019,2020,45.0,44.753387451171875,25,2014,2018
 Ablation weather,XGBoost,rolling_backtest,36047,Brooklyn,2019,2020,30.0,39.42795181274414,25,2014,2018
@@ -810,9 +810,9 @@ Ablation weather,No-change baseline,rolling_backtest,36061,Manhattan,2020,2021,4
 Ablation weather,No-change baseline,rolling_backtest,36081,Queens,2020,2021,47.0,43.0,30,2014,2019
 Ablation weather,No-change baseline,rolling_backtest,36085,Staten Island,2020,2021,42.0,39.0,30,2014,2019
 Ablation weather,Random Forest,rolling_backtest,36005,Bronx,2020,2021,47.0,43.67635000511472,30,2014,2019
-Ablation weather,Random Forest,rolling_backtest,36047,Brooklyn,2020,2021,42.0,35.579224867724875,30,2014,2019
+Ablation weather,Random Forest,rolling_backtest,36047,Brooklyn,2020,2021,42.0,35.57922486772487,30,2014,2019
 Ablation weather,Random Forest,rolling_backtest,36061,Manhattan,2020,2021,43.0,39.465843314093306,30,2014,2019
-Ablation weather,Random Forest,rolling_backtest,36081,Queens,2020,2021,47.0,40.34343455155955,30,2014,2019
+Ablation weather,Random Forest,rolling_backtest,36081,Queens,2020,2021,47.0,40.34343455155954,30,2014,2019
 Ablation weather,Random Forest,rolling_backtest,36085,Staten Island,2020,2021,42.0,36.585275132275136,30,2014,2019
 Ablation weather,XGBoost,rolling_backtest,36005,Bronx,2020,2021,47.0,43.65193176269531,30,2014,2019
 Ablation weather,XGBoost,rolling_backtest,36047,Brooklyn,2020,2021,42.0,37.926151275634766,30,2014,2019
@@ -825,10 +825,10 @@ Ablation weather,No-change baseline,rolling_backtest,36061,Manhattan,2021,2022,4
 Ablation weather,No-change baseline,rolling_backtest,36081,Queens,2021,2022,47.0,47.0,35,2014,2020
 Ablation weather,No-change baseline,rolling_backtest,36085,Staten Island,2021,2022,40.0,42.0,35,2014,2020
 Ablation weather,Random Forest,rolling_backtest,36005,Bronx,2021,2022,44.0,46.17956823950906,35,2014,2020
-Ablation weather,Random Forest,rolling_backtest,36047,Brooklyn,2021,2022,43.0,39.95412061087062,35,2014,2020
-Ablation weather,Random Forest,rolling_backtest,36061,Manhattan,2021,2022,43.0,43.2055101241351,35,2014,2020
-Ablation weather,Random Forest,rolling_backtest,36081,Queens,2021,2022,47.0,45.83141917560995,35,2014,2020
-Ablation weather,Random Forest,rolling_backtest,36085,Staten Island,2021,2022,40.0,40.0779221981722,35,2014,2020
+Ablation weather,Random Forest,rolling_backtest,36047,Brooklyn,2021,2022,43.0,39.954120610870625,35,2014,2020
+Ablation weather,Random Forest,rolling_backtest,36061,Manhattan,2021,2022,43.0,43.20551012413512,35,2014,2020
+Ablation weather,Random Forest,rolling_backtest,36081,Queens,2021,2022,47.0,45.831419175609966,35,2014,2020
+Ablation weather,Random Forest,rolling_backtest,36085,Staten Island,2021,2022,40.0,40.07792219817221,35,2014,2020
 Ablation weather,XGBoost,rolling_backtest,36005,Bronx,2021,2022,44.0,45.68883514404297,35,2014,2020
 Ablation weather,XGBoost,rolling_backtest,36047,Brooklyn,2021,2022,43.0,41.019874572753906,35,2014,2020
 Ablation weather,XGBoost,rolling_backtest,36061,Manhattan,2021,2022,43.0,44.331321716308594,35,2014,2020
@@ -839,10 +839,10 @@ Ablation weather,No-change baseline,rolling_backtest,36047,Brooklyn,2022,2023,46
 Ablation weather,No-change baseline,rolling_backtest,36061,Manhattan,2022,2023,48.0,43.0,40,2014,2021
 Ablation weather,No-change baseline,rolling_backtest,36081,Queens,2022,2023,50.0,47.0,40,2014,2021
 Ablation weather,No-change baseline,rolling_backtest,36085,Staten Island,2022,2023,42.0,40.0,40,2014,2021
-Ablation weather,Random Forest,rolling_backtest,36005,Bronx,2022,2023,47.0,44.53712231344503,40,2014,2021
+Ablation weather,Random Forest,rolling_backtest,36005,Bronx,2022,2023,47.0,44.537122313445046,40,2014,2021
 Ablation weather,Random Forest,rolling_backtest,36047,Brooklyn,2022,2023,46.0,43.25631503657162,40,2014,2021
-Ablation weather,Random Forest,rolling_backtest,36061,Manhattan,2022,2023,48.0,43.41238606739264,40,2014,2021
-Ablation weather,Random Forest,rolling_backtest,36081,Queens,2022,2023,50.0,45.789514833506665,40,2014,2021
+Ablation weather,Random Forest,rolling_backtest,36061,Manhattan,2022,2023,48.0,43.41238606739263,40,2014,2021
+Ablation weather,Random Forest,rolling_backtest,36081,Queens,2022,2023,50.0,45.78951483350666,40,2014,2021
 Ablation weather,Random Forest,rolling_backtest,36085,Staten Island,2022,2023,42.0,41.11031987239339,40,2014,2021
 Ablation weather,XGBoost,rolling_backtest,36005,Bronx,2022,2023,47.0,44.219024658203125,40,2014,2021
 Ablation weather,XGBoost,rolling_backtest,36047,Brooklyn,2022,2023,46.0,43.04269790649414,40,2014,2021
@@ -854,8 +854,8 @@ Ablation weather,No-change baseline,rolling_backtest,36047,Brooklyn,2023,2024,39
 Ablation weather,No-change baseline,rolling_backtest,36061,Manhattan,2023,2024,43.0,48.0,45,2014,2022
 Ablation weather,No-change baseline,rolling_backtest,36081,Queens,2023,2024,45.0,50.0,45,2014,2022
 Ablation weather,No-change baseline,rolling_backtest,36085,Staten Island,2023,2024,38.0,42.0,45,2014,2022
-Ablation weather,Random Forest,rolling_backtest,36005,Bronx,2023,2024,42.0,45.81073458587998,45,2014,2022
-Ablation weather,Random Forest,rolling_backtest,36047,Brooklyn,2023,2024,39.0,44.70502981351382,45,2014,2022
+Ablation weather,Random Forest,rolling_backtest,36005,Bronx,2023,2024,42.0,45.810734585879985,45,2014,2022
+Ablation weather,Random Forest,rolling_backtest,36047,Brooklyn,2023,2024,39.0,44.70502981351381,45,2014,2022
 Ablation weather,Random Forest,rolling_backtest,36061,Manhattan,2023,2024,43.0,46.42177994425971,45,2014,2022
 Ablation weather,Random Forest,rolling_backtest,36081,Queens,2023,2024,45.0,47.294045638328555,45,2014,2022
 Ablation weather,Random Forest,rolling_backtest,36085,Staten Island,2023,2024,38.0,41.12519359670831,45,2014,2022
@@ -869,10 +869,10 @@ Ablation weather,No-change baseline,rolling_backtest,36047,Brooklyn,2024,2025,39
 Ablation weather,No-change baseline,rolling_backtest,36061,Manhattan,2024,2025,50.0,43.0,50,2014,2023
 Ablation weather,No-change baseline,rolling_backtest,36081,Queens,2024,2025,44.0,45.0,50,2014,2023
 Ablation weather,No-change baseline,rolling_backtest,36085,Staten Island,2024,2025,41.0,38.0,50,2014,2023
-Ablation weather,Random Forest,rolling_backtest,36005,Bronx,2024,2025,45.0,40.087119528579315,50,2014,2023
-Ablation weather,Random Forest,rolling_backtest,36047,Brooklyn,2024,2025,39.0,40.78342034788396,50,2014,2023
+Ablation weather,Random Forest,rolling_backtest,36005,Bronx,2024,2025,45.0,40.08711952857933,50,2014,2023
+Ablation weather,Random Forest,rolling_backtest,36047,Brooklyn,2024,2025,39.0,40.78342034788397,50,2014,2023
 Ablation weather,Random Forest,rolling_backtest,36061,Manhattan,2024,2025,50.0,45.74140484098633,50,2014,2023
-Ablation weather,Random Forest,rolling_backtest,36081,Queens,2024,2025,44.0,45.59953166445524,50,2014,2023
+Ablation weather,Random Forest,rolling_backtest,36081,Queens,2024,2025,44.0,45.59953166445525,50,2014,2023
 Ablation weather,Random Forest,rolling_backtest,36085,Staten Island,2024,2025,41.0,39.071649470899466,50,2014,2023
 Ablation weather,XGBoost,rolling_backtest,36005,Bronx,2024,2025,45.0,42.84328842163086,50,2014,2023
 Ablation weather,XGBoost,rolling_backtest,36047,Brooklyn,2024,2025,39.0,41.686946868896484,50,2014,2023
@@ -900,60 +900,60 @@ Ablation drive-alone,No-change baseline,test,36081,Queens,2024,2025,44.0,45.0,35
 Ablation drive-alone,No-change baseline,test,36085,Staten Island,2023,2024,38.0,42.0,35,2014,2020
 Ablation drive-alone,No-change baseline,test,36085,Staten Island,2024,2025,41.0,38.0,35,2014,2020
 Ablation drive-alone,Random Forest,train,36005,Bronx,2014,2015,51.0,47.966928150553144,35,2014,2020
-Ablation drive-alone,Random Forest,train,36005,Bronx,2015,2016,45.0,47.67339411976912,35,2014,2020
-Ablation drive-alone,Random Forest,train,36005,Bronx,2016,2017,44.0,44.112059748258275,35,2014,2020
+Ablation drive-alone,Random Forest,train,36005,Bronx,2015,2016,45.0,47.673394119769114,35,2014,2020
+Ablation drive-alone,Random Forest,train,36005,Bronx,2016,2017,44.0,44.11205974825827,35,2014,2020
 Ablation drive-alone,Random Forest,train,36005,Bronx,2017,2018,44.0,44.590751964266666,35,2014,2020
-Ablation drive-alone,Random Forest,train,36005,Bronx,2018,2019,46.0,45.281025648915346,35,2014,2020
+Ablation drive-alone,Random Forest,train,36005,Bronx,2018,2019,46.0,45.28102564891535,35,2014,2020
 Ablation drive-alone,Random Forest,train,36005,Bronx,2019,2020,45.0,45.365312431305085,35,2014,2020
 Ablation drive-alone,Random Forest,train,36005,Bronx,2020,2021,47.0,45.49673162322428,35,2014,2020
 Ablation drive-alone,Random Forest,train,36047,Brooklyn,2014,2015,42.0,39.99522025958791,35,2014,2020
 Ablation drive-alone,Random Forest,train,36047,Brooklyn,2015,2016,38.0,39.19607054818822,35,2014,2020
-Ablation drive-alone,Random Forest,train,36047,Brooklyn,2016,2017,38.0,37.37618666355433,35,2014,2020
+Ablation drive-alone,Random Forest,train,36047,Brooklyn,2016,2017,38.0,37.37618666355432,35,2014,2020
 Ablation drive-alone,Random Forest,train,36047,Brooklyn,2017,2018,34.0,35.42235200746966,35,2014,2020
 Ablation drive-alone,Random Forest,train,36047,Brooklyn,2018,2019,36.0,37.001357298474964,35,2014,2020
 Ablation drive-alone,Random Forest,train,36047,Brooklyn,2019,2020,30.0,35.17762978524745,35,2014,2020
-Ablation drive-alone,Random Forest,train,36047,Brooklyn,2020,2021,42.0,38.008344070961726,35,2014,2020
-Ablation drive-alone,Random Forest,train,36061,Manhattan,2014,2015,54.0,50.97371825396829,35,2014,2020
+Ablation drive-alone,Random Forest,train,36047,Brooklyn,2020,2021,42.0,38.00834407096171,35,2014,2020
+Ablation drive-alone,Random Forest,train,36061,Manhattan,2014,2015,54.0,50.9737182539683,35,2014,2020
 Ablation drive-alone,Random Forest,train,36061,Manhattan,2015,2016,52.0,50.923361111111156,35,2014,2020
 Ablation drive-alone,Random Forest,train,36061,Manhattan,2016,2017,50.0,50.65639189514193,35,2014,2020
 Ablation drive-alone,Random Forest,train,36061,Manhattan,2017,2018,51.0,48.72944953739073,35,2014,2020
-Ablation drive-alone,Random Forest,train,36061,Manhattan,2018,2019,46.0,48.118130994822195,35,2014,2020
+Ablation drive-alone,Random Forest,train,36061,Manhattan,2018,2019,46.0,48.11813099482219,35,2014,2020
 Ablation drive-alone,Random Forest,train,36061,Manhattan,2019,2020,40.0,43.28622940947941,35,2014,2020
 Ablation drive-alone,Random Forest,train,36061,Manhattan,2020,2021,43.0,40.810480804598456,35,2014,2020
-Ablation drive-alone,Random Forest,train,36081,Queens,2014,2015,48.0,46.007186298451,35,2014,2020
-Ablation drive-alone,Random Forest,train,36081,Queens,2015,2016,44.0,46.513045365310084,35,2014,2020
+Ablation drive-alone,Random Forest,train,36081,Queens,2014,2015,48.0,46.00718629845101,35,2014,2020
+Ablation drive-alone,Random Forest,train,36081,Queens,2015,2016,44.0,46.51304536531009,35,2014,2020
 Ablation drive-alone,Random Forest,train,36081,Queens,2016,2017,44.0,44.52818117938705,35,2014,2020
-Ablation drive-alone,Random Forest,train,36081,Queens,2017,2018,45.0,44.638083120039,35,2014,2020
-Ablation drive-alone,Random Forest,train,36081,Queens,2018,2019,45.0,44.57539264384854,35,2014,2020
-Ablation drive-alone,Random Forest,train,36081,Queens,2019,2020,43.0,44.399055016878556,35,2014,2020
+Ablation drive-alone,Random Forest,train,36081,Queens,2017,2018,45.0,44.638083120039006,35,2014,2020
+Ablation drive-alone,Random Forest,train,36081,Queens,2018,2019,45.0,44.575392643848545,35,2014,2020
+Ablation drive-alone,Random Forest,train,36081,Queens,2019,2020,43.0,44.39905501687857,35,2014,2020
 Ablation drive-alone,Random Forest,train,36081,Queens,2020,2021,47.0,43.91096496259734,35,2014,2020
-Ablation drive-alone,Random Forest,train,36085,Staten Island,2014,2015,51.0,47.6627492123889,35,2014,2020
-Ablation drive-alone,Random Forest,train,36085,Staten Island,2015,2016,45.0,47.55067261551085,35,2014,2020
-Ablation drive-alone,Random Forest,train,36085,Staten Island,2016,2017,44.0,44.12889423784275,35,2014,2020
-Ablation drive-alone,Random Forest,train,36085,Staten Island,2017,2018,42.0,44.02045442302794,35,2014,2020
-Ablation drive-alone,Random Forest,train,36085,Staten Island,2018,2019,41.0,40.552398951266625,35,2014,2020
+Ablation drive-alone,Random Forest,train,36085,Staten Island,2014,2015,51.0,47.66274921238891,35,2014,2020
+Ablation drive-alone,Random Forest,train,36085,Staten Island,2015,2016,45.0,47.550672615510834,35,2014,2020
+Ablation drive-alone,Random Forest,train,36085,Staten Island,2016,2017,44.0,44.128894237842765,35,2014,2020
+Ablation drive-alone,Random Forest,train,36085,Staten Island,2017,2018,42.0,44.02045442302796,35,2014,2020
+Ablation drive-alone,Random Forest,train,36085,Staten Island,2018,2019,41.0,40.55239895126663,35,2014,2020
 Ablation drive-alone,Random Forest,train,36085,Staten Island,2019,2020,39.0,40.56308413645181,35,2014,2020
 Ablation drive-alone,Random Forest,train,36085,Staten Island,2020,2021,42.0,40.63228061589828,35,2014,2020
-Ablation drive-alone,Random Forest,validation,36005,Bronx,2021,2022,44.0,46.85581383186531,35,2014,2020
-Ablation drive-alone,Random Forest,validation,36005,Bronx,2022,2023,47.0,45.44263638512903,35,2014,2020
-Ablation drive-alone,Random Forest,validation,36047,Brooklyn,2021,2022,43.0,39.77985602197368,35,2014,2020
-Ablation drive-alone,Random Forest,validation,36047,Brooklyn,2022,2023,46.0,42.23567825175913,35,2014,2020
-Ablation drive-alone,Random Forest,validation,36061,Manhattan,2021,2022,43.0,42.52740012220894,35,2014,2020
-Ablation drive-alone,Random Forest,validation,36061,Manhattan,2022,2023,48.0,42.47783663014545,35,2014,2020
+Ablation drive-alone,Random Forest,validation,36005,Bronx,2021,2022,44.0,46.85581383186533,35,2014,2020
+Ablation drive-alone,Random Forest,validation,36005,Bronx,2022,2023,47.0,45.44263638512904,35,2014,2020
+Ablation drive-alone,Random Forest,validation,36047,Brooklyn,2021,2022,43.0,39.779856021973686,35,2014,2020
+Ablation drive-alone,Random Forest,validation,36047,Brooklyn,2022,2023,46.0,42.23567825175915,35,2014,2020
+Ablation drive-alone,Random Forest,validation,36061,Manhattan,2021,2022,43.0,42.52740012220895,35,2014,2020
+Ablation drive-alone,Random Forest,validation,36061,Manhattan,2022,2023,48.0,42.47783663014546,35,2014,2020
 Ablation drive-alone,Random Forest,validation,36081,Queens,2021,2022,47.0,46.62325800289035,35,2014,2020
-Ablation drive-alone,Random Forest,validation,36081,Queens,2022,2023,50.0,46.434056704189054,35,2014,2020
+Ablation drive-alone,Random Forest,validation,36081,Queens,2022,2023,50.0,46.43405670418906,35,2014,2020
 Ablation drive-alone,Random Forest,validation,36085,Staten Island,2021,2022,40.0,40.587486252853914,35,2014,2020
-Ablation drive-alone,Random Forest,validation,36085,Staten Island,2022,2023,42.0,41.37811455973222,35,2014,2020
-Ablation drive-alone,Random Forest,test,36005,Bronx,2023,2024,42.0,46.87175827630977,35,2014,2020
+Ablation drive-alone,Random Forest,validation,36085,Staten Island,2022,2023,42.0,41.378114559732225,35,2014,2020
+Ablation drive-alone,Random Forest,test,36005,Bronx,2023,2024,42.0,46.87175827630976,35,2014,2020
 Ablation drive-alone,Random Forest,test,36005,Bronx,2024,2025,45.0,40.10650452325453,35,2014,2020
-Ablation drive-alone,Random Forest,test,36047,Brooklyn,2023,2024,39.0,43.0925223297944,35,2014,2020
+Ablation drive-alone,Random Forest,test,36047,Brooklyn,2023,2024,39.0,43.09252232979438,35,2014,2020
 Ablation drive-alone,Random Forest,test,36047,Brooklyn,2024,2025,39.0,39.65084482946248,35,2014,2020
-Ablation drive-alone,Random Forest,test,36061,Manhattan,2023,2024,43.0,47.24333337577457,35,2014,2020
-Ablation drive-alone,Random Forest,test,36061,Manhattan,2024,2025,50.0,42.53740012220896,35,2014,2020
+Ablation drive-alone,Random Forest,test,36061,Manhattan,2023,2024,43.0,47.24333337577458,35,2014,2020
+Ablation drive-alone,Random Forest,test,36061,Manhattan,2024,2025,50.0,42.53740012220895,35,2014,2020
 Ablation drive-alone,Random Forest,test,36081,Queens,2023,2024,45.0,47.95912403446228,35,2014,2020
-Ablation drive-alone,Random Forest,test,36081,Queens,2024,2025,44.0,44.60511261668616,35,2014,2020
-Ablation drive-alone,Random Forest,test,36085,Staten Island,2023,2024,38.0,40.697764030631696,35,2014,2020
-Ablation drive-alone,Random Forest,test,36085,Staten Island,2024,2025,41.0,38.88307555244321,35,2014,2020
+Ablation drive-alone,Random Forest,test,36081,Queens,2024,2025,44.0,44.60511261668615,35,2014,2020
+Ablation drive-alone,Random Forest,test,36085,Staten Island,2023,2024,38.0,40.6977640306317,35,2014,2020
+Ablation drive-alone,Random Forest,test,36085,Staten Island,2024,2025,41.0,38.8830755524432,35,2014,2020
 Ablation drive-alone,XGBoost,train,36005,Bronx,2014,2015,51.0,47.31880569458008,35,2014,2020
 Ablation drive-alone,XGBoost,train,36005,Bronx,2015,2016,45.0,46.89006423950195,35,2014,2020
 Ablation drive-alone,XGBoost,train,36005,Bronx,2016,2017,44.0,43.80619430541992,35,2014,2020
@@ -1014,11 +1014,11 @@ Ablation drive-alone,No-change baseline,rolling_backtest,36047,Brooklyn,2019,202
 Ablation drive-alone,No-change baseline,rolling_backtest,36061,Manhattan,2019,2020,40.0,46.0,25,2014,2018
 Ablation drive-alone,No-change baseline,rolling_backtest,36081,Queens,2019,2020,43.0,45.0,25,2014,2018
 Ablation drive-alone,No-change baseline,rolling_backtest,36085,Staten Island,2019,2020,39.0,41.0,25,2014,2018
-Ablation drive-alone,Random Forest,rolling_backtest,36005,Bronx,2019,2020,45.0,44.89897318422318,25,2014,2018
-Ablation drive-alone,Random Forest,rolling_backtest,36047,Brooklyn,2019,2020,30.0,36.7286507936508,25,2014,2018
-Ablation drive-alone,Random Forest,rolling_backtest,36061,Manhattan,2019,2020,40.0,44.66972787397788,25,2014,2018
-Ablation drive-alone,Random Forest,rolling_backtest,36081,Queens,2019,2020,43.0,44.8979071173924,25,2014,2018
-Ablation drive-alone,Random Forest,rolling_backtest,36085,Staten Island,2019,2020,39.0,40.195461399711384,25,2014,2018
+Ablation drive-alone,Random Forest,rolling_backtest,36005,Bronx,2019,2020,45.0,44.898973184223195,25,2014,2018
+Ablation drive-alone,Random Forest,rolling_backtest,36047,Brooklyn,2019,2020,30.0,36.728650793650786,25,2014,2018
+Ablation drive-alone,Random Forest,rolling_backtest,36061,Manhattan,2019,2020,40.0,44.66972787397787,25,2014,2018
+Ablation drive-alone,Random Forest,rolling_backtest,36081,Queens,2019,2020,43.0,44.89790711739241,25,2014,2018
+Ablation drive-alone,Random Forest,rolling_backtest,36085,Staten Island,2019,2020,39.0,40.1954613997114,25,2014,2018
 Ablation drive-alone,XGBoost,rolling_backtest,36005,Bronx,2019,2020,45.0,45.09318542480469,25,2014,2018
 Ablation drive-alone,XGBoost,rolling_backtest,36047,Brooklyn,2019,2020,30.0,39.415428161621094,25,2014,2018
 Ablation drive-alone,XGBoost,rolling_backtest,36061,Manhattan,2019,2020,40.0,46.153465270996094,25,2014,2018
@@ -1029,11 +1029,11 @@ Ablation drive-alone,No-change baseline,rolling_backtest,36047,Brooklyn,2020,202
 Ablation drive-alone,No-change baseline,rolling_backtest,36061,Manhattan,2020,2021,43.0,40.0,30,2014,2019
 Ablation drive-alone,No-change baseline,rolling_backtest,36081,Queens,2020,2021,47.0,43.0,30,2014,2019
 Ablation drive-alone,No-change baseline,rolling_backtest,36085,Staten Island,2020,2021,42.0,39.0,30,2014,2019
-Ablation drive-alone,Random Forest,rolling_backtest,36005,Bronx,2020,2021,47.0,44.57531335331337,30,2014,2019
+Ablation drive-alone,Random Forest,rolling_backtest,36005,Bronx,2020,2021,47.0,44.57531335331336,30,2014,2019
 Ablation drive-alone,Random Forest,rolling_backtest,36047,Brooklyn,2020,2021,42.0,34.66876455026455,30,2014,2019
 Ablation drive-alone,Random Forest,rolling_backtest,36061,Manhattan,2020,2021,43.0,37.36924903799901,30,2014,2019
 Ablation drive-alone,Random Forest,rolling_backtest,36081,Queens,2020,2021,47.0,40.81660936285935,30,2014,2019
-Ablation drive-alone,Random Forest,rolling_backtest,36085,Staten Island,2020,2021,42.0,38.23329629629629,30,2014,2019
+Ablation drive-alone,Random Forest,rolling_backtest,36085,Staten Island,2020,2021,42.0,38.233296296296295,30,2014,2019
 Ablation drive-alone,XGBoost,rolling_backtest,36005,Bronx,2020,2021,47.0,44.46546936035156,30,2014,2019
 Ablation drive-alone,XGBoost,rolling_backtest,36047,Brooklyn,2020,2021,42.0,37.71649169921875,30,2014,2019
 Ablation drive-alone,XGBoost,rolling_backtest,36061,Manhattan,2020,2021,43.0,40.48301696777344,30,2014,2019
@@ -1045,9 +1045,9 @@ Ablation drive-alone,No-change baseline,rolling_backtest,36061,Manhattan,2021,20
 Ablation drive-alone,No-change baseline,rolling_backtest,36081,Queens,2021,2022,47.0,47.0,35,2014,2020
 Ablation drive-alone,No-change baseline,rolling_backtest,36085,Staten Island,2021,2022,40.0,42.0,35,2014,2020
 Ablation drive-alone,Random Forest,rolling_backtest,36005,Bronx,2021,2022,44.0,46.94664362977637,35,2014,2020
-Ablation drive-alone,Random Forest,rolling_backtest,36047,Brooklyn,2021,2022,43.0,39.56603643578644,35,2014,2020
-Ablation drive-alone,Random Forest,rolling_backtest,36061,Manhattan,2021,2022,43.0,42.27117427942427,35,2014,2020
-Ablation drive-alone,Random Forest,rolling_backtest,36081,Queens,2021,2022,47.0,46.70187904278384,35,2014,2020
+Ablation drive-alone,Random Forest,rolling_backtest,36047,Brooklyn,2021,2022,43.0,39.56603643578643,35,2014,2020
+Ablation drive-alone,Random Forest,rolling_backtest,36061,Manhattan,2021,2022,43.0,42.271174279424265,35,2014,2020
+Ablation drive-alone,Random Forest,rolling_backtest,36081,Queens,2021,2022,47.0,46.70187904278382,35,2014,2020
 Ablation drive-alone,Random Forest,rolling_backtest,36085,Staten Island,2021,2022,40.0,40.54445720510428,35,2014,2020
 Ablation drive-alone,XGBoost,rolling_backtest,36005,Bronx,2021,2022,44.0,47.249420166015625,35,2014,2020
 Ablation drive-alone,XGBoost,rolling_backtest,36047,Brooklyn,2021,2022,43.0,40.13576889038086,35,2014,2020
@@ -1059,10 +1059,10 @@ Ablation drive-alone,No-change baseline,rolling_backtest,36047,Brooklyn,2022,202
 Ablation drive-alone,No-change baseline,rolling_backtest,36061,Manhattan,2022,2023,48.0,43.0,40,2014,2021
 Ablation drive-alone,No-change baseline,rolling_backtest,36081,Queens,2022,2023,50.0,47.0,40,2014,2021
 Ablation drive-alone,No-change baseline,rolling_backtest,36085,Staten Island,2022,2023,42.0,40.0,40,2014,2021
-Ablation drive-alone,Random Forest,rolling_backtest,36005,Bronx,2022,2023,47.0,45.03113451174445,40,2014,2021
+Ablation drive-alone,Random Forest,rolling_backtest,36005,Bronx,2022,2023,47.0,45.03113451174443,40,2014,2021
 Ablation drive-alone,Random Forest,rolling_backtest,36047,Brooklyn,2022,2023,46.0,43.418424081651644,40,2014,2021
-Ablation drive-alone,Random Forest,rolling_backtest,36061,Manhattan,2022,2023,48.0,42.57294906238986,40,2014,2021
-Ablation drive-alone,Random Forest,rolling_backtest,36081,Queens,2022,2023,50.0,46.35847149039759,40,2014,2021
+Ablation drive-alone,Random Forest,rolling_backtest,36061,Manhattan,2022,2023,48.0,42.57294906238985,40,2014,2021
+Ablation drive-alone,Random Forest,rolling_backtest,36081,Queens,2022,2023,50.0,46.35847149039758,40,2014,2021
 Ablation drive-alone,Random Forest,rolling_backtest,36085,Staten Island,2022,2023,42.0,40.68938275613277,40,2014,2021
 Ablation drive-alone,XGBoost,rolling_backtest,36005,Bronx,2022,2023,47.0,44.60702896118164,40,2014,2021
 Ablation drive-alone,XGBoost,rolling_backtest,36047,Brooklyn,2022,2023,46.0,42.841209411621094,40,2014,2021
@@ -1074,11 +1074,11 @@ Ablation drive-alone,No-change baseline,rolling_backtest,36047,Brooklyn,2023,202
 Ablation drive-alone,No-change baseline,rolling_backtest,36061,Manhattan,2023,2024,43.0,48.0,45,2014,2022
 Ablation drive-alone,No-change baseline,rolling_backtest,36081,Queens,2023,2024,45.0,50.0,45,2014,2022
 Ablation drive-alone,No-change baseline,rolling_backtest,36085,Staten Island,2023,2024,38.0,42.0,45,2014,2022
-Ablation drive-alone,Random Forest,rolling_backtest,36005,Bronx,2023,2024,42.0,46.521962639926585,45,2014,2022
-Ablation drive-alone,Random Forest,rolling_backtest,36047,Brooklyn,2023,2024,39.0,44.519876267993865,45,2014,2022
-Ablation drive-alone,Random Forest,rolling_backtest,36061,Manhattan,2023,2024,43.0,47.34287623298603,45,2014,2022
-Ablation drive-alone,Random Forest,rolling_backtest,36081,Queens,2023,2024,45.0,48.40663422567087,45,2014,2022
-Ablation drive-alone,Random Forest,rolling_backtest,36085,Staten Island,2023,2024,38.0,40.676428811928815,45,2014,2022
+Ablation drive-alone,Random Forest,rolling_backtest,36005,Bronx,2023,2024,42.0,46.52196263992659,45,2014,2022
+Ablation drive-alone,Random Forest,rolling_backtest,36047,Brooklyn,2023,2024,39.0,44.51987626799385,45,2014,2022
+Ablation drive-alone,Random Forest,rolling_backtest,36061,Manhattan,2023,2024,43.0,47.34287623298602,45,2014,2022
+Ablation drive-alone,Random Forest,rolling_backtest,36081,Queens,2023,2024,45.0,48.40663422567088,45,2014,2022
+Ablation drive-alone,Random Forest,rolling_backtest,36085,Staten Island,2023,2024,38.0,40.67642881192881,45,2014,2022
 Ablation drive-alone,XGBoost,rolling_backtest,36005,Bronx,2023,2024,42.0,46.5318717956543,45,2014,2022
 Ablation drive-alone,XGBoost,rolling_backtest,36047,Brooklyn,2023,2024,39.0,44.35567092895508,45,2014,2022
 Ablation drive-alone,XGBoost,rolling_backtest,36061,Manhattan,2023,2024,43.0,47.437347412109375,45,2014,2022
@@ -1091,9 +1091,9 @@ Ablation drive-alone,No-change baseline,rolling_backtest,36081,Queens,2024,2025,
 Ablation drive-alone,No-change baseline,rolling_backtest,36085,Staten Island,2024,2025,41.0,38.0,50,2014,2023
 Ablation drive-alone,Random Forest,rolling_backtest,36005,Bronx,2024,2025,45.0,39.09026572902901,50,2014,2023
 Ablation drive-alone,Random Forest,rolling_backtest,36047,Brooklyn,2024,2025,39.0,40.674300161540096,50,2014,2023
-Ablation drive-alone,Random Forest,rolling_backtest,36061,Manhattan,2024,2025,50.0,44.16219462952723,50,2014,2023
-Ablation drive-alone,Random Forest,rolling_backtest,36081,Queens,2024,2025,44.0,44.871713322888105,50,2014,2023
-Ablation drive-alone,Random Forest,rolling_backtest,36085,Staten Island,2024,2025,41.0,38.30645502645505,50,2014,2023
+Ablation drive-alone,Random Forest,rolling_backtest,36061,Manhattan,2024,2025,50.0,44.16219462952722,50,2014,2023
+Ablation drive-alone,Random Forest,rolling_backtest,36081,Queens,2024,2025,44.0,44.87171332288811,50,2014,2023
+Ablation drive-alone,Random Forest,rolling_backtest,36085,Staten Island,2024,2025,41.0,38.30645502645503,50,2014,2023
 Ablation drive-alone,XGBoost,rolling_backtest,36005,Bronx,2024,2025,45.0,41.98149490356445,50,2014,2023
 Ablation drive-alone,XGBoost,rolling_backtest,36047,Brooklyn,2024,2025,39.0,40.81055450439453,50,2014,2023
 Ablation drive-alone,XGBoost,rolling_backtest,36061,Manhattan,2024,2025,50.0,44.36948776245117,50,2014,2023

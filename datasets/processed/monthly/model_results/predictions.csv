@@ -1,0 +1,1644 @@
+model,split,county_fips,borough,target_month,actual_aqi,predicted_aqi,training_rows
+Persistence baseline,validation,36005,Bronx,2022-06-01,46.0,44.0,499
+Persistence baseline,validation,36047,Kings,2022-06-01,44.0,45.0,499
+Persistence baseline,validation,36061,New York,2022-06-01,43.0,41.0,499
+Persistence baseline,validation,36081,Queens,2022-06-01,49.0,43.0,499
+Persistence baseline,validation,36085,Richmond,2022-06-01,39.0,37.0,499
+Persistence baseline,validation,36005,Bronx,2022-07-01,54.0,46.0,499
+Persistence baseline,validation,36047,Kings,2022-07-01,52.0,44.0,499
+Persistence baseline,validation,36061,New York,2022-07-01,53.0,43.0,499
+Persistence baseline,validation,36081,Queens,2022-07-01,56.0,49.0,499
+Persistence baseline,validation,36085,Richmond,2022-07-01,47.0,39.0,499
+Persistence baseline,validation,36005,Bronx,2022-08-01,47.0,54.0,499
+Persistence baseline,validation,36047,Kings,2022-08-01,46.0,52.0,499
+Persistence baseline,validation,36061,New York,2022-08-01,46.0,53.0,499
+Persistence baseline,validation,36081,Queens,2022-08-01,49.0,56.0,499
+Persistence baseline,validation,36085,Richmond,2022-08-01,46.0,47.0,499
+Persistence baseline,validation,36005,Bronx,2022-09-01,38.0,47.0,499
+Persistence baseline,validation,36047,Kings,2022-09-01,34.0,46.0,499
+Persistence baseline,validation,36061,New York,2022-09-01,36.0,46.0,499
+Persistence baseline,validation,36081,Queens,2022-09-01,39.0,49.0,499
+Persistence baseline,validation,36085,Richmond,2022-09-01,35.0,46.0,499
+Persistence baseline,validation,36005,Bronx,2022-10-01,42.0,38.0,499
+Persistence baseline,validation,36047,Kings,2022-10-01,46.0,34.0,499
+Persistence baseline,validation,36061,New York,2022-10-01,33.0,36.0,499
+Persistence baseline,validation,36081,Queens,2022-10-01,42.0,39.0,499
+Persistence baseline,validation,36085,Richmond,2022-10-01,36.0,35.0,499
+Persistence baseline,validation,36005,Bronx,2022-11-01,46.5,42.0,499
+Persistence baseline,validation,36047,Kings,2022-11-01,47.0,46.0,499
+Persistence baseline,validation,36061,New York,2022-11-01,42.0,33.0,499
+Persistence baseline,validation,36081,Queens,2022-11-01,51.0,42.0,499
+Persistence baseline,validation,36085,Richmond,2022-11-01,33.5,36.0,499
+Persistence baseline,validation,36005,Bronx,2022-12-01,44.0,46.5,499
+Persistence baseline,validation,36047,Kings,2022-12-01,42.0,47.0,499
+Persistence baseline,validation,36061,New York,2022-12-01,45.0,42.0,499
+Persistence baseline,validation,36081,Queens,2022-12-01,46.0,51.0,499
+Persistence baseline,validation,36085,Richmond,2022-12-01,39.0,33.5,499
+Persistence baseline,validation,36005,Bronx,2023-01-01,51.0,44.0,499
+Persistence baseline,validation,36047,Kings,2023-01-01,42.0,42.0,499
+Persistence baseline,validation,36061,New York,2023-01-01,55.0,45.0,499
+Persistence baseline,validation,36081,Queens,2023-01-01,52.0,46.0,499
+Persistence baseline,validation,36085,Richmond,2023-01-01,48.0,39.0,499
+Persistence baseline,validation,36005,Bronx,2023-02-01,51.5,51.0,499
+Persistence baseline,validation,36047,Kings,2023-02-01,52.0,42.0,499
+Persistence baseline,validation,36061,New York,2023-02-01,53.5,55.0,499
+Persistence baseline,validation,36081,Queens,2023-02-01,54.0,52.0,499
+Persistence baseline,validation,36085,Richmond,2023-02-01,44.0,48.0,499
+Persistence baseline,validation,36005,Bronx,2023-03-01,40.0,51.5,499
+Persistence baseline,validation,36047,Kings,2023-03-01,39.0,52.0,499
+Persistence baseline,validation,36061,New York,2023-03-01,42.0,53.5,499
+Persistence baseline,validation,36081,Queens,2023-03-01,42.0,54.0,499
+Persistence baseline,validation,36085,Richmond,2023-03-01,38.0,44.0,499
+Persistence baseline,validation,36005,Bronx,2023-04-01,49.0,40.0,499
+Persistence baseline,validation,36047,Kings,2023-04-01,50.0,39.0,499
+Persistence baseline,validation,36061,New York,2023-04-01,43.0,42.0,499
+Persistence baseline,validation,36081,Queens,2023-04-01,52.0,42.0,499
+Persistence baseline,validation,36085,Richmond,2023-04-01,44.0,38.0,499
+Persistence baseline,validation,36005,Bronx,2023-05-01,44.0,49.0,499
+Persistence baseline,validation,36047,Kings,2023-05-01,41.0,50.0,499
+Persistence baseline,validation,36061,New York,2023-05-01,42.0,43.0,499
+Persistence baseline,validation,36081,Queens,2023-05-01,45.0,52.0,499
+Persistence baseline,validation,36085,Richmond,2023-05-01,44.0,44.0,499
+Persistence baseline,validation,36005,Bronx,2023-06-01,57.0,44.0,499
+Persistence baseline,validation,36047,Kings,2023-06-01,58.5,41.0,499
+Persistence baseline,validation,36061,New York,2023-06-01,51.5,42.0,499
+Persistence baseline,validation,36081,Queens,2023-06-01,62.5,45.0,499
+Persistence baseline,validation,36085,Richmond,2023-06-01,45.0,44.0,499
+Persistence baseline,validation,36005,Bronx,2023-07-01,62.0,57.0,499
+Persistence baseline,validation,36047,Kings,2023-07-01,54.0,58.5,499
+Persistence baseline,validation,36061,New York,2023-07-01,61.0,51.5,499
+Persistence baseline,validation,36081,Queens,2023-07-01,64.0,62.5,499
+Persistence baseline,validation,36085,Richmond,2023-07-01,55.0,45.0,499
+Persistence baseline,validation,36005,Bronx,2023-08-01,46.0,62.0,499
+Persistence baseline,validation,36047,Kings,2023-08-01,49.5,54.0,499
+Persistence baseline,validation,36061,New York,2023-08-01,42.0,61.0,499
+Persistence baseline,validation,36081,Queens,2023-08-01,48.0,64.0,499
+Persistence baseline,validation,36085,Richmond,2023-08-01,44.0,55.0,499
+Persistence baseline,validation,36005,Bronx,2023-09-01,39.5,46.0,499
+Persistence baseline,validation,36047,Kings,2023-09-01,39.0,49.5,499
+Persistence baseline,validation,36061,New York,2023-09-01,42.5,42.0,499
+Persistence baseline,validation,36081,Queens,2023-09-01,41.5,48.0,499
+Persistence baseline,validation,36085,Richmond,2023-09-01,38.0,44.0,499
+Persistence baseline,validation,36005,Bronx,2023-10-01,37.0,39.5,499
+Persistence baseline,validation,36047,Kings,2023-10-01,37.0,39.0,499
+Persistence baseline,validation,36061,New York,2023-10-01,38.0,42.5,499
+Persistence baseline,validation,36081,Queens,2023-10-01,38.0,41.5,499
+Persistence baseline,validation,36085,Richmond,2023-10-01,31.0,38.0,499
+Persistence baseline,validation,36005,Bronx,2023-11-01,35.5,37.0,499
+Persistence baseline,validation,36047,Kings,2023-11-01,32.5,37.0,499
+Persistence baseline,validation,36061,New York,2023-11-01,40.0,38.0,499
+Persistence baseline,validation,36081,Queens,2023-11-01,36.0,38.0,499
+Persistence baseline,validation,36085,Richmond,2023-11-01,33.0,31.0,499
+Persistence baseline,validation,36005,Bronx,2023-12-01,46.0,35.5,499
+Persistence baseline,validation,36047,Kings,2023-12-01,48.0,32.5,499
+Persistence baseline,validation,36061,New York,2023-12-01,52.0,40.0,499
+Persistence baseline,validation,36081,Queens,2023-12-01,50.0,36.0,499
+Persistence baseline,validation,36085,Richmond,2023-12-01,41.0,33.0,499
+Persistence baseline,validation,36005,Bronx,2024-01-01,51.0,46.0,499
+Persistence baseline,validation,36047,Kings,2024-01-01,44.0,48.0,499
+Persistence baseline,validation,36061,New York,2024-01-01,53.0,52.0,499
+Persistence baseline,validation,36081,Queens,2024-01-01,52.0,50.0,499
+Persistence baseline,validation,36085,Richmond,2024-01-01,48.0,41.0,499
+Persistence baseline,validation,36005,Bronx,2024-02-01,37.0,51.0,499
+Persistence baseline,validation,36047,Kings,2024-02-01,37.0,44.0,499
+Persistence baseline,validation,36061,New York,2024-02-01,41.0,53.0,499
+Persistence baseline,validation,36081,Queens,2024-02-01,43.0,52.0,499
+Persistence baseline,validation,36085,Richmond,2024-02-01,37.0,48.0,499
+Persistence baseline,test,36005,Bronx,2024-03-01,35.0,37.0,499
+Persistence baseline,test,36047,Kings,2024-03-01,34.0,37.0,499
+Persistence baseline,test,36061,New York,2024-03-01,37.0,41.0,499
+Persistence baseline,test,36081,Queens,2024-03-01,36.0,43.0,499
+Persistence baseline,test,36085,Richmond,2024-03-01,33.0,37.0,499
+Persistence baseline,test,36005,Bronx,2024-04-01,44.5,35.0,499
+Persistence baseline,test,36047,Kings,2024-04-01,37.5,34.0,499
+Persistence baseline,test,36061,New York,2024-04-01,41.5,37.0,499
+Persistence baseline,test,36081,Queens,2024-04-01,45.5,36.0,499
+Persistence baseline,test,36085,Richmond,2024-04-01,39.0,33.0,499
+Persistence baseline,test,36005,Bronx,2024-05-01,44.0,44.5,499
+Persistence baseline,test,36047,Kings,2024-05-01,38.0,37.5,499
+Persistence baseline,test,36061,New York,2024-05-01,44.0,41.5,499
+Persistence baseline,test,36081,Queens,2024-05-01,41.0,45.5,499
+Persistence baseline,test,36085,Richmond,2024-05-01,38.0,39.0,499
+Persistence baseline,test,36005,Bronx,2024-06-01,46.5,44.0,499
+Persistence baseline,test,36047,Kings,2024-06-01,43.0,38.0,499
+Persistence baseline,test,36061,New York,2024-06-01,47.5,44.0,499
+Persistence baseline,test,36081,Queens,2024-06-01,47.5,41.0,499
+Persistence baseline,test,36085,Richmond,2024-06-01,45.5,38.0,499
+Persistence baseline,test,36005,Bronx,2024-07-01,58.0,46.5,499
+Persistence baseline,test,36047,Kings,2024-07-01,51.0,43.0,499
+Persistence baseline,test,36061,New York,2024-07-01,54.0,47.5,499
+Persistence baseline,test,36081,Queens,2024-07-01,57.0,47.5,499
+Persistence baseline,test,36085,Richmond,2024-07-01,47.0,45.5,499
+Persistence baseline,test,36005,Bronx,2024-08-01,52.0,58.0,499
+Persistence baseline,test,36047,Kings,2024-08-01,51.0,51.0,499
+Persistence baseline,test,36061,New York,2024-08-01,52.0,54.0,499
+Persistence baseline,test,36081,Queens,2024-08-01,60.0,57.0,499
+Persistence baseline,test,36085,Richmond,2024-08-01,46.0,47.0,499
+Persistence baseline,test,36005,Bronx,2024-09-01,37.5,52.0,499
+Persistence baseline,test,36047,Kings,2024-09-01,32.5,51.0,499
+Persistence baseline,test,36061,New York,2024-09-01,37.0,52.0,499
+Persistence baseline,test,36081,Queens,2024-09-01,39.5,60.0,499
+Persistence baseline,test,36085,Richmond,2024-09-01,35.0,46.0,499
+Persistence baseline,test,36005,Bronx,2024-10-01,38.0,37.5,499
+Persistence baseline,test,36047,Kings,2024-10-01,33.0,32.5,499
+Persistence baseline,test,36061,New York,2024-10-01,36.0,37.0,499
+Persistence baseline,test,36081,Queens,2024-10-01,38.0,39.5,499
+Persistence baseline,test,36085,Richmond,2024-10-01,32.0,35.0,499
+Persistence baseline,test,36005,Bronx,2024-11-01,35.5,38.0,499
+Persistence baseline,test,36047,Kings,2024-11-01,36.5,33.0,499
+Persistence baseline,test,36061,New York,2024-11-01,35.5,36.0,499
+Persistence baseline,test,36081,Queens,2024-11-01,38.5,38.0,499
+Persistence baseline,test,36085,Richmond,2024-11-01,30.0,32.0,499
+Persistence baseline,test,36005,Bronx,2024-12-01,40.0,35.5,499
+Persistence baseline,test,36047,Kings,2024-12-01,42.0,36.5,499
+Persistence baseline,test,36061,New York,2024-12-01,44.0,35.5,499
+Persistence baseline,test,36081,Queens,2024-12-01,45.0,38.5,499
+Persistence baseline,test,36085,Richmond,2024-12-01,39.0,30.0,499
+Persistence baseline,test,36005,Bronx,2025-01-01,45.0,40.0,499
+Persistence baseline,test,36047,Kings,2025-01-01,41.0,42.0,499
+Persistence baseline,test,36061,New York,2025-01-01,51.0,44.0,499
+Persistence baseline,test,36081,Queens,2025-01-01,54.0,45.0,499
+Persistence baseline,test,36085,Richmond,2025-01-01,44.0,39.0,499
+Persistence baseline,test,36005,Bronx,2025-02-01,38.0,45.0,499
+Persistence baseline,test,36047,Kings,2025-02-01,39.5,41.0,499
+Persistence baseline,test,36061,New York,2025-02-01,46.0,51.0,499
+Persistence baseline,test,36081,Queens,2025-02-01,45.5,54.0,499
+Persistence baseline,test,36085,Richmond,2025-02-01,38.0,44.0,499
+Persistence baseline,test,36005,Bronx,2025-03-01,41.0,38.0,499
+Persistence baseline,test,36047,Kings,2025-03-01,37.0,39.5,499
+Persistence baseline,test,36061,New York,2025-03-01,40.0,46.0,499
+Persistence baseline,test,36081,Queens,2025-03-01,42.0,45.5,499
+Persistence baseline,test,36085,Richmond,2025-03-01,40.0,38.0,499
+Persistence baseline,test,36005,Bronx,2025-04-01,41.0,41.0,499
+Persistence baseline,test,36047,Kings,2025-04-01,36.5,37.0,499
+Persistence baseline,test,36061,New York,2025-04-01,43.0,40.0,499
+Persistence baseline,test,36081,Queens,2025-04-01,42.0,42.0,499
+Persistence baseline,test,36085,Richmond,2025-04-01,41.5,40.0,499
+Persistence baseline,test,36005,Bronx,2025-05-01,39.0,41.0,499
+Persistence baseline,test,36047,Kings,2025-05-01,43.0,36.5,499
+Persistence baseline,test,36061,New York,2025-05-01,44.0,43.0,499
+Persistence baseline,test,36081,Queens,2025-05-01,39.0,42.0,499
+Persistence baseline,test,36085,Richmond,2025-05-01,38.0,41.5,499
+Persistence baseline,test,36005,Bronx,2025-06-01,55.5,39.0,499
+Persistence baseline,test,36047,Kings,2025-06-01,56.5,43.0,499
+Persistence baseline,test,36061,New York,2025-06-01,58.0,44.0,499
+Persistence baseline,test,36081,Queens,2025-06-01,55.5,39.0,499
+Persistence baseline,test,36085,Richmond,2025-06-01,52.0,38.0,499
+Persistence baseline,test,36005,Bronx,2025-07-01,58.0,55.5,499
+Persistence baseline,test,36047,Kings,2025-07-01,51.0,56.5,499
+Persistence baseline,test,36061,New York,2025-07-01,58.0,58.0,499
+Persistence baseline,test,36081,Queens,2025-07-01,54.0,55.5,499
+Persistence baseline,test,36085,Richmond,2025-07-01,48.0,52.0,499
+Persistence baseline,test,36005,Bronx,2025-08-01,53.0,58.0,499
+Persistence baseline,test,36047,Kings,2025-08-01,42.0,51.0,499
+Persistence baseline,test,36061,New York,2025-08-01,55.0,58.0,499
+Persistence baseline,test,36081,Queens,2025-08-01,45.0,54.0,499
+Persistence baseline,test,36085,Richmond,2025-08-01,51.0,48.0,499
+Persistence baseline,test,36005,Bronx,2025-09-01,49.5,53.0,499
+Persistence baseline,test,36047,Kings,2025-09-01,44.0,42.0,499
+Persistence baseline,test,36061,New York,2025-09-01,54.0,55.0,499
+Persistence baseline,test,36081,Queens,2025-09-01,43.5,45.0,499
+Persistence baseline,test,36085,Richmond,2025-09-01,40.5,51.0,499
+Persistence baseline,test,36005,Bronx,2025-10-01,31.0,49.5,499
+Persistence baseline,test,36047,Kings,2025-10-01,26.0,44.0,499
+Persistence baseline,test,36061,New York,2025-10-01,31.0,54.0,499
+Persistence baseline,test,36081,Queens,2025-10-01,31.0,43.5,499
+Persistence baseline,test,36085,Richmond,2025-10-01,31.0,40.5,499
+Persistence baseline,test,36005,Bronx,2025-11-01,42.0,31.0,499
+Persistence baseline,test,36047,Kings,2025-11-01,32.5,26.0,499
+Persistence baseline,test,36061,New York,2025-11-01,43.0,31.0,499
+Persistence baseline,test,36081,Queens,2025-11-01,36.5,31.0,499
+Persistence baseline,test,36085,Richmond,2025-11-01,32.0,31.0,499
+Persistence baseline,test,36005,Bronx,2025-12-01,46.0,42.0,499
+Persistence baseline,test,36047,Kings,2025-12-01,36.0,32.5,499
+Persistence baseline,test,36061,New York,2025-12-01,51.0,43.0,499
+Persistence baseline,test,36081,Queens,2025-12-01,44.0,36.5,499
+Persistence baseline,test,36085,Richmond,2025-12-01,42.0,32.0,499
+Random Forest,train,36005,Bronx,2014-02-01,60.0,56.47577608546681,499
+Random Forest,train,36047,Kings,2014-02-01,53.0,47.31431498655553,499
+Random Forest,train,36061,New York,2014-02-01,63.0,56.421442752133466,499
+Random Forest,train,36081,Queens,2014-02-01,56.0,50.18464628171468,499
+Random Forest,train,36085,Richmond,2014-02-01,54.0,47.31431498655553,499
+Random Forest,train,36005,Bronx,2014-03-01,49.0,49.502320739716865,499
+Random Forest,train,36047,Kings,2014-03-01,37.0,44.715956305460146,499
+Random Forest,train,36061,New York,2014-03-01,52.0,53.41767793087357,499
+Random Forest,train,36081,Queens,2014-03-01,49.0,45.59215698048404,499
+Random Forest,train,36085,Richmond,2014-03-01,44.0,44.860042172505814,499
+Random Forest,train,36005,Bronx,2014-04-01,46.0,43.617930129378195,499
+Random Forest,train,36047,Kings,2014-04-01,32.0,41.68132090091199,499
+Random Forest,train,36061,New York,2014-04-01,46.0,44.528482639791775,499
+Random Forest,train,36081,Queens,2014-04-01,41.0,43.617930129378195,499
+Random Forest,train,36085,Richmond,2014-04-01,39.5,43.182657072262685,499
+Random Forest,train,36005,Bronx,2014-05-01,47.0,43.462455544813935,499
+Random Forest,train,36047,Kings,2014-05-01,38.0,41.43179673940397,499
+Random Forest,train,36061,New York,2014-05-01,49.0,43.462455544813935,499
+Random Forest,train,36081,Queens,2014-05-01,44.0,42.372873885472174,499
+Random Forest,train,36085,Richmond,2014-05-01,46.0,41.96554073159102,499
+Random Forest,train,36005,Bronx,2014-06-01,45.5,43.92977513443265,499
+Random Forest,train,36047,Kings,2014-06-01,33.0,42.31521692391409,499
+Random Forest,train,36061,New York,2014-06-01,43.5,44.11597981707271,499
+Random Forest,train,36081,Queens,2014-06-01,44.0,43.82444289730698,499
+Random Forest,train,36085,Richmond,2014-06-01,47.5,43.897977364916024,499
+Random Forest,train,36005,Bronx,2014-07-01,53.0,44.023530252211664,499
+Random Forest,train,36047,Kings,2014-07-01,41.0,42.133031073630676,499
+Random Forest,train,36061,New York,2014-07-01,53.0,43.75498207209817,499
+Random Forest,train,36081,Queens,2014-07-01,52.0,43.95364447579196,499
+Random Forest,train,36085,Richmond,2014-07-01,51.0,44.17589716878927,499
+Random Forest,train,36005,Bronx,2014-08-01,47.0,45.0780556227901,499
+Random Forest,train,36047,Kings,2014-08-01,34.0,42.74613419621118,499
+Random Forest,train,36061,New York,2014-08-01,47.0,45.0780556227901,499
+Random Forest,train,36081,Queens,2014-08-01,47.0,45.05511837320395,499
+Random Forest,train,36085,Richmond,2014-08-01,46.0,44.92956178588824,499
+Random Forest,train,36005,Bronx,2014-09-01,44.0,41.69666235739297,499
+Random Forest,train,36047,Kings,2014-09-01,36.0,40.468028553646334,499
+Random Forest,train,36061,New York,2014-09-01,47.0,41.69666235739297,499
+Random Forest,train,36081,Queens,2014-09-01,45.0,41.69666235739297,499
+Random Forest,train,36085,Richmond,2014-09-01,43.0,41.678094385856134,499
+Random Forest,train,36005,Bronx,2014-10-01,37.0,41.587866383719394,499
+Random Forest,train,36047,Kings,2014-10-01,29.0,40.45235361340333,499
+Random Forest,train,36061,New York,2014-10-01,37.0,41.63339877285115,499
+Random Forest,train,36081,Queens,2014-10-01,34.0,41.6021586335849,499
+Random Forest,train,36085,Richmond,2014-10-01,36.0,41.421436617796154,499
+Random Forest,train,36005,Bronx,2014-11-01,50.5,41.15496678041205,499
+Random Forest,train,36047,Kings,2014-11-01,42.0,40.540675048296556,499
+Random Forest,train,36061,New York,2014-11-01,52.0,41.15496678041205,499
+Random Forest,train,36081,Queens,2014-11-01,44.0,41.0227496197474,499
+Random Forest,train,36085,Richmond,2014-11-01,49.5,41.066192430712896,499
+Random Forest,train,36005,Bronx,2014-12-01,54.0,48.70230926488957,499
+Random Forest,train,36047,Kings,2014-12-01,40.0,46.2225981347374,499
+Random Forest,train,36061,New York,2014-12-01,55.0,48.68124497857865,499
+Random Forest,train,36081,Queens,2014-12-01,46.0,47.187457466210766,499
+Random Forest,train,36085,Richmond,2014-12-01,48.0,48.11855186408149,499
+Random Forest,train,36005,Bronx,2015-01-01,57.0,56.134369425962284,499
+Random Forest,train,36047,Kings,2015-01-01,53.0,50.3641877888996,499
+Random Forest,train,36061,New York,2015-01-01,62.0,58.711434309667226,499
+Random Forest,train,36081,Queens,2015-01-01,54.0,53.30427153577495,499
+Random Forest,train,36085,Richmond,2015-01-01,55.0,51.645628145979565,499
+Random Forest,train,36005,Bronx,2015-02-01,62.0,58.393745256277796,499
+Random Forest,train,36047,Kings,2015-02-01,52.0,49.75861920941177,499
+Random Forest,train,36061,New York,2015-02-01,63.5,59.571987893737045,499
+Random Forest,train,36081,Queens,2015-02-01,54.0,50.27402998666127,499
+Random Forest,train,36085,Richmond,2015-02-01,54.5,50.12734685830194,499
+Random Forest,train,36005,Bronx,2015-03-01,52.0,49.977127825815174,499
+Random Forest,train,36047,Kings,2015-03-01,45.0,44.20051121972609,499
+Random Forest,train,36061,New York,2015-03-01,55.0,50.08611987571558,499
+Random Forest,train,36081,Queens,2015-03-01,48.0,48.330712301490145,499
+Random Forest,train,36085,Richmond,2015-03-01,51.0,45.47119084804003,499
+Random Forest,train,36005,Bronx,2015-04-01,42.0,44.7833964448065,499
+Random Forest,train,36047,Kings,2015-04-01,29.0,35.263156426565345,499
+Random Forest,train,36061,New York,2015-04-01,39.0,45.53615365485341,499
+Random Forest,train,36081,Queens,2015-04-01,41.0,43.01357118353161,499
+Random Forest,train,36085,Richmond,2015-04-01,44.0,43.17509552718568,499
+Random Forest,train,36005,Bronx,2015-05-01,56.0,46.33788538907151,499
+Random Forest,train,36047,Kings,2015-05-01,48.0,41.75215826894715,499
+Random Forest,train,36061,New York,2015-05-01,55.0,47.0575900254845,499
+Random Forest,train,36081,Queens,2015-05-01,56.0,42.372873885472174,499
+Random Forest,train,36085,Richmond,2015-05-01,55.0,43.7360694386394,499
+Random Forest,train,36005,Bronx,2015-06-01,42.5,45.180970256577126,499
+Random Forest,train,36047,Kings,2015-06-01,34.0,37.84945235359371,499
+Random Forest,train,36061,New York,2015-06-01,45.0,45.081984393461475,499
+Random Forest,train,36081,Queens,2015-06-01,40.5,45.23043420461229,499
+Random Forest,train,36085,Richmond,2015-06-01,43.5,47.706477314069915,499
+Random Forest,train,36005,Bronx,2015-07-01,57.0,50.463553028825196,499
+Random Forest,train,36047,Kings,2015-07-01,51.0,42.73730648239871,499
+Random Forest,train,36061,New York,2015-07-01,57.0,50.84534372541148,499
+Random Forest,train,36081,Queens,2015-07-01,55.0,49.098929556799234,499
+Random Forest,train,36085,Richmond,2015-07-01,61.0,48.8153883412695,499
+Random Forest,train,36005,Bronx,2015-08-01,48.0,48.201566172529795,499
+Random Forest,train,36047,Kings,2015-08-01,27.0,35.345836149504414,499
+Random Forest,train,36061,New York,2015-08-01,48.0,48.201566172529795,499
+Random Forest,train,36081,Queens,2015-08-01,49.0,48.154402002038445,499
+Random Forest,train,36085,Richmond,2015-08-01,58.0,52.42458189267464,499
+Random Forest,train,36005,Bronx,2015-09-01,39.0,41.85080783846832,499
+Random Forest,train,36047,Kings,2015-09-01,27.5,29.02215721575548,499
+Random Forest,train,36061,New York,2015-09-01,42.0,46.739917182612125,499
+Random Forest,train,36081,Queens,2015-09-01,36.5,41.96702161906381,499
+Random Forest,train,36085,Richmond,2015-09-01,40.5,44.40309638206986,499
+Random Forest,train,36005,Bronx,2015-10-01,30.0,37.72172226460841,499
+Random Forest,train,36047,Kings,2015-10-01,25.0,30.63796653918545,499
+Random Forest,train,36061,New York,2015-10-01,38.0,38.50236933044735,499
+Random Forest,train,36081,Queens,2015-10-01,31.0,33.2654040212906,499
+Random Forest,train,36085,Richmond,2015-10-01,32.0,35.604939833501085,499
+Random Forest,train,36005,Bronx,2015-11-01,38.0,39.6669396362582,499
+Random Forest,train,36047,Kings,2015-11-01,31.0,39.31104684786931,499
+Random Forest,train,36061,New York,2015-11-01,52.0,48.409878911834426,499
+Random Forest,train,36081,Queens,2015-11-01,37.0,40.54460447327398,499
+Random Forest,train,36085,Richmond,2015-11-01,41.5,43.84062443107505,499
+Random Forest,train,36005,Bronx,2015-12-01,51.0,49.91106726780447,499
+Random Forest,train,36047,Kings,2015-12-01,49.0,45.82533835439517,499
+Random Forest,train,36061,New York,2015-12-01,56.0,50.69790888359484,499
+Random Forest,train,36081,Queens,2015-12-01,48.0,46.059854780738284,499
+Random Forest,train,36085,Richmond,2015-12-01,52.0,48.45960865966377,499
+Random Forest,train,36005,Bronx,2016-01-01,54.0,53.91444938675054,499
+Random Forest,train,36047,Kings,2016-01-01,53.0,51.60823852363096,499
+Random Forest,train,36061,New York,2016-01-01,60.0,59.21116952657222,499
+Random Forest,train,36081,Queens,2016-01-01,54.0,51.60845834289284,499
+Random Forest,train,36085,Richmond,2016-01-01,53.0,51.571209907757854,499
+Random Forest,train,36005,Bronx,2016-02-01,49.0,54.49103224803656,499
+Random Forest,train,36047,Kings,2016-02-01,42.0,48.787012819304906,499
+Random Forest,train,36061,New York,2016-02-01,57.0,59.12899655174572,499
+Random Forest,train,36081,Queens,2016-02-01,39.0,49.90237472156772,499
+Random Forest,train,36085,Richmond,2016-02-01,41.0,49.76372186737938,499
+Random Forest,train,36005,Bronx,2016-03-01,41.0,47.99978464658278,499
+Random Forest,train,36047,Kings,2016-03-01,34.0,41.86478134330994,499
+Random Forest,train,36061,New York,2016-03-01,47.0,50.16858878450629,499
+Random Forest,train,36081,Queens,2016-03-01,40.0,45.90878846683716,499
+Random Forest,train,36085,Richmond,2016-03-01,40.0,47.215550948960775,499
+Random Forest,train,36005,Bronx,2016-04-01,42.5,42.13987145992088,499
+Random Forest,train,36047,Kings,2016-04-01,27.5,31.12241787750114,499
+Random Forest,train,36061,New York,2016-04-01,43.5,42.60535694792177,499
+Random Forest,train,36081,Queens,2016-04-01,40.5,41.70531379087897,499
+Random Forest,train,36085,Richmond,2016-04-01,43.5,41.87183323993339,499
+Random Forest,train,36005,Bronx,2016-05-01,45.0,49.033397711960895,499
+Random Forest,train,36047,Kings,2016-05-01,30.0,37.00866183446223,499
+Random Forest,train,36061,New York,2016-05-01,44.0,49.03348893084588,499
+Random Forest,train,36081,Queens,2016-05-01,45.0,48.831246473693476,499
+Random Forest,train,36085,Richmond,2016-05-01,44.0,49.03348893084588,499
+Random Forest,train,36005,Bronx,2016-06-01,51.5,43.864945223560355,499
+Random Forest,train,36047,Kings,2016-06-01,36.5,36.516729674574904,499
+Random Forest,train,36061,New York,2016-06-01,51.5,43.830267890214095,499
+Random Forest,train,36081,Queens,2016-06-01,49.5,43.56528032582671,499
+Random Forest,train,36085,Richmond,2016-06-01,52.0,43.81871055447198,499
+Random Forest,train,36005,Bronx,2016-07-01,58.0,53.23555046637357,499
+Random Forest,train,36047,Kings,2016-07-01,41.0,46.716984709926564,499
+Random Forest,train,36061,New York,2016-07-01,55.0,53.23555046637357,499
+Random Forest,train,36081,Queens,2016-07-01,53.0,50.894341615865905,499
+Random Forest,train,36085,Richmond,2016-07-01,53.0,53.68219009500666,499
+Random Forest,train,36005,Bronx,2016-08-01,47.0,48.53619352999993,499
+Random Forest,train,36047,Kings,2016-08-01,36.0,36.13330751249617,499
+Random Forest,train,36061,New York,2016-08-01,46.0,48.27202037381688,499
+Random Forest,train,36081,Queens,2016-08-01,47.0,48.85189222877791,499
+Random Forest,train,36085,Richmond,2016-08-01,46.0,51.9695025486353,499
+Random Forest,train,36005,Bronx,2016-09-01,37.5,39.273819485698624,499
+Random Forest,train,36047,Kings,2016-09-01,26.0,31.01093041539833,499
+Random Forest,train,36061,New York,2016-09-01,38.5,40.84607094241404,499
+Random Forest,train,36081,Queens,2016-09-01,33.0,36.19889257479805,499
+Random Forest,train,36085,Richmond,2016-09-01,34.5,39.8184002211022,499
+Random Forest,train,36005,Bronx,2016-10-01,33.0,34.06140641334048,499
+Random Forest,train,36047,Kings,2016-10-01,32.0,28.452092087843273,499
+Random Forest,train,36061,New York,2016-10-01,43.0,38.86774027974069,499
+Random Forest,train,36081,Queens,2016-10-01,32.0,32.750570140055856,499
+Random Forest,train,36085,Richmond,2016-10-01,33.0,33.373116704047874,499
+Random Forest,train,36005,Bronx,2016-11-01,48.0,40.368520906826596,499
+Random Forest,train,36047,Kings,2016-11-01,41.5,34.135920702087496,499
+Random Forest,train,36061,New York,2016-11-01,52.0,48.9560177593774,499
+Random Forest,train,36081,Queens,2016-11-01,43.0,39.4603066356076,499
+Random Forest,train,36085,Richmond,2016-11-01,44.0,40.55512890445658,499
+Random Forest,train,36005,Bronx,2016-12-01,49.0,48.95724952979117,499
+Random Forest,train,36047,Kings,2016-12-01,44.0,48.80146629459155,499
+Random Forest,train,36061,New York,2016-12-01,54.0,50.73798395160059,499
+Random Forest,train,36081,Queens,2016-12-01,47.0,48.48271203253716,499
+Random Forest,train,36085,Richmond,2016-12-01,52.0,49.13795014320996,499
+Random Forest,train,36005,Bronx,2017-01-01,53.0,51.62585504910962,499
+Random Forest,train,36047,Kings,2017-01-01,51.0,51.19866586993808,499
+Random Forest,train,36061,New York,2017-01-01,58.0,55.60967406829714,499
+Random Forest,train,36081,Queens,2017-01-01,52.0,51.49187576298075,499
+Random Forest,train,36085,Richmond,2017-01-01,53.0,51.52345135697024,499
+Random Forest,train,36005,Bronx,2017-02-01,54.0,48.53769654856847,499
+Random Forest,train,36047,Kings,2017-02-01,46.0,44.30979752929395,499
+Random Forest,train,36061,New York,2017-02-01,55.5,55.38013806396304,499
+Random Forest,train,36081,Queens,2017-02-01,50.0,44.33753931289792,499
+Random Forest,train,36085,Richmond,2017-02-01,46.5,44.47257987861756,499
+Random Forest,train,36005,Bronx,2017-03-01,42.0,43.93820455109469,499
+Random Forest,train,36047,Kings,2017-03-01,33.0,36.274945201317394,499
+Random Forest,train,36061,New York,2017-03-01,52.0,47.852773115181975,499
+Random Forest,train,36081,Queens,2017-03-01,41.0,43.182909098609485,499
+Random Forest,train,36085,Richmond,2017-03-01,44.0,42.53019540928646,499
+Random Forest,train,36005,Bronx,2017-04-01,41.0,42.27361419462538,499
+Random Forest,train,36047,Kings,2017-04-01,28.0,30.55534060245828,499
+Random Forest,train,36061,New York,2017-04-01,38.0,44.206818306447936,499
+Random Forest,train,36081,Queens,2017-04-01,40.5,41.88762998470192,499
+Random Forest,train,36085,Richmond,2017-04-01,43.5,43.095493201425256,499
+Random Forest,train,36005,Bronx,2017-05-01,36.0,42.38060356247515,499
+Random Forest,train,36047,Kings,2017-05-01,21.0,31.793048165589006,499
+Random Forest,train,36061,New York,2017-05-01,37.0,41.81308761573358,499
+Random Forest,train,36081,Queens,2017-05-01,37.0,42.025184063446865,499
+Random Forest,train,36085,Richmond,2017-05-01,36.0,43.18153017888746,499
+Random Forest,train,36005,Bronx,2017-06-01,46.5,46.4536231662411,499
+Random Forest,train,36047,Kings,2017-06-01,32.0,28.492411048697736,499
+Random Forest,train,36061,New York,2017-06-01,48.5,47.065949218088946,499
+Random Forest,train,36081,Queens,2017-06-01,49.0,46.93254058384574,499
+Random Forest,train,36085,Richmond,2017-06-01,47.5,46.82822908809385,499
+Random Forest,train,36005,Bronx,2017-07-01,49.0,52.48661152001186,499
+Random Forest,train,36047,Kings,2017-07-01,39.0,42.611535775086374,499
+Random Forest,train,36061,New York,2017-07-01,48.0,50.87669996015418,499
+Random Forest,train,36081,Queens,2017-07-01,49.0,50.90370489669324,499
+Random Forest,train,36085,Richmond,2017-07-01,49.0,50.843555107432735,499
+Random Forest,train,36005,Bronx,2017-08-01,42.0,47.2888547228489,499
+Random Forest,train,36061,New York,2017-08-01,45.0,44.46764209510452,499
+Random Forest,train,36081,Queens,2017-08-01,47.0,47.2888547228489,499
+Random Forest,train,36085,Richmond,2017-08-01,42.0,44.52099407953497,499
+Random Forest,train,36005,Bronx,2017-09-01,39.0,38.46623903816468,499
+Random Forest,train,36047,Kings,2017-09-01,33.0,35.703786887976754,499
+Random Forest,train,36061,New York,2017-09-01,42.0,39.52381780475634,499
+Random Forest,train,36081,Queens,2017-09-01,41.5,36.36860107982088,499
+Random Forest,train,36085,Richmond,2017-09-01,42.5,36.54547675089491,499
+Random Forest,train,36005,Bronx,2017-10-01,36.0,35.791470737906714,499
+Random Forest,train,36047,Kings,2017-10-01,31.0,31.83683498558235,499
+Random Forest,train,36061,New York,2017-10-01,43.0,40.609796756229336,499
+Random Forest,train,36081,Queens,2017-10-01,39.0,36.43954590661431,499
+Random Forest,train,36085,Richmond,2017-10-01,38.0,36.537552545383285,499
+Random Forest,train,36005,Bronx,2017-11-01,39.5,45.257210896943995,499
+Random Forest,train,36047,Kings,2017-11-01,36.5,34.672917228627234,499
+Random Forest,train,36061,New York,2017-11-01,49.0,48.9560177593774,499
+Random Forest,train,36081,Queens,2017-11-01,38.0,40.80856198703286,499
+Random Forest,train,36085,Richmond,2017-11-01,35.5,41.14429847574375,499
+Random Forest,train,36005,Bronx,2017-12-01,50.0,48.82245125077727,499
+Random Forest,train,36047,Kings,2017-12-01,43.0,46.2495839526136,499
+Random Forest,train,36061,New York,2017-12-01,56.0,50.784878519801,499
+Random Forest,train,36081,Queens,2017-12-01,52.0,48.26504183619087,499
+Random Forest,train,36085,Richmond,2017-12-01,47.0,47.72894691797038,499
+Random Forest,train,36005,Bronx,2018-01-01,55.0,51.60823852363096,499
+Random Forest,train,36047,Kings,2018-01-01,51.0,43.38437027304338,499
+Random Forest,train,36061,New York,2018-01-01,58.0,56.25487388337573,499
+Random Forest,train,36081,Queens,2018-01-01,55.0,49.52759228509022,499
+Random Forest,train,36085,Richmond,2018-01-01,52.0,51.51194442268726,499
+Random Forest,train,36005,Bronx,2018-02-01,52.5,50.12734685830194,499
+Random Forest,train,36047,Kings,2018-02-01,44.5,47.93357557653885,499
+Random Forest,train,36061,New York,2018-02-01,55.0,51.179804675962444,499
+Random Forest,train,36081,Queens,2018-02-01,51.5,49.120425612659176,499
+Random Forest,train,36085,Richmond,2018-02-01,46.0,45.4551120643165,499
+Random Forest,train,36005,Bronx,2018-03-01,38.0,44.085488331749104,499
+Random Forest,train,36047,Kings,2018-03-01,27.0,43.15794928099837,499
+Random Forest,train,36061,New York,2018-03-01,50.0,48.76961040262098,499
+Random Forest,train,36081,Queens,2018-03-01,37.0,43.470527765318835,499
+Random Forest,train,36085,Richmond,2018-03-01,30.0,43.04316948261412,499
+Random Forest,train,36005,Bronx,2018-04-01,42.5,41.593126451362906,499
+Random Forest,train,36047,Kings,2018-04-01,23.5,26.733215749294814,499
+Random Forest,train,36061,New York,2018-04-01,44.5,43.13558185121161,499
+Random Forest,train,36081,Queens,2018-04-01,42.0,41.538555626300564,499
+Random Forest,train,36085,Richmond,2018-04-01,39.0,41.131469726698704,499
+Random Forest,train,36005,Bronx,2018-05-01,47.0,38.93742317879526,499
+Random Forest,train,36047,Kings,2018-05-01,30.0,26.742374461926527,499
+Random Forest,train,36061,New York,2018-05-01,49.0,42.89013383217004,499
+Random Forest,train,36081,Queens,2018-05-01,47.0,42.186621500689334,499
+Random Forest,train,36085,Richmond,2018-05-01,43.0,38.17154881833651,499
+Random Forest,train,36005,Bronx,2018-06-01,42.5,44.28839038692236,499
+Random Forest,train,36047,Kings,2018-06-01,33.0,35.517693793177735,499
+Random Forest,train,36061,New York,2018-06-01,47.0,47.15123009219522,499
+Random Forest,train,36081,Queens,2018-06-01,42.0,47.75207981358628,499
+Random Forest,train,36085,Richmond,2018-06-01,39.0,46.68140647937084,499
+Random Forest,train,36005,Bronx,2018-07-01,49.0,48.653078305304106,499
+Random Forest,train,36047,Kings,2018-07-01,33.0,35.241283109918456,499
+Random Forest,train,36061,New York,2018-07-01,51.0,47.56456452394835,499
+Random Forest,train,36081,Queens,2018-07-01,50.0,48.66701246836327,499
+Random Forest,train,36085,Richmond,2018-07-01,52.0,48.39758915617207,499
+Random Forest,train,36005,Bronx,2018-08-01,48.0,44.29672108328039,499
+Random Forest,train,36047,Kings,2018-08-01,52.0,42.486125088448155,499
+Random Forest,train,36061,New York,2018-08-01,53.0,44.92752007417365,499
+Random Forest,train,36081,Queens,2018-08-01,52.0,47.688556620235424,499
+Random Forest,train,36085,Richmond,2018-08-01,56.0,44.9116364960813,499
+Random Forest,train,36005,Bronx,2018-09-01,31.0,39.27266821810632,499
+Random Forest,train,36047,Kings,2018-09-01,25.0,34.7238793979682,499
+Random Forest,train,36061,New York,2018-09-01,41.0,41.59013853646052,499
+Random Forest,train,36081,Queens,2018-09-01,36.0,40.907337573085634,499
+Random Forest,train,36085,Richmond,2018-09-01,40.0,42.305251378254276,499
+Random Forest,train,36005,Bronx,2018-10-01,32.0,33.693288189934385,499
+Random Forest,train,36047,Kings,2018-10-01,25.0,28.1689964114933,499
+Random Forest,train,36061,New York,2018-10-01,36.0,40.55262368230451,499
+Random Forest,train,36081,Queens,2018-10-01,32.0,38.70509791561122,499
+Random Forest,train,36085,Richmond,2018-10-01,32.0,38.759435083319225,499
+Random Forest,train,36005,Bronx,2018-11-01,34.0,40.14396360273745,499
+Random Forest,train,36047,Kings,2018-11-01,26.5,30.882290933358775,499
+Random Forest,train,36061,New York,2018-11-01,42.0,46.46404654501653,499
+Random Forest,train,36081,Queens,2018-11-01,42.0,40.43479119660018,499
+Random Forest,train,36085,Richmond,2018-11-01,33.0,34.49370482566971,499
+Random Forest,train,36005,Bronx,2018-12-01,52.0,47.42140493895053,499
+Random Forest,train,36047,Kings,2018-12-01,42.0,44.45266040877168,499
+Random Forest,train,36061,New York,2018-12-01,54.0,50.107167916506526,499
+Random Forest,train,36081,Queens,2018-12-01,48.0,49.092167597553534,499
+Random Forest,train,36085,Richmond,2018-12-01,52.0,47.08324483914552,499
+Random Forest,train,36005,Bronx,2019-01-01,51.0,51.571209907757854,499
+Random Forest,train,36047,Kings,2019-01-01,46.0,48.65377778128436,499
+Random Forest,train,36061,New York,2019-01-01,56.0,54.276230906497254,499
+Random Forest,train,36081,Queens,2019-01-01,52.0,51.645628145979565,499
+Random Forest,train,36085,Richmond,2019-01-01,47.0,49.52759228509022,499
+Random Forest,train,36005,Bronx,2019-02-01,42.5,48.59755260201747,499
+Random Forest,train,36047,Kings,2019-02-01,39.0,43.34235649536336,499
+Random Forest,train,36061,New York,2019-02-01,52.5,50.56611400729523,499
+Random Forest,train,36081,Queens,2019-02-01,44.0,48.01815239702139,499
+Random Forest,train,36085,Richmond,2019-02-01,37.5,43.68641707931613,499
+Random Forest,train,36005,Bronx,2019-03-01,51.0,41.82484170123181,499
+Random Forest,train,36047,Kings,2019-03-01,38.0,35.60266550570695,499
+Random Forest,train,36061,New York,2019-03-01,49.0,47.84369059272564,499
+Random Forest,train,36081,Queens,2019-03-01,50.0,42.35660871850193,499
+Random Forest,train,36085,Richmond,2019-03-01,43.0,34.22196550964984,499
+Random Forest,train,36005,Bronx,2019-04-01,44.5,43.88081954842065,499
+Random Forest,train,36047,Kings,2019-04-01,25.5,32.29308891689543,499
+Random Forest,train,36061,New York,2019-04-01,40.5,43.58494265371417,499
+Random Forest,train,36081,Queens,2019-04-01,43.0,43.73064432892828,499
+Random Forest,train,36085,Richmond,2019-04-01,40.0,42.22537635613621,499
+Random Forest,train,36005,Bronx,2019-05-01,40.0,46.40624785415309,499
+Random Forest,train,36047,Kings,2019-05-01,26.0,26.422144153214074,499
+Random Forest,train,36061,New York,2019-05-01,38.0,47.12782751859292,499
+Random Forest,train,36081,Queens,2019-05-01,41.0,46.32384133983219,499
+Random Forest,train,36085,Richmond,2019-05-01,38.0,41.87106887834387,499
+Random Forest,train,36005,Bronx,2019-06-01,48.0,42.62138724633139,499
+Random Forest,train,36047,Kings,2019-06-01,27.5,29.294948392287406,499
+Random Forest,train,36061,New York,2019-06-01,48.5,46.28213521490902,499
+Random Forest,train,36081,Queens,2019-06-01,49.5,42.99911588425417,499
+Random Forest,train,36085,Richmond,2019-06-01,42.5,42.11486396283658,499
+Random Forest,train,36005,Bronx,2019-07-01,58.0,48.72173415693915,499
+Random Forest,train,36047,Kings,2019-07-01,51.0,35.63902732412076,499
+Random Forest,train,36061,New York,2019-07-01,54.0,48.88173176235719,499
+Random Forest,train,36081,Queens,2019-07-01,58.0,48.92039477157421,499
+Random Forest,train,36085,Richmond,2019-07-01,52.0,49.18196598571379,499
+Random Forest,train,36005,Bronx,2019-08-01,50.0,48.53619352999993,499
+Random Forest,train,36047,Kings,2019-08-01,34.0,48.75108415698161,499
+Random Forest,train,36061,New York,2019-08-01,48.0,50.005116214320154,499
+Random Forest,train,36081,Queens,2019-08-01,47.0,49.42478979183268,499
+Random Forest,train,36085,Richmond,2019-08-01,41.0,50.4160645417267,499
+Random Forest,train,36005,Bronx,2019-09-01,39.5,39.992405441764255,499
+Random Forest,train,36047,Kings,2019-09-01,31.0,31.312229697329403,499
+Random Forest,train,36061,New York,2019-09-01,35.5,40.35472493406061,499
+Random Forest,train,36081,Queens,2019-09-01,37.5,36.19889257479805,499
+Random Forest,train,36085,Richmond,2019-09-01,37.5,39.40094260534084,499
+Random Forest,train,36005,Bronx,2019-10-01,32.0,35.75912235037245,499
+Random Forest,train,36047,Kings,2019-10-01,26.0,31.95597420166904,499
+Random Forest,train,36061,New York,2019-10-01,31.0,33.329005523561364,499
+Random Forest,train,36081,Queens,2019-10-01,33.0,34.20641185272329,499
+Random Forest,train,36085,Richmond,2019-10-01,31.0,34.20641185272329,499
+Random Forest,train,36005,Bronx,2019-11-01,38.5,34.589386032469136,499
+Random Forest,train,36047,Kings,2019-11-01,32.0,30.325859224663134,499
+Random Forest,train,36061,New York,2019-11-01,38.0,40.337450061794925,499
+Random Forest,train,36081,Queens,2019-11-01,37.0,40.60187519793281,499
+Random Forest,train,36085,Richmond,2019-11-01,32.0,34.56416092415392,499
+Random Forest,train,36005,Bronx,2019-12-01,42.0,48.474970780420236,499
+Random Forest,train,36047,Kings,2019-12-01,51.0,46.64354918602747,499
+Random Forest,train,36061,New York,2019-12-01,49.0,49.91106726780447,499
+Random Forest,train,36081,Queens,2019-12-01,51.0,47.869005512515805,499
+Random Forest,train,36085,Richmond,2019-12-01,45.0,45.244752573760685,499
+Random Forest,train,36005,Bronx,2020-01-01,48.0,48.65377778128436,499
+Random Forest,train,36047,Kings,2020-01-01,48.0,45.416617350068684,499
+Random Forest,train,36061,New York,2020-01-01,53.0,51.70068432563853,499
+Random Forest,train,36081,Queens,2020-01-01,52.0,49.44148945645256,499
+Random Forest,train,36085,Richmond,2020-01-01,47.0,47.24169788001545,499
+Random Forest,train,36005,Bronx,2020-02-01,52.0,43.63304772119247,499
+Random Forest,train,36047,Kings,2020-02-01,44.0,42.920884157886654,499
+Random Forest,train,36061,New York,2020-02-01,52.0,49.00217892241978,499
+Random Forest,train,36081,Queens,2020-02-01,47.0,45.311162763110765,499
+Random Forest,train,36085,Richmond,2020-02-01,42.0,42.52483495842171,499
+Random Forest,train,36005,Bronx,2020-03-01,40.0,47.67041615695095,499
+Random Forest,train,36047,Kings,2020-03-01,27.0,41.92060159782942,499
+Random Forest,train,36061,New York,2020-03-01,36.0,47.61266805019263,499
+Random Forest,train,36081,Queens,2020-03-01,38.0,47.432239358611966,499
+Random Forest,train,36085,Richmond,2020-03-01,36.0,41.93739520430297,499
+Random Forest,train,36005,Bronx,2020-04-01,40.5,41.87183323993339,499
+Random Forest,train,36047,Kings,2020-04-01,19.5,24.542429724287146,499
+Random Forest,train,36061,New York,2020-04-01,37.5,41.534197658537195,499
+Random Forest,train,36081,Queens,2020-04-01,40.0,41.65800072331008,499
+Random Forest,train,36085,Richmond,2020-04-01,40.0,41.48029869535843,499
+Random Forest,train,36005,Bronx,2020-05-01,42.0,41.64408956641592,499
+Random Forest,train,36047,Kings,2020-05-01,13.0,21.065282054797343,499
+Random Forest,train,36061,New York,2020-05-01,37.0,41.224219501496485,499
+Random Forest,train,36081,Queens,2020-05-01,40.0,41.78092333405305,499
+Random Forest,train,36085,Richmond,2020-05-01,37.0,41.293174974592795,499
+Random Forest,train,36005,Bronx,2020-06-01,49.0,46.873018468717866,499
+Random Forest,train,36047,Kings,2020-06-01,21.5,22.51208929847958,499
+Random Forest,train,36061,New York,2020-06-01,42.5,46.07369985497796,499
+Random Forest,train,36081,Queens,2020-06-01,48.0,47.6831425658515,499
+Random Forest,train,36085,Richmond,2020-06-01,46.0,42.555207936329936,499
+Random Forest,train,36005,Bronx,2020-07-01,54.0,52.75280774150584,499
+Random Forest,train,36047,Kings,2020-07-01,30.5,37.82874803598479,499
+Random Forest,train,36061,New York,2020-07-01,48.0,50.36360397491308,499
+Random Forest,train,36081,Queens,2020-07-01,54.0,52.70097921710724,499
+Random Forest,train,36085,Richmond,2020-07-01,53.0,49.27638368132678,499
+Random Forest,train,36005,Bronx,2020-08-01,54.0,49.19297020062654,499
+Random Forest,train,36047,Kings,2020-08-01,37.0,35.09770467913194,499
+Random Forest,train,36061,New York,2020-08-01,48.0,47.455650935832196,499
+Random Forest,train,36081,Queens,2020-08-01,52.0,48.11597924448759,499
+Random Forest,train,36085,Richmond,2020-08-01,45.0,44.667760553588366,499
+Random Forest,train,36005,Bronx,2020-09-01,38.5,39.75945880268646,499
+Random Forest,train,36047,Kings,2020-09-01,21.0,31.873828811747085,499
+Random Forest,train,36061,New York,2020-09-01,29.5,35.88220113079313,499
+Random Forest,train,36081,Queens,2020-09-01,32.5,38.52102693262296,499
+Random Forest,train,36085,Richmond,2020-09-01,31.0,38.44759879812531,499
+Random Forest,train,36005,Bronx,2020-10-01,38.0,35.34821151925751,499
+Random Forest,train,36047,Kings,2020-10-01,25.0,26.30709516747793,499
+Random Forest,train,36061,New York,2020-10-01,29.0,32.54143995403107,499
+Random Forest,train,36081,Queens,2020-10-01,33.0,33.622398728762654,499
+Random Forest,train,36085,Richmond,2020-10-01,33.0,32.8833724420359,499
+Random Forest,train,36005,Bronx,2020-11-01,43.5,40.384672111918434,499
+Random Forest,train,36047,Kings,2020-11-01,37.5,31.561531736766618,499
+Random Forest,train,36061,New York,2020-11-01,46.5,40.70702627125308,499
+Random Forest,train,36081,Queens,2020-11-01,38.5,39.36622279364546,499
+Random Forest,train,36085,Richmond,2020-11-01,38.0,34.55710487936587,499
+Random Forest,train,36005,Bronx,2020-12-01,50.0,48.18338544461135,499
+Random Forest,train,36047,Kings,2020-12-01,42.0,47.82066036213139,499
+Random Forest,train,36061,New York,2020-12-01,49.0,48.86812240455844,499
+Random Forest,train,36081,Queens,2020-12-01,46.0,48.305033761885255,499
+Random Forest,train,36085,Richmond,2020-12-01,41.0,45.28634525481848,499
+Random Forest,train,36005,Bronx,2021-01-01,51.0,48.080751045176775,499
+Random Forest,train,36047,Kings,2021-01-01,48.0,47.3425200316119,499
+Random Forest,train,36061,New York,2021-01-01,51.0,51.60823852363096,499
+Random Forest,train,36081,Queens,2021-01-01,50.0,49.36297000077661,499
+Random Forest,train,36085,Richmond,2021-01-01,47.0,46.96595555377493,499
+Random Forest,train,36005,Bronx,2021-02-01,48.0,48.244809531523394,499
+Random Forest,train,36047,Kings,2021-02-01,43.0,43.85893298141086,499
+Random Forest,train,36061,New York,2021-02-01,49.0,48.244809531523394,499
+Random Forest,train,36081,Queens,2021-02-01,51.0,47.314435185103406,499
+Random Forest,train,36085,Richmond,2021-02-01,39.0,43.20612688234941,499
+Random Forest,train,36005,Bronx,2021-03-01,44.0,42.735276602694505,499
+Random Forest,train,36047,Kings,2021-03-01,32.0,35.7938523968344,499
+Random Forest,train,36061,New York,2021-03-01,38.0,39.048558568751766,499
+Random Forest,train,36081,Queens,2021-03-01,43.0,43.1847883671115,499
+Random Forest,train,36085,Richmond,2021-03-01,39.0,37.44952321994762,499
+Random Forest,train,36005,Bronx,2021-04-01,43.5,42.65711345885041,499
+Random Forest,train,36047,Kings,2021-04-01,27.0,31.511081924751554,499
+Random Forest,train,36061,New York,2021-04-01,38.0,40.80327308393765,499
+Random Forest,train,36081,Queens,2021-04-01,42.5,42.37876937158151,499
+Random Forest,train,36085,Richmond,2021-04-01,39.5,41.505736283373324,499
+Random Forest,train,36005,Bronx,2021-05-01,40.0,42.908542278269614,499
+Random Forest,train,36047,Kings,2021-05-01,28.0,26.82522991455096,499
+Random Forest,train,36061,New York,2021-05-01,41.0,41.16549006454395,499
+Random Forest,train,36081,Queens,2021-05-01,41.0,42.48002028513464,499
+Random Forest,train,36085,Richmond,2021-05-01,40.0,41.299506731026874,499
+Random Forest,train,36005,Bronx,2021-06-01,52.0,47.651772724581654,499
+Random Forest,train,36047,Kings,2021-06-01,49.5,35.87044511885301,499
+Random Forest,train,36061,New York,2021-06-01,45.0,42.92543640864309,499
+Random Forest,train,36081,Queens,2021-06-01,49.5,46.745986585405014,499
+Random Forest,train,36085,Richmond,2021-06-01,41.5,43.09935569079796,499
+Random Forest,train,36005,Bronx,2021-07-01,55.0,50.84539923345214,499
+Random Forest,train,36047,Kings,2021-07-01,57.0,43.14708343904844,499
+Random Forest,train,36061,New York,2021-07-01,51.0,47.612920400195414,499
+Random Forest,train,36081,Queens,2021-07-01,55.0,50.9214254182007,499
+Random Forest,train,36085,Richmond,2021-07-01,51.0,50.47258923698139,499
+Random Forest,train,36005,Bronx,2021-08-01,48.0,50.16058375709759,499
+Random Forest,train,36047,Kings,2021-08-01,51.0,45.07456540387179,499
+Random Forest,train,36061,New York,2021-08-01,44.0,47.73609433835485,499
+Random Forest,train,36081,Queens,2021-08-01,50.0,49.3099779805547,499
+Random Forest,train,36085,Richmond,2021-08-01,43.0,44.92752007417365,499
+Random Forest,train,36005,Bronx,2021-09-01,43.5,39.53296166765724,499
+Random Forest,train,36047,Kings,2021-09-01,38.0,36.06338413808538,499
+Random Forest,train,36061,New York,2021-09-01,37.5,36.55611921636598,499
+Random Forest,train,36081,Queens,2021-09-01,44.5,39.49574015471207,499
+Random Forest,train,36085,Richmond,2021-09-01,37.0,36.60873108131474,499
+Random Forest,train,36005,Bronx,2021-10-01,40.0,39.27254717978001,499
+Random Forest,train,36047,Kings,2021-10-01,43.0,34.24442739562666,499
+Random Forest,train,36061,New York,2021-10-01,36.0,33.83392057832371,499
+Random Forest,train,36081,Queens,2021-10-01,40.0,36.518947990738404,499
+Random Forest,train,36085,Richmond,2021-10-01,33.0,33.23896872759595,499
+Random Forest,train,36005,Bronx,2021-11-01,41.0,40.97383274132427,499
+Random Forest,train,36047,Kings,2021-11-01,42.5,39.94352457726377,499
+Random Forest,train,36061,New York,2021-11-01,39.5,41.76874738928611,499
+Random Forest,train,36081,Queens,2021-11-01,41.0,40.306628933278766,499
+Random Forest,train,36085,Richmond,2021-11-01,35.5,40.368520906826596,499
+Random Forest,train,36005,Bronx,2021-12-01,53.0,48.90879041655135,499
+Random Forest,train,36047,Kings,2021-12-01,55.0,48.26405641525749,499
+Random Forest,train,36061,New York,2021-12-01,54.0,48.82245125077727,499
+Random Forest,train,36081,Queens,2021-12-01,53.0,46.876587546291944,499
+Random Forest,train,36085,Richmond,2021-12-01,51.0,46.337231670854294,499
+Random Forest,train,36005,Bronx,2022-01-01,52.0,49.74388423013325,499
+Random Forest,train,36047,Kings,2022-01-01,47.0,49.225934424096565,499
+Random Forest,train,36061,New York,2022-01-01,57.0,50.201655866575805,499
+Random Forest,train,36081,Queens,2022-01-01,54.0,49.742948276488846,499
+Random Forest,train,36085,Richmond,2022-01-01,51.0,47.91194852208199,499
+Random Forest,train,36005,Bronx,2022-02-01,45.0,47.444915703865036,499
+Random Forest,train,36047,Kings,2022-02-01,41.0,43.29958715419199,499
+Random Forest,train,36061,New York,2022-02-01,52.0,49.19147608167659,499
+Random Forest,train,36081,Queens,2022-02-01,52.0,49.07390927145886,499
+Random Forest,train,36085,Richmond,2022-02-01,41.5,43.652011673548195,499
+Random Forest,train,36005,Bronx,2022-03-01,41.0,42.97434679615292,499
+Random Forest,train,36047,Kings,2022-03-01,38.0,36.36421907315543,499
+Random Forest,train,36061,New York,2022-03-01,51.0,43.86723365141271,499
+Random Forest,train,36081,Queens,2022-03-01,51.0,44.26161425840209,499
+Random Forest,train,36085,Richmond,2022-03-01,37.0,41.378389123873454,499
+Random Forest,train,36005,Bronx,2022-04-01,42.0,42.14254854178849,499
+Random Forest,train,36047,Kings,2022-04-01,30.0,32.61486784055517,499
+Random Forest,train,36061,New York,2022-04-01,39.0,43.10076457505883,499
+Random Forest,train,36081,Queens,2022-04-01,41.5,43.88081954842065,499
+Random Forest,train,36085,Richmond,2022-04-01,38.5,41.32678985250044,499
+Random Forest,train,36005,Bronx,2022-05-01,44.0,42.138483118446864,499
+Random Forest,train,36047,Kings,2022-05-01,45.0,33.270282987799135,499
+Random Forest,train,36061,New York,2022-05-01,41.0,41.7167908190984,499
+Random Forest,train,36081,Queens,2022-05-01,43.0,42.086995391186946,499
+Random Forest,train,36085,Richmond,2022-05-01,37.0,41.552368306034246,499
+Random Forest,validation,36005,Bronx,2022-06-01,46.0,48.28726612103369,499
+Random Forest,validation,36047,Kings,2022-06-01,44.0,47.85797977352742,499
+Random Forest,validation,36061,New York,2022-06-01,43.0,42.822603990763625,499
+Random Forest,validation,36081,Queens,2022-06-01,49.0,47.78006683742497,499
+Random Forest,validation,36085,Richmond,2022-06-01,39.0,42.48188391001815,499
+Random Forest,validation,36005,Bronx,2022-07-01,54.0,50.78735800964921,499
+Random Forest,validation,36047,Kings,2022-07-01,52.0,52.62094732064051,499
+Random Forest,validation,36061,New York,2022-07-01,53.0,48.81525528804822,499
+Random Forest,validation,36081,Queens,2022-07-01,56.0,50.8943416158659,499
+Random Forest,validation,36085,Richmond,2022-07-01,47.0,48.5258015508284,499
+Random Forest,validation,36005,Bronx,2022-08-01,47.0,48.23835067717817,499
+Random Forest,validation,36047,Kings,2022-08-01,46.0,48.642255271368974,499
+Random Forest,validation,36061,New York,2022-08-01,46.0,45.07805562279011,499
+Random Forest,validation,36081,Queens,2022-08-01,49.0,49.25896288258875,499
+Random Forest,validation,36085,Richmond,2022-08-01,46.0,43.97647869084647,499
+Random Forest,validation,36005,Bronx,2022-09-01,38.0,41.28708246247956,499
+Random Forest,validation,36047,Kings,2022-09-01,34.0,39.29058203454392,499
+Random Forest,validation,36061,New York,2022-09-01,36.0,38.45465286764722,499
+Random Forest,validation,36081,Queens,2022-09-01,39.0,41.89631494144348,499
+Random Forest,validation,36085,Richmond,2022-09-01,35.0,38.6395048036193,499
+Random Forest,validation,36005,Bronx,2022-10-01,42.0,39.13301869049891,499
+Random Forest,validation,36047,Kings,2022-10-01,46.0,40.15306075376954,499
+Random Forest,validation,36061,New York,2022-10-01,33.0,33.30815102620686,499
+Random Forest,validation,36081,Queens,2022-10-01,42.0,39.12679162894258,499
+Random Forest,validation,36085,Richmond,2022-10-01,36.0,33.43023541581127,499
+Random Forest,validation,36005,Bronx,2022-11-01,46.5,40.760367356227704,499
+Random Forest,validation,36047,Kings,2022-11-01,47.0,41.43682595944733,499
+Random Forest,validation,36061,New York,2022-11-01,42.0,40.12297109074164,499
+Random Forest,validation,36081,Queens,2022-11-01,51.0,40.760367356227704,499
+Random Forest,validation,36085,Richmond,2022-11-01,33.5,34.13348270725719,499
+Random Forest,validation,36005,Bronx,2022-12-01,44.0,50.71841480212975,499
+Random Forest,validation,36047,Kings,2022-12-01,42.0,50.69092514633723,499
+Random Forest,validation,36061,New York,2022-12-01,45.0,50.36170895555252,499
+Random Forest,validation,36081,Queens,2022-12-01,46.0,50.70062386837679,499
+Random Forest,validation,36085,Richmond,2022-12-01,39.0,47.09760449551518,499
+Random Forest,validation,36005,Bronx,2023-01-01,51.0,49.29298202327227,499
+Random Forest,validation,36047,Kings,2023-01-01,42.0,47.133881686600446,499
+Random Forest,validation,36061,New York,2023-01-01,55.0,53.49033274469484,499
+Random Forest,validation,36081,Queens,2023-01-01,52.0,51.40169725167721,499
+Random Forest,validation,36085,Richmond,2023-01-01,48.0,48.296098066289325,499
+Random Forest,validation,36005,Bronx,2023-02-01,51.5,44.944741718448746,499
+Random Forest,validation,36047,Kings,2023-02-01,52.0,42.250458328115464,499
+Random Forest,validation,36061,New York,2023-02-01,53.5,49.246738549575895,499
+Random Forest,validation,36081,Queens,2023-02-01,54.0,48.30667855040654,499
+Random Forest,validation,36085,Richmond,2023-02-01,44.0,43.365560789721854,499
+Random Forest,validation,36005,Bronx,2023-03-01,40.0,43.47052776531884,499
+Random Forest,validation,36047,Kings,2023-03-01,39.0,43.86723365141272,499
+Random Forest,validation,36061,New York,2023-03-01,42.0,48.17853379002968,499
+Random Forest,validation,36081,Queens,2023-03-01,42.0,48.413898516287375,499
+Random Forest,validation,36085,Richmond,2023-03-01,38.0,42.35660871850193,499
+Random Forest,validation,36005,Bronx,2023-04-01,49.0,41.830968294126386,499
+Random Forest,validation,36047,Kings,2023-04-01,50.0,35.35059246546048,499
+Random Forest,validation,36061,New York,2023-04-01,43.0,41.87328548358226,499
+Random Forest,validation,36081,Queens,2023-04-01,52.0,42.12392362189291,499
+Random Forest,validation,36085,Richmond,2023-04-01,44.0,41.31458695458788,499
+Random Forest,validation,36005,Bronx,2023-05-01,44.0,43.764482963407154,499
+Random Forest,validation,36047,Kings,2023-05-01,41.0,44.39867867165388,499
+Random Forest,validation,36061,New York,2023-05-01,42.0,42.66452511512266,499
+Random Forest,validation,36081,Queens,2023-05-01,45.0,44.24659457587625,499
+Random Forest,validation,36085,Richmond,2023-05-01,44.0,42.74185785286516,499
+Random Forest,validation,36005,Bronx,2023-06-01,57.0,44.13045725437192,499
+Random Forest,validation,36047,Kings,2023-06-01,58.5,42.81487431376065,499
+Random Forest,validation,36061,New York,2023-06-01,51.5,42.99515858707559,499
+Random Forest,validation,36081,Queens,2023-06-01,62.5,47.826609932257576,499
+Random Forest,validation,36085,Richmond,2023-06-01,45.0,43.175544780718056,499
+Random Forest,validation,36005,Bronx,2023-07-01,62.0,50.9335178912097,499
+Random Forest,validation,36047,Kings,2023-07-01,54.0,49.77293377206637,499
+Random Forest,validation,36061,New York,2023-07-01,61.0,50.85359933820506,499
+Random Forest,validation,36081,Queens,2023-07-01,64.0,51.370623997354194,499
+Random Forest,validation,36085,Richmond,2023-07-01,55.0,47.38842044213183,499
+Random Forest,validation,36005,Bronx,2023-08-01,46.0,51.22856632907458,499
+Random Forest,validation,36047,Kings,2023-08-01,49.5,45.51175467691757,499
+Random Forest,validation,36061,New York,2023-08-01,42.0,52.42458189267463,499
+Random Forest,validation,36081,Queens,2023-08-01,48.0,50.75380346355835,499
+Random Forest,validation,36085,Richmond,2023-08-01,44.0,45.75695544028199,499
+Random Forest,validation,36005,Bronx,2023-09-01,39.5,39.29058203454392,499
+Random Forest,validation,36047,Kings,2023-09-01,39.0,39.08611670462323,499
+Random Forest,validation,36061,New York,2023-09-01,42.5,36.41437238478104,499
+Random Forest,validation,36081,Queens,2023-09-01,41.5,39.27266821810631,499
+Random Forest,validation,36085,Richmond,2023-09-01,38.0,36.47601820764604,499
+Random Forest,validation,36005,Bronx,2023-10-01,37.0,40.19152566189893,499
+Random Forest,validation,36047,Kings,2023-10-01,37.0,41.72753628466627,499
+Random Forest,validation,36061,New York,2023-10-01,38.0,36.537552545383285,499
+Random Forest,validation,36081,Queens,2023-10-01,38.0,40.43797112844254,499
+Random Forest,validation,36085,Richmond,2023-10-01,31.0,34.79902877984028,499
+Random Forest,validation,36005,Bronx,2023-11-01,35.5,42.040689665652415,499
+Random Forest,validation,36047,Kings,2023-11-01,32.5,46.099407293886664,499
+Random Forest,validation,36061,New York,2023-11-01,40.0,40.69915702853621,499
+Random Forest,validation,36081,Queens,2023-11-01,36.0,47.95447718012624,499
+Random Forest,validation,36085,Richmond,2023-11-01,33.0,34.548119257487244,499
+Random Forest,validation,36005,Bronx,2023-12-01,46.0,45.374315584862146,499
+Random Forest,validation,36047,Kings,2023-12-01,48.0,46.67086101398447,499
+Random Forest,validation,36061,New York,2023-12-01,52.0,45.96244503715055,499
+Random Forest,validation,36081,Queens,2023-12-01,50.0,45.9520155515681,499
+Random Forest,validation,36085,Richmond,2023-12-01,41.0,45.27057123659633,499
+Random Forest,validation,36005,Bronx,2024-01-01,51.0,48.87189182824215,499
+Random Forest,validation,36047,Kings,2024-01-01,44.0,43.67353795062485,499
+Random Forest,validation,36061,New York,2024-01-01,53.0,51.571209907757854,499
+Random Forest,validation,36081,Queens,2024-01-01,52.0,49.54449681566102,499
+Random Forest,validation,36085,Richmond,2024-01-01,48.0,47.16234389878637,499
+Random Forest,validation,36005,Bronx,2024-02-01,37.0,47.95628337813825,499
+Random Forest,validation,36047,Kings,2024-02-01,37.0,48.09489842952944,499
+Random Forest,validation,36061,New York,2024-02-01,41.0,49.75861920941177,499
+Random Forest,validation,36081,Queens,2024-02-01,43.0,50.10281653078629,499
+Random Forest,validation,36085,Richmond,2024-02-01,37.0,43.85893298141086,499
+Random Forest,test,36005,Bronx,2024-03-01,35.0,41.215763605164696,499
+Random Forest,test,36047,Kings,2024-03-01,34.0,41.08007793284948,499
+Random Forest,test,36061,New York,2024-03-01,37.0,41.863949682026465,499
+Random Forest,test,36081,Queens,2024-03-01,36.0,42.544327299423145,499
+Random Forest,test,36085,Richmond,2024-03-01,33.0,40.891085600138055,499
+Random Forest,test,36005,Bronx,2024-04-01,44.5,45.66360141534487,499
+Random Forest,test,36047,Kings,2024-04-01,37.5,45.645488684599655,499
+Random Forest,test,36061,New York,2024-04-01,41.5,41.657517594286624,499
+Random Forest,test,36081,Queens,2024-04-01,45.5,46.35701644887275,499
+Random Forest,test,36085,Richmond,2024-04-01,39.0,41.39990535708872,499
+Random Forest,test,36005,Bronx,2024-05-01,44.0,43.39091740389377,499
+Random Forest,test,36047,Kings,2024-05-01,38.0,41.65758456084524,499
+Random Forest,test,36061,New York,2024-05-01,44.0,42.23481199991888,499
+Random Forest,test,36081,Queens,2024-05-01,41.0,43.44550832880746,499
+Random Forest,test,36085,Richmond,2024-05-01,38.0,41.943208208883114,499
+Random Forest,test,36005,Bronx,2024-06-01,46.5,52.17108091067521,499
+Random Forest,test,36047,Kings,2024-06-01,43.0,51.26665734265212,499
+Random Forest,test,36061,New York,2024-06-01,47.5,47.9714781529591,499
+Random Forest,test,36081,Queens,2024-06-01,47.5,53.239923879682145,499
+Random Forest,test,36085,Richmond,2024-06-01,45.5,42.33714271273771,499
+Random Forest,test,36005,Bronx,2024-07-01,58.0,53.84028316065082,499
+Random Forest,test,36047,Kings,2024-07-01,51.0,50.36209152070062,499
+Random Forest,test,36061,New York,2024-07-01,54.0,53.731365328077054,499
+Random Forest,test,36081,Queens,2024-07-01,57.0,54.48124568033869,499
+Random Forest,test,36085,Richmond,2024-07-01,47.0,50.77137974877965,499
+Random Forest,test,36005,Bronx,2024-08-01,52.0,47.53984627240324,499
+Random Forest,test,36047,Kings,2024-08-01,51.0,48.49577375394019,499
+Random Forest,test,36061,New York,2024-08-01,52.0,44.96660388577015,499
+Random Forest,test,36081,Queens,2024-08-01,60.0,48.29516939279308,499
+Random Forest,test,36085,Richmond,2024-08-01,46.0,43.91738383172902,499
+Random Forest,test,36005,Bronx,2024-09-01,37.5,39.608950848300886,499
+Random Forest,test,36047,Kings,2024-09-01,32.5,39.542560560727175,499
+Random Forest,test,36061,New York,2024-09-01,37.0,41.81173148651474,499
+Random Forest,test,36081,Queens,2024-09-01,39.5,45.04254639896025,499
+Random Forest,test,36085,Richmond,2024-09-01,35.0,39.29058203454392,499
+Random Forest,test,36005,Bronx,2024-10-01,38.0,37.75037909497595,499
+Random Forest,test,36047,Kings,2024-10-01,33.0,37.84713646349774,499
+Random Forest,test,36061,New York,2024-10-01,36.0,38.82372026658923,499
+Random Forest,test,36081,Queens,2024-10-01,38.0,38.751186377624286,499
+Random Forest,test,36085,Richmond,2024-10-01,32.0,32.65841913444288,499
+Random Forest,test,36005,Bronx,2024-11-01,35.5,35.24355589561868,499
+Random Forest,test,36047,Kings,2024-11-01,36.5,34.568170631628306,499
+Random Forest,test,36061,New York,2024-11-01,35.5,40.24708724716901,499
+Random Forest,test,36081,Queens,2024-11-01,38.5,35.348278255571145,499
+Random Forest,test,36085,Richmond,2024-11-01,30.0,34.61951721269242,499
+Random Forest,test,36005,Bronx,2024-12-01,40.0,45.96936688177154,499
+Random Forest,test,36047,Kings,2024-12-01,42.0,47.32358245571674,499
+Random Forest,test,36061,New York,2024-12-01,44.0,47.72894691797039,499
+Random Forest,test,36081,Queens,2024-12-01,45.0,48.365639134750815,499
+Random Forest,test,36085,Richmond,2024-12-01,39.0,46.16885602582594,499
+Random Forest,test,36005,Bronx,2025-01-01,45.0,48.37688609660817,499
+Random Forest,test,36047,Kings,2025-01-01,41.0,42.78358292495062,499
+Random Forest,test,36061,New York,2025-01-01,51.0,51.19866586993808,499
+Random Forest,test,36081,Queens,2025-01-01,54.0,49.34189857220519,499
+Random Forest,test,36085,Richmond,2025-01-01,44.0,46.84864632973229,499
+Random Forest,test,36005,Bronx,2025-02-01,38.0,42.633934467298936,499
+Random Forest,test,36047,Kings,2025-02-01,39.5,41.56540078840154,499
+Random Forest,test,36061,New York,2025-02-01,46.0,43.93712536609586,499
+Random Forest,test,36081,Queens,2025-02-01,45.5,45.432815172907986,499
+Random Forest,test,36085,Richmond,2025-02-01,38.0,42.515994333453165,499
+Random Forest,test,36005,Bronx,2025-03-01,41.0,35.924720657552946,499
+Random Forest,test,36047,Kings,2025-03-01,37.0,36.73814848927848,499
+Random Forest,test,36061,New York,2025-03-01,40.0,42.47109366261034,499
+Random Forest,test,36081,Queens,2025-03-01,42.0,37.26258089731712,499
+Random Forest,test,36085,Richmond,2025-03-01,40.0,35.59478147669974,499
+Random Forest,test,36005,Bronx,2025-04-01,41.0,42.21111922764756,499
+Random Forest,test,36047,Kings,2025-04-01,36.5,40.47854594392996,499
+Random Forest,test,36061,New York,2025-04-01,43.0,41.68785942446036,499
+Random Forest,test,36081,Queens,2025-04-01,42.0,42.26717353368084,499
+Random Forest,test,36085,Richmond,2025-04-01,41.5,41.388204119865655,499
+Random Forest,test,36005,Bronx,2025-05-01,39.0,42.37287388547217,499
+Random Forest,test,36047,Kings,2025-05-01,43.0,41.2318810288776,499
+Random Forest,test,36061,New York,2025-05-01,44.0,43.07925887796672,499
+Random Forest,test,36081,Queens,2025-05-01,39.0,42.23935867616485,499
+Random Forest,test,36085,Richmond,2025-05-01,38.0,41.59182295702915,499
+Random Forest,test,36005,Bronx,2025-06-01,55.5,43.094183391709834,499
+Random Forest,test,36047,Kings,2025-06-01,56.5,43.55017004459573,499
+Random Forest,test,36061,New York,2025-06-01,58.0,46.76577431956534,499
+Random Forest,test,36081,Queens,2025-06-01,55.5,46.354126919925555,499
+Random Forest,test,36085,Richmond,2025-06-01,52.0,42.32345993614448,499
+Random Forest,test,36005,Bronx,2025-07-01,58.0,54.864037823870945,499
+Random Forest,test,36047,Kings,2025-07-01,51.0,49.36422280331727,499
+Random Forest,test,36061,New York,2025-07-01,58.0,50.95066045278516,499
+Random Forest,test,36081,Queens,2025-07-01,54.0,54.88332870891183,499
+Random Forest,test,36085,Richmond,2025-07-01,48.0,47.75757436263768,499
+Random Forest,test,36005,Bronx,2025-08-01,53.0,49.42478979183269,499
+Random Forest,test,36047,Kings,2025-08-01,42.0,48.58669328010804,499
+Random Forest,test,36061,New York,2025-08-01,55.0,49.42478979183269,499
+Random Forest,test,36081,Queens,2025-08-01,45.0,54.050064655861924,499
+Random Forest,test,36085,Richmond,2025-08-01,51.0,44.467642095104516,499
+Random Forest,test,36005,Bronx,2025-09-01,49.5,38.61437381197246,499
+Random Forest,test,36047,Kings,2025-09-01,44.0,36.626826721158274,499
+Random Forest,test,36061,New York,2025-09-01,54.0,39.3069307714383,499
+Random Forest,test,36081,Queens,2025-09-01,43.5,39.30796392512059,499
+Random Forest,test,36085,Richmond,2025-09-01,40.5,34.80082543206112,499
+Random Forest,test,36005,Bronx,2025-10-01,31.0,39.790970903768695,499
+Random Forest,test,36047,Kings,2025-10-01,26.0,36.518947990738404,499
+Random Forest,test,36061,New York,2025-10-01,31.0,34.49826201334814,499
+Random Forest,test,36081,Queens,2025-10-01,31.0,39.27254717978001,499
+Random Forest,test,36085,Richmond,2025-10-01,31.0,35.79328373539696,499
+Random Forest,test,36005,Bronx,2025-11-01,42.0,34.48337727276339,499
+Random Forest,test,36047,Kings,2025-11-01,32.5,30.875178106245954,499
+Random Forest,test,36061,New York,2025-11-01,43.0,34.48337727276339,499
+Random Forest,test,36081,Queens,2025-11-01,36.5,40.644590216286836,499
+Random Forest,test,36085,Richmond,2025-11-01,32.0,33.57405527096643,499
+Random Forest,test,36005,Bronx,2025-12-01,46.0,46.22427473629546,499
+Random Forest,test,36047,Kings,2025-12-01,36.0,46.670861013984464,499
+Random Forest,test,36061,New York,2025-12-01,51.0,47.19344218484448,499
+Random Forest,test,36081,Queens,2025-12-01,44.0,45.246801485119434,499
+Random Forest,test,36085,Richmond,2025-12-01,42.0,45.32831429215187,499
+XGBoost,train,36005,Bronx,2014-02-01,60.0,56.13459777832031,499
+XGBoost,train,36047,Kings,2014-02-01,53.0,49.46158218383789,499
+XGBoost,train,36061,New York,2014-02-01,63.0,56.13459777832031,499
+XGBoost,train,36081,Queens,2014-02-01,56.0,51.710716247558594,499
+XGBoost,train,36085,Richmond,2014-02-01,54.0,49.46158218383789,499
+XGBoost,train,36005,Bronx,2014-03-01,49.0,48.94851303100586,499
+XGBoost,train,36047,Kings,2014-03-01,37.0,43.58034133911133,499
+XGBoost,train,36061,New York,2014-03-01,52.0,52.20943069458008,499
+XGBoost,train,36081,Queens,2014-03-01,49.0,45.85733413696289,499
+XGBoost,train,36085,Richmond,2014-03-01,44.0,44.708805084228516,499
+XGBoost,train,36005,Bronx,2014-04-01,46.0,42.39198684692383,499
+XGBoost,train,36047,Kings,2014-04-01,32.0,40.183692932128906,499
+XGBoost,train,36061,New York,2014-04-01,46.0,43.265106201171875,499
+XGBoost,train,36081,Queens,2014-04-01,41.0,42.39198684692383,499
+XGBoost,train,36085,Richmond,2014-04-01,39.5,42.15353012084961,499
+XGBoost,train,36005,Bronx,2014-05-01,47.0,43.5391845703125,499
+XGBoost,train,36047,Kings,2014-05-01,38.0,40.626651763916016,499
+XGBoost,train,36061,New York,2014-05-01,49.0,43.5391845703125,499
+XGBoost,train,36081,Queens,2014-05-01,44.0,42.79262924194336,499
+XGBoost,train,36085,Richmond,2014-05-01,46.0,42.23062515258789,499
+XGBoost,train,36005,Bronx,2014-06-01,45.5,45.075618743896484,499
+XGBoost,train,36047,Kings,2014-06-01,33.0,43.00465393066406,499
+XGBoost,train,36061,New York,2014-06-01,43.5,45.295467376708984,499
+XGBoost,train,36081,Queens,2014-06-01,44.0,45.11613845825195,499
+XGBoost,train,36085,Richmond,2014-06-01,47.5,45.075618743896484,499
+XGBoost,train,36005,Bronx,2014-07-01,53.0,46.62726593017578,499
+XGBoost,train,36047,Kings,2014-07-01,41.0,43.9061164855957,499
+XGBoost,train,36061,New York,2014-07-01,53.0,46.66778564453125,499
+XGBoost,train,36081,Queens,2014-07-01,52.0,46.66778564453125,499
+XGBoost,train,36085,Richmond,2014-07-01,51.0,46.74330139160156,499
+XGBoost,train,36005,Bronx,2014-08-01,47.0,45.36384963989258,499
+XGBoost,train,36047,Kings,2014-08-01,34.0,43.32701873779297,499
+XGBoost,train,36061,New York,2014-08-01,47.0,45.36384963989258,499
+XGBoost,train,36081,Queens,2014-08-01,47.0,45.15825271606445,499
+XGBoost,train,36085,Richmond,2014-08-01,46.0,45.18743133544922,499
+XGBoost,train,36005,Bronx,2014-09-01,44.0,41.00547409057617,499
+XGBoost,train,36047,Kings,2014-09-01,36.0,38.769535064697266,499
+XGBoost,train,36061,New York,2014-09-01,47.0,41.00547409057617,499
+XGBoost,train,36081,Queens,2014-09-01,45.0,41.00547409057617,499
+XGBoost,train,36085,Richmond,2014-09-01,43.0,41.00547409057617,499
+XGBoost,train,36005,Bronx,2014-10-01,37.0,41.04599380493164,499
+XGBoost,train,36047,Kings,2014-10-01,29.0,38.769535064697266,499
+XGBoost,train,36061,New York,2014-10-01,37.0,41.00547409057617,499
+XGBoost,train,36081,Queens,2014-10-01,34.0,41.00547409057617,499
+XGBoost,train,36085,Richmond,2014-10-01,36.0,41.04599380493164,499
+XGBoost,train,36005,Bronx,2014-11-01,50.5,42.19820785522461,499
+XGBoost,train,36047,Kings,2014-11-01,42.0,41.4156379699707,499
+XGBoost,train,36061,New York,2014-11-01,52.0,42.19820785522461,499
+XGBoost,train,36081,Queens,2014-11-01,44.0,41.6832389831543,499
+XGBoost,train,36085,Richmond,2014-11-01,49.5,41.6832389831543,499
+XGBoost,train,36005,Bronx,2014-12-01,54.0,48.9577751159668,499
+XGBoost,train,36047,Kings,2014-12-01,40.0,46.853389739990234,499
+XGBoost,train,36061,New York,2014-12-01,55.0,48.35187530517578,499
+XGBoost,train,36081,Queens,2014-12-01,46.0,47.263275146484375,499
+XGBoost,train,36085,Richmond,2014-12-01,48.0,48.9577751159668,499
+XGBoost,train,36005,Bronx,2015-01-01,57.0,55.68929672241211,499
+XGBoost,train,36047,Kings,2015-01-01,53.0,50.13063430786133,499
+XGBoost,train,36061,New York,2015-01-01,62.0,56.62879943847656,499
+XGBoost,train,36081,Queens,2015-01-01,54.0,53.46573257446289,499
+XGBoost,train,36085,Richmond,2015-01-01,55.0,52.14109802246094,499
+XGBoost,train,36005,Bronx,2015-02-01,62.0,55.94668197631836,499
+XGBoost,train,36047,Kings,2015-02-01,52.0,49.804420471191406,499
+XGBoost,train,36061,New York,2015-02-01,63.5,59.29874038696289,499
+XGBoost,train,36081,Queens,2015-02-01,54.0,51.609336853027344,499
+XGBoost,train,36085,Richmond,2015-02-01,54.5,51.98393249511719,499
+XGBoost,train,36005,Bronx,2015-03-01,52.0,52.558929443359375,499
+XGBoost,train,36047,Kings,2015-03-01,45.0,42.15849685668945,499
+XGBoost,train,36061,New York,2015-03-01,55.0,52.861244201660156,499
+XGBoost,train,36081,Queens,2015-03-01,48.0,46.717430114746094,499
+XGBoost,train,36085,Richmond,2015-03-01,51.0,45.448238372802734,499
+XGBoost,train,36005,Bronx,2015-04-01,42.0,42.68299102783203,499
+XGBoost,train,36047,Kings,2015-04-01,29.0,36.40766906738281,499
+XGBoost,train,36061,New York,2015-04-01,39.0,44.14472198486328,499
+XGBoost,train,36081,Queens,2015-04-01,41.0,41.630958557128906,499
+XGBoost,train,36085,Richmond,2015-04-01,44.0,42.2105827331543,499
+XGBoost,train,36005,Bronx,2015-05-01,56.0,45.26311111450195,499
+XGBoost,train,36047,Kings,2015-05-01,48.0,41.511199951171875,499
+XGBoost,train,36061,New York,2015-05-01,55.0,45.092491149902344,499
+XGBoost,train,36081,Queens,2015-05-01,56.0,42.79262924194336,499
+XGBoost,train,36085,Richmond,2015-05-01,55.0,43.03300857543945,499
+XGBoost,train,36005,Bronx,2015-06-01,42.5,47.255733489990234,499
+XGBoost,train,36047,Kings,2015-06-01,34.0,39.46207809448242,499
+XGBoost,train,36061,New York,2015-06-01,45.0,46.884490966796875,499
+XGBoost,train,36081,Queens,2015-06-01,40.5,47.45905303955078,499
+XGBoost,train,36085,Richmond,2015-06-01,43.5,48.876800537109375,499
+XGBoost,train,36005,Bronx,2015-07-01,57.0,51.52085876464844,499
+XGBoost,train,36047,Kings,2015-07-01,51.0,44.187950134277344,499
+XGBoost,train,36061,New York,2015-07-01,57.0,51.980552673339844,499
+XGBoost,train,36081,Queens,2015-07-01,55.0,49.49970626831055,499
+XGBoost,train,36085,Richmond,2015-07-01,61.0,50.03232955932617,499
+XGBoost,train,36005,Bronx,2015-08-01,48.0,48.85927200317383,499
+XGBoost,train,36047,Kings,2015-08-01,27.0,38.92707824707031,499
+XGBoost,train,36061,New York,2015-08-01,48.0,48.85927200317383,499
+XGBoost,train,36081,Queens,2015-08-01,49.0,48.038333892822266,499
+XGBoost,train,36085,Richmond,2015-08-01,58.0,52.61774826049805,499
+XGBoost,train,36005,Bronx,2015-09-01,39.0,41.12150955200195,499
+XGBoost,train,36047,Kings,2015-09-01,27.5,27.494150161743164,499
+XGBoost,train,36061,New York,2015-09-01,42.0,43.640892028808594,499
+XGBoost,train,36081,Queens,2015-09-01,36.5,41.01914978027344,499
+XGBoost,train,36085,Richmond,2015-09-01,40.5,44.174072265625,499
+XGBoost,train,36005,Bronx,2015-10-01,30.0,37.71244812011719,499
+XGBoost,train,36047,Kings,2015-10-01,25.0,30.368749618530273,499
+XGBoost,train,36061,New York,2015-10-01,38.0,38.86965560913086,499
+XGBoost,train,36081,Queens,2015-10-01,31.0,32.51110076904297,499
+XGBoost,train,36085,Richmond,2015-10-01,32.0,34.442623138427734,499
+XGBoost,train,36005,Bronx,2015-11-01,38.0,42.16605758666992,499
+XGBoost,train,36047,Kings,2015-11-01,31.0,36.514892578125,499
+XGBoost,train,36061,New York,2015-11-01,52.0,46.05154800415039,499
+XGBoost,train,36081,Queens,2015-11-01,37.0,40.88981246948242,499
+XGBoost,train,36085,Richmond,2015-11-01,41.5,42.95548629760742,499
+XGBoost,train,36005,Bronx,2015-12-01,51.0,50.05884552001953,499
+XGBoost,train,36047,Kings,2015-12-01,49.0,45.49696731567383,499
+XGBoost,train,36061,New York,2015-12-01,56.0,52.00443649291992,499
+XGBoost,train,36081,Queens,2015-12-01,48.0,46.36312484741211,499
+XGBoost,train,36085,Richmond,2015-12-01,52.0,48.79434585571289,499
+XGBoost,train,36005,Bronx,2016-01-01,54.0,54.161949157714844,499
+XGBoost,train,36047,Kings,2016-01-01,53.0,51.798011779785156,499
+XGBoost,train,36061,New York,2016-01-01,60.0,57.09174346923828,499
+XGBoost,train,36081,Queens,2016-01-01,54.0,51.798011779785156,499
+XGBoost,train,36085,Richmond,2016-01-01,53.0,52.335731506347656,499
+XGBoost,train,36005,Bronx,2016-02-01,49.0,53.68755340576172,499
+XGBoost,train,36047,Kings,2016-02-01,42.0,48.17903137207031,499
+XGBoost,train,36061,New York,2016-02-01,57.0,56.73473358154297,499
+XGBoost,train,36081,Queens,2016-02-01,39.0,50.97441101074219,499
+XGBoost,train,36085,Richmond,2016-02-01,41.0,49.95197296142578,499
+XGBoost,train,36005,Bronx,2016-03-01,41.0,45.554813385009766,499
+XGBoost,train,36047,Kings,2016-03-01,34.0,41.15731430053711,499
+XGBoost,train,36061,New York,2016-03-01,47.0,49.88418960571289,499
+XGBoost,train,36081,Queens,2016-03-01,40.0,42.85361862182617,499
+XGBoost,train,36085,Richmond,2016-03-01,40.0,44.73807907104492,499
+XGBoost,train,36005,Bronx,2016-04-01,42.5,41.48147964477539,499
+XGBoost,train,36047,Kings,2016-04-01,27.5,31.515396118164062,499
+XGBoost,train,36061,New York,2016-04-01,43.5,41.31942367553711,499
+XGBoost,train,36081,Queens,2016-04-01,40.5,40.70077133178711,499
+XGBoost,train,36085,Richmond,2016-04-01,43.5,41.11728286743164,499
+XGBoost,train,36005,Bronx,2016-05-01,45.0,48.30891418457031,499
+XGBoost,train,36047,Kings,2016-05-01,30.0,37.94601058959961,499
+XGBoost,train,36061,New York,2016-05-01,44.0,48.19480895996094,499
+XGBoost,train,36081,Queens,2016-05-01,45.0,47.1746711730957,499
+XGBoost,train,36085,Richmond,2016-05-01,44.0,48.19480895996094,499
+XGBoost,train,36005,Bronx,2016-06-01,51.5,45.10969161987305,499
+XGBoost,train,36047,Kings,2016-06-01,36.5,36.788021087646484,499
+XGBoost,train,36061,New York,2016-06-01,51.5,44.82350158691406,499
+XGBoost,train,36081,Queens,2016-06-01,49.5,44.04368209838867,499
+XGBoost,train,36085,Richmond,2016-06-01,52.0,45.043731689453125,499
+XGBoost,train,36005,Bronx,2016-07-01,58.0,53.71684265136719,499
+XGBoost,train,36047,Kings,2016-07-01,41.0,46.324188232421875,499
+XGBoost,train,36061,New York,2016-07-01,55.0,53.71684265136719,499
+XGBoost,train,36081,Queens,2016-07-01,53.0,52.38633346557617,499
+XGBoost,train,36085,Richmond,2016-07-01,53.0,53.98807907104492,499
+XGBoost,train,36005,Bronx,2016-08-01,47.0,48.824851989746094,499
+XGBoost,train,36047,Kings,2016-08-01,36.0,36.89664840698242,499
+XGBoost,train,36061,New York,2016-08-01,46.0,48.038333892822266,499
+XGBoost,train,36081,Queens,2016-08-01,47.0,47.96296310424805,499
+XGBoost,train,36085,Richmond,2016-08-01,46.0,51.24958038330078,499
+XGBoost,train,36005,Bronx,2016-09-01,37.5,39.090721130371094,499
+XGBoost,train,36047,Kings,2016-09-01,26.0,30.22081184387207,499
+XGBoost,train,36061,New York,2016-09-01,38.5,40.556156158447266,499
+XGBoost,train,36081,Queens,2016-09-01,33.0,35.4527587890625,499
+XGBoost,train,36085,Richmond,2016-09-01,34.5,39.2973747253418,499
+XGBoost,train,36005,Bronx,2016-10-01,33.0,33.35703659057617,499
+XGBoost,train,36047,Kings,2016-10-01,32.0,27.00469970703125,499
+XGBoost,train,36061,New York,2016-10-01,43.0,37.834861755371094,499
+XGBoost,train,36081,Queens,2016-10-01,32.0,32.027061462402344,499
+XGBoost,train,36085,Richmond,2016-10-01,33.0,32.537925720214844,499
+XGBoost,train,36005,Bronx,2016-11-01,48.0,40.88518524169922,499
+XGBoost,train,36047,Kings,2016-11-01,41.5,35.303524017333984,499
+XGBoost,train,36061,New York,2016-11-01,52.0,48.25650405883789,499
+XGBoost,train,36081,Queens,2016-11-01,43.0,40.701988220214844,499
+XGBoost,train,36085,Richmond,2016-11-01,44.0,41.65163803100586,499
+XGBoost,train,36005,Bronx,2016-12-01,49.0,49.59261703491211,499
+XGBoost,train,36047,Kings,2016-12-01,44.0,49.6641960144043,499
+XGBoost,train,36061,New York,2016-12-01,54.0,52.1185417175293,499
+XGBoost,train,36081,Queens,2016-12-01,47.0,49.061439514160156,499
+XGBoost,train,36085,Richmond,2016-12-01,52.0,49.75551986694336,499
+XGBoost,train,36005,Bronx,2017-01-01,53.0,51.798011779785156,499
+XGBoost,train,36047,Kings,2017-01-01,51.0,51.38075256347656,499
+XGBoost,train,36061,New York,2017-01-01,58.0,55.73028564453125,499
+XGBoost,train,36081,Queens,2017-01-01,52.0,51.55731201171875,499
+XGBoost,train,36085,Richmond,2017-01-01,53.0,51.992645263671875,499
+XGBoost,train,36005,Bronx,2017-02-01,54.0,48.10151290893555,499
+XGBoost,train,36047,Kings,2017-02-01,46.0,45.39796447753906,499
+XGBoost,train,36061,New York,2017-02-01,55.5,55.42265701293945,499
+XGBoost,train,36081,Queens,2017-02-01,50.0,44.34678268432617,499
+XGBoost,train,36085,Richmond,2017-02-01,46.5,45.096858978271484,499
+XGBoost,train,36005,Bronx,2017-03-01,42.0,43.4991569519043,499
+XGBoost,train,36047,Kings,2017-03-01,33.0,37.107486724853516,499
+XGBoost,train,36061,New York,2017-03-01,52.0,47.09758377075195,499
+XGBoost,train,36081,Queens,2017-03-01,41.0,42.74454116821289,499
+XGBoost,train,36085,Richmond,2017-03-01,44.0,41.34497833251953,499
+XGBoost,train,36005,Bronx,2017-04-01,41.0,41.87076187133789,499
+XGBoost,train,36047,Kings,2017-04-01,28.0,30.036054611206055,499
+XGBoost,train,36061,New York,2017-04-01,38.0,43.19269943237305,499
+XGBoost,train,36081,Queens,2017-04-01,40.5,40.83454513549805,499
+XGBoost,train,36085,Richmond,2017-04-01,43.5,42.08112335205078,499
+XGBoost,train,36005,Bronx,2017-05-01,36.0,42.22030258178711,499
+XGBoost,train,36047,Kings,2017-05-01,21.0,32.108612060546875,499
+XGBoost,train,36061,New York,2017-05-01,37.0,41.296260833740234,499
+XGBoost,train,36081,Queens,2017-05-01,37.0,41.600135803222656,499
+XGBoost,train,36085,Richmond,2017-05-01,36.0,43.57970428466797,499
+XGBoost,train,36005,Bronx,2017-06-01,46.5,45.43275833129883,499
+XGBoost,train,36047,Kings,2017-06-01,32.0,29.379180908203125,499
+XGBoost,train,36061,New York,2017-06-01,48.5,46.41441345214844,499
+XGBoost,train,36081,Queens,2017-06-01,49.0,46.4100341796875,499
+XGBoost,train,36085,Richmond,2017-06-01,47.5,45.69086837768555,499
+XGBoost,train,36005,Bronx,2017-07-01,49.0,53.30880355834961,499
+XGBoost,train,36047,Kings,2017-07-01,39.0,44.13121795654297,499
+XGBoost,train,36061,New York,2017-07-01,48.0,51.81467056274414,499
+XGBoost,train,36081,Queens,2017-07-01,49.0,52.052371978759766,499
+XGBoost,train,36085,Richmond,2017-07-01,49.0,52.00099563598633,499
+XGBoost,train,36005,Bronx,2017-08-01,42.0,46.34600067138672,499
+XGBoost,train,36061,New York,2017-08-01,45.0,43.92786407470703,499
+XGBoost,train,36081,Queens,2017-08-01,47.0,46.34600067138672,499
+XGBoost,train,36085,Richmond,2017-08-01,42.0,44.03167724609375,499
+XGBoost,train,36005,Bronx,2017-09-01,39.0,38.56694030761719,499
+XGBoost,train,36047,Kings,2017-09-01,33.0,34.124698638916016,499
+XGBoost,train,36061,New York,2017-09-01,42.0,39.20329666137695,499
+XGBoost,train,36081,Queens,2017-09-01,41.5,35.52068328857422,499
+XGBoost,train,36085,Richmond,2017-09-01,42.5,35.76836395263672,499
+XGBoost,train,36005,Bronx,2017-10-01,36.0,34.372520446777344,499
+XGBoost,train,36047,Kings,2017-10-01,31.0,30.786808013916016,499
+XGBoost,train,36061,New York,2017-10-01,43.0,40.500694274902344,499
+XGBoost,train,36081,Queens,2017-10-01,39.0,35.845184326171875,499
+XGBoost,train,36085,Richmond,2017-10-01,38.0,35.83140563964844,499
+XGBoost,train,36005,Bronx,2017-11-01,39.5,43.36878204345703,499
+XGBoost,train,36047,Kings,2017-11-01,36.5,35.55814743041992,499
+XGBoost,train,36061,New York,2017-11-01,49.0,48.25650405883789,499
+XGBoost,train,36081,Queens,2017-11-01,38.0,41.92985534667969,499
+XGBoost,train,36085,Richmond,2017-11-01,35.5,42.16590881347656,499
+XGBoost,train,36005,Bronx,2017-12-01,50.0,49.39564514160156,499
+XGBoost,train,36047,Kings,2017-12-01,43.0,45.92586898803711,499
+XGBoost,train,36061,New York,2017-12-01,56.0,51.964027404785156,499
+XGBoost,train,36081,Queens,2017-12-01,52.0,48.47810363769531,499
+XGBoost,train,36085,Richmond,2017-12-01,47.0,47.77146911621094,499
+XGBoost,train,36005,Bronx,2018-01-01,55.0,52.423973083496094,499
+XGBoost,train,36047,Kings,2018-01-01,51.0,46.61994171142578,499
+XGBoost,train,36061,New York,2018-01-01,58.0,56.71067810058594,499
+XGBoost,train,36081,Queens,2018-01-01,55.0,50.22875213623047,499
+XGBoost,train,36085,Richmond,2018-01-01,52.0,51.55731201171875,499
+XGBoost,train,36005,Bronx,2018-02-01,52.5,51.98393249511719,499
+XGBoost,train,36047,Kings,2018-02-01,44.5,47.757999420166016,499
+XGBoost,train,36061,New York,2018-02-01,55.0,53.72694778442383,499
+XGBoost,train,36081,Queens,2018-02-01,51.5,50.688568115234375,499
+XGBoost,train,36085,Richmond,2018-02-01,46.0,45.5655403137207,499
+XGBoost,train,36005,Bronx,2018-03-01,38.0,43.04984664916992,499
+XGBoost,train,36047,Kings,2018-03-01,27.0,41.495426177978516,499
+XGBoost,train,36061,New York,2018-03-01,50.0,47.53644561767578,499
+XGBoost,train,36081,Queens,2018-03-01,37.0,42.642913818359375,499
+XGBoost,train,36085,Richmond,2018-03-01,30.0,42.11301040649414,499
+XGBoost,train,36005,Bronx,2018-04-01,42.5,40.13480758666992,499
+XGBoost,train,36047,Kings,2018-04-01,23.5,26.85409927368164,499
+XGBoost,train,36061,New York,2018-04-01,44.5,42.76612091064453,499
+XGBoost,train,36081,Queens,2018-04-01,42.0,39.76193618774414,499
+XGBoost,train,36085,Richmond,2018-04-01,39.0,39.35251998901367,499
+XGBoost,train,36005,Bronx,2018-05-01,47.0,38.90953826904297,499
+XGBoost,train,36047,Kings,2018-05-01,30.0,26.115320205688477,499
+XGBoost,train,36061,New York,2018-05-01,49.0,42.64952850341797,499
+XGBoost,train,36081,Queens,2018-05-01,47.0,42.464996337890625,499
+XGBoost,train,36085,Richmond,2018-05-01,43.0,36.93126678466797,499
+XGBoost,train,36005,Bronx,2018-06-01,42.5,44.87860107421875,499
+XGBoost,train,36047,Kings,2018-06-01,33.0,35.900753021240234,499
+XGBoost,train,36061,New York,2018-06-01,47.0,47.47999572753906,499
+XGBoost,train,36081,Queens,2018-06-01,42.0,48.55704116821289,499
+XGBoost,train,36085,Richmond,2018-06-01,39.0,47.25828552246094,499
+XGBoost,train,36005,Bronx,2018-07-01,49.0,50.20509338378906,499
+XGBoost,train,36047,Kings,2018-07-01,33.0,37.6395263671875,499
+XGBoost,train,36061,New York,2018-07-01,51.0,48.867679595947266,499
+XGBoost,train,36081,Queens,2018-07-01,50.0,50.096031188964844,499
+XGBoost,train,36085,Richmond,2018-07-01,52.0,48.83784484863281,499
+XGBoost,train,36005,Bronx,2018-08-01,48.0,43.98463821411133,499
+XGBoost,train,36047,Kings,2018-08-01,52.0,41.21350860595703,499
+XGBoost,train,36061,New York,2018-08-01,53.0,44.829776763916016,499
+XGBoost,train,36081,Queens,2018-08-01,52.0,47.61550521850586,499
+XGBoost,train,36085,Richmond,2018-08-01,56.0,44.82754135131836,499
+XGBoost,train,36005,Bronx,2018-09-01,31.0,39.09400177001953,499
+XGBoost,train,36047,Kings,2018-09-01,25.0,36.049198150634766,499
+XGBoost,train,36061,New York,2018-09-01,41.0,41.69090270996094,499
+XGBoost,train,36081,Queens,2018-09-01,36.0,40.8874626159668,499
+XGBoost,train,36085,Richmond,2018-09-01,40.0,42.56553268432617,499
+XGBoost,train,36005,Bronx,2018-10-01,32.0,32.35297393798828,499
+XGBoost,train,36047,Kings,2018-10-01,25.0,26.92584800720215,499
+XGBoost,train,36061,New York,2018-10-01,36.0,40.21506118774414,499
+XGBoost,train,36081,Queens,2018-10-01,32.0,37.31399917602539,499
+XGBoost,train,36085,Richmond,2018-10-01,32.0,38.31880569458008,499
+XGBoost,train,36005,Bronx,2018-11-01,34.0,40.766605377197266,499
+XGBoost,train,36047,Kings,2018-11-01,26.5,30.315048217773438,499
+XGBoost,train,36061,New York,2018-11-01,42.0,44.28961181640625,499
+XGBoost,train,36081,Queens,2018-11-01,42.0,40.88518524169922,499
+XGBoost,train,36085,Richmond,2018-11-01,33.0,35.555419921875,499
+XGBoost,train,36005,Bronx,2018-12-01,52.0,47.803157806396484,499
+XGBoost,train,36047,Kings,2018-12-01,42.0,41.914337158203125,499
+XGBoost,train,36061,New York,2018-12-01,54.0,51.25247573852539,499
+XGBoost,train,36081,Queens,2018-12-01,48.0,49.58957290649414,499
+XGBoost,train,36085,Richmond,2018-12-01,52.0,47.60685348510742,499
+XGBoost,train,36005,Bronx,2019-01-01,51.0,52.335731506347656,499
+XGBoost,train,36047,Kings,2019-01-01,46.0,49.20330047607422,499
+XGBoost,train,36061,New York,2019-01-01,56.0,55.349220275878906,499
+XGBoost,train,36081,Queens,2019-01-01,52.0,52.14109802246094,499
+XGBoost,train,36085,Richmond,2019-01-01,47.0,50.22875213623047,499
+XGBoost,train,36005,Bronx,2019-02-01,42.5,48.294029235839844,499
+XGBoost,train,36047,Kings,2019-02-01,39.0,44.11042404174805,499
+XGBoost,train,36061,New York,2019-02-01,52.5,52.78996276855469,499
+XGBoost,train,36081,Queens,2019-02-01,44.0,47.707515716552734,499
+XGBoost,train,36085,Richmond,2019-02-01,37.5,44.2060432434082,499
+XGBoost,train,36005,Bronx,2019-03-01,51.0,41.535274505615234,499
+XGBoost,train,36047,Kings,2019-03-01,38.0,34.64590835571289,499
+XGBoost,train,36061,New York,2019-03-01,49.0,45.531776428222656,499
+XGBoost,train,36081,Queens,2019-03-01,50.0,41.42204284667969,499
+XGBoost,train,36085,Richmond,2019-03-01,43.0,34.53072738647461,499
+XGBoost,train,36005,Bronx,2019-04-01,44.5,43.31447982788086,499
+XGBoost,train,36047,Kings,2019-04-01,25.5,32.55280303955078,499
+XGBoost,train,36061,New York,2019-04-01,40.5,41.86061477661133,499
+XGBoost,train,36081,Queens,2019-04-01,43.0,43.563453674316406,499
+XGBoost,train,36085,Richmond,2019-04-01,40.0,41.35994338989258,499
+XGBoost,train,36005,Bronx,2019-05-01,40.0,45.3316535949707,499
+XGBoost,train,36047,Kings,2019-05-01,26.0,26.42328453063965,499
+XGBoost,train,36061,New York,2019-05-01,38.0,45.5402717590332,499
+XGBoost,train,36081,Queens,2019-05-01,41.0,45.37217330932617,499
+XGBoost,train,36085,Richmond,2019-05-01,38.0,42.08903121948242,499
+XGBoost,train,36005,Bronx,2019-06-01,48.0,43.97309112548828,499
+XGBoost,train,36047,Kings,2019-06-01,27.5,30.10405921936035,499
+XGBoost,train,36061,New York,2019-06-01,48.5,45.42797088623047,499
+XGBoost,train,36081,Queens,2019-06-01,49.5,44.25563049316406,499
+XGBoost,train,36085,Richmond,2019-06-01,42.5,42.094703674316406,499
+XGBoost,train,36005,Bronx,2019-07-01,58.0,50.280609130859375,499
+XGBoost,train,36047,Kings,2019-07-01,51.0,35.95344924926758,499
+XGBoost,train,36061,New York,2019-07-01,54.0,50.107845306396484,499
+XGBoost,train,36081,Queens,2019-07-01,58.0,50.98231506347656,499
+XGBoost,train,36085,Richmond,2019-07-01,52.0,50.41917419433594,499
+XGBoost,train,36005,Bronx,2019-08-01,50.0,48.824851989746094,499
+XGBoost,train,36047,Kings,2019-08-01,34.0,47.88554382324219,499
+XGBoost,train,36061,New York,2019-08-01,48.0,49.79767608642578,499
+XGBoost,train,36081,Queens,2019-08-01,47.0,49.67161178588867,499
+XGBoost,train,36085,Richmond,2019-08-01,41.0,49.441322326660156,499
+XGBoost,train,36005,Bronx,2019-09-01,39.5,37.252017974853516,499
+XGBoost,train,36047,Kings,2019-09-01,31.0,30.875717163085938,499
+XGBoost,train,36061,New York,2019-09-01,35.5,40.00337219238281,499
+XGBoost,train,36081,Queens,2019-09-01,37.5,35.4527587890625,499
+XGBoost,train,36085,Richmond,2019-09-01,37.5,38.79187774658203,499
+XGBoost,train,36005,Bronx,2019-10-01,32.0,34.88665008544922,499
+XGBoost,train,36047,Kings,2019-10-01,26.0,31.203413009643555,499
+XGBoost,train,36061,New York,2019-10-01,31.0,32.387962341308594,499
+XGBoost,train,36081,Queens,2019-10-01,33.0,33.49390411376953,499
+XGBoost,train,36085,Richmond,2019-10-01,31.0,33.49390411376953,499
+XGBoost,train,36005,Bronx,2019-11-01,38.5,35.67531204223633,499
+XGBoost,train,36047,Kings,2019-11-01,32.0,29.21721839904785,499
+XGBoost,train,36061,New York,2019-11-01,38.0,40.875343322753906,499
+XGBoost,train,36081,Queens,2019-11-01,37.0,41.66876983642578,499
+XGBoost,train,36085,Richmond,2019-11-01,32.0,35.453495025634766,499
+XGBoost,train,36005,Bronx,2019-12-01,42.0,48.41204071044922,499
+XGBoost,train,36047,Kings,2019-12-01,51.0,46.245765686035156,499
+XGBoost,train,36061,New York,2019-12-01,49.0,50.05884552001953,499
+XGBoost,train,36081,Queens,2019-12-01,51.0,48.121864318847656,499
+XGBoost,train,36085,Richmond,2019-12-01,45.0,46.41257858276367,499
+XGBoost,train,36005,Bronx,2020-01-01,48.0,49.20330047607422,499
+XGBoost,train,36047,Kings,2020-01-01,48.0,47.50737762451172,499
+XGBoost,train,36061,New York,2020-01-01,53.0,52.394134521484375,499
+XGBoost,train,36081,Queens,2020-01-01,52.0,50.257930755615234,499
+XGBoost,train,36085,Richmond,2020-01-01,47.0,47.90351486206055,499
+XGBoost,train,36005,Bronx,2020-02-01,52.0,45.044471740722656,499
+XGBoost,train,36047,Kings,2020-02-01,44.0,43.461055755615234,499
+XGBoost,train,36061,New York,2020-02-01,52.0,48.58008575439453,499
+XGBoost,train,36081,Queens,2020-02-01,47.0,46.303646087646484,499
+XGBoost,train,36085,Richmond,2020-02-01,42.0,42.97764587402344,499
+XGBoost,train,36005,Bronx,2020-03-01,40.0,45.39601516723633,499
+XGBoost,train,36047,Kings,2020-03-01,27.0,41.47771072387695,499
+XGBoost,train,36061,New York,2020-03-01,36.0,45.45347213745117,499
+XGBoost,train,36081,Queens,2020-03-01,38.0,45.172420501708984,499
+XGBoost,train,36085,Richmond,2020-03-01,36.0,41.658935546875,499
+XGBoost,train,36005,Bronx,2020-04-01,40.5,40.65589904785156,499
+XGBoost,train,36047,Kings,2020-04-01,19.5,24.214719772338867,499
+XGBoost,train,36061,New York,2020-04-01,37.5,39.546363830566406,499
+XGBoost,train,36081,Queens,2020-04-01,40.0,40.147274017333984,499
+XGBoost,train,36085,Richmond,2020-04-01,40.0,39.457271575927734,499
+XGBoost,train,36005,Bronx,2020-05-01,42.0,41.31162643432617,499
+XGBoost,train,36047,Kings,2020-05-01,13.0,24.04876136779785,499
+XGBoost,train,36061,New York,2020-05-01,37.0,40.689476013183594,499
+XGBoost,train,36081,Queens,2020-05-01,40.0,41.81411361694336,499
+XGBoost,train,36085,Richmond,2020-05-01,37.0,41.36138916015625,499
+XGBoost,train,36005,Bronx,2020-06-01,49.0,47.19160461425781,499
+XGBoost,train,36047,Kings,2020-06-01,21.5,25.917892456054688,499
+XGBoost,train,36061,New York,2020-06-01,42.5,45.27608108520508,499
+XGBoost,train,36081,Queens,2020-06-01,48.0,47.81455993652344,499
+XGBoost,train,36085,Richmond,2020-06-01,46.0,43.08599853515625,499
+XGBoost,train,36005,Bronx,2020-07-01,54.0,53.63962173461914,499
+XGBoost,train,36047,Kings,2020-07-01,30.5,37.824462890625,499
+XGBoost,train,36061,New York,2020-07-01,48.0,51.3740119934082,499
+XGBoost,train,36081,Queens,2020-07-01,54.0,53.4697151184082,499
+XGBoost,train,36085,Richmond,2020-07-01,53.0,50.37865447998047,499
+XGBoost,train,36005,Bronx,2020-08-01,54.0,48.609527587890625,499
+XGBoost,train,36047,Kings,2020-08-01,37.0,35.465755462646484,499
+XGBoost,train,36061,New York,2020-08-01,48.0,46.284568786621094,499
+XGBoost,train,36081,Queens,2020-08-01,52.0,47.84952926635742,499
+XGBoost,train,36085,Richmond,2020-08-01,45.0,44.32024002075195,499
+XGBoost,train,36005,Bronx,2020-09-01,38.5,40.027618408203125,499
+XGBoost,train,36047,Kings,2020-09-01,21.0,32.14282989501953,499
+XGBoost,train,36061,New York,2020-09-01,29.5,35.23527908325195,499
+XGBoost,train,36081,Queens,2020-09-01,32.5,39.21232986450195,499
+XGBoost,train,36085,Richmond,2020-09-01,31.0,38.635128021240234,499
+XGBoost,train,36005,Bronx,2020-10-01,38.0,34.353363037109375,499
+XGBoost,train,36047,Kings,2020-10-01,25.0,24.951139450073242,499
+XGBoost,train,36061,New York,2020-10-01,29.0,32.696189880371094,499
+XGBoost,train,36081,Queens,2020-10-01,33.0,32.606468200683594,499
+XGBoost,train,36085,Richmond,2020-10-01,33.0,32.047752380371094,499
+XGBoost,train,36005,Bronx,2020-11-01,43.5,40.8257942199707,499
+XGBoost,train,36047,Kings,2020-11-01,37.5,30.46112060546875,499
+XGBoost,train,36061,New York,2020-11-01,46.5,41.55647277832031,499
+XGBoost,train,36081,Queens,2020-11-01,38.5,40.701988220214844,499
+XGBoost,train,36085,Richmond,2020-11-01,38.0,35.75871276855469,499
+XGBoost,train,36005,Bronx,2020-12-01,50.0,47.144195556640625,499
+XGBoost,train,36047,Kings,2020-12-01,42.0,47.97739791870117,499
+XGBoost,train,36061,New York,2020-12-01,49.0,49.96779251098633,499
+XGBoost,train,36081,Queens,2020-12-01,46.0,48.04542541503906,499
+XGBoost,train,36085,Richmond,2020-12-01,41.0,45.8311882019043,499
+XGBoost,train,36005,Bronx,2021-01-01,51.0,49.57319259643555,499
+XGBoost,train,36047,Kings,2021-01-01,48.0,47.5682373046875,499
+XGBoost,train,36061,New York,2021-01-01,51.0,51.798011779785156,499
+XGBoost,train,36081,Queens,2021-01-01,50.0,49.84479522705078,499
+XGBoost,train,36085,Richmond,2021-01-01,47.0,47.1844482421875,499
+XGBoost,train,36005,Bronx,2021-02-01,48.0,47.892974853515625,499
+XGBoost,train,36047,Kings,2021-02-01,43.0,45.26453399658203,499
+XGBoost,train,36061,New York,2021-02-01,49.0,47.892974853515625,499
+XGBoost,train,36081,Queens,2021-02-01,51.0,47.70752716064453,499
+XGBoost,train,36085,Richmond,2021-02-01,39.0,44.09479522705078,499
+XGBoost,train,36005,Bronx,2021-03-01,44.0,41.407386779785156,499
+XGBoost,train,36047,Kings,2021-03-01,32.0,36.06804275512695,499
+XGBoost,train,36061,New York,2021-03-01,38.0,38.24150466918945,499
+XGBoost,train,36081,Queens,2021-03-01,43.0,42.352325439453125,499
+XGBoost,train,36085,Richmond,2021-03-01,39.0,36.6324348449707,499
+XGBoost,train,36005,Bronx,2021-04-01,43.5,41.40395736694336,499
+XGBoost,train,36047,Kings,2021-04-01,27.0,32.2254753112793,499
+XGBoost,train,36061,New York,2021-04-01,38.0,39.59086227416992,499
+XGBoost,train,36081,Queens,2021-04-01,42.5,41.31486511230469,499
+XGBoost,train,36085,Richmond,2021-04-01,39.5,40.0397834777832,499
+XGBoost,train,36005,Bronx,2021-05-01,40.0,43.41448211669922,499
+XGBoost,train,36047,Kings,2021-05-01,28.0,27.238513946533203,499
+XGBoost,train,36061,New York,2021-05-01,41.0,40.716064453125,499
+XGBoost,train,36081,Queens,2021-05-01,41.0,42.71106719970703,499
+XGBoost,train,36085,Richmond,2021-05-01,40.0,41.37496566772461,499
+XGBoost,train,36005,Bronx,2021-06-01,52.0,47.73625564575195,499
+XGBoost,train,36047,Kings,2021-06-01,49.5,35.21672439575195,499
+XGBoost,train,36061,New York,2021-06-01,45.0,44.363136291503906,499
+XGBoost,train,36081,Queens,2021-06-01,49.5,46.757530212402344,499
+XGBoost,train,36085,Richmond,2021-06-01,41.5,43.940887451171875,499
+XGBoost,train,36005,Bronx,2021-07-01,55.0,51.95356750488281,499
+XGBoost,train,36047,Kings,2021-07-01,57.0,43.6983528137207,499
+XGBoost,train,36061,New York,2021-07-01,51.0,48.867679595947266,499
+XGBoost,train,36081,Queens,2021-07-01,55.0,52.47718811035156,499
+XGBoost,train,36085,Richmond,2021-07-01,51.0,51.233299255371094,499
+XGBoost,train,36005,Bronx,2021-08-01,48.0,49.918521881103516,499
+XGBoost,train,36047,Kings,2021-08-01,51.0,45.702308654785156,499
+XGBoost,train,36061,New York,2021-08-01,44.0,47.03878402709961,499
+XGBoost,train,36081,Queens,2021-08-01,50.0,48.885093688964844,499
+XGBoost,train,36085,Richmond,2021-08-01,43.0,44.829776763916016,499
+XGBoost,train,36005,Bronx,2021-09-01,43.5,39.20657730102539,499
+XGBoost,train,36047,Kings,2021-09-01,38.0,36.965171813964844,499
+XGBoost,train,36061,New York,2021-09-01,37.5,36.13924789428711,499
+XGBoost,train,36081,Queens,2021-09-01,44.5,37.28371810913086,499
+XGBoost,train,36085,Richmond,2021-09-01,37.0,35.70793151855469,499
+XGBoost,train,36005,Bronx,2021-10-01,40.0,39.24381637573242,499
+XGBoost,train,36047,Kings,2021-10-01,43.0,33.24986267089844,499
+XGBoost,train,36061,New York,2021-10-01,36.0,33.395381927490234,499
+XGBoost,train,36081,Queens,2021-10-01,40.0,35.73332214355469,499
+XGBoost,train,36085,Richmond,2021-10-01,33.0,32.795692443847656,499
+XGBoost,train,36005,Bronx,2021-11-01,41.0,42.699806213378906,499
+XGBoost,train,36047,Kings,2021-11-01,42.5,42.23497009277344,499
+XGBoost,train,36061,New York,2021-11-01,39.5,41.74302673339844,499
+XGBoost,train,36081,Queens,2021-11-01,41.0,41.24749755859375,499
+XGBoost,train,36085,Richmond,2021-11-01,35.5,40.88518524169922,499
+XGBoost,train,36005,Bronx,2021-12-01,53.0,49.780433654785156,499
+XGBoost,train,36047,Kings,2021-12-01,55.0,47.201759338378906,499
+XGBoost,train,36061,New York,2021-12-01,54.0,49.39564514160156,499
+XGBoost,train,36081,Queens,2021-12-01,53.0,46.894866943359375,499
+XGBoost,train,36085,Richmond,2021-12-01,51.0,46.21976852416992,499
+XGBoost,train,36005,Bronx,2022-01-01,52.0,50.455753326416016,499
+XGBoost,train,36047,Kings,2022-01-01,47.0,51.40995407104492,499
+XGBoost,train,36061,New York,2022-01-01,57.0,51.68155288696289,499
+XGBoost,train,36081,Queens,2022-01-01,54.0,50.53278350830078,499
+XGBoost,train,36085,Richmond,2022-01-01,51.0,49.19036102294922,499
+XGBoost,train,36005,Bronx,2022-02-01,45.0,47.11826705932617,499
+XGBoost,train,36047,Kings,2022-02-01,41.0,44.57583999633789,499
+XGBoost,train,36061,New York,2022-02-01,52.0,51.725250244140625,499
+XGBoost,train,36081,Queens,2022-02-01,52.0,49.54328536987305,499
+XGBoost,train,36085,Richmond,2022-02-01,41.5,44.37596130371094,499
+XGBoost,train,36005,Bronx,2022-03-01,41.0,42.11301040649414,499
+XGBoost,train,36047,Kings,2022-03-01,38.0,36.88227844238281,499
+XGBoost,train,36061,New York,2022-03-01,51.0,42.32314682006836,499
+XGBoost,train,36081,Queens,2022-03-01,51.0,43.123512268066406,499
+XGBoost,train,36085,Richmond,2022-03-01,37.0,40.91096496582031,499
+XGBoost,train,36005,Bronx,2022-04-01,42.0,41.446346282958984,499
+XGBoost,train,36047,Kings,2022-04-01,30.0,32.183624267578125,499
+XGBoost,train,36061,New York,2022-04-01,39.0,42.28169250488281,499
+XGBoost,train,36081,Queens,2022-04-01,41.5,43.31447982788086,499
+XGBoost,train,36085,Richmond,2022-04-01,38.5,39.53321838378906,499
+XGBoost,train,36005,Bronx,2022-05-01,44.0,42.42845153808594,499
+XGBoost,train,36047,Kings,2022-05-01,45.0,33.23696517944336,499
+XGBoost,train,36061,New York,2022-05-01,41.0,41.40396499633789,499
+XGBoost,train,36081,Queens,2022-05-01,43.0,42.63169479370117,499
+XGBoost,train,36085,Richmond,2022-05-01,37.0,40.861412048339844,499
+XGBoost,validation,36005,Bronx,2022-06-01,46.0,48.97868728637695,499
+XGBoost,validation,36047,Kings,2022-06-01,44.0,48.635345458984375,499
+XGBoost,validation,36061,New York,2022-06-01,43.0,44.106414794921875,499
+XGBoost,validation,36081,Queens,2022-06-01,49.0,48.675865173339844,499
+XGBoost,validation,36085,Richmond,2022-06-01,39.0,42.639434814453125,499
+XGBoost,validation,36005,Bronx,2022-07-01,54.0,51.74285125732422,499
+XGBoost,validation,36047,Kings,2022-07-01,52.0,53.26710891723633,499
+XGBoost,validation,36061,New York,2022-07-01,53.0,50.03232955932617,499
+XGBoost,validation,36081,Queens,2022-07-01,56.0,51.81467056274414,499
+XGBoost,validation,36085,Richmond,2022-07-01,47.0,48.66508102416992,499
+XGBoost,validation,36005,Bronx,2022-08-01,47.0,47.84952926635742,499
+XGBoost,validation,36047,Kings,2022-08-01,46.0,47.63384246826172,499
+XGBoost,validation,36061,New York,2022-08-01,46.0,45.36384963989258,499
+XGBoost,validation,36081,Queens,2022-08-01,49.0,49.0800666809082,499
+XGBoost,validation,36085,Richmond,2022-08-01,46.0,43.8543586730957,499
+XGBoost,validation,36005,Bronx,2022-09-01,38.0,40.891605377197266,499
+XGBoost,validation,36047,Kings,2022-09-01,34.0,39.20329666137695,499
+XGBoost,validation,36061,New York,2022-09-01,36.0,38.635128021240234,499
+XGBoost,validation,36081,Queens,2022-09-01,39.0,41.01914978027344,499
+XGBoost,validation,36085,Richmond,2022-09-01,35.0,38.937843322753906,499
+XGBoost,validation,36005,Bronx,2022-10-01,42.0,37.77692413330078,499
+XGBoost,validation,36047,Kings,2022-10-01,46.0,38.4971923828125,499
+XGBoost,validation,36061,New York,2022-10-01,33.0,32.387962341308594,499
+XGBoost,validation,36081,Queens,2022-10-01,42.0,38.01425552368164,499
+XGBoost,validation,36085,Richmond,2022-10-01,36.0,32.606468200683594,499
+XGBoost,validation,36005,Bronx,2022-11-01,46.5,43.116493225097656,499
+XGBoost,validation,36047,Kings,2022-11-01,47.0,44.156707763671875,499
+XGBoost,validation,36061,New York,2022-11-01,42.0,40.766605377197266,499
+XGBoost,validation,36081,Queens,2022-11-01,51.0,43.116493225097656,499
+XGBoost,validation,36085,Richmond,2022-11-01,33.5,35.4997444152832,499
+XGBoost,validation,36005,Bronx,2022-12-01,44.0,51.841033935546875,499
+XGBoost,validation,36047,Kings,2022-12-01,42.0,51.892208099365234,499
+XGBoost,validation,36061,New York,2022-12-01,45.0,51.138370513916016,499
+XGBoost,validation,36081,Queens,2022-12-01,46.0,52.03361511230469,499
+XGBoost,validation,36085,Richmond,2022-12-01,39.0,47.12949752807617,499
+XGBoost,validation,36005,Bronx,2023-01-01,51.0,49.750450134277344,499
+XGBoost,validation,36047,Kings,2023-01-01,42.0,47.6274528503418,499
+XGBoost,validation,36061,New York,2023-01-01,55.0,53.30357360839844,499
+XGBoost,validation,36081,Queens,2023-01-01,52.0,51.55731201171875,499
+XGBoost,validation,36085,Richmond,2023-01-01,48.0,47.548362731933594,499
+XGBoost,validation,36005,Bronx,2023-02-01,51.5,45.49909973144531,499
+XGBoost,validation,36047,Kings,2023-02-01,52.0,43.55879592895508,499
+XGBoost,validation,36061,New York,2023-02-01,53.5,50.68777847290039,499
+XGBoost,validation,36081,Queens,2023-02-01,54.0,47.86379623413086,499
+XGBoost,validation,36085,Richmond,2023-02-01,44.0,43.915489196777344,499
+XGBoost,validation,36005,Bronx,2023-03-01,40.0,42.642913818359375,499
+XGBoost,validation,36047,Kings,2023-03-01,39.0,42.32314682006836,499
+XGBoost,validation,36061,New York,2023-03-01,42.0,45.71125030517578,499
+XGBoost,validation,36081,Queens,2023-03-01,42.0,46.65997314453125,499
+XGBoost,validation,36085,Richmond,2023-03-01,38.0,41.42204284667969,499
+XGBoost,validation,36005,Bronx,2023-04-01,49.0,41.08000946044922,499
+XGBoost,validation,36047,Kings,2023-04-01,50.0,34.893768310546875,499
+XGBoost,validation,36061,New York,2023-04-01,43.0,41.134891510009766,499
+XGBoost,validation,36081,Queens,2023-04-01,52.0,41.38401794433594,499
+XGBoost,validation,36085,Richmond,2023-04-01,44.0,39.76961898803711,499
+XGBoost,validation,36005,Bronx,2023-05-01,44.0,43.81816101074219,499
+XGBoost,validation,36047,Kings,2023-05-01,41.0,44.69033432006836,499
+XGBoost,validation,36061,New York,2023-05-01,42.0,43.03524398803711,499
+XGBoost,validation,36081,Queens,2023-05-01,45.0,44.549686431884766,499
+XGBoost,validation,36085,Richmond,2023-05-01,44.0,42.69004821777344,499
+XGBoost,validation,36005,Bronx,2023-06-01,57.0,44.91912078857422,499
+XGBoost,validation,36047,Kings,2023-06-01,58.5,44.329063415527344,499
+XGBoost,validation,36061,New York,2023-06-01,51.5,44.585384368896484,499
+XGBoost,validation,36081,Queens,2023-06-01,62.5,48.55704116821289,499
+XGBoost,validation,36085,Richmond,2023-06-01,45.0,43.93185043334961,499
+XGBoost,validation,36005,Bronx,2023-07-01,62.0,53.11076354980469,499
+XGBoost,validation,36047,Kings,2023-07-01,54.0,52.00733947753906,499
+XGBoost,validation,36061,New York,2023-07-01,61.0,52.12959289550781,499
+XGBoost,validation,36081,Queens,2023-07-01,64.0,56.8111457824707,499
+XGBoost,validation,36085,Richmond,2023-07-01,55.0,48.82529830932617,499
+XGBoost,validation,36005,Bronx,2023-08-01,46.0,52.88801193237305,499
+XGBoost,validation,36047,Kings,2023-08-01,49.5,45.95164108276367,499
+XGBoost,validation,36061,New York,2023-08-01,42.0,52.61774826049805,499
+XGBoost,validation,36081,Queens,2023-08-01,48.0,53.61228942871094,499
+XGBoost,validation,36085,Richmond,2023-08-01,44.0,46.29465866088867,499
+XGBoost,validation,36005,Bronx,2023-09-01,39.5,39.20329666137695,499
+XGBoost,validation,36047,Kings,2023-09-01,39.0,37.112064361572266,499
+XGBoost,validation,36061,New York,2023-09-01,42.5,35.63949966430664,499
+XGBoost,validation,36081,Queens,2023-09-01,41.5,39.09400177001953,499
+XGBoost,validation,36085,Richmond,2023-09-01,38.0,35.7149543762207,499
+XGBoost,validation,36005,Bronx,2023-10-01,37.0,39.834861755371094,499
+XGBoost,validation,36047,Kings,2023-10-01,37.0,39.85568618774414,499
+XGBoost,validation,36061,New York,2023-10-01,38.0,35.83140563964844,499
+XGBoost,validation,36081,Queens,2023-10-01,38.0,40.45791244506836,499
+XGBoost,validation,36085,Richmond,2023-10-01,31.0,33.25259780883789,499
+XGBoost,validation,36005,Bronx,2023-11-01,35.5,42.25799560546875,499
+XGBoost,validation,36047,Kings,2023-11-01,32.5,44.68711471557617,499
+XGBoost,validation,36061,New York,2023-11-01,40.0,41.88365936279297,499
+XGBoost,validation,36081,Queens,2023-11-01,36.0,45.684932708740234,499
+XGBoost,validation,36085,Richmond,2023-11-01,33.0,35.453495025634766,499
+XGBoost,validation,36005,Bronx,2023-12-01,46.0,45.919620513916016,499
+XGBoost,validation,36047,Kings,2023-12-01,48.0,46.30249786376953,499
+XGBoost,validation,36061,New York,2023-12-01,52.0,46.325199127197266,499
+XGBoost,validation,36081,Queens,2023-12-01,50.0,46.074180603027344,499
+XGBoost,validation,36085,Richmond,2023-12-01,41.0,45.32938003540039,499
+XGBoost,validation,36005,Bronx,2024-01-01,51.0,49.614227294921875,499
+XGBoost,validation,36047,Kings,2024-01-01,44.0,45.967811584472656,499
+XGBoost,validation,36061,New York,2024-01-01,53.0,52.335731506347656,499
+XGBoost,validation,36081,Queens,2024-01-01,52.0,50.66007995605469,499
+XGBoost,validation,36085,Richmond,2024-01-01,48.0,47.1252326965332,499
+XGBoost,validation,36005,Bronx,2024-02-01,37.0,47.7366943359375,499
+XGBoost,validation,36047,Kings,2024-02-01,37.0,47.52035903930664,499
+XGBoost,validation,36061,New York,2024-02-01,41.0,49.804420471191406,499
+XGBoost,validation,36081,Queens,2024-02-01,43.0,49.59737014770508,499
+XGBoost,validation,36085,Richmond,2024-02-01,37.0,45.26453399658203,499
+XGBoost,test,36005,Bronx,2024-03-01,35.0,39.83467483520508,499
+XGBoost,test,36047,Kings,2024-03-01,34.0,39.719024658203125,499
+XGBoost,test,36061,New York,2024-03-01,37.0,41.48147964477539,499
+XGBoost,test,36081,Queens,2024-03-01,36.0,41.98830795288086,499
+XGBoost,test,36085,Richmond,2024-03-01,33.0,39.719024658203125,499
+XGBoost,test,36005,Bronx,2024-04-01,44.5,41.75095748901367,499
+XGBoost,test,36047,Kings,2024-04-01,37.5,41.829261779785156,499
+XGBoost,test,36061,New York,2024-04-01,41.5,40.04209899902344,499
+XGBoost,test,36081,Queens,2024-04-01,45.5,42.3978271484375,499
+XGBoost,test,36085,Richmond,2024-04-01,39.0,39.67599105834961,499
+XGBoost,test,36005,Bronx,2024-05-01,44.0,43.5391845703125,499
+XGBoost,test,36047,Kings,2024-05-01,38.0,41.1422004699707,499
+XGBoost,test,36061,New York,2024-05-01,44.0,43.01093292236328,499
+XGBoost,test,36081,Queens,2024-05-01,41.0,42.89686965942383,499
+XGBoost,test,36085,Richmond,2024-05-01,38.0,41.72468185424805,499
+XGBoost,test,36005,Bronx,2024-06-01,46.5,52.10008239746094,499
+XGBoost,test,36047,Kings,2024-06-01,43.0,49.412818908691406,499
+XGBoost,test,36061,New York,2024-06-01,47.5,48.720577239990234,499
+XGBoost,test,36081,Queens,2024-06-01,47.5,51.3758544921875,499
+XGBoost,test,36085,Richmond,2024-06-01,45.5,42.782005310058594,499
+XGBoost,test,36005,Bronx,2024-07-01,58.0,53.62060546875,499
+XGBoost,test,36047,Kings,2024-07-01,51.0,51.3740119934082,499
+XGBoost,test,36061,New York,2024-07-01,54.0,53.730140686035156,499
+XGBoost,test,36081,Queens,2024-07-01,57.0,53.730140686035156,499
+XGBoost,test,36085,Richmond,2024-07-01,47.0,51.74285125732422,499
+XGBoost,test,36005,Bronx,2024-08-01,52.0,48.300045013427734,499
+XGBoost,test,36047,Kings,2024-08-01,51.0,47.79878234863281,499
+XGBoost,test,36061,New York,2024-08-01,52.0,45.39711380004883,499
+XGBoost,test,36081,Queens,2024-08-01,60.0,48.85927200317383,499
+XGBoost,test,36085,Richmond,2024-08-01,46.0,44.07357406616211,499
+XGBoost,test,36005,Bronx,2024-09-01,37.5,39.793495178222656,499
+XGBoost,test,36047,Kings,2024-09-01,32.5,39.938438415527344,499
+XGBoost,test,36061,New York,2024-09-01,37.0,41.76362609863281,499
+XGBoost,test,36081,Queens,2024-09-01,39.5,44.411842346191406,499
+XGBoost,test,36085,Richmond,2024-09-01,35.0,39.20329666137695,499
+XGBoost,test,36005,Bronx,2024-10-01,38.0,37.488128662109375,499
+XGBoost,test,36047,Kings,2024-10-01,33.0,37.55342483520508,499
+XGBoost,test,36061,New York,2024-10-01,36.0,37.56866455078125,499
+XGBoost,test,36081,Queens,2024-10-01,38.0,38.31880569458008,499
+XGBoost,test,36085,Richmond,2024-10-01,32.0,32.027061462402344,499
+XGBoost,test,36005,Bronx,2024-11-01,35.5,36.37028503417969,499
+XGBoost,test,36047,Kings,2024-11-01,36.5,35.65406036376953,499
+XGBoost,test,36061,New York,2024-11-01,35.5,40.74085235595703,499
+XGBoost,test,36081,Queens,2024-11-01,38.5,36.65113830566406,499
+XGBoost,test,36085,Richmond,2024-11-01,30.0,35.70973587036133,499
+XGBoost,test,36005,Bronx,2024-12-01,40.0,46.074180603027344,499
+XGBoost,test,36047,Kings,2024-12-01,42.0,47.22397994995117,499
+XGBoost,test,36061,New York,2024-12-01,44.0,47.77146911621094,499
+XGBoost,test,36081,Queens,2024-12-01,45.0,48.719085693359375,499
+XGBoost,test,36085,Richmond,2024-12-01,39.0,45.781490325927734,499
+XGBoost,test,36005,Bronx,2025-01-01,45.0,48.34467697143555,499
+XGBoost,test,36047,Kings,2025-01-01,41.0,46.05942153930664,499
+XGBoost,test,36061,New York,2025-01-01,51.0,51.38075256347656,499
+XGBoost,test,36081,Queens,2025-01-01,54.0,49.709930419921875,499
+XGBoost,test,36085,Richmond,2025-01-01,44.0,45.87865447998047,499
+XGBoost,test,36005,Bronx,2025-02-01,38.0,43.28036117553711,499
+XGBoost,test,36047,Kings,2025-02-01,39.5,42.53676223754883,499
+XGBoost,test,36061,New York,2025-02-01,46.0,44.96185302734375,499
+XGBoost,test,36081,Queens,2025-02-01,45.5,47.53538131713867,499
+XGBoost,test,36085,Richmond,2025-02-01,38.0,43.32088088989258,499
+XGBoost,test,36005,Bronx,2025-03-01,41.0,35.48910903930664,499
+XGBoost,test,36047,Kings,2025-03-01,37.0,36.194358825683594,499
+XGBoost,test,36061,New York,2025-03-01,40.0,41.38152313232422,499
+XGBoost,test,36081,Queens,2025-03-01,42.0,37.90983200073242,499
+XGBoost,test,36085,Richmond,2025-03-01,40.0,34.902496337890625,499
+XGBoost,test,36005,Bronx,2025-04-01,41.0,41.057369232177734,499
+XGBoost,test,36047,Kings,2025-04-01,36.5,39.37843704223633,499
+XGBoost,test,36061,New York,2025-04-01,43.0,40.70077133178711,499
+XGBoost,test,36081,Queens,2025-04-01,42.0,41.24898147583008,499
+XGBoost,test,36085,Richmond,2025-04-01,41.5,40.3355827331543,499
+XGBoost,test,36005,Bronx,2025-05-01,39.0,42.79262924194336,499
+XGBoost,test,36047,Kings,2025-05-01,43.0,40.261478424072266,499
+XGBoost,test,36061,New York,2025-05-01,44.0,43.57970428466797,499
+XGBoost,test,36081,Queens,2025-05-01,39.0,42.8101921081543,499
+XGBoost,test,36085,Richmond,2025-05-01,38.0,42.226104736328125,499
+XGBoost,test,36005,Bronx,2025-06-01,55.5,43.43494415283203,499
+XGBoost,test,36047,Kings,2025-06-01,56.5,44.938385009765625,499
+XGBoost,test,36061,New York,2025-06-01,58.0,47.25828552246094,499
+XGBoost,test,36081,Queens,2025-06-01,55.5,45.85639190673828,499
+XGBoost,test,36085,Richmond,2025-06-01,52.0,42.91090393066406,499
+XGBoost,test,36005,Bronx,2025-07-01,58.0,54.519737243652344,499
+XGBoost,test,36047,Kings,2025-07-01,51.0,51.25065994262695,499
+XGBoost,test,36061,New York,2025-07-01,58.0,53.07634353637695,499
+XGBoost,test,36081,Queens,2025-07-01,54.0,54.46807861328125,499
+XGBoost,test,36085,Richmond,2025-07-01,48.0,49.63262939453125,499
+XGBoost,test,36005,Bronx,2025-08-01,53.0,49.67161178588867,499
+XGBoost,test,36047,Kings,2025-08-01,42.0,47.663021087646484,499
+XGBoost,test,36061,New York,2025-08-01,55.0,49.67161178588867,499
+XGBoost,test,36081,Queens,2025-08-01,45.0,51.93487548828125,499
+XGBoost,test,36085,Richmond,2025-08-01,51.0,43.92786407470703,499
+XGBoost,test,36005,Bronx,2025-09-01,49.5,39.266876220703125,499
+XGBoost,test,36047,Kings,2025-09-01,44.0,35.94001770019531,499
+XGBoost,test,36061,New York,2025-09-01,54.0,40.01334762573242,499
+XGBoost,test,36081,Queens,2025-09-01,43.5,39.03758239746094,499
+XGBoost,test,36085,Richmond,2025-09-01,40.5,36.423397064208984,499
+XGBoost,test,36005,Bronx,2025-10-01,31.0,40.62773513793945,499
+XGBoost,test,36047,Kings,2025-10-01,26.0,35.773841857910156,499
+XGBoost,test,36061,New York,2025-10-01,31.0,36.39976501464844,499
+XGBoost,test,36081,Queens,2025-10-01,31.0,39.24381637573242,499
+XGBoost,test,36085,Richmond,2025-10-01,31.0,34.82848358154297,499
+XGBoost,test,36005,Bronx,2025-11-01,42.0,35.29917907714844,499
+XGBoost,test,36047,Kings,2025-11-01,32.5,30.898284912109375,499
+XGBoost,test,36061,New York,2025-11-01,43.0,35.29917907714844,499
+XGBoost,test,36081,Queens,2025-11-01,36.5,40.862186431884766,499
+XGBoost,test,36085,Richmond,2025-11-01,32.0,34.55781173706055,499
+XGBoost,test,36005,Bronx,2025-12-01,46.0,45.71467971801758,499
+XGBoost,test,36047,Kings,2025-12-01,36.0,46.30249786376953,499
+XGBoost,test,36061,New York,2025-12-01,51.0,47.263275146484375,499
+XGBoost,test,36081,Queens,2025-12-01,44.0,45.76100158691406,499
+XGBoost,test,36085,Richmond,2025-12-01,42.0,45.32938003540039,499
