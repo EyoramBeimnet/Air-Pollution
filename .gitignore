@@ -17,3 +17,6 @@ _year_cache/
 
 # Overloaded file
 datasets/raw/traffic/Automated_Traffic_Volume_Counts_*.csv
+
+# Project Proposal
+.docx
