@@ -108,7 +108,7 @@ Test and validation results for XGBoost, same comparison:
 
 # Air Pollution Project — Monthly AQI Pipeline Progress
 
-Last Updated: November 4, 2026\
+Last Updated: November 10, 2026\
 Project Directory: `D:\Air-Pollution`\
 Git Branch: `expanded-data`\
 Scope: Build a monthly AQI prediction pipeline using monthly weather features while keeping the existing annual pipeline unchanged.
@@ -381,3 +381,108 @@ Current behavior:
 - Trains Random Forest and XGBoost.
 - Evaluates a persistence baseline using `aqi_lag_1`.
 - Saves predictions, metrics, and feature lists.
+
+
+
+## 7. CNN Experiment Review (added November 10, 2026)
+ 
+We ran a 1D CNN on the monthly data (`scripts/train_monthly_cnn.py`, results written up in `notebooks/cnnFindings.md`, branch `expanded-data`). The CNN beat Persistence, Random Forest, and XGBoost on the held-out test set (5-seed ensemble: test MAE 3.87, RMSE 4.70, R² 0.61, vs. XGBoost MAE 4.14, RMSE 5.09, R² 0.54).
+ 
+This section records the follow-up review: how likely the gain is overfitting, whether the model is more complex than needed, and whether the gain holds up across different time periods.
+ 
+### 7.1 Reasons for concern
+ 
+- **Capacity vs. data.** The full CNN has about 5,100 parameters and trains on 498 rows (about 10 parameters per row). The rows are also correlated (consecutive months within a borough, and five boroughs moving together in a month), so the effective sample size is smaller than 498.
+- **The reported edge over XGBoost was thin.** The test bootstrap difference vs. XGBoost had a 90% CI of about -0.74 to -0.00, and on validation the CI included zero.
+- **The comparison was not equal.** The CNN was a 5-seed ensemble, while Random Forest and XGBoost were single fits. The CNN also saw a 12-month history, while the trees saw only lag 1, lag 12, and month number.
+- **Persistence is a weak baseline.** Its test R² is below zero, so most models that shrink toward the mean beat it by a lot.
+- **Single test window.** The original test set was 110 rows from one period (2024-03 to 2025-12).
+What the CNN script already did well: chronological splits, train-only scaling, validation used only for early stopping, a residual head (predicts change from last month), L2, dropout, and seed averaging.
+ 
+### 7.2 New scripts
+ 
+Both scripts are run from the project root and need `tensorflow-cpu`, `xgboost`, and `scikit-learn`. They import from `train_monthly_cnn.py`, so keep them in the same `scripts` folder. Neither modifies existing files. Neither uses weather features (the weather input is `None`), so the CNN here sees AQI history, an observed-mask channel, month sine/cosine, and borough.
+ 
+| Script | Purpose | Output |
+|---|---|---|
+| `scripts/diagnose_cnn_overfit.py` | Trains CNNs of different sizes and window lengths on the same rows and splits as the training script (3 seeds averaged), next to Persistence and a ridge baseline. Reports parameters, best epoch, and train/validation/test RMSE. | Printed table (terminal only) |
+| `scripts/rolling_origin_backtest.py` | For each test year 2020 to 2025: validate on the previous year (early stopping only), train on everything earlier. Compares Persistence, ridge, XGBoost, and the CNN (8 filters, window 12). XGBoost uses the same settings and features as `train_monthly_cnn.py` (lag 1, lag 12, month number) and is averaged over the same 3 seeds. | `notebooks/cnn_rolling_backtest.csv` |
+ 
+```powershell
+python scripts\diagnose_cnn_overfit.py
+python scripts\rolling_origin_backtest.py
+```
+ 
+### 7.3 Check 1: model size and window (single split)
+ 
+RMSE in AQI points, 498 train rows, 3-seed average. Two runs on two machines:
+ 
+| Model | Params | Run A Train / Val / Test | Run B Train / Val / Test |
+|---|---|---|---|
+| Persistence | 0 | 8.09 / 8.17 / 7.71 | 8.09 / 8.17 / 7.71 |
+| Ridge (lag1, lag12, month) | 5 | 5.79 / 6.06 / 5.22 | 5.79 / 6.06 / 5.22 |
+| CNN filters=16, window=12 | 5137 | 3.92 / 5.16 / 4.77 | 4.17 / 5.32 / 4.85 |
+| CNN filters=8, window=12 | 2329 | 3.72 / 5.12 / 4.81 | 3.97 / 5.09 / 4.75 |
+| CNN filters=4, window=12 | 1213 | 3.97 / 5.14 / 4.79 | 3.86 / 5.18 / 4.89 |
+| CNN filters=8, window=6 | 2329 | 4.06 / 5.41 / 5.43 | 4.15 / 5.44 / 5.53 |
+| CNN filters=4, window=3 | 1213 | 4.06 / 5.38 / 5.22 | 4.13 / 5.50 / 5.18 |
+ 
+- **Model size does not matter.** The 1,213-parameter CNN matches the 5,137-parameter one on test. The ranking among 4, 8, and 16 filters flipped between runs, so those differences are seed noise (about +/-0.1 to 0.15 RMSE).
+- **Overfitting is mild.** The train-to-test gap for the 12-month models is about 0.7 to 1.1 RMSE (train about 4, test about 4.8). Early stopping chose epochs from 23 to 84.
+- **The 12-month window drives the gain.** Windows of 6 and 3 months score about the same as, or worse than, ridge (5.2 to 5.5). The 12-month models are about 0.35 to 0.45 better than ridge.
+- **The test period is easier than validation.** Persistence and ridge also score lower on test than on train and validation, so compare models against each other rather than reading absolute test numbers.
+### 7.4 Check 2: rolling-origin backtest (six test years)
+ 
+RMSE in AQI points (Run A; Run B on a second machine differed by a few hundredths for Persistence, ridge, and XGBoost, and by up to about 0.2 for the CNN).
+ 
+| Test year | Train rows | Persistence | Ridge | XGBoost | CNN | CNN - Ridge | CNN - XGB |
+|---|---|---|---|---|---|---|---|
+| 2020 | 293 | 7.99 | 5.87 | 5.49 | 4.78 | -1.08 | -0.71 |
+| 2021 | 353 | 7.07 | 5.92 | 5.16 | 6.30 | +0.38 | +1.14 |
+| 2022 | 413 | 6.39 | 4.45 | 4.51 | 4.37 | -0.07 | -0.14 |
+| 2023 | 473 | 8.88 | 6.70 | 6.05 | 5.76 | -0.93 | -0.28 |
+| 2024 | 533 | 7.28 | 5.02 | 4.65 | 4.81 | -0.22 | +0.16 |
+| 2025 | 593 | 8.22 | 5.71 | 5.63 | 5.15 | -0.56 | -0.48 |
+ 
+Negative gap means the CNN is better.
+ 
+| | Run A | Run B |
+|---|---|---|
+| CNN beats ridge | 5 of 6 years, mean gap -0.42 | 4 of 6 years, mean gap -0.35 |
+| CNN beats XGBoost | 4 of 6 years, mean gap -0.05 | 3 of 6 years, mean gap +0.02 |
+ 
+- **The CNN's edge over ridge is real but small** (about 0.35 to 0.42 RMSE).
+- **XGBoost gets about the same improvement over ridge** (about 0.37 RMSE) from three simple features. Most of the gain comes from a nonlinear model using lag 1, lag 12, and month, not from the CNN's longer window.
+- **The CNN and XGBoost are tied.** The mean gap is about zero and the standard deviation (about 0.65) is far larger than the mean. The CNN's run-to-run wobble is as large as its whole margin.
+- **The CNN is more volatile.** It has the largest wins (2020, 2025) and the largest loss (2021, about +1.1 to +1.3 vs. XGBoost) in both runs.
+- **2020 inflates the CNN's average edge over ridge.** It is the COVID year and the largest CNN win. Excluding it, the Run A mean gap vs. ridge is about -0.28.
+- **2021 is the CNN's consistent weak spot.** A possible explanation is that its validation year is 2020, an unusual year used for early stopping. This was not tested.
+### 7.5 Conclusions
+ 
+1. The CNN is not badly overfit, but it is more complex than it needs to be.
+2. Against simple baselines the CNN gain is real but modest. Against XGBoost it is effectively a tie.
+3. **Recommendation:** use XGBoost as the main monthly model (simpler, faster, steadier). Keep the CNN as a documented alternative if the project needs a deep-learning component, and if so use the small version (`filters` 4 or 8, `window` 12).
+4. Report rolling-backtest results rather than a single split, and note that 2020 is an unusual year.
+5. Freeze hyperparameters before looking at test results again, and record that in `notebooks/cnnFindings.md`.
+### 7.6 Limitations
+ 
+- Six overlapping folds with 60 test rows each. Training sets overlap across folds, so the folds are not independent.
+- Only 3 seeds per model. Differences smaller than about 0.15 RMSE are within noise.
+- No hyperparameter tuning for the CNN or XGBoost.
+- The ridge baseline is basic (lag 1, lag 12, month sine and cosine).
+- Weather features were not used in these checks.
+- The `model_results_cnn/` output files are not committed to the branch, so the first-run results in `cnnFindings.md` were not independently re-checked beyond the runs above.
+### 7.7 Files added or changed
+ 
+- `scripts/diagnose_cnn_overfit.py` (new)
+- `scripts/rolling_origin_backtest.py` (new)
+- `notebooks/cnn_rolling_backtest.csv` (generated by running the backtest)
+- `notebooks/cnn_overfitting_and_backtest_analysis.md` (written analysis of sections 7.1 to 7.6)
+- `progress.md` (this section added)
+## 8. Open Items (monthly CNN)
+ 
+1. Add monthly weather to the rolling backtest. The annual ablations found weather was the only feature group that helped, and the monthly checks above ran without it.
+2. Decide whether the CNN stays in the project, given the tie with XGBoost.
+3. If keeping the CNN, run more seeds (for example 10) per fold to see whether the 2021 loss is a seed effect, and test whether a different validation year changes the 2021 result.
+4. Tune XGBoost and the CNN lightly (same budget for each) before the final comparison.
+5. Commit the new scripts and notebook files to `expanded-data`.
