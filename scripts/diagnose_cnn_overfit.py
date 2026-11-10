@@ -11,6 +11,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from tensorflow import keras
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import RidgeCV
 from sklearn.pipeline import make_pipeline
@@ -51,7 +52,7 @@ def prepare(window):
 
 
 def run_cnn(data, mu, sd, window, filters):
-    from tensorflow import keras
+    
 
     n_ch, n_static = data["train"][0].shape[2], data["train"][1].shape[1]
     preds = {s: [] for s in SPLITS}
@@ -107,6 +108,10 @@ def main():
     res["test_minus_train"] = res.test_RMSE - res.train_RMSE
     print(f"\nTrain rows: {len(actual['train'])}  (RMSE in AQI points, {SEEDS}-seed average)")
     print(res.to_string(index=False, float_format=lambda v: f"{v:.2f}"))
+
+    out_path = Path(__file__).parent.parent / "notebooks" / "cnn_overfit_check.csv"
+    res.to_csv(out_path, index=False)
+    print(f"Saved to {out_path}")
 
 
 if __name__ == "__main__":
