@@ -321,6 +321,7 @@ body.login-on .loader{top:auto;bottom:calc(env(safe-area-inset-bottom,0px) + 64p
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="scripts/aqi-api.js"></script>
 <script>
 /* ================= DATA =================
    The UI starts with a local demo dataset so it remains usable before the API
@@ -352,28 +353,6 @@ let AIRSHED_SOURCE = 'Sample data';
 const API_URL = new URLSearchParams(location.search).get('api') ||
   '/api/aqi?start_year=2020&end_year=2030';
 
-function toAirshedData(payload) {
-  const rows = Array.isArray(payload) ? payload : payload?.data;
-  if (!Array.isArray(rows)) throw new Error('Expected an array or { data: [...] }.');
-
-  const out = Object.fromEntries(BOROUGHS.map(b => [b.fips, {}]));
-  for (const row of rows) {
-    const fips = String(row.fips ?? '').padStart(5, '0');
-    const year = Number(row.year), aqi = Number(row.aqi);
-    if (!out[fips] || !YEARS.includes(year) || !Number.isFinite(aqi)) continue;
-    const forecast = row.forecast ?? year > LAST_OBS;
-    const lo = row.lo == null ? undefined : Number(row.lo);
-    const hi = row.hi == null ? undefined : Number(row.hi);
-    if (forecast && (!Number.isFinite(lo) || !Number.isFinite(hi) || lo > aqi || aqi > hi)) {
-      throw new Error(`Invalid forecast range for ${fips}/${year}.`);
-    }
-    out[fips][year] = { aqi, forecast: Boolean(forecast), ...(forecast ? { lo, hi } : {}) };
-  }
-  const missing = BOROUGHS.flatMap(b => YEARS.filter(year => !out[b.fips][year]).map(year => `${b.fips}/${year}`));
-  if (missing.length) throw new Error(`Missing required AQI records: ${missing.join(', ')}.`);
-  return out;
-}
-
 function setDataSource(label, detail = '') {
   AIRSHED_SOURCE = label;
   const cap = document.getElementById('cap');
@@ -388,9 +367,9 @@ function setDataSource(label, detail = '') {
 
 async function loadAirshedData() {
   try {
-    const response = await fetch(API_URL, { headers: { Accept: 'application/json' } });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    AIRSHED_DATA = toAirshedData(await response.json());
+    AIRSHED_DATA = await AirshedApi.fetchAqiData(API_URL, {
+      fips: BOROUGHS.map(b => b.fips), years: YEARS, lastObservedYear: LAST_OBS,
+    });
     setDataSource('Live API data', `Loaded from ${API_URL}.`);
     render();
   } catch (error) {
