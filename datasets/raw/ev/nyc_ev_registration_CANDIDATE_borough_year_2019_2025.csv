@@ -1,4 +1,9 @@
 ﻿county_fips,borough,year,ev_reported_registrations_count
+36005,Bronx,2018,119
+36047,Brooklyn,2018,689
+36061,Manhattan,2018,1474
+36081,Queens,2018,1034
+36085,Staten Island,2018,210
 36005,Bronx,2019,221
 36047,Brooklyn,2019,1175
 36061,Manhattan,2019,1967

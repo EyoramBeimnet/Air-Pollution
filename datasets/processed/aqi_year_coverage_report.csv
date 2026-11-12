@@ -1,4 +1,9 @@
 ﻿county_fips,borough,year,aqi_days_covered,aqi_median,aqi_max,aqi_p90,is_aqi_label_available,is_aqi_coverage_ge_300_days
+36005,Bronx,2014,365,51,133,68,True,True
+36005,Bronx,2015,365,51,136,73,True,True
+36005,Bronx,2016,366,45,140,65,True,True
+36005,Bronx,2017,365,44,136,62,True,True
+36005,Bronx,2018,365,44,150,65,True,True
 36005,Bronx,2019,365,46,115,66,True,True
 36005,Bronx,2020,366,45,108,64,True,True
 36005,Bronx,2021,365,47,156,68,True,True
@@ -6,6 +11,11 @@
 36005,Bronx,2023,365,47,253,69,True,True
 36005,Bronx,2024,366,42,150,67,True,True
 36005,Bronx,2025,365,45,143,67,True,True
+36047,Brooklyn,2014,365,40,88,59,True,True
+36047,Brooklyn,2015,365,42,88,61,True,True
+36047,Brooklyn,2016,366,38,83,57,True,True
+36047,Brooklyn,2017,344,38,75,56,True,True
+36047,Brooklyn,2018,365,34,82,56,True,True
 36047,Brooklyn,2019,365,36,78,55,True,True
 36047,Brooklyn,2020,365,30,80,55,True,True
 36047,Brooklyn,2021,365,42,154,61,True,True
@@ -13,6 +23,11 @@
 36047,Brooklyn,2023,364,46,249,65,True,True
 36047,Brooklyn,2024,366,39,98,62,True,True
 36047,Brooklyn,2025,365,39,99,63,True,True
+36061,Manhattan,2014,365,52,129,68,True,True
+36061,Manhattan,2015,365,54,122,72,True,True
+36061,Manhattan,2016,366,52,126,71,True,True
+36061,Manhattan,2017,365,50,122,64,True,True
+36061,Manhattan,2018,365,51,151,70,True,True
 36061,Manhattan,2019,365,46,136,62,True,True
 36061,Manhattan,2020,366,40,108,61,True,True
 36061,Manhattan,2021,365,43,155,63,True,True
@@ -20,6 +35,11 @@
 36061,Manhattan,2023,365,48,208,67,True,True
 36061,Manhattan,2024,366,43,150,67,True,True
 36061,Manhattan,2025,365,50,136,69,True,True
+36081,Queens,2014,365,47,122,63,True,True
+36081,Queens,2015,365,48,136,71,True,True
+36081,Queens,2016,366,44,143,65,True,True
+36081,Queens,2017,365,44,151,64,True,True
+36081,Queens,2018,365,45,140,64,True,True
 36081,Queens,2019,365,45,119,61,True,True
 36081,Queens,2020,366,43,140,64,True,True
 36081,Queens,2021,365,47,154,67,True,True
@@ -27,6 +47,11 @@
 36081,Queens,2023,365,50,278,72,True,True
 36081,Queens,2024,366,45,112,68,True,True
 36081,Queens,2025,365,44,154,64,True,True
+36085,Staten Island,2014,365,48,187,63,True,True
+36085,Staten Island,2015,365,51,150,76,True,True
+36085,Staten Island,2016,366,45,151,69,True,True
+36085,Staten Island,2017,365,44,136,61,True,True
+36085,Staten Island,2018,363,42,136,64,True,True
 36085,Staten Island,2019,365,41,97,60,True,True
 36085,Staten Island,2020,364,39,108,57,True,True
 36085,Staten Island,2021,364,42,149,61,True,True

@@ -24,14 +24,14 @@ NYC = {
     "36081": "Queens",
     "36085": "Staten Island",
 }
-YEARS = range(2019, 2026)
+FIRST_YEAR, LAST_YEAR = 2014, 2026
+YEARS = range(FIRST_YEAR, LAST_YEAR)
 EV_COLUMN = "ev_reported_registrations_count"
 
 # Short feature shortlist for an ANNUAL t -> t+1 demonstration only.
 # Not a feature-selection claim; do not train until the team agrees on the target.
 BASELINE_FEATURES = [
     "last_observed_median_aqi",
-    "recorded_tree_plantings",
     "drive_alone_pct",
     "campd_total_nox_mass_tons",
     "weather_temp_mean_c",
@@ -51,8 +51,8 @@ def normalize_keys(frame: pd.DataFrame, year_col: str, name: str) -> pd.DataFram
     data[year_col] = pd.to_numeric(data[year_col], errors="raise").astype("int64")
     if not data["county_fips"].isin(NYC).all():
         raise ValueError(f"{name} has records outside the five NYC county FIPS codes")
-    if not data[year_col].between(2019, 2025).all():
-        raise ValueError(f"{name} has years outside 2019-2025")
+    if not data[year_col].between(min(YEARS), max(YEARS)).all():
+        raise ValueError(f"{name} has years outside {min(YEARS)}-{max(YEARS)}")
     if data.duplicated(["county_fips", year_col]).any():
         raise ValueError(f"{name} contains duplicate county-year rows")
     return data
@@ -65,7 +65,7 @@ def save_csv(data: pd.DataFrame, path: Path) -> None:
 
 def run(root: Path) -> None:
     ev_path = root / "datasets/raw/ev/nyc_ev_registration_CANDIDATE_borough_year_2019_2025.csv"
-    master_path = root / "datasets/processed/master_borough_year_2019_2025.csv"
+    master_path = root / f"datasets/processed/master_borough_year_{min(YEARS)}_{max(YEARS)}.csv"
     staging_path = root / "datasets/processed/next_year_aqi_model_STAGING.csv"
     for path in (ev_path, master_path, staging_path):
         if not path.exists():
@@ -87,7 +87,7 @@ def run(root: Path) -> None:
     master = normalize_keys(pd.read_csv(master_path, dtype={"county_fips": "string"}), "year", "master")
     expected = {(fips, year) for fips in NYC for year in YEARS}
     if set(zip(master.county_fips, master.year)) != expected:
-        raise ValueError("Master is not a complete five-borough x 2019-2025 grid")
+        raise ValueError(f"Master is not a complete five-borough x {min(YEARS)}-{max(YEARS)} grid")
     if EV_COLUMN in master.columns:
         raise ValueError("Master already contains the EV feature; inspect before rerunning this script")
     if "borough" not in master or any(master["borough"] != master["county_fips"].map(NYC)):
@@ -144,7 +144,7 @@ def run(root: Path) -> None:
     for col in ["target_next_year_median_aqi", *BASELINE_FEATURES]:
         baseline[col] = pd.to_numeric(baseline[col], errors="coerce")
     # Restrict to full recent feature years where CAMPD and ACS were obtained.
-    baseline = baseline[baseline["feature_year"].between(2020, 2024)].copy()
+    baseline = baseline[baseline["feature_year"].between(FIRST_YEAR, 2024)].copy()
     missing_baseline = {
         col: int(baseline[col].isna().sum())
         for col in ["target_next_year_median_aqi", *BASELINE_FEATURES]
@@ -190,7 +190,7 @@ def run(root: Path) -> None:
     }
     (out / "ev_and_baseline_review_report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     print("\nEV candidate review finished; the original master and staging files were NOT changed.")
-    print(f"EV observed: {report['ev_source_present_rows']}/35; missing: {report['ev_source_missing_rows']}/35")
+    print(f"EV observed: {report['ev_source_present_rows']}/{len(coverage)}; missing: {report['ev_source_missing_rows']}/{len(coverage)}")
     for row in group_rows:
         print(f"  {row['year']}: {row['boroughs_observed']}/5 EV records")
     print(f"Annual next-year baseline complete cases: {len(complete)}")

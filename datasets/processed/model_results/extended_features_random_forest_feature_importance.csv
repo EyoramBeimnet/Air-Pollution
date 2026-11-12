@@ -1,0 +1,6 @@
+feature,importance
+last_observed_median_aqi,0.7009566859538129
+weather_temp_mean_c,0.144661292739448
+drive_alone_pct,0.0867921243945408
+campd_total_nox_mass_tons,0.038329573488371606
+weather_precip_total_mm,0.02926032342382672

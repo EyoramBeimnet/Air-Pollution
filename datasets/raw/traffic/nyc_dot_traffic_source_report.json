@@ -1,9 +1,9 @@
 {
   "source_url": "https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt",
-  "retrieved_utc": "2026-10-16T18:46:59.281303+00:00",
+  "retrieved_utc": "2026-10-25T22:42:57.524543+00:00",
   "method": "NYC DOT ATR sampled traffic volumes; server-side aggregate by borough and sampling year",
   "year_range_requested": [
-    2019,
+    2014,
     2025
   ],
   "data_use_status": "CANDIDATE_ONLY_NOT_YET_MODEL_READY",
@@ -25,13 +25,8 @@
     2011,
     2012,
     2013,
-    2014,
-    2015,
-    2016,
-    2017,
-    2018,
     2026
   ],
   "unrecognized_boroughs": [],
-  "available_borough_years": 35
+  "available_borough_years": 60
 }

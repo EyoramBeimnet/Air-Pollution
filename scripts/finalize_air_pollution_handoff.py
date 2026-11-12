@@ -24,14 +24,16 @@ NYC = {
     "36081": "Queens",
     "36085": "Staten Island",
 }
-YEARS = range(2020, 2025)
+FIRST_YEAR, LAST_YEAR = 2014, 2025
+YEARS = range(FIRST_YEAR, LAST_YEAR)
 TARGET = "target_next_year_median_aqi"
 FEATURES = [
-    "last_observed_median_aqi", "recorded_tree_plantings", "drive_alone_pct",
+    "last_observed_median_aqi", "drive_alone_pct",
     "campd_total_nox_mass_tons", "weather_temp_mean_c",
     "weather_precip_total_mm",
 ]
 KEYS = ["county_fips", "borough", "feature_year", "forecast_year"]
+TOTAL_ROWS = len(YEARS) * len(NYC)
 
 
 def require_columns(df: pd.DataFrame, cols: list[str], name: str) -> None:
@@ -64,7 +66,7 @@ def comparable(a: pd.Series, b: pd.Series) -> bool:
 def run(root: Path) -> dict:
     data_root = root / "datasets" / "processed"
     candidate_path = data_root / "review" / "annual_next_year_baseline_COMPLETE_CASES_REVIEW_ONLY.csv"
-    master_path = data_root / "master_borough_year_2019_2025.csv"
+    master_path = data_root / f"master_borough_year_{min(YEARS)}_{LAST_YEAR}.csv"
     candidate = load_data(candidate_path, "baseline candidate")
     master = load_data(master_path, "annual master")
     require_columns(candidate, KEYS + [TARGET] + FEATURES, "baseline candidate")
@@ -81,16 +83,16 @@ def run(root: Path) -> dict:
         candidate[col] = pd.to_numeric(candidate[col], errors="raise").astype(int)
     master["year"] = pd.to_numeric(master["year"], errors="raise").astype(int)
 
-    complete_grid = {(fips, y) for fips in NYC for y in range(2019, 2026)}
-    if set(zip(master["county_fips"], master["year"])) != complete_grid or len(master) != 35:
-        raise ValueError("Master must have 35 borough-year rows covering all 5 NYC boroughs and 2019-2025")
+    master_grid = {(fips, y) for fips in NYC for y in range(FIRST_YEAR, LAST_YEAR + 1)}
+    if set(zip(master["county_fips"], master["year"])) != master_grid or len(master) != len(master_grid):
+        raise ValueError(f"Master must have {len(master_grid)} borough-year rows covering all {len(NYC)} NYC boroughs and {FIRST_YEAR}-{LAST_YEAR}")
 
     expected = {(fips, y) for fips in NYC for y in YEARS}
     actual = set(zip(candidate["county_fips"], candidate["feature_year"]))
-    if expected != actual or len(candidate) != 25:
+    if expected != actual or len(candidate) != len(expected):
         missing = sorted(expected - actual)
         extra = sorted(actual - expected)
-        raise ValueError(f"Expected five boroughs in feature years 2020-2024 (25 rows); "
+        raise ValueError(f"Expected {len(NYC)} boroughs in feature years 2014-2024 ({len(expected)} rows); "
                          f"found {len(candidate)}. Missing: {missing[:5]}; extra: {extra[:5]}")
     if not candidate["forecast_year"].eq(candidate["feature_year"] + 1).all():
         raise ValueError("forecast_year must be exactly feature_year + 1")
@@ -106,7 +108,7 @@ def run(root: Path) -> dict:
         raise ValueError("AQI values outside expected AQI bounds 0..500")
     if not candidate["drive_alone_pct"].between(0, 100).all():
         raise ValueError("Drive-alone percentage outside 0..100")
-    for col in ["recorded_tree_plantings", "campd_total_nox_mass_tons", "weather_precip_total_mm"]:
+    for col in ["campd_total_nox_mass_tons", "weather_precip_total_mm"]:
         if not candidate[col].ge(0).all():
             raise ValueError(f"Negative values in {col}")
     if not candidate["weather_temp_mean_c"].between(-90, 65).all():
@@ -140,16 +142,16 @@ def run(root: Path) -> dict:
             raise ValueError(f"Feature alignment mismatch for {col}: wrong year, borough, or data")
 
     # Year-level holdout: all boroughs in one forecast year must stay together.
-    splits = {2020: "train", 2021: "train", 2022: "train",
-              2023: "validation", 2024: "test"}
+    splits = {**{y: "train" for y in range(2014, 2021)},
+              2021: "validation", 2022: "validation",
+              2023: "test", 2024: "test"}
     handoff = candidate[KEYS + [TARGET] + FEATURES].copy()
     handoff["split"] = handoff["feature_year"].map(splits)
     handoff = handoff.sort_values(["feature_year", "county_fips"]).reset_index(drop=True)
 
     # A smaller comparison candidate without the historical ACS/CAMPD variables
     # whose exact point-in-time release availability has not been audited.
-    limited_features = ["last_observed_median_aqi", "recorded_tree_plantings",
-                        "weather_temp_mean_c", "weather_precip_total_mm"]
+    limited_features = ["last_observed_median_aqi", "weather_temp_mean_c", "weather_precip_total_mm"]
     reduced = handoff[KEYS + [TARGET] + limited_features + ["split"]].copy()
 
     dest = data_root / "handoff"
@@ -167,8 +169,8 @@ def run(root: Path) -> dict:
         "note": "Structural QA only. Neither a deployment-ready time-series model nor proof of forecasting skill.",
         "rows": int(len(handoff)), "rows_by_split": counts,
         "feature_years": list(YEARS),
-        "forecast_years": [2021, 2022, 2023, 2024, 2025],
-        "split_rule": "Train feature years 2020-2022 / validation 2023 / test 2024 (entire borough-year groups)",
+        "forecast_years": [y + 1 for y in YEARS],
+        "split_rule": "Train feature years 2014-2020 / validation 2021-2022 / test 2023-2024 (entire borough-year groups)",
         "aqi_target": TARGET,
         "research_features": FEATURES,
         "reduced_features": limited_features,
@@ -177,7 +179,7 @@ def run(root: Path) -> dict:
             "CAMPD industrial annual totals, annual tree inventories, annual weather/reanalysis, and annual AQI may also have reporting/revision lags; their real-world point-in-time availability has NOT been audited.",
             "Even the reduced candidate is not certified leakage-free or deployment-ready.",
             "No scalers, imputers, feature selection, or target-based transformations have been fitted.",
-            "Only 25 correlated NYC borough-year cases; 15 train, 5 validation, and 5 test. Metrics will have high uncertainty; compare against a no-change AQI baseline and avoid claims of robust forecast accuracy.",
+            f"Only {len(handoff)} correlated NYC borough-year cases; 15 train, 5 validation, and 5 test. Metrics will have high uncertainty; compare against a no-change AQI baseline and avoid claims of robust forecast accuracy.",
             "Do not treat 2024-2025 missing EV registrations as zero or backfill historical data from current snapshots.",
             "Traffic observations are nonrepresentative samples with year-varying road segments, so excluded pending comparability review.",
             "Do not commit API keys, cached private credentials, or very large raw downloads to GitHub.",
@@ -186,8 +188,8 @@ def run(root: Path) -> dict:
     }
     (dest / "audit_report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     print("PASS: structural quality audit and master AQI/year alignment")
-    print("Candidate research dataset: 25 rows (feature years 2020-2024; AQI targets 2021-2025)")
-    print("Split: train=15, validation=5, test=5 (chronological by feature year)")
+    print(f"Candidate research dataset: {len(handoff)} rows (feature years {min(YEARS)}-{max(YEARS)}; AQI targets {min(YEARS) + 1}-{max(YEARS) + 1})")
+    print(f"Split: train={counts['train']}, validation={counts['validation']}, test={counts['test']} (chronological by feature year)")
     print("Outputs:", dest.resolve())
     print("IMPORTANT: time-of-release data leakage has NOT been resolved; see audit_report.json")
     return report

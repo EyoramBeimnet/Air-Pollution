@@ -31,9 +31,11 @@ FIELDS = {
     "B08301_021E": "work_from_home_pct",
 }
 COLUMNS = ["county_fips", "borough", "year", "acs_commuters_est", *FIELDS.values()]
-YEARS = range(2019, 2025)
+FIRST_YEAR, LAST_YEAR = 2014, 2025
+YEARS = range(FIRST_YEAR, LAST_YEAR)
 ATTEMPTS = 5
 RETRYABLE_HTTP = {429, 500, 502, 503, 504}
+EXPECTED_ROWS = len(YEARS) * len(FIPS)
 
 
 def validate_year(year: int, rows: list[dict]) -> list[dict]:
@@ -161,7 +163,7 @@ def collect(api_key: str, root: Path, session: requests.Session | None = None) -
         })
         print(f"  Saved ACS {year}: 5 verified NYC counties.", flush=True)
         all_rows.extend(year_rows)
-    if len(all_rows) != 30 or len({(x["county_fips"], x["year"]) for x in all_rows}) != 30:
+    if len(all_rows) != EXPECTED_ROWS or len({(x["county_fips"], x["year"]) for x in all_rows}) != EXPECTED_ROWS:
         raise ValueError("Historical ACS output failed 30-record uniqueness check")
     return sorted(all_rows, key=lambda x: (x["county_fips"], x["year"]))
 
@@ -171,7 +173,8 @@ def main() -> None:
     if not api_key:
         raise SystemExit("CENSUS_API_KEY is missing from this terminal session. Set it locally and retry.")
     root = Path(__file__).resolve().parents[1]
-    destination = root / "datasets" / "raw" / "acs" / "nyc_acs_commuting_2019_2024.csv"
+    filename = "nyc_acs_commuting_" + str(FIRST_YEAR) + "_" + str(LAST_YEAR - 1) + ".csv"
+    destination = root / "datasets" / "raw" / "acs" / filename
     try:
         rows = collect(api_key, root)
     except (RuntimeError, ValueError) as exc:
@@ -183,7 +186,7 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(rows)
     temp.replace(destination)
-    print(f"SUCCESS: saved 30 verified NYC county-year ACS estimates to {destination}")
+    print(f"SUCCESS: saved {EXPECTED_ROWS} verified NYC county-year ACS estimates to {destination}")
     print("Now run: python scripts/prepare_model_data.py")
 
 
