@@ -20,3 +20,8 @@ datasets/raw/traffic/Automated_Traffic_Volume_Counts_*.csv
 
 # Project Proposal
 *.docx
+# Frontend raw sources (too large for git; see frontend/README.md)
+frontend/raw/
+*.tif
+export.csv
+roads.csv
