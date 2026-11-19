@@ -9,6 +9,10 @@ numpy>=1.24
 requests>=2.31
 kagglehub
 
+# read-only application service
+fastapi>=0.115
+uvicorn[standard]>=0.30
+
 # modeling
 scikit-learn>=1.3
 xgboost>=2.0

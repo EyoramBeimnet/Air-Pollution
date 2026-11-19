@@ -1,14 +1,13 @@
 # Airshed NYC — frontend
 
-3D web front end for the AQI predictor: yearly average AQI per NYC county (borough), observed 2020–2025 and forecast 2026–2030.
+3D web front end for the AQI service: observed annual median daily AQI per NYC county (borough), through 2025.
 
 ## Run it
 
-The page loads its data with `fetch`, so serve the folder instead of opening the file directly:
+The API and frontend are served together:
 
 ```
-cd frontend
-python -m http.server 8000
+python -m uvicorn api.app:app --reload
 ```
 
 Then open http://localhost:8000. Three.js loads from cdnjs, so it needs an internet connection.
@@ -26,34 +25,32 @@ Then open http://localhost:8000. Three.js loads from cdnjs, so it needs an inter
 The page requests this endpoint on startup:
 
 ```
-GET /api/aqi?start_year=2020&end_year=2030
+GET /api/aqi?start_year=2020&end_year=2025
 ```
 
 For a different server during development, provide its encoded endpoint through
 the `api` query parameter, for example:
 
 ```
-http://localhost:8000/?api=http%3A%2F%2Flocalhost%3A8001%2Fapi%2Faqi%3Fstart_year%3D2020%26end_year%3D2030
+http://localhost:8000/?api=http%3A%2F%2Flocalhost%3A8001%2Fapi%2Faqi%3Fstart_year%3D2020%26end_year%3D2025
 ```
 
-The endpoint may return either an array or `{ "data": [...] }`. It must return one record per county per year for all five county FIPS values and every year from 2020 through 2030:
+The endpoint may return either an array or `{ "data": [...] }`. It returns one record per county per year for all five county FIPS values and every year from 2020 through 2025:
 
 ```json
-{ "fips": "36085", "year": 2027, "aqi": 40, "lo": 36, "hi": 44, "forecast": true }
+{ "fips": "36085", "year": 2025, "aqi": 41, "forecast": false }
 ```
 
 | field | meaning |
 |---|---|
 | `fips` | county FIPS: 36005 Bronx, 36047 Brooklyn, 36061 Manhattan, 36081 Queens, 36085 Staten Island |
 | `year` | calendar year |
-| `aqi` | predicted (or observed) yearly average daily AQI |
-| `lo`, `hi` | bounds of the forecast's likely range (omit for observed years) |
-| `forecast` | optional boolean; defaults to `true` after 2025 and `false` through 2025 |
+| `aqi` | observed annual median daily AQI |
+| `forecast` | `false` for the committed data release |
 
-Forecast records require `lo <= aqi <= hi`. The frontend rejects incomplete or
-invalid API payloads and keeps its local sample dataset visible, so the demo
-still runs before the backend is deployed. The API must enable CORS when it is
-served from a different origin than the frontend.
+No production future forecast artifact or uncertainty interval is committed in
+this release. The frontend rejects incomplete or invalid API payloads and does
+not fall back to sample AQI values. The API enables CORS for a separate dev origin.
 
 ## Data files (`data/`)
 

@@ -9,13 +9,12 @@ const response = (body, options = {}) => ({ ok: options.ok ?? true, status: opti
 test('accepts a valid array response and exposes its AQI values', () => {
   const data = normalizeAqiPayload(validRows(), contract);
   assert.equal(data['36005'][2020].aqi, 42);
-  assert.equal(data['36085'][2030].forecast, true);
-  assert.equal(data['36085'][2030].lo, 53);
+  assert.equal(data['36085'][2025].forecast, false);
 });
 
 test('accepts the supported { data: [...] } response format', () => {
   const data = normalizeAqiPayload({ data: validRows() }, contract);
-  assert.equal(data['36061'][2027].aqi, 51);
+  assert.equal(data['36061'][2025].aqi, 49);
 });
 
 test('rejects an unavailable API request', async () => {
@@ -37,8 +36,8 @@ test('rejects a missing borough', () => {
 });
 
 test('rejects a missing year', () => {
-  const rows = validRows().filter(row => !(row.fips === '36005' && row.year === 2027));
-  assert.throws(() => normalizeAqiPayload(rows, contract), /36005\/2027/);
+  const rows = validRows().filter(row => !(row.fips === '36005' && row.year === 2025));
+  assert.throws(() => normalizeAqiPayload(rows, contract), /36005\/2025/);
 });
 
 test('rejects invalid AQI values', () => {
@@ -49,7 +48,8 @@ test('rejects invalid AQI values', () => {
 
 test('rejects invalid forecast bounds', () => {
   const rows = validRows();
-  const record = rows.find(row => row.forecast);
+  const record = rows.find(row => row.year === 2025);
+  record.forecast = true;
   record.lo = record.aqi + 1;
   assert.throws(() => normalizeAqiPayload(rows, contract), /Invalid forecast range/);
 });
