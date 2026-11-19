@@ -19,10 +19,10 @@
       const forecast = row.forecast ?? year > lastObservedYear;
       const lo = row.lo == null ? undefined : Number(row.lo);
       const hi = row.hi == null ? undefined : Number(row.hi);
-      if (forecast && (!Number.isFinite(lo) || !Number.isFinite(hi) || lo > aqi || aqi > hi)) {
+      if (forecast && ((lo != null || hi != null) && (!Number.isFinite(lo) || !Number.isFinite(hi) || lo > aqi || aqi > hi))) {
         throw new Error(`Invalid forecast range for ${code}/${year}.`);
       }
-      out[code][year] = { aqi, forecast: Boolean(forecast), ...(forecast ? { lo, hi } : {}) };
+      out[code][year] = { aqi, forecast: Boolean(forecast), ...(Number.isFinite(lo) && Number.isFinite(hi) ? { lo, hi } : {}) };
     }
 
     const missing = fips.flatMap(code => years.filter(year => !out[code][year]).map(year => `${code}/${year}`));

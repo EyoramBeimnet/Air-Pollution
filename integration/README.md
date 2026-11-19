@@ -1,50 +1,24 @@
-# Local AQI integration test tools
+# AQI service integration
 
-`mock_api.py` is development-only. It does not train, load, or serve a real
-model; every AQI response is explicitly marked `simulated_test_data`.
-
-## Run the mock API
-
-From the repository root:
+Run the frontend and read-only API together from the repository root:
 
 ```zsh
-python3 integration/mock_api.py
+python3 -m uvicorn api.app:app --reload
 ```
 
-Useful URLs:
+Open http://127.0.0.1:8000. Useful endpoints:
 
 ```text
-http://127.0.0.1:8001/api/aqi
-http://127.0.0.1:8001/api/aqi?format=array
-http://127.0.0.1:8001/api/aqi?scenario=http-error
-http://127.0.0.1:8001/api/aqi?scenario=malformed-json
-http://127.0.0.1:8001/api/aqi?scenario=missing-boroughs
-http://127.0.0.1:8001/api/aqi?scenario=missing-years
-http://127.0.0.1:8001/api/aqi?scenario=invalid-aqi
-http://127.0.0.1:8001/api/aqi?scenario=invalid-bounds
+http://127.0.0.1:8000/health
+http://127.0.0.1:8000/api/aqi?start_year=2020&end_year=2025
 ```
 
-## Run frontend contract tests
+The service reads committed annual median daily AQI observations and does not
+invent future prediction records or uncertainty intervals.
+
+## Tests
 
 ```zsh
 node --test frontend/tests/aqi-api.test.js
+python3 -m unittest tests/test_aqi_service.py
 ```
-
-## Browser demonstration
-
-In separate terminals:
-
-```zsh
-python3 integration/mock_api.py
-cd frontend && python3 -m http.server 8000
-```
-
-Open this URL to load simulated API data:
-
-```text
-http://localhost:8000/?api=http%3A%2F%2F127.0.0.1%3A8001%2Fapi%2Faqi
-```
-
-The top-right status changes from `Sample data` to `Live API data`. Use a
-scenario URL above in the `api` parameter to verify that invalid responses fall
-back to sample data.
