@@ -1,10 +1,12 @@
 # NYC Air-Pollution AQI Model
 
-Forecasting air quality (AQI) for New York City's five boroughs from public data on emissions, weather, and transportation. The repo has two modeling pipelines and a demo front end:
+Forecasting air quality (AQI) for New York City's five boroughs from public data on emissions, weather, and transportation, and delivering it through a web application. The repo has three parts:
 
-- **Annual pipeline:** predicts a borough's *next-year* average AQI (borough-year rows).
-- **Monthly pipeline:** predicts a borough's *next-month* median AQI (borough-month rows). This gives roughly 700 rows instead of 55, so it is where most current modeling work happens.
-- **Front end:** a 3D web visualization ("Airshed NYC") that reads AQI forecasts from an API.
+- **Modeling pipelines:** an *annual* pipeline (next-year borough AQI) and a *monthly* pipeline (next-month borough median AQI, about 700 rows instead of 55).
+- **API service:** a read-only FastAPI app (`api/app.py`) that serves AQI records at `/api/aqi`.
+- **Front end:** a 3D web visualization ("Airshed NYC") that loads its data from that API.
+
+**Project goal:** an application where users see AQI forecasts through the front end, not by reading CSV files. The API and front end are built and tested. **Forecasts are not connected yet:** the current release serves observed data only (see [Project status](#project-status)).
 
 Data covers **2014 to 2025**. Every source is keyed by county FIPS code.
 
@@ -16,7 +18,23 @@ Data covers **2014 to 2025**. Every source is keyed by county FIPS code.
 | Queens | Queens | 36081 |
 | Staten Island | Richmond | 36085 |
 
-## Current results
+## Project status
+
+| Stage | State |
+|---|---|
+| Data extension to 2014 (weather, ACS, AQI) | Done, merged (PR #4) |
+| Annual and monthly modeling pipelines | Done; XGBoost is the recommended model |
+| API service and front-end integration | Done for **observed** data, 2020 to 2025 (PRs #5 and #6) |
+| Forecast delivery (model to API to front end) | **Not built yet** (see [Forecast integration](#forecast-integration-next)) |
+
+What the running app does today:
+
+- The API reads `datasets/processed/master_borough_year_2014_2025.csv` and returns annual **median daily AQI** per borough, with `forecast: false` on every record.
+- The front end requests `GET /api/aqi?start_year=2020&end_year=2025`, validates the response, and shows 2020 to 2025 as observed data.
+- If the API response is missing or invalid, the front end reports the error. It does **not** fall back to sample AQI values.
+- No future-year predictions or uncertainty intervals are served in this release.
+
+## Current model results
 
 Both pipelines are compared against a "no change" persistence baseline, with chronological splits (never random) and rolling-origin backtests.
 
@@ -45,7 +63,7 @@ A follow-up overfitting review and six-fold rolling backtest found the CNN's edg
 
 ## Getting started
 
-Requires Python 3.10+.
+Requires Python 3.10+. Node.js is needed only to run the front-end contract tests.
 
 ```bash
 git clone https://github.com/EyoramBeimnet/Air-Pollution.git
@@ -57,20 +75,75 @@ pip install -r requirements.txt
 
 All scripts are run **from the repository root**.
 
-### API keys
+## Run the application
 
-Two collectors need free keys. Set them as environment variables and never commit them (`.env` and `*.key` are git-ignored).
+The API and front end are served together by one command:
 
-| Variable | Used by | Get one |
-|---|---|---|
-| `CAMPD_API_KEY` | `collect_nyc_campd.py` | [EPA Clean Air Markets API portal](https://www.epa.gov/node/277325) |
-| `CENSUS_API_KEY` | `collect_historical_acs.py` | [Census API key signup](https://api.census.gov/data/key_signup.html) |
+```bash
+python -m uvicorn api.app:app --reload
+```
+
+Then open http://127.0.0.1:8000. Useful endpoints:
+
+```text
+http://127.0.0.1:8000/health
+http://127.0.0.1:8000/api/aqi?start_year=2020&end_year=2025
+```
+
+Three.js loads from cdnjs, so the page needs an internet connection.
+
+### API contract
+
+`GET /api/aqi` returns `{ "data": [...], "metric": "annual_median_daily_aqi", "forecast_status": "..." }`. The front end also accepts a bare array. One record per borough per year:
+
+```json
+{ "fips": "36085", "year": 2025, "aqi": 41, "forecast": false, "metric": "annual_median_daily_aqi" }
+```
+
+| field | meaning |
+|---|---|
+| `fips` | county FIPS code (table above) |
+| `year` | calendar year |
+| `aqi` | annual median of the daily AQI |
+| `forecast` | `false` for observed data; `true` for predicted years |
+| `lo`, `hi` | forecast range; optional. If present, the front end requires `lo <= aqi <= hi` |
+
+The front end rejects a payload that is missing any borough/year it needs, has a negative AQI, or has an invalid forecast range. To point the page at a different server during development, pass its encoded endpoint in the `api` query parameter:
+
+```text
+http://localhost:8000/?api=http%3A%2F%2Flocalhost%3A8001%2Fapi%2Faqi%3Fstart_year%3D2020%26end_year%3D2025
+```
+
+The API enables CORS so a separate dev origin can call it.
+
+### Tests
+
+```bash
+node --test frontend/tests/aqi-api.test.js     # front-end API contract tests (9)
+python -m unittest tests/test_aqi_service.py   # API data loading tests (2)
+```
+
+## Forecast integration (next)
+
+To meet the project goal, a forecast has to flow model to API to front end. Planned path:
+
+1. **Forecast script** (`scripts/build_forecast.py`): fit the final model on all 2014 to 2024 rows, produce predictions, and write a forecast file with `fips, year, aqi, lo, hi`.
+2. **API**: `api/app.py` appends those rows with `forecast: true` and keeps observed years from the master table.
+3. **Front end**: extend `YEARS` (currently 2020 to 2025) and `LAST_OBS` in `frontend/index.html`, and restore the forecast UI text.
+4. **Tests**: validate the real forecast output against the front-end contract.
+
+Gaps to resolve first:
+
+- **Horizon.** The annual model predicts one year ahead, so multi-year forecasts need either rolling the model forward (holding future weather and emissions at assumed values) or training one model per horizon.
+- **Uncertainty.** The models give point predictions only. `lo`/`hi` could come from rolling-backtest residuals, which are crude with 30 backtest rows.
+- **No saved model.** `train_aqi_models.py` writes metrics and predictions, but no fitted model is persisted.
+- **Metric.** The front end shows the annual **median** of daily AQI, which matches the annual model's target. Keep forecasts on the same metric.
 
 ## Running the pipelines
 
 ### 1. Collect raw data
 
-Each collector writes under `datasets/raw/`.
+Each collector writes under `datasets/raw/`. Two need free API keys (see [API keys](#api-keys)).
 
 ```bash
 python scripts/collect_nyc_weather.py          # Open-Meteo weather (or use --from-daily, see below)
@@ -83,6 +156,15 @@ python scripts/collect_nyc_ev.py               # EV registration coverage audit
 ```
 
 Weather can also be downloaded by hand from Open-Meteo as five per-borough CSVs, combined with `datasets/raw/weather/nyc_daily_weather_compiler.py`, and turned into the borough-year table with `python scripts/collect_nyc_weather.py --from-daily`.
+
+### API keys
+
+Set these as environment variables and never commit them (`.env` and `*.key` are git-ignored).
+
+| Variable | Used by | Get one |
+|---|---|---|
+| `CAMPD_API_KEY` | `collect_nyc_campd.py` | [EPA Clean Air Markets API portal](https://www.epa.gov/node/277325) |
+| `CENSUS_API_KEY` | `collect_historical_acs.py` | [Census API key signup](https://api.census.gov/data/key_signup.html) |
 
 ### 2. Annual pipeline (next-year AQI)
 
@@ -122,16 +204,19 @@ Monthly weather features are not yet wired into the monthly staging table; see [
 
 ```
 .
+├── api/                  read-only FastAPI service (app.py); also serves the front end
+├── tests/                Python tests for the API data loader
 ├── scripts/              collectors, data preparation, training, evaluation
 ├── datasets/
 │   ├── raw/              source downloads (weather, acs, traffic, mta, trees, ev, epa_aqi, daily_aqi)
-│   ├── processed/        staging tables, review/handoff files, model_results/, monthly/
+│   ├── processed/        staging tables, master table, review/handoff files, model_results/, monthly/
 │   ├── solvers/          positive-factor datasets (trees, transit, bike routes, Clean Heat)
 │   ├── LUCID/            land-use data for the agriculture sector
 │   └── readme.txt        data source notes and rationale
 ├── notebooks/            results notebook, CNN findings, overfitting and backtest analysis
-├── frontend/             3D AQI visualization (see frontend/README.md)
-├── integration/          mock AQI API for front-end testing (see integration/README.md)
+├── frontend/             3D AQI visualization and contract tests (see frontend/README.md)
+├── integration/          service integration notes (see integration/README.md);
+│                         mock_api.py is a legacy simulated API (2020-2030) kept for reference
 ├── progress.md           running handoff notes and detailed results
 └── requirements.txt
 ```
@@ -151,19 +236,10 @@ Monthly weather features are not yet wired into the monthly staging table; see [
 
 More background and the full list of candidate sources are in [`datasets/readme.txt`](datasets/readme.txt) and [`datasets/solvers/readme.md`](datasets/solvers/readme.md).
 
-## Front end and mock API
-
-```bash
-python integration/mock_api.py                  # simulated AQI API on :8001
-cd frontend && python -m http.server 8000       # then open http://localhost:8000
-node --test frontend/tests/aqi-api.test.js      # API contract tests
-```
-
-The front end falls back to built-in sample data if the API response is missing or invalid. The mock API only returns simulated data and does not serve a trained model. See [`frontend/README.md`](frontend/README.md) and [`integration/README.md`](integration/README.md).
-
 ## Caveats
 
 - **Small data.** The annual table has 55 rows; the monthly table about 700 correlated rows.
+- **Observed only for now.** The running application does not serve forecasts, and the models are not deployment-ready.
 - **Not deployment-ready.** The finalize stage is a structural audit only and does not certify the model as leakage-free.
 - **ACS timing.** Five-year estimates may not be published in time for a real next-year forecast, so `drive_alone_pct` would need to be removed or lagged in production.
 - **Missing values are preserved,** never replaced with zero or backfilled from current snapshots (this matters for EV registrations).
@@ -171,11 +247,16 @@ The front end falls back to built-in sample data if the API response is missing 
 
 ## Open items
 
-1. Add monthly weather to the monthly training table and the rolling backtest.
-2. Decide whether to drop drive-alone commuting from the annual feature set.
-3. Decide whether the CNN stays in the project, and run more seeds per fold if so.
-4. Add neighboring counties (Hudson, Essex, Bergen, Nassau, Suffolk, Westchester) to increase sample size.
-5. Lightly tune XGBoost and the CNN with the same budget before a final comparison.
+1. **Forecast integration** (see above): choose the forecast method, build `scripts/build_forecast.py`, extend the API and front end, and add tests.
+2. Decide whether to keep or delete `integration/mock_api.py`.
+3. Clean up leftover forecast wording in `frontend/index.html` (the particle layer description and the dashboard card) until forecasts return.
+4. Add monthly weather to the monthly training table and the rolling backtest.
+5. Decide whether to drop drive-alone commuting from the annual feature set.
+6. Decide whether the CNN stays in the project, and run more seeds per fold if so.
+7. Add neighboring counties (Hudson, Essex, Bergen, Nassau, Suffolk, Westchester) to increase sample size.
+8. Lightly tune XGBoost and the CNN with the same budget before a final comparison.
+9. Merge or retire the `data` branch (EV adoption and traffic congestion datasets).
+10. Add a service-integration section to `progress.md`.
 
 ## Team
 
