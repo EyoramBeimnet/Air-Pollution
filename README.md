@@ -1,10 +1,10 @@
 # NYC Air-Pollution AQI Model
 
-Forecasting air quality (AQI) for New York City's five boroughs from public data on emissions, weather, and transportation. The repo has two modeling pipelines and a demo front end:
+Forecasting air quality (AQI) for New York City's five boroughs from public data on emissions, weather, and transportation, and delivering it through a web application. The repo has three parts:
 
-- **Annual pipeline:** predicts a borough's *next-year* average AQI (borough-year rows).
-- **Monthly pipeline:** predicts a borough's *next-month* median AQI (borough-month rows). This gives roughly 700 rows instead of 55, so it is where most current modeling work happens.
-- **Front end:** a 3D web visualization ("Airshed NYC") that reads AQI forecasts from an API.
+- **Modeling pipelines:** an *annual* pipeline (next-year borough AQI) and a *monthly* pipeline (next-month borough median AQI, about 700 rows instead of 55).
+- **API service:** a read-only FastAPI app (`api/app.py`) that serves AQI records.
+- **Front end:** a 3D web visualization ("Airshed NYC") that loads its data from that API.
 
 Data covers **2014 to 2025**. Every source is keyed by county FIPS code.
 
@@ -15,6 +15,17 @@ Data covers **2014 to 2025**. Every source is keyed by county FIPS code.
 | Manhattan | New York | 36061 |
 | Queens | Queens | 36081 |
 | Staten Island | Richmond | 36085 |
+
+## Project status
+
+| Stage | State |
+|---|---|
+| Data extension to 2014 (weather, ACS, AQI) | Done, merged (PR #4) |
+| Annual and monthly modeling pipelines | Done; XGBoost is the recommended model |
+| API service and front-end integration | Done for observations and forecasts |
+| Forecast delivery (model to API to front end) | Done: annual and monthly forecasts through 2030 |
+
+The API serves annual median daily AQI observations through 2025 and documented forecast/scenario rows through 2030. `/api/aqi/monthly` serves monthly observations through 2025 and recursive forecasts through 2030. Forecast records are model-generated predictions, not observations; no confidence intervals are supplied.
 
 ## Current results
 
@@ -78,39 +89,44 @@ Open `http://127.0.0.1:8000`. Useful endpoints:
 
 ```text
 http://127.0.0.1:8000/health
-http://127.0.0.1:8000/api/aqi?start_year=2020&end_year=2026
+http://127.0.0.1:8000/api/aqi?start_year=2020&end_year=2030
+http://127.0.0.1:8000/api/aqi/monthly?start_month=2020-01&end_month=2030-12
 ```
 
-The API returns annual median daily AQI observations through 2025 with
-`forecast: false`. When the validated artifact exists, it also returns five
-2026 model-generated point predictions with `forecast: true`.
+`/api/aqi` returns annual median daily AQI. `/api/aqi/monthly` returns monthly
+median daily AQI. Both endpoints preserve observed history when an optional
+forecast artifact is missing or invalid.
 
 ## Forecast integration
 
-Build the reproducible 2026 forecast artifact:
+Build the documented forecast artifacts:
 
 ```bash
 python3 scripts/build_annual_aqi_forecast.py
+python3 scripts/build_annual_aqi_scenario.py
+python3 scripts/build_monthly_aqi_forecast.py
 ```
 
-The script leaves the existing experiments unchanged. It reuses the
-weather-enhanced annual XGBoost configuration, trains only on the 55 labeled
-2014–2024 borough-year rows, and predicts 2026 from observed 2025 AQI, CAMPD
-NOx, temperature, and precipitation. It writes:
+The scripts leave existing experiments unchanged. The annual configuration
+reuses weather-enhanced XGBoost and preserves the original 2026 forecast based
+on observed 2025 AQI, CAMPD NOx, temperature, and precipitation. Annual
+2027–2030 values recursively feed back predicted AQI while holding those
+external features at observed 2025 values. Monthly XGBoost recursively forecasts
+January 2026 through December 2030.
 
 - `datasets/processed/model_results/annual_aqi_forecast_2026.csv`
 - `datasets/processed/model_results/annual_aqi_forecast_2026_metadata.json`
 
-The forecast uses the same metric as the frontend: annual median daily AQI.
-It is a point forecast only: it contains no confidence interval and does not
-forecast beyond 2026. If the artifact is absent or invalid, the API and
-frontend continue to serve the complete 2020–2025 observed timeline.
+Annual forecasts use the frontend's annual median daily AQI metric; monthly
+forecasts use monthly median daily AQI. They are point predictions only. If an
+artifact is absent or invalid, the API and frontend continue to serve observed
+history.
 
 Run the service tests with:
 
 ```bash
 node --test frontend/tests/aqi-api.test.js
-python3 -m unittest tests/test_aqi_service.py
+python3 -m unittest discover -s tests -v
 ```
 
 ## Running the pipelines
@@ -237,7 +253,7 @@ conditional scenarios rather than equally reliable one-step forecasts.
 ## Caveats
 
 - **Small data.** The annual table has 55 rows; the monthly table about 700 correlated rows.
-- **Research forecast.** The 2026 result is a one-year point forecast, not an operational forecast.
+- **Research forecasts.** The 2026 annual result is a point forecast; annual 2027–2030 values are fixed-feature scenario projections, not operational forecasts.
 - **Not deployment-ready.** The finalize stage is a structural audit only and does not certify the model as leakage-free.
 - **ACS timing.** Five-year estimates may not be published in time for a real next-year forecast, so `drive_alone_pct` would need to be removed or lagged in production.
 - **Missing values are preserved,** never replaced with zero or backfilled from current snapshots (this matters for EV registrations).
@@ -246,12 +262,14 @@ conditional scenarios rather than equally reliable one-step forecasts.
 ## Open items
 
 1. Reassess the forecast after completed 2026 observations become available.
-2. Choose a separately approved strategy before extending beyond the one-year 2026 horizon.
-3. Add monthly weather to the monthly training table and the rolling backtest.
-4. Decide whether to drop drive-alone commuting from the annual feature set.
-5. Decide whether the CNN stays in the project, and run more seeds per fold if so.
-6. Add neighboring counties (Hudson, Essex, Bergen, Nassau, Suffolk, Westchester) to increase sample size.
-7. Lightly tune XGBoost and the CNN with the same budget before a final comparison.
+2. Add monthly weather to the monthly training table and the rolling backtest.
+3. Decide whether to drop drive-alone commuting from the annual feature set.
+4. Decide whether the CNN stays in the project, and run more seeds per fold if so.
+5. Add neighboring counties (Hudson, Essex, Bergen, Nassau, Suffolk, Westchester) to increase sample size.
+6. Lightly tune XGBoost and the CNN with the same budget before a final comparison.
+7. Decide whether to keep or retire `integration/mock_api.py`.
+8. Merge or retire the `data` branch (EV adoption and traffic congestion datasets).
+9. Add a service-integration section to `progress.md`.
 
 ## Team
 
