@@ -29,7 +29,7 @@ YEARS = range(FIRST_YEAR, LAST_YEAR)
 EV_COLUMN = "ev_reported_registrations_count"
 
 # Short feature shortlist for an ANNUAL t -> t+1 demonstration only.
-# Not a feature-selection claim; do not train until the team agrees on the target.
+# Not a feature-selection claim; do not train until we agree on the target.
 BASELINE_FEATURES = [
     "last_observed_median_aqi",
     "drive_alone_pct",
@@ -130,7 +130,7 @@ def run(root: Path) -> None:
     # A narrow starting table for a future *ANNUAL* next-year experiment.
     # It deliberately does NOT require EV, LUCID, tree removals, or sampled
     # road traffic. Keeping full forecast_year and feature_year columns makes
-    # chronological splitting possible when the team starts model training.
+    # chronological splitting possible when we start model training.
     missing_columns = [c for c in BASELINE_FEATURES if c not in staging.columns]
     if missing_columns:
         raise ValueError(

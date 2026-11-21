@@ -66,6 +66,53 @@ Two collectors need free keys. Set them as environment variables and never commi
 | `CAMPD_API_KEY` | `collect_nyc_campd.py` | [EPA Clean Air Markets API portal](https://www.epa.gov/node/277325) |
 | `CENSUS_API_KEY` | `collect_historical_acs.py` | [Census API key signup](https://api.census.gov/data/key_signup.html) |
 
+## Run the application
+
+Serve the API and frontend together:
+
+```bash
+python3 -m uvicorn api.app:app --reload
+```
+
+Open `http://127.0.0.1:8000`. Useful endpoints:
+
+```text
+http://127.0.0.1:8000/health
+http://127.0.0.1:8000/api/aqi?start_year=2020&end_year=2026
+```
+
+The API returns annual median daily AQI observations through 2025 with
+`forecast: false`. When the validated artifact exists, it also returns five
+2026 model-generated point predictions with `forecast: true`.
+
+## Forecast integration
+
+Build the reproducible 2026 forecast artifact:
+
+```bash
+python3 scripts/build_annual_aqi_forecast.py
+```
+
+The script leaves the existing experiments unchanged. It reuses the
+weather-enhanced annual XGBoost configuration, trains only on the 55 labeled
+2014–2024 borough-year rows, and predicts 2026 from observed 2025 AQI, CAMPD
+NOx, temperature, and precipitation. It writes:
+
+- `datasets/processed/model_results/annual_aqi_forecast_2026.csv`
+- `datasets/processed/model_results/annual_aqi_forecast_2026_metadata.json`
+
+The forecast uses the same metric as the frontend: annual median daily AQI.
+It is a point forecast only: it contains no confidence interval and does not
+forecast beyond 2026. If the artifact is absent or invalid, the API and
+frontend continue to serve the complete 2020–2025 observed timeline.
+
+Run the service tests with:
+
+```bash
+node --test frontend/tests/aqi-api.test.js
+python3 -m unittest tests/test_aqi_service.py
+```
+
 ## Running the pipelines
 
 ### 1. Collect raw data
@@ -159,11 +206,38 @@ cd frontend && python -m http.server 8000       # then open http://localhost:800
 node --test frontend/tests/aqi-api.test.js      # API contract tests
 ```
 
-The front end falls back to built-in sample data if the API response is missing or invalid. The mock API only returns simulated data and does not serve a trained model. See [`frontend/README.md`](frontend/README.md) and [`integration/README.md`](integration/README.md).
+The mock API only returns simulated data and does not serve a trained model. The
+production frontend does not show sample AQI values if its API response is
+missing or invalid. See [`frontend/README.md`](frontend/README.md) and
+[`integration/README.md`](integration/README.md).
+
+## Forecast artifacts and service
+
+Build the committed forecast artifacts from the existing model configurations:
+
+```bash
+python scripts/build_annual_aqi_forecast.py  # existing 2026 annual forecast
+python scripts/build_annual_aqi_scenario.py  # annual 2026–2030 artifact
+python scripts/build_monthly_aqi_forecast.py # monthly Jan. 2026–Dec. 2030 artifact
+python -m uvicorn api.app:app --reload
+```
+
+`/api/aqi` returns annual median daily AQI. Its 2026 values preserve the existing
+weather-enhanced XGBoost forecast based on observed 2025 inputs. Annual 2027–2030
+are recursive scenario projections: predicted AQI is fed back while weather,
+precipitation, and CAMPD NOx stay fixed at observed 2025 values. `/api/aqi/monthly`
+returns monthly median daily AQI, observed through 2025 and recursive forecasts to
+2030. Neither endpoint supplies confidence intervals or fabricated observations.
+
+The generation scripts write horizon-specific backtests beside their outputs.
+They compare recursive XGBoost with persistence and are not estimates of future
+accuracy; especially at multi-year horizons, the fixed-feature annual values are
+conditional scenarios rather than equally reliable one-step forecasts.
 
 ## Caveats
 
 - **Small data.** The annual table has 55 rows; the monthly table about 700 correlated rows.
+- **Research forecast.** The 2026 result is a one-year point forecast, not an operational forecast.
 - **Not deployment-ready.** The finalize stage is a structural audit only and does not certify the model as leakage-free.
 - **ACS timing.** Five-year estimates may not be published in time for a real next-year forecast, so `drive_alone_pct` would need to be removed or lagged in production.
 - **Missing values are preserved,** never replaced with zero or backfilled from current snapshots (this matters for EV registrations).
@@ -171,11 +245,13 @@ The front end falls back to built-in sample data if the API response is missing 
 
 ## Open items
 
-1. Add monthly weather to the monthly training table and the rolling backtest.
-2. Decide whether to drop drive-alone commuting from the annual feature set.
-3. Decide whether the CNN stays in the project, and run more seeds per fold if so.
-4. Add neighboring counties (Hudson, Essex, Bergen, Nassau, Suffolk, Westchester) to increase sample size.
-5. Lightly tune XGBoost and the CNN with the same budget before a final comparison.
+1. Reassess the forecast after completed 2026 observations become available.
+2. Choose a separately approved strategy before extending beyond the one-year 2026 horizon.
+3. Add monthly weather to the monthly training table and the rolling backtest.
+4. Decide whether to drop drive-alone commuting from the annual feature set.
+5. Decide whether the CNN stays in the project, and run more seeds per fold if so.
+6. Add neighboring counties (Hudson, Essex, Bergen, Nassau, Suffolk, Westchester) to increase sample size.
+7. Lightly tune XGBoost and the CNN with the same budget before a final comparison.
 
 ## Team
 

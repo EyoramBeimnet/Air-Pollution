@@ -42,7 +42,25 @@
     return normalizeAqiPayload(payload, contract);
   }
 
-  const api = { normalizeAqiPayload, fetchAqiData };
+  function normalizeMonthlyAqiPayload(payload, { fips, months, lastObservedMonth }) {
+    const rows = Array.isArray(payload) ? payload : payload?.data;
+    if (!Array.isArray(rows)) throw new Error('Expected an array or { data: [...] }.');
+    const out = Object.fromEntries(fips.map(code => [code, {}]));
+    for (const row of rows) {
+      const code = String(row.fips ?? '').padStart(5, '0');
+      const month = String(row.month ?? '');
+      const aqi = Number(row.aqi);
+      if (!out[code] || !months.includes(month)) continue;
+      if (!Number.isFinite(aqi) || aqi < 0) throw new Error(`Invalid AQI value for ${code}/${month}.`);
+      const forecast = row.forecast ?? month > lastObservedMonth;
+      out[code][month] = { aqi, forecast: Boolean(forecast), forecast_method: row.forecast_method };
+    }
+    const missing = fips.flatMap(code => months.filter(month => !out[code][month]).map(month => `${code}/${month}`));
+    if (missing.length) throw new Error(`Missing required monthly AQI records: ${missing.join(', ')}.`);
+    return out;
+  }
+
+  const api = { normalizeAqiPayload, fetchAqiData, normalizeMonthlyAqiPayload };
   root.AirshedApi = api;
   if (typeof module !== 'undefined') module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);
