@@ -1,0 +1,25 @@
+{
+  "metric": "annual_median_daily_aqi",
+  "model": "Weather-enhanced XGBoost from train_aqi_models.py",
+  "features": [
+    "last_observed_median_aqi",
+    "campd_total_nox_mass_tons",
+    "weather_temp_mean_c",
+    "weather_precip_total_mm"
+  ],
+  "training_feature_years": [
+    2014,
+    2024
+  ],
+  "forecast_years": [
+    2026,
+    2030
+  ],
+  "forecast_origin": "observed 2025 inputs",
+  "method": "2026 uses observed 2025 features; 2027--2030 recursively use predicted AQI while CAMPD NOx, temperature, and precipitation remain fixed at their observed 2025 values.",
+  "limitations": [
+    "2027--2030 are conditional scenario projections, not forecasts with observed future external inputs.",
+    "Multi-step accuracy is reported separately in annual_recursive_scenario_backtest.csv.",
+    "Point forecasts only; no intervals."
+  ]
+}
