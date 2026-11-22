@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { normalizeAqiPayload, fetchAqiData } = require('../scripts/aqi-api.js');
+const { normalizeAqiPayload, fetchAqiData, normalizeMonthlyAqiPayload } = require('../scripts/aqi-api.js');
 const { FIPS, YEARS, validRows } = require('./fixtures.js');
 
 const contract = { fips: FIPS, years: YEARS, lastObservedYear: 2025 };
@@ -15,6 +15,12 @@ test('accepts a valid array response and exposes its AQI values', () => {
 test('accepts the supported { data: [...] } response format', () => {
   const data = normalizeAqiPayload({ data: validRows() }, contract);
   assert.equal(data['36061'][2025].aqi, 49);
+});
+
+test('keeps a complete 2026 model forecast distinct from observations', () => {
+  const data = normalizeAqiPayload(validRows(), contract);
+  assert.equal(data['36005'][2025].forecast, false);
+  assert.equal(data['36005'][2026].forecast, true);
 });
 
 test('rejects an unavailable API request', async () => {
@@ -52,4 +58,12 @@ test('rejects invalid forecast bounds', () => {
   record.forecast = true;
   record.lo = record.aqi + 1;
   assert.throws(() => normalizeAqiPayload(rows, contract), /Invalid forecast range/);
+});
+
+test('validates monthly observations and recursive forecasts separately', () => {
+  const months = ['2025-12', '2026-01'];
+  const rows = FIPS.flatMap((fips, index) => months.map(month => ({ fips, month, aqi: 40 + index, forecast: month > '2025-12' })));
+  const data = normalizeMonthlyAqiPayload({ data: rows }, { fips: FIPS, months, lastObservedMonth: '2025-12' });
+  assert.equal(data['36005']['2025-12'].forecast, false);
+  assert.equal(data['36005']['2026-01'].forecast, true);
 });

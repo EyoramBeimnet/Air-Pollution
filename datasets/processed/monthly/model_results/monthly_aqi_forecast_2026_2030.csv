@@ -1,0 +1,301 @@
+fips,borough,month,aqi,forecast,metric,forecast_method
+36005,Bronx,2026-01,45.401,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2026-01,41.506,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2026-01,49.516,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2026-01,51.271,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2026-01,44.376,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2026-02,41.73,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2026-02,42.043,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2026-02,44.852,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2026-02,44.472,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2026-02,41.763,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2026-03,41.764,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2026-03,41.239,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2026-03,41.253,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2026-03,41.997,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2026-03,41.062,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2026-04,42.095,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2026-04,38.766,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2026-04,42.058,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2026-04,42.106,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2026-04,42.036,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2026-05,42.006,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2026-05,41.426,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2026-05,42.488,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2026-05,42.006,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2026-05,41.816,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2026-06,51.797,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2026-06,51.579,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2026-06,51.803,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2026-06,51.797,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2026-06,50.35,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2026-07,53.652,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2026-07,50.742,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2026-07,53.652,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2026-07,52.889,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2026-07,50.779,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2026-08,49.242,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2026-08,45.15,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2026-08,49.438,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2026-08,45.389,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2026-08,47.751,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2026-09,43.723,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2026-09,40.486,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2026-09,44.895,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2026-09,40.486,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2026-09,38.868,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2026-10,35.376,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2026-10,34.085,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2026-10,35.376,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2026-10,35.241,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2026-10,35.163,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2026-11,40.416,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2026-11,35.566,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2026-11,40.59,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2026-11,35.532,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2026-11,35.362,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2026-12,48.148,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2026-12,39.337,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2026-12,48.645,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2026-12,44.717,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2026-12,44.914,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2027-01,45.566,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2027-01,43.285,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2027-01,49.356,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2027-01,49.261,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2027-01,45.544,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2027-02,42.923,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2027-02,43.158,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2027-02,42.986,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2027-02,43.06,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2027-02,42.923,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2027-03,42.176,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2027-03,41.986,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2027-03,42.136,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2027-03,42.026,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2027-03,42.136,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2027-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2027-04,41.274,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2027-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2027-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2027-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2027-05,42.838,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2027-05,42.356,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2027-05,42.838,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2027-05,42.838,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2027-05,42.866,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2027-06,49.826,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2027-06,49.826,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2027-06,49.826,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2027-06,49.826,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2027-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2027-07,52.857,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2027-07,50.891,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2027-07,52.857,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2027-07,52.092,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2027-07,50.891,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2027-08,48.068,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2027-08,45.297,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2027-08,48.068,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2027-08,45.291,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2027-08,47.763,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2027-09,40.153,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2027-09,39.031,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2027-09,40.15,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2027-09,39.031,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2027-09,38.389,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2027-10,35.912,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2027-10,35.191,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2027-10,35.912,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2027-10,35.796,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2027-10,35.451,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2027-11,39.382,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2027-11,35.598,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2027-11,39.574,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2027-11,35.493,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2027-11,35.598,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2027-12,48.702,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2027-12,43.184,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2027-12,49.196,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2027-12,44.818,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2027-12,44.713,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2028-01,46.605,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2028-01,45.646,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2028-01,49.356,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2028-01,49.404,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2028-01,46.686,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2028-02,42.971,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2028-02,42.946,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2028-02,43.225,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2028-02,43.184,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2028-02,42.971,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2028-03,42.147,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2028-03,42.176,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2028-03,41.997,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2028-03,41.997,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2028-03,42.147,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2028-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2028-04,42.467,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2028-04,42.106,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2028-04,42.106,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2028-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2028-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2028-05,42.838,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2028-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2028-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2028-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2028-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2028-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2028-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2028-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2028-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2028-07,52.092,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2028-07,50.891,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2028-07,52.092,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2028-07,51.886,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2028-07,50.891,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2028-08,47.699,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2028-08,45.297,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2028-08,47.699,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2028-08,45.202,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2028-08,47.763,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2028-09,38.698,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2028-09,38.615,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2028-09,38.698,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2028-09,38.615,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2028-09,37.929,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2028-10,35.759,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2028-10,35.93,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2028-10,35.759,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2028-10,35.759,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2028-10,34.451,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2028-11,38.922,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2028-11,35.493,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2028-11,39.178,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2028-11,35.493,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2028-11,35.598,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2028-12,47.466,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2028-12,45.01,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2028-12,48.96,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2028-12,44.818,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2028-12,44.713,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2029-01,46.801,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2029-01,46.686,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2029-01,49.356,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2029-01,49.404,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2029-01,47.048,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2029-02,42.971,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2029-02,42.971,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2029-02,43.184,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2029-02,43.184,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2029-02,42.971,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2029-03,42.147,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2029-03,42.147,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2029-03,42.026,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2029-03,42.026,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2029-03,42.147,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2029-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2029-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2029-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2029-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2029-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2029-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2029-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2029-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2029-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2029-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2029-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2029-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2029-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2029-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2029-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2029-07,51.886,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2029-07,50.891,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2029-07,51.886,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2029-07,50.891,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2029-07,50.891,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2029-08,47.614,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2029-08,45.297,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2029-08,47.614,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2029-08,45.297,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2029-08,47.763,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2029-09,38.389,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2029-09,38.722,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2029-09,38.389,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2029-09,38.722,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2029-09,37.765,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2029-10,35.28,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2029-10,35.759,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2029-10,35.28,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2029-10,35.759,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2029-10,33.889,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2029-11,39.134,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2029-11,35.493,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2029-11,39.027,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2029-11,35.493,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2029-11,35.598,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2029-12,48.918,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2029-12,44.942,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2029-12,48.702,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2029-12,44.818,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2029-12,44.713,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2030-01,46.967,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2030-01,47.048,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2030-01,49.356,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2030-01,49.404,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2030-01,48.584,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2030-02,42.971,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2030-02,42.971,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2030-02,43.184,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2030-02,43.184,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2030-02,43.225,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2030-03,42.147,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2030-03,42.147,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2030-03,41.997,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2030-03,41.997,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2030-03,41.997,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2030-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2030-04,42.478,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2030-04,42.106,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2030-04,42.106,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2030-04,42.106,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2030-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2030-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2030-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2030-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2030-05,42.775,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2030-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2030-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2030-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2030-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2030-06,50.079,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2030-07,50.891,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2030-07,50.891,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2030-07,50.891,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2030-07,50.891,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2030-07,50.891,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2030-08,47.763,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2030-08,45.297,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2030-08,47.763,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2030-08,45.297,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2030-08,47.763,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2030-09,37.929,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2030-09,38.722,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2030-09,37.929,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2030-09,38.722,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2030-09,37.765,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2030-10,34.451,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2030-10,35.759,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2030-10,34.451,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2030-10,35.759,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2030-10,33.889,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2030-11,39.027,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2030-11,35.493,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2030-11,39.027,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2030-11,35.493,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2030-11,35.598,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36005,Bronx,2030-12,48.702,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36047,Kings,2030-12,44.818,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36061,New York,2030-12,48.702,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36081,Queens,2030-12,44.818,True,monthly_median_daily_aqi,recursive_lag_xgboost
+36085,Richmond,2030-12,44.713,True,monthly_median_daily_aqi,recursive_lag_xgboost

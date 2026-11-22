@@ -1,0 +1,23 @@
+{
+  "metric": "monthly_median_daily_aqi",
+  "model": "XGBoost from train_monthly_aqi_models.py",
+  "features": [
+    "aqi_lag_1",
+    "aqi_lag_12",
+    "target_month_number"
+  ],
+  "training_months": [
+    "2015-01",
+    "2025-12"
+  ],
+  "forecast_origin": "2025-12",
+  "forecast_months": [
+    "2026-01",
+    "2030-12"
+  ],
+  "method": "Recursive; predicted values become lag inputs after the observed history ends.",
+  "limitations": [
+    "Multi-step error accumulates; see monthly_recursive_backtest.csv.",
+    "Point forecasts only; no intervals."
+  ]
+}

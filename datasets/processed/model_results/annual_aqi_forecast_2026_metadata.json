@@ -1,0 +1,30 @@
+{
+  "purpose": "One-year-ahead 2026 NYC borough annual median daily AQI point forecast",
+  "metric": "annual_median_daily_aqi",
+  "target_column": "target_next_year_median_aqi",
+  "model": "XGBoost from scripts/train_aqi_models.py (weather-enhanced annual configuration)",
+  "features": [
+    "last_observed_median_aqi",
+    "campd_total_nox_mass_tons",
+    "weather_temp_mean_c",
+    "weather_precip_total_mm"
+  ],
+  "training_feature_years": [
+    2014,
+    2024
+  ],
+  "training_target_years": [
+    2015,
+    2025
+  ],
+  "training_rows": 55,
+  "forecast_feature_year": 2025,
+  "forecast_year": 2026,
+  "preprocessing": "Median imputation fit only on the historical training rows.",
+  "inputs": "Observed 2025 AQI, CAMPD NOx, temperature, and precipitation.",
+  "limitations": [
+    "Point forecast only; no confidence interval is estimated or included.",
+    "Small borough-year training sample; this is a research forecast, not an operational forecast.",
+    "No forecasts beyond 2026 are generated."
+  ]
+}
